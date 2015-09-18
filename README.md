@@ -1,4 +1,4 @@
-# tudscheduler
+# TUD Scheduler
 Helps you to orginize/select/overview your TU Delft Master courses
 
 # Courses
