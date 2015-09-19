@@ -87,6 +87,10 @@ var Model = {
             });
         }
     },
+    reset(){
+        Model.added = [];
+        EventServer.emit('removed::0', null);
+    }
 };
 
 (function setDepth(node, depth) {
