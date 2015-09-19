@@ -6752,12 +6752,6 @@ body {
 body .row {
   margin-right: -10px;
 }
-.controls {
-  margin-bottom: 10px;
-}
-.controls .btn-group {
-  margin-right: 10px;
-}
 .list-group {
   font-size: 12px;
 }
@@ -6796,4 +6790,11 @@ body .row {
 }
 .fa-info-circle {
   cursor: pointer;
+}
+.header {
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 10px;
+}
+.header .controls .btn-group {
+  margin-right: 10px;
 }
