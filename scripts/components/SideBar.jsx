@@ -1,7 +1,7 @@
 import React from 'react';
 import {ListGroup} from 'react-bootstrap';
-import CourseCtrl from './CourseCtrl.js';
-import EventServer from './EventServer.js';
+import CourseCtrl from '../models/CourseCtrl.js';
+import EventServer from '../models/EventServer.js';
 import CourseTree from './CourseTree.jsx';
 import SearchInput from './SearchInput.jsx';
 
@@ -10,8 +10,7 @@ export default React.createClass({
         return {search: ''};
     },
     componentDidMount(){
-        EventServer.on('added::*', () => this.forceUpdate());
-        EventServer.on('removed::*', () => this.forceUpdate());
+        EventServer.onAny(() => this.forceUpdate());
     },
     setSearch(nextSearch){
         this.setState({

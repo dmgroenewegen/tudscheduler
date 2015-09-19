@@ -1,6 +1,6 @@
 import React from 'react';
-import CourseCtrl from './CourseCtrl.js';
-import EventServer from './EventServer.js';
+import CourseCtrl from '../models/CourseCtrl.js';
+import EventServer from '../models/EventServer.js';
 import ReactGridLayout from 'react-grid-layout';
 import {Badge, Panel} from 'react-bootstrap';
 import CourseGridItem from './CourseGridItem.jsx';
@@ -21,8 +21,7 @@ var courseGrid = function(course){
 
 export default React.createClass({
     componentDidMount(){
-        EventServer.on('added::*', () => this.forceUpdate());
-        EventServer.on('removed::*', () => this.forceUpdate());
+        EventServer.onAny(() => this.forceUpdate());
     },
     render(){
         var panelHeader = <div className="row">{[1, 2, 3, 4].map(function(index){

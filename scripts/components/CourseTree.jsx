@@ -1,10 +1,10 @@
-import CourseCtrl from './CourseCtrl.js';
+import CourseCtrl from '../models/CourseCtrl.js';
 import React from 'react';
 import {
     ListGroupItem, Badge
 }
 from 'react-bootstrap';
-import EventServer from './EventServer.js';
+import EventServer from '../models/EventServer.js';
 import AddRemove from './AddRemove.jsx';
 
 var hasNeedle = function(needle, course){

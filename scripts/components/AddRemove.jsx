@@ -1,5 +1,5 @@
 import React from 'react';
-import CourseCtrl from './CourseCtrl.js';
+import CourseCtrl from '../models/CourseCtrl.js';
 import {Button, OverlayTrigger, Tooltip} from 'react-bootstrap';
 import CourseModal from './CourseModal.jsx';
 
