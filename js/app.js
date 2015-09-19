@@ -13773,7 +13773,7 @@ var Accordion = _react2['default'].createClass({
 
 exports['default'] = Accordion;
 module.exports = exports['default'];
-},{"./PanelGroup":80,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"react":329}],30:[function(require,module,exports){
+},{"./PanelGroup":80,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"react":343}],30:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -13826,7 +13826,7 @@ var Affix = _react2['default'].createClass({
 exports['default'] = Affix;
 module.exports = exports['default'];
 // we don't want to expose the `style` property
-},{"./AffixMixin":31,"./utils/domUtils":108,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],31:[function(require,module,exports){
+},{"./AffixMixin":31,"./utils/domUtils":108,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],31:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -13971,7 +13971,7 @@ var AffixMixin = {
 
 exports['default'] = AffixMixin;
 module.exports = exports['default'];
-},{"./utils/EventListener":100,"./utils/domUtils":108,"babel-runtime/helpers/interop-require-default":119,"react":329}],32:[function(require,module,exports){
+},{"./utils/EventListener":100,"./utils/domUtils":108,"babel-runtime/helpers/interop-require-default":119,"react":343}],32:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -14054,7 +14054,7 @@ var Alert = _react2['default'].createClass({
 
 exports['default'] = Alert;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],33:[function(require,module,exports){
+},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],33:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -14108,7 +14108,7 @@ var Badge = _react2['default'].createClass({
 
 exports['default'] = Badge;
 module.exports = exports['default'];
-},{"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],34:[function(require,module,exports){
+},{"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],34:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -14179,7 +14179,7 @@ var BootstrapMixin = {
 
 exports['default'] = BootstrapMixin;
 module.exports = exports['default'];
-},{"./styleMaps":98,"./utils/CustomPropTypes":99,"babel-runtime/helpers/interop-require-default":119,"react":329}],35:[function(require,module,exports){
+},{"./styleMaps":98,"./utils/CustomPropTypes":99,"babel-runtime/helpers/interop-require-default":119,"react":343}],35:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -14305,7 +14305,7 @@ var Button = _react2['default'].createClass({
 
 exports['default'] = Button;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./ButtonInput":37,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],36:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./ButtonInput":37,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],36:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -14376,7 +14376,7 @@ var ButtonGroup = _react2['default'].createClass({
 
 exports['default'] = ButtonGroup;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],37:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],37:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -14466,7 +14466,7 @@ ButtonInput.propTypes = {
 
 exports['default'] = ButtonInput;
 module.exports = exports['default'];
-},{"./Button":35,"./FormGroup":52,"./InputBase":56,"./utils/childrenValueInputValidation":103,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"react":329}],38:[function(require,module,exports){
+},{"./Button":35,"./FormGroup":52,"./InputBase":56,"./utils/childrenValueInputValidation":103,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"react":343}],38:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -14513,7 +14513,7 @@ var ButtonToolbar = _react2['default'].createClass({
 
 exports['default'] = ButtonToolbar;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],39:[function(require,module,exports){
+},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],39:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -14815,7 +14815,7 @@ var Carousel = _react2['default'].createClass({
 
 exports['default'] = Carousel;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./Glyphicon":53,"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],40:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./Glyphicon":53,"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],40:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -14928,7 +14928,7 @@ var CarouselItem = _react2['default'].createClass({
 
 exports['default'] = CarouselItem;
 module.exports = exports['default'];
-},{"./utils/TransitionEvents":101,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],41:[function(require,module,exports){
+},{"./utils/TransitionEvents":101,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],41:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -15141,7 +15141,7 @@ var Col = _react2['default'].createClass({
 
 exports['default'] = Col;
 module.exports = exports['default'];
-},{"./styleMaps":98,"./utils/CustomPropTypes":99,"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],42:[function(require,module,exports){
+},{"./styleMaps":98,"./utils/CustomPropTypes":99,"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],42:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -15375,7 +15375,7 @@ Collapse.defaultProps = {
 
 exports['default'] = Collapse;
 module.exports = exports['default'];
-},{"./Transition":95,"./utils/createChainedFunction":104,"./utils/domUtils":108,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"react":329}],43:[function(require,module,exports){
+},{"./Transition":95,"./utils/createChainedFunction":104,"./utils/domUtils":108,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"react":343}],43:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -15561,7 +15561,7 @@ var CollapsibleMixin = {
 
 exports['default'] = CollapsibleMixin;
 module.exports = exports['default'];
-},{"./utils/TransitionEvents":101,"./utils/deprecationWarning":107,"babel-runtime/helpers/interop-require-default":119,"react":329}],44:[function(require,module,exports){
+},{"./utils/TransitionEvents":101,"./utils/deprecationWarning":107,"babel-runtime/helpers/interop-require-default":119,"react":343}],44:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -15682,7 +15682,7 @@ var CollapsibleNav = _react2['default'].createClass({
 
 exports['default'] = CollapsibleNav;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./Collapse":42,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],45:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./Collapse":42,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],45:[function(require,module,exports){
 /* eslint react/prop-types: [2, {ignore: "bsSize"}] */
 /* BootstrapMixin contains `bsSize` type validation */
 
@@ -15849,7 +15849,7 @@ var DropdownButton = _react2['default'].createClass({
 
 exports['default'] = DropdownButton;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./Button":35,"./ButtonGroup":36,"./DropdownMenu":46,"./DropdownStateMixin":47,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],46:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./Button":35,"./ButtonGroup":36,"./DropdownMenu":46,"./DropdownStateMixin":47,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],46:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -15916,7 +15916,7 @@ var DropdownMenu = _react2['default'].createClass({
 
 exports['default'] = DropdownMenu;
 module.exports = exports['default'];
-},{"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],47:[function(require,module,exports){
+},{"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],47:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -16015,7 +16015,7 @@ var DropdownStateMixin = {
 
 exports['default'] = DropdownStateMixin;
 module.exports = exports['default'];
-},{"./utils/EventListener":100,"./utils/domUtils":108,"babel-runtime/helpers/interop-require-default":119,"react":329}],48:[function(require,module,exports){
+},{"./utils/EventListener":100,"./utils/domUtils":108,"babel-runtime/helpers/interop-require-default":119,"react":343}],48:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -16122,7 +16122,7 @@ Fade.defaultProps = {
 
 exports['default'] = Fade;
 module.exports = exports['default'];
-},{"./Transition":95,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"react":329}],49:[function(require,module,exports){
+},{"./Transition":95,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"react":343}],49:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -16216,7 +16216,7 @@ exports['default'] = {
   }
 };
 module.exports = exports['default'];
-},{"./utils/deprecationWarning":107,"./utils/domUtils":108,"babel-runtime/helpers/interop-require-default":119,"react":329}],50:[function(require,module,exports){
+},{"./utils/deprecationWarning":107,"./utils/domUtils":108,"babel-runtime/helpers/interop-require-default":119,"react":343}],50:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -16280,7 +16280,7 @@ Static.propTypes = {
 
 exports['default'] = Static;
 module.exports = exports['default'];
-},{"../InputBase":56,"../utils/childrenValueInputValidation":103,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],51:[function(require,module,exports){
+},{"../InputBase":56,"../utils/childrenValueInputValidation":103,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],51:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -16362,7 +16362,7 @@ FormGroup.propTypes = {
 
 exports['default'] = FormGroup;
 module.exports = exports['default'];
-},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],53:[function(require,module,exports){
+},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],53:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -16421,7 +16421,7 @@ var Glyphicon = _react2['default'].createClass({
 
 exports['default'] = Glyphicon;
 module.exports = exports['default'];
-},{"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],54:[function(require,module,exports){
+},{"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],54:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -16480,7 +16480,7 @@ var Grid = _react2['default'].createClass({
 
 exports['default'] = Grid;
 module.exports = exports['default'];
-},{"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],55:[function(require,module,exports){
+},{"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],55:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -16536,7 +16536,7 @@ Input.propTypes = {
 
 exports['default'] = Input;
 module.exports = exports['default'];
-},{"./FormControls":51,"./InputBase":56,"./utils/deprecationWarning":107,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/interop-require-wildcard":120,"react":329}],56:[function(require,module,exports){
+},{"./FormControls":51,"./InputBase":56,"./utils/deprecationWarning":107,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/interop-require-wildcard":120,"react":343}],56:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -16800,7 +16800,7 @@ InputBase.defaultProps = {
 
 exports['default'] = InputBase;
 module.exports = exports['default'];
-},{"./FormGroup":52,"./Glyphicon":53,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],57:[function(require,module,exports){
+},{"./FormGroup":52,"./Glyphicon":53,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],57:[function(require,module,exports){
 // https://www.npmjs.org/package/react-interpolate-component
 // TODO: Drop this in favor of es6 string interpolation
 
@@ -16899,7 +16899,7 @@ var Interpolate = _react2['default'].createClass({
 
 exports['default'] = Interpolate;
 module.exports = exports['default'];
-},{"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"react":329}],58:[function(require,module,exports){
+},{"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"react":343}],58:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -16947,7 +16947,7 @@ var Jumbotron = _react2['default'].createClass({
 
 exports['default'] = Jumbotron;
 module.exports = exports['default'];
-},{"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],59:[function(require,module,exports){
+},{"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],59:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -16993,7 +16993,7 @@ var Label = _react2['default'].createClass({
 
 exports['default'] = Label;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],60:[function(require,module,exports){
+},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],60:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -17089,7 +17089,7 @@ ListGroup.propTypes = {
 
 exports['default'] = ListGroup;
 module.exports = exports['default'];
-},{"./utils/ValidComponentChildren":102,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],61:[function(require,module,exports){
+},{"./utils/ValidComponentChildren":102,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],61:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -17207,7 +17207,7 @@ var ListGroupItem = _react2['default'].createClass({
 
 exports['default'] = ListGroupItem;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],62:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],62:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -17297,7 +17297,7 @@ var MenuItem = _react2['default'].createClass({
 
 exports['default'] = MenuItem;
 module.exports = exports['default'];
-},{"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],63:[function(require,module,exports){
+},{"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],63:[function(require,module,exports){
 /*eslint-disable react/prop-types */
 'use strict';
 
@@ -17829,7 +17829,7 @@ Modal.BACKDROP_TRANSITION_DURATION = 150;
 
 exports['default'] = Modal;
 module.exports = exports['default'];
-},{"./Fade":48,"./ModalBody":64,"./ModalDialog":65,"./ModalFooter":66,"./ModalHeader":67,"./ModalTitle":68,"./Portal":82,"./utils/CustomPropTypes":99,"./utils/EventListener":100,"./utils/createChainedFunction":104,"./utils/domUtils":108,"babel-runtime/core-js/object/is-frozen":113,"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":329}],64:[function(require,module,exports){
+},{"./Fade":48,"./ModalBody":64,"./ModalDialog":65,"./ModalFooter":66,"./ModalHeader":67,"./ModalTitle":68,"./Portal":82,"./utils/CustomPropTypes":99,"./utils/EventListener":100,"./utils/createChainedFunction":104,"./utils/domUtils":108,"babel-runtime/core-js/object/is-frozen":113,"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":343}],64:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -17884,7 +17884,7 @@ ModalBody.defaultProps = {
 
 exports['default'] = ModalBody;
 module.exports = exports['default'];
-},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],65:[function(require,module,exports){
+},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],65:[function(require,module,exports){
 /*eslint-disable react/prop-types */
 'use strict';
 
@@ -17966,7 +17966,7 @@ var ModalDialog = _react2['default'].createClass({
 
 exports['default'] = ModalDialog;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],66:[function(require,module,exports){
+},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],66:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -18021,7 +18021,7 @@ ModalFooter.defaultProps = {
 
 exports['default'] = ModalFooter;
 module.exports = exports['default'];
-},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],67:[function(require,module,exports){
+},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],67:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -18110,7 +18110,7 @@ ModalHeader.defaultProps = {
 
 exports['default'] = ModalHeader;
 module.exports = exports['default'];
-},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],68:[function(require,module,exports){
+},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],68:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -18165,7 +18165,7 @@ ModalTitle.defaultProps = {
 
 exports['default'] = ModalTitle;
 module.exports = exports['default'];
-},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],69:[function(require,module,exports){
+},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],69:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -18319,7 +18319,7 @@ var Nav = _react2['default'].createClass({
 
 exports['default'] = Nav;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./Collapse":42,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],70:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./Collapse":42,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],70:[function(require,module,exports){
 'use strict';
 
 var _objectWithoutProperties = require('babel-runtime/helpers/object-without-properties')['default'];
@@ -18426,7 +18426,7 @@ var NavItem = _react2['default'].createClass({
 
 exports['default'] = NavItem;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":329}],71:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":343}],71:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -18607,7 +18607,7 @@ var Navbar = _react2['default'].createClass({
 
 exports['default'] = Navbar;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],72:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],72:[function(require,module,exports){
 /* eslint react/prop-types: [2, {ignore: ["container", "containerPadding", "target", "placement", "children"] }] */
 /* These properties are validated in 'Portal' and 'Position' components */
 
@@ -18823,7 +18823,7 @@ Overlay.defaultProps = {
 
 exports['default'] = Overlay;
 module.exports = exports['default'];
-},{"./Fade":48,"./Portal":82,"./Position":83,"./RootCloseWrapper":85,"./utils/CustomPropTypes":99,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":329}],73:[function(require,module,exports){
+},{"./Fade":48,"./Portal":82,"./Position":83,"./RootCloseWrapper":85,"./utils/CustomPropTypes":99,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":343}],73:[function(require,module,exports){
 /*eslint-disable react/prop-types */
 'use strict';
 
@@ -19117,7 +19117,7 @@ OverlayTrigger.withContext = _utilsCreateContextWrapper2['default'](OverlayTrigg
 
 exports['default'] = OverlayTrigger;
 module.exports = exports['default'];
-},{"./Overlay":72,"./utils/createChainedFunction":104,"./utils/createContextWrapper":105,"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"lodash/object/pick":27,"react":329,"react/lib/warning":328}],74:[function(require,module,exports){
+},{"./Overlay":72,"./utils/createChainedFunction":104,"./utils/createContextWrapper":105,"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"lodash/object/pick":27,"react":343,"react/lib/warning":342}],74:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -19152,7 +19152,7 @@ var PageHeader = _react2['default'].createClass({
 
 exports['default'] = PageHeader;
 module.exports = exports['default'];
-},{"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],75:[function(require,module,exports){
+},{"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],75:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -19231,7 +19231,7 @@ var PageItem = _react2['default'].createClass({
 
 exports['default'] = PageItem;
 module.exports = exports['default'];
-},{"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],76:[function(require,module,exports){
+},{"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],76:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -19282,7 +19282,7 @@ var Pager = _react2['default'].createClass({
 
 exports['default'] = Pager;
 module.exports = exports['default'];
-},{"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],77:[function(require,module,exports){
+},{"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],77:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -19514,7 +19514,7 @@ var Pagination = _react2['default'].createClass({
 
 exports['default'] = Pagination;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./PaginationButton":78,"./SafeAnchor":87,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],78:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./PaginationButton":78,"./SafeAnchor":87,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],78:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -19604,7 +19604,7 @@ var PaginationButton = _react2['default'].createClass({
 
 exports['default'] = PaginationButton;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"./utils/createSelectedEvent":106,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":329}],79:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"./utils/createSelectedEvent":106,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":343}],79:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -19836,7 +19836,7 @@ var Panel = _react2['default'].createClass({
 
 exports['default'] = Panel;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./Collapse":42,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],80:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./Collapse":42,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],80:[function(require,module,exports){
 /* eslint react/prop-types: [2, {ignore: "bsStyle"}] */
 /* BootstrapMixin contains `bsStyle` type validation */
 
@@ -19946,7 +19946,7 @@ var PanelGroup = _react2['default'].createClass({
 
 exports['default'] = PanelGroup;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],81:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],81:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -20061,7 +20061,7 @@ var Popover = _react2['default'].createClass({
 exports['default'] = Popover;
 module.exports = exports['default'];
 // we don't want to expose the `style` property
-},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],82:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],82:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -20166,7 +20166,7 @@ var Portal = _react2['default'].createClass({
 
 exports['default'] = Portal;
 module.exports = exports['default'];
-},{"./utils/CustomPropTypes":99,"./utils/domUtils":108,"babel-runtime/helpers/interop-require-default":119,"react":329}],83:[function(require,module,exports){
+},{"./utils/CustomPropTypes":99,"./utils/domUtils":108,"babel-runtime/helpers/interop-require-default":119,"react":343}],83:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -20331,7 +20331,7 @@ Position.defaultProps = {
 
 exports['default'] = Position;
 module.exports = exports['default'];
-},{"./utils/CustomPropTypes":99,"./utils/domUtils":108,"./utils/overlayPositionUtils":110,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":329}],84:[function(require,module,exports){
+},{"./utils/CustomPropTypes":99,"./utils/domUtils":108,"./utils/overlayPositionUtils":110,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":343}],84:[function(require,module,exports){
 /* eslint react/prop-types: [2, {ignore: "bsStyle"}] */
 /* BootstrapMixin contains `bsStyle` type validation */
 
@@ -20509,7 +20509,7 @@ function onlyProgressBar(props, propName, componentName) {
 
 exports['default'] = ProgressBar;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./Interpolate":57,"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],85:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./Interpolate":57,"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],85:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -20623,7 +20623,7 @@ RootCloseWrapper.propTypes = {
   onRootClose: _react2['default'].PropTypes.func.isRequired
 };
 module.exports = exports['default'];
-},{"./utils/EventListener":100,"./utils/domUtils":108,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"react":329}],86:[function(require,module,exports){
+},{"./utils/EventListener":100,"./utils/domUtils":108,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"react":343}],86:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -20673,7 +20673,7 @@ var Row = _react2['default'].createClass({
 
 exports['default'] = Row;
 module.exports = exports['default'];
-},{"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],87:[function(require,module,exports){
+},{"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],87:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -20734,7 +20734,7 @@ SafeAnchor.propTypes = {
   onClick: _react2['default'].PropTypes.func
 };
 module.exports = exports['default'];
-},{"./utils/createChainedFunction":104,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"react":329}],88:[function(require,module,exports){
+},{"./utils/createChainedFunction":104,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"react":343}],88:[function(require,module,exports){
 /* eslint react/prop-types: [2, {ignore: "bsSize"}] */
 /* BootstrapMixin contains `bsSize` type validation */
 
@@ -20889,7 +20889,7 @@ var SplitButton = _react2['default'].createClass({
 
 exports['default'] = SplitButton;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./Button":35,"./ButtonGroup":36,"./DropdownMenu":46,"./DropdownStateMixin":47,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],89:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./Button":35,"./ButtonGroup":36,"./DropdownMenu":46,"./DropdownStateMixin":47,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],89:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -21045,7 +21045,7 @@ var SubNav = _react2['default'].createClass({
 
 exports['default'] = SubNav;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./SafeAnchor":87,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],90:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./SafeAnchor":87,"./utils/ValidComponentChildren":102,"./utils/createChainedFunction":104,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],90:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -21154,7 +21154,7 @@ var TabPane = _react2['default'].createClass({
 
 exports['default'] = TabPane;
 module.exports = exports['default'];
-},{"./utils/TransitionEvents":101,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],91:[function(require,module,exports){
+},{"./utils/TransitionEvents":101,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],91:[function(require,module,exports){
 'use strict';
 
 var _objectWithoutProperties = require('babel-runtime/helpers/object-without-properties')['default'];
@@ -21362,7 +21362,7 @@ var TabbedArea = _react2['default'].createClass({
 
 exports['default'] = TabbedArea;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./Nav":69,"./NavItem":70,"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"react":329}],92:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./Nav":69,"./NavItem":70,"./utils/ValidComponentChildren":102,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"react":343}],92:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -21424,7 +21424,7 @@ var Table = _react2['default'].createClass({
 
 exports['default'] = Table;
 module.exports = exports['default'];
-},{"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],93:[function(require,module,exports){
+},{"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],93:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -21500,7 +21500,7 @@ var Thumbnail = _react2['default'].createClass({
 
 exports['default'] = Thumbnail;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],94:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./SafeAnchor":87,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],94:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -21605,7 +21605,7 @@ var Tooltip = _react2['default'].createClass({
 exports['default'] = Tooltip;
 module.exports = exports['default'];
 // we don't want to expose the `style` property
-},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],95:[function(require,module,exports){
+},{"./BootstrapMixin":34,"./utils/CustomPropTypes":99,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],95:[function(require,module,exports){
 'use strict';
 
 var _inherits = require('babel-runtime/helpers/inherits')['default'];
@@ -21920,7 +21920,7 @@ Transition.defaultProps = {
 };
 
 exports['default'] = Transition;
-},{"./utils/TransitionEvents":101,"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":329}],96:[function(require,module,exports){
+},{"./utils/TransitionEvents":101,"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"classnames":1,"react":343}],96:[function(require,module,exports){
 'use strict';
 
 var _extends = require('babel-runtime/helpers/extends')['default'];
@@ -21965,7 +21965,7 @@ var Well = _react2['default'].createClass({
 
 exports['default'] = Well;
 module.exports = exports['default'];
-},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":329}],97:[function(require,module,exports){
+},{"./BootstrapMixin":34,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/interop-require-default":119,"classnames":1,"react":343}],97:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -22586,7 +22586,7 @@ function createElementTypeChecker() {
 
 exports['default'] = CustomPropTypes;
 module.exports = exports['default'];
-},{"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/interop-require-default":119,"react":329}],100:[function(require,module,exports){
+},{"babel-runtime/core-js/object/keys":114,"babel-runtime/helpers/interop-require-default":119,"react":343}],100:[function(require,module,exports){
 /**
  * Copyright 2013-2014 Facebook, Inc.
  *
@@ -22861,7 +22861,7 @@ exports['default'] = {
   hasValidComponent: hasValidComponent
 };
 module.exports = exports['default'];
-},{"babel-runtime/helpers/interop-require-default":119,"react":329}],103:[function(require,module,exports){
+},{"babel-runtime/helpers/interop-require-default":119,"react":343}],103:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -22888,7 +22888,7 @@ function valueValidation(props, propName, componentName) {
 }
 
 module.exports = exports['default'];
-},{"./CustomPropTypes":99,"babel-runtime/helpers/interop-require-default":119,"react":329}],104:[function(require,module,exports){
+},{"./CustomPropTypes":99,"babel-runtime/helpers/interop-require-default":119,"react":343}],104:[function(require,module,exports){
 /**
  * Safe chained function
  *
@@ -23018,7 +23018,7 @@ function createContextWrapper(Trigger, propName) {
 }
 
 module.exports = exports['default'];
-},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"react":329}],106:[function(require,module,exports){
+},{"babel-runtime/helpers/class-call-check":116,"babel-runtime/helpers/extends":117,"babel-runtime/helpers/inherits":118,"babel-runtime/helpers/interop-require-default":119,"babel-runtime/helpers/object-without-properties":121,"react":343}],106:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -23072,7 +23072,7 @@ function deprecationWarning(oldname, newname, link) {
 }
 
 module.exports = exports['default'];
-},{"babel-runtime/helpers/interop-require-default":119,"react/lib/warning":328}],108:[function(require,module,exports){
+},{"babel-runtime/helpers/interop-require-default":119,"react/lib/warning":342}],108:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -23284,7 +23284,7 @@ exports['default'] = {
   offsetParent: offsetParentFunc
 };
 module.exports = exports['default'];
-},{"babel-runtime/helpers/interop-require-default":119,"react":329}],109:[function(require,module,exports){
+},{"babel-runtime/helpers/interop-require-default":119,"react":343}],109:[function(require,module,exports){
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -23965,7 +23965,7 @@ var DebounceInput = _react2['default'].createClass({
 exports['default'] = DebounceInput;
 module.exports = exports['default'];
 
-},{"lodash.debounce":150,"react":329,"react/lib/ReactComponentWithPureRenderMixin":207}],149:[function(require,module,exports){
+},{"lodash.debounce":150,"react":343,"react/lib/ReactComponentWithPureRenderMixin":212}],149:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -24712,7 +24712,7 @@ function constraintError(name, props) {
 }
 
 module.exports = GridItem;
-},{"./mixins/PureDeepRenderMixin":155,"./utils":158,"react":329,"react-draggable":164,"react-resizable":168,"react/lib/cloneWithProps":281}],153:[function(require,module,exports){
+},{"./mixins/PureDeepRenderMixin":155,"./utils":158,"react":343,"react-draggable":164,"react-resizable":168,"react/lib/cloneWithProps":293}],153:[function(require,module,exports){
 'use strict';
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -25129,7 +25129,7 @@ var ReactGridLayout = React.createClass({
 });
 
 module.exports = ReactGridLayout;
-},{"./GridItem":152,"./mixins/PureDeepRenderMixin":155,"./mixins/WidthListeningMixin":156,"./utils":158,"react":329}],154:[function(require,module,exports){
+},{"./GridItem":152,"./mixins/PureDeepRenderMixin":155,"./mixins/WidthListeningMixin":156,"./utils":158,"react":343}],154:[function(require,module,exports){
 'use strict';
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -25306,7 +25306,7 @@ var ResponsiveReactGridLayout = React.createClass({
 });
 
 module.exports = ResponsiveReactGridLayout;
-},{"./ReactGridLayout":153,"./mixins/PureDeepRenderMixin":155,"./mixins/WidthListeningMixin":156,"./responsiveUtils":157,"./utils":158,"react":329}],155:[function(require,module,exports){
+},{"./ReactGridLayout":153,"./mixins/PureDeepRenderMixin":155,"./mixins/WidthListeningMixin":156,"./responsiveUtils":157,"./utils":158,"react":343}],155:[function(require,module,exports){
 'use strict';
 var deepEqual = require('deep-equal');
 
@@ -25367,7 +25367,7 @@ var WidthListeningMixin = {
 };
 
 module.exports = WidthListeningMixin;
-},{"react":329}],157:[function(require,module,exports){
+},{"react":343}],157:[function(require,module,exports){
 'use strict';
 
 var utils = require('./utils');
@@ -26556,7 +26556,7 @@ module.exports = React.createClass({
 	}
 });
 
-},{"react":329,"react/lib/ReactComponentWithPureRenderMixin":207,"react/lib/cloneWithProps":281}],166:[function(require,module,exports){
+},{"react":343,"react/lib/ReactComponentWithPureRenderMixin":212,"react/lib/cloneWithProps":293}],166:[function(require,module,exports){
 'use strict';
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -26671,7 +26671,7 @@ function parseConstraints(constraints, handleSize) {
     return c - handleSize[i];
   });
 }
-},{"object-assign":163,"react":329,"react-draggable":169,"react/lib/ReactComponentWithPureRenderMixin":207,"react/lib/cloneWithProps":281}],167:[function(require,module,exports){
+},{"object-assign":163,"react":343,"react-draggable":169,"react/lib/ReactComponentWithPureRenderMixin":212,"react/lib/cloneWithProps":293}],167:[function(require,module,exports){
 'use strict';
 
 var _objectWithoutProperties = function (obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; };
@@ -26783,7 +26783,7 @@ var ResizableBox = module.exports = React.createClass({
     );
   }
 });
-},{"./Resizable":166,"react":329,"react/lib/ReactComponentWithPureRenderMixin":207}],168:[function(require,module,exports){
+},{"./Resizable":166,"react":343,"react/lib/ReactComponentWithPureRenderMixin":212}],168:[function(require,module,exports){
 'use strict';
 module.exports = function() {
   throw new Error("Don't instantiate Resizable directly! Use require('react-resizable').Resizable");
@@ -27358,7 +27358,10 @@ module.exports = React.createClass({
 	}
 });
 
-},{"react":329,"react/lib/ReactComponentWithPureRenderMixin":207,"react/lib/cloneWithProps":281,"react/lib/emptyFunction":287}],171:[function(require,module,exports){
+},{"react":343,"react/lib/ReactComponentWithPureRenderMixin":212,"react/lib/cloneWithProps":293,"react/lib/emptyFunction":300}],171:[function(require,module,exports){
+module.exports = require('./lib/ReactWithAddons');
+
+},{"./lib/ReactWithAddons":271}],172:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -27385,7 +27388,7 @@ var AutoFocusMixin = {
 
 module.exports = AutoFocusMixin;
 
-},{"./focusNode":292}],172:[function(require,module,exports){
+},{"./focusNode":305}],173:[function(require,module,exports){
 /**
  * Copyright 2013-2015 Facebook, Inc.
  * All rights reserved.
@@ -27880,7 +27883,117 @@ var BeforeInputEventPlugin = {
 
 module.exports = BeforeInputEventPlugin;
 
-},{"./EventConstants":184,"./EventPropagators":189,"./ExecutionEnvironment":190,"./FallbackCompositionState":191,"./SyntheticCompositionEvent":265,"./SyntheticInputEvent":269,"./keyOf":315}],173:[function(require,module,exports){
+},{"./EventConstants":186,"./EventPropagators":191,"./ExecutionEnvironment":192,"./FallbackCompositionState":193,"./SyntheticCompositionEvent":277,"./SyntheticInputEvent":281,"./keyOf":328}],174:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule CSSCore
+ * @typechecks
+ */
+
+var invariant = require("./invariant");
+
+/**
+ * The CSSCore module specifies the API (and implements most of the methods)
+ * that should be used when dealing with the display of elements (via their
+ * CSS classes and visibility on screen. It is an API focused on mutating the
+ * display and not reading it as no logical state should be encoded in the
+ * display of elements.
+ */
+
+var CSSCore = {
+
+  /**
+   * Adds the class passed in to the element if it doesn't already have it.
+   *
+   * @param {DOMElement} element the element to set the class on
+   * @param {string} className the CSS className
+   * @return {DOMElement} the element passed in
+   */
+  addClass: function(element, className) {
+    ("production" !== "production" ? invariant(
+      !/\s/.test(className),
+      'CSSCore.addClass takes only a single class name. "%s" contains ' +
+      'multiple classes.', className
+    ) : invariant(!/\s/.test(className)));
+
+    if (className) {
+      if (element.classList) {
+        element.classList.add(className);
+      } else if (!CSSCore.hasClass(element, className)) {
+        element.className = element.className + ' ' + className;
+      }
+    }
+    return element;
+  },
+
+  /**
+   * Removes the class passed in from the element
+   *
+   * @param {DOMElement} element the element to set the class on
+   * @param {string} className the CSS className
+   * @return {DOMElement} the element passed in
+   */
+  removeClass: function(element, className) {
+    ("production" !== "production" ? invariant(
+      !/\s/.test(className),
+      'CSSCore.removeClass takes only a single class name. "%s" contains ' +
+      'multiple classes.', className
+    ) : invariant(!/\s/.test(className)));
+
+    if (className) {
+      if (element.classList) {
+        element.classList.remove(className);
+      } else if (CSSCore.hasClass(element, className)) {
+        element.className = element.className
+          .replace(new RegExp('(^|\\s)' + className + '(?:\\s|$)', 'g'), '$1')
+          .replace(/\s+/g, ' ') // multiple spaces to one
+          .replace(/^\s*|\s*$/g, ''); // trim the ends
+      }
+    }
+    return element;
+  },
+
+  /**
+   * Helper to add or remove a class from an element based on a condition.
+   *
+   * @param {DOMElement} element the element to set the class on
+   * @param {string} className the CSS className
+   * @param {*} bool condition to whether to add or remove the class
+   * @return {DOMElement} the element passed in
+   */
+  conditionClass: function(element, className, bool) {
+    return (bool ? CSSCore.addClass : CSSCore.removeClass)(element, className);
+  },
+
+  /**
+   * Tests whether the element has the class specified.
+   *
+   * @param {DOMNode|DOMWindow} element the element to set the class on
+   * @param {string} className the CSS className
+   * @return {boolean} true if the element has the class, false if not
+   */
+  hasClass: function(element, className) {
+    ("production" !== "production" ? invariant(
+      !/\s/.test(className),
+      'CSS.hasClass takes only a single class name.'
+    ) : invariant(!/\s/.test(className)));
+    if (element.classList) {
+      return !!className && element.classList.contains(className);
+    }
+    return (' ' + element.className + ' ').indexOf(' ' + className + ' ') > -1;
+  }
+
+};
+
+module.exports = CSSCore;
+
+},{"./invariant":321}],175:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28005,7 +28118,7 @@ var CSSProperty = {
 
 module.exports = CSSProperty;
 
-},{}],174:[function(require,module,exports){
+},{}],176:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28185,7 +28298,7 @@ var CSSPropertyOperations = {
 
 module.exports = CSSPropertyOperations;
 
-},{"./CSSProperty":173,"./ExecutionEnvironment":190,"./camelizeStyleName":280,"./dangerousStyleValue":286,"./hyphenateStyleName":306,"./memoizeStringOnly":317,"./warning":328}],175:[function(require,module,exports){
+},{"./CSSProperty":175,"./ExecutionEnvironment":192,"./camelizeStyleName":292,"./dangerousStyleValue":299,"./hyphenateStyleName":319,"./memoizeStringOnly":330,"./warning":342}],177:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28283,7 +28396,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 
 module.exports = CallbackQueue;
 
-},{"./Object.assign":196,"./PooledClass":197,"./invariant":308}],176:[function(require,module,exports){
+},{"./Object.assign":199,"./PooledClass":200,"./invariant":321}],178:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28665,7 +28778,7 @@ var ChangeEventPlugin = {
 
 module.exports = ChangeEventPlugin;
 
-},{"./EventConstants":184,"./EventPluginHub":186,"./EventPropagators":189,"./ExecutionEnvironment":190,"./ReactUpdates":259,"./SyntheticEvent":267,"./isEventSupported":309,"./isTextInputElement":311,"./keyOf":315}],177:[function(require,module,exports){
+},{"./EventConstants":186,"./EventPluginHub":188,"./EventPropagators":191,"./ExecutionEnvironment":192,"./ReactUpdates":270,"./SyntheticEvent":279,"./isEventSupported":322,"./isTextInputElement":324,"./keyOf":328}],179:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28690,7 +28803,7 @@ var ClientReactRootIndex = {
 
 module.exports = ClientReactRootIndex;
 
-},{}],178:[function(require,module,exports){
+},{}],180:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28826,7 +28939,7 @@ var DOMChildrenOperations = {
 
 module.exports = DOMChildrenOperations;
 
-},{"./Danger":181,"./ReactMultiChildUpdateTypes":243,"./invariant":308,"./setTextContent":323}],179:[function(require,module,exports){
+},{"./Danger":183,"./ReactMultiChildUpdateTypes":249,"./invariant":321,"./setTextContent":336}],181:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -29123,7 +29236,7 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 
-},{"./invariant":308}],180:[function(require,module,exports){
+},{"./invariant":321}],182:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -29313,7 +29426,7 @@ var DOMPropertyOperations = {
 
 module.exports = DOMPropertyOperations;
 
-},{"./DOMProperty":179,"./quoteAttributeValueForBrowser":321,"./warning":328}],181:[function(require,module,exports){
+},{"./DOMProperty":181,"./quoteAttributeValueForBrowser":334,"./warning":342}],183:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -29498,7 +29611,7 @@ var Danger = {
 
 module.exports = Danger;
 
-},{"./ExecutionEnvironment":190,"./createNodesFromMarkup":285,"./emptyFunction":287,"./getMarkupWrap":300,"./invariant":308}],182:[function(require,module,exports){
+},{"./ExecutionEnvironment":192,"./createNodesFromMarkup":297,"./emptyFunction":300,"./getMarkupWrap":313,"./invariant":321}],184:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -29537,7 +29650,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":315}],183:[function(require,module,exports){
+},{"./keyOf":328}],185:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -29677,7 +29790,7 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":184,"./EventPropagators":189,"./ReactMount":241,"./SyntheticMouseEvent":271,"./keyOf":315}],184:[function(require,module,exports){
+},{"./EventConstants":186,"./EventPropagators":191,"./ReactMount":247,"./SyntheticMouseEvent":283,"./keyOf":328}],186:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -29749,7 +29862,7 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":314}],185:[function(require,module,exports){
+},{"./keyMirror":327}],187:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  *
@@ -29837,7 +29950,7 @@ var EventListener = {
 
 module.exports = EventListener;
 
-},{"./emptyFunction":287}],186:[function(require,module,exports){
+},{"./emptyFunction":300}],188:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30113,7 +30226,7 @@ var EventPluginHub = {
 
 module.exports = EventPluginHub;
 
-},{"./EventPluginRegistry":187,"./EventPluginUtils":188,"./accumulateInto":277,"./forEachAccumulated":293,"./invariant":308}],187:[function(require,module,exports){
+},{"./EventPluginRegistry":189,"./EventPluginUtils":190,"./accumulateInto":289,"./forEachAccumulated":306,"./invariant":321}],189:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30391,7 +30504,7 @@ var EventPluginRegistry = {
 
 module.exports = EventPluginRegistry;
 
-},{"./invariant":308}],188:[function(require,module,exports){
+},{"./invariant":321}],190:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30610,7 +30723,7 @@ var EventPluginUtils = {
 
 module.exports = EventPluginUtils;
 
-},{"./EventConstants":184,"./invariant":308}],189:[function(require,module,exports){
+},{"./EventConstants":186,"./invariant":321}],191:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30750,7 +30863,7 @@ var EventPropagators = {
 
 module.exports = EventPropagators;
 
-},{"./EventConstants":184,"./EventPluginHub":186,"./accumulateInto":277,"./forEachAccumulated":293}],190:[function(require,module,exports){
+},{"./EventConstants":186,"./EventPluginHub":188,"./accumulateInto":289,"./forEachAccumulated":306}],192:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30794,7 +30907,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],191:[function(require,module,exports){
+},{}],193:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30885,7 +30998,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 
 module.exports = FallbackCompositionState;
 
-},{"./Object.assign":196,"./PooledClass":197,"./getTextContentAccessor":303}],192:[function(require,module,exports){
+},{"./Object.assign":199,"./PooledClass":200,"./getTextContentAccessor":316}],194:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31096,7 +31209,48 @@ var HTMLDOMPropertyConfig = {
 
 module.exports = HTMLDOMPropertyConfig;
 
-},{"./DOMProperty":179,"./ExecutionEnvironment":190}],193:[function(require,module,exports){
+},{"./DOMProperty":181,"./ExecutionEnvironment":192}],195:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule LinkedStateMixin
+ * @typechecks static-only
+ */
+
+'use strict';
+
+var ReactLink = require("./ReactLink");
+var ReactStateSetters = require("./ReactStateSetters");
+
+/**
+ * A simple mixin around ReactLink.forState().
+ */
+var LinkedStateMixin = {
+  /**
+   * Create a ReactLink that's linked to part of this component's state. The
+   * ReactLink will have the current value of this.state[key] and will call
+   * setState() when a change is requested.
+   *
+   * @param {string} key state key to update. Note: you may want to use keyOf()
+   * if you're using Google Closure Compiler advanced mode.
+   * @return {ReactLink} ReactLink instance linking to the state.
+   */
+  linkState: function(key) {
+    return new ReactLink(
+      this.state[key],
+      ReactStateSetters.createStateKeySetter(this, key)
+    );
+  }
+};
+
+module.exports = LinkedStateMixin;
+
+},{"./ReactLink":245,"./ReactStateSetters":264}],196:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31250,7 +31404,7 @@ var LinkedValueUtils = {
 
 module.exports = LinkedValueUtils;
 
-},{"./ReactPropTypes":250,"./invariant":308}],194:[function(require,module,exports){
+},{"./ReactPropTypes":256,"./invariant":321}],197:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -31305,7 +31459,7 @@ var LocalEventTrapMixin = {
 
 module.exports = LocalEventTrapMixin;
 
-},{"./ReactBrowserEventEmitter":200,"./accumulateInto":277,"./forEachAccumulated":293,"./invariant":308}],195:[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":203,"./accumulateInto":289,"./forEachAccumulated":306,"./invariant":321}],198:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31363,7 +31517,7 @@ var MobileSafariClickEventPlugin = {
 
 module.exports = MobileSafariClickEventPlugin;
 
-},{"./EventConstants":184,"./emptyFunction":287}],196:[function(require,module,exports){
+},{"./EventConstants":186,"./emptyFunction":300}],199:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -31412,7 +31566,7 @@ function assign(target, sources) {
 
 module.exports = assign;
 
-},{}],197:[function(require,module,exports){
+},{}],200:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31526,7 +31680,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 
-},{"./invariant":308}],198:[function(require,module,exports){
+},{"./invariant":321}],201:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31676,7 +31830,7 @@ React.version = '0.13.3';
 
 module.exports = React;
 
-},{"./EventPluginUtils":188,"./ExecutionEnvironment":190,"./Object.assign":196,"./ReactChildren":202,"./ReactClass":203,"./ReactComponent":204,"./ReactContext":209,"./ReactCurrentOwner":210,"./ReactDOM":211,"./ReactDOMTextComponent":222,"./ReactDefaultInjection":225,"./ReactElement":228,"./ReactElementValidator":229,"./ReactInstanceHandles":237,"./ReactMount":241,"./ReactPerf":246,"./ReactPropTypes":250,"./ReactReconciler":253,"./ReactServerRendering":256,"./findDOMNode":290,"./onlyChild":318}],199:[function(require,module,exports){
+},{"./EventPluginUtils":190,"./ExecutionEnvironment":192,"./Object.assign":199,"./ReactChildren":207,"./ReactClass":208,"./ReactComponent":209,"./ReactContext":214,"./ReactCurrentOwner":215,"./ReactDOM":216,"./ReactDOMTextComponent":227,"./ReactDefaultInjection":230,"./ReactElement":233,"./ReactElementValidator":234,"./ReactInstanceHandles":242,"./ReactMount":247,"./ReactPerf":252,"./ReactPropTypes":256,"./ReactReconciler":259,"./ReactServerRendering":262,"./findDOMNode":303,"./onlyChild":331}],202:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31707,7 +31861,7 @@ var ReactBrowserComponentMixin = {
 
 module.exports = ReactBrowserComponentMixin;
 
-},{"./findDOMNode":290}],200:[function(require,module,exports){
+},{"./findDOMNode":303}],203:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -32060,7 +32214,223 @@ var ReactBrowserEventEmitter = assign({}, ReactEventEmitterMixin, {
 
 module.exports = ReactBrowserEventEmitter;
 
-},{"./EventConstants":184,"./EventPluginHub":186,"./EventPluginRegistry":187,"./Object.assign":196,"./ReactEventEmitterMixin":232,"./ViewportMetrics":276,"./isEventSupported":309}],201:[function(require,module,exports){
+},{"./EventConstants":186,"./EventPluginHub":188,"./EventPluginRegistry":189,"./Object.assign":199,"./ReactEventEmitterMixin":237,"./ViewportMetrics":288,"./isEventSupported":322}],204:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @typechecks
+ * @providesModule ReactCSSTransitionGroup
+ */
+
+'use strict';
+
+var React = require("./React");
+
+var assign = require("./Object.assign");
+
+var ReactTransitionGroup = React.createFactory(
+  require("./ReactTransitionGroup")
+);
+var ReactCSSTransitionGroupChild = React.createFactory(
+  require("./ReactCSSTransitionGroupChild")
+);
+
+var ReactCSSTransitionGroup = React.createClass({
+  displayName: 'ReactCSSTransitionGroup',
+
+  propTypes: {
+    transitionName: React.PropTypes.string.isRequired,
+    transitionAppear: React.PropTypes.bool,
+    transitionEnter: React.PropTypes.bool,
+    transitionLeave: React.PropTypes.bool
+  },
+
+  getDefaultProps: function() {
+    return {
+      transitionAppear: false,
+      transitionEnter: true,
+      transitionLeave: true
+    };
+  },
+
+  _wrapChild: function(child) {
+    // We need to provide this childFactory so that
+    // ReactCSSTransitionGroupChild can receive updates to name, enter, and
+    // leave while it is leaving.
+    return ReactCSSTransitionGroupChild(
+      {
+        name: this.props.transitionName,
+        appear: this.props.transitionAppear,
+        enter: this.props.transitionEnter,
+        leave: this.props.transitionLeave
+      },
+      child
+    );
+  },
+
+  render: function() {
+    return (
+      ReactTransitionGroup(
+        assign({}, this.props, {childFactory: this._wrapChild})
+      )
+    );
+  }
+});
+
+module.exports = ReactCSSTransitionGroup;
+
+},{"./Object.assign":199,"./React":201,"./ReactCSSTransitionGroupChild":205,"./ReactTransitionGroup":268}],205:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @typechecks
+ * @providesModule ReactCSSTransitionGroupChild
+ */
+
+'use strict';
+
+var React = require("./React");
+
+var CSSCore = require("./CSSCore");
+var ReactTransitionEvents = require("./ReactTransitionEvents");
+
+var onlyChild = require("./onlyChild");
+var warning = require("./warning");
+
+// We don't remove the element from the DOM until we receive an animationend or
+// transitionend event. If the user screws up and forgets to add an animation
+// their node will be stuck in the DOM forever, so we detect if an animation
+// does not start and if it doesn't, we just call the end listener immediately.
+var TICK = 17;
+var NO_EVENT_TIMEOUT = 5000;
+
+var noEventListener = null;
+
+
+if ("production" !== "production") {
+  noEventListener = function() {
+    ("production" !== "production" ? warning(
+      false,
+      'transition(): tried to perform an animation without ' +
+      'an animationend or transitionend event after timeout (' +
+      '%sms). You should either disable this ' +
+      'transition in JS or add a CSS animation/transition.',
+      NO_EVENT_TIMEOUT
+    ) : null);
+  };
+}
+
+var ReactCSSTransitionGroupChild = React.createClass({
+  displayName: 'ReactCSSTransitionGroupChild',
+
+  transition: function(animationType, finishCallback) {
+    var node = this.getDOMNode();
+    var className = this.props.name + '-' + animationType;
+    var activeClassName = className + '-active';
+    var noEventTimeout = null;
+
+    var endListener = function(e) {
+      if (e && e.target !== node) {
+        return;
+      }
+      if ("production" !== "production") {
+        clearTimeout(noEventTimeout);
+      }
+
+      CSSCore.removeClass(node, className);
+      CSSCore.removeClass(node, activeClassName);
+
+      ReactTransitionEvents.removeEndEventListener(node, endListener);
+
+      // Usually this optional callback is used for informing an owner of
+      // a leave animation and telling it to remove the child.
+      if (finishCallback) {
+        finishCallback();
+      }
+    };
+
+    ReactTransitionEvents.addEndEventListener(node, endListener);
+
+    CSSCore.addClass(node, className);
+
+    // Need to do this to actually trigger a transition.
+    this.queueClass(activeClassName);
+
+    if ("production" !== "production") {
+      noEventTimeout = setTimeout(noEventListener, NO_EVENT_TIMEOUT);
+    }
+  },
+
+  queueClass: function(className) {
+    this.classNameQueue.push(className);
+
+    if (!this.timeout) {
+      this.timeout = setTimeout(this.flushClassNameQueue, TICK);
+    }
+  },
+
+  flushClassNameQueue: function() {
+    if (this.isMounted()) {
+      this.classNameQueue.forEach(
+        CSSCore.addClass.bind(CSSCore, this.getDOMNode())
+      );
+    }
+    this.classNameQueue.length = 0;
+    this.timeout = null;
+  },
+
+  componentWillMount: function() {
+    this.classNameQueue = [];
+  },
+
+  componentWillUnmount: function() {
+    if (this.timeout) {
+      clearTimeout(this.timeout);
+    }
+  },
+
+  componentWillAppear: function(done) {
+    if (this.props.appear) {
+      this.transition('appear', done);
+    } else {
+      done();
+    }
+  },
+
+  componentWillEnter: function(done) {
+    if (this.props.enter) {
+      this.transition('enter', done);
+    } else {
+      done();
+    }
+  },
+
+  componentWillLeave: function(done) {
+    if (this.props.leave) {
+      this.transition('leave', done);
+    } else {
+      done();
+    }
+  },
+
+  render: function() {
+    return onlyChild(this.props.children);
+  }
+});
+
+module.exports = ReactCSSTransitionGroupChild;
+
+},{"./CSSCore":174,"./React":201,"./ReactTransitionEvents":267,"./onlyChild":331,"./warning":342}],206:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -32187,7 +32557,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 
-},{"./ReactReconciler":253,"./flattenChildren":291,"./instantiateReactComponent":307,"./shouldUpdateReactComponent":325}],202:[function(require,module,exports){
+},{"./ReactReconciler":259,"./flattenChildren":304,"./instantiateReactComponent":320,"./shouldUpdateReactComponent":338}],207:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -32338,7 +32708,7 @@ var ReactChildren = {
 
 module.exports = ReactChildren;
 
-},{"./PooledClass":197,"./ReactFragment":234,"./traverseAllChildren":327,"./warning":328}],203:[function(require,module,exports){
+},{"./PooledClass":200,"./ReactFragment":239,"./traverseAllChildren":340,"./warning":342}],208:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33282,7 +33652,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 
-},{"./Object.assign":196,"./ReactComponent":204,"./ReactCurrentOwner":210,"./ReactElement":228,"./ReactErrorUtils":231,"./ReactInstanceMap":238,"./ReactLifeCycle":239,"./ReactPropTypeLocationNames":248,"./ReactPropTypeLocations":249,"./ReactUpdateQueue":258,"./invariant":308,"./keyMirror":314,"./keyOf":315,"./warning":328}],204:[function(require,module,exports){
+},{"./Object.assign":199,"./ReactComponent":209,"./ReactCurrentOwner":215,"./ReactElement":233,"./ReactErrorUtils":236,"./ReactInstanceMap":243,"./ReactLifeCycle":244,"./ReactPropTypeLocationNames":254,"./ReactPropTypeLocations":255,"./ReactUpdateQueue":269,"./invariant":321,"./keyMirror":327,"./keyOf":328,"./warning":342}],209:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33434,7 +33804,7 @@ if ("production" !== "production") {
 
 module.exports = ReactComponent;
 
-},{"./ReactUpdateQueue":258,"./invariant":308,"./warning":328}],205:[function(require,module,exports){
+},{"./ReactUpdateQueue":269,"./invariant":321,"./warning":342}],210:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33481,7 +33851,7 @@ var ReactComponentBrowserEnvironment = {
 
 module.exports = ReactComponentBrowserEnvironment;
 
-},{"./ReactDOMIDOperations":215,"./ReactMount":241}],206:[function(require,module,exports){
+},{"./ReactDOMIDOperations":220,"./ReactMount":247}],211:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -33540,7 +33910,7 @@ var ReactComponentEnvironment = {
 
 module.exports = ReactComponentEnvironment;
 
-},{"./invariant":308}],207:[function(require,module,exports){
+},{"./invariant":321}],212:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33589,7 +33959,7 @@ var ReactComponentWithPureRenderMixin = {
 
 module.exports = ReactComponentWithPureRenderMixin;
 
-},{"./shallowEqual":324}],208:[function(require,module,exports){
+},{"./shallowEqual":337}],213:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34500,7 +34870,7 @@ var ReactCompositeComponent = {
 
 module.exports = ReactCompositeComponent;
 
-},{"./Object.assign":196,"./ReactComponentEnvironment":206,"./ReactContext":209,"./ReactCurrentOwner":210,"./ReactElement":228,"./ReactElementValidator":229,"./ReactInstanceMap":238,"./ReactLifeCycle":239,"./ReactNativeComponent":244,"./ReactPerf":246,"./ReactPropTypeLocationNames":248,"./ReactPropTypeLocations":249,"./ReactReconciler":253,"./ReactUpdates":259,"./emptyObject":288,"./invariant":308,"./shouldUpdateReactComponent":325,"./warning":328}],209:[function(require,module,exports){
+},{"./Object.assign":199,"./ReactComponentEnvironment":211,"./ReactContext":214,"./ReactCurrentOwner":215,"./ReactElement":233,"./ReactElementValidator":234,"./ReactInstanceMap":243,"./ReactLifeCycle":244,"./ReactNativeComponent":250,"./ReactPerf":252,"./ReactPropTypeLocationNames":254,"./ReactPropTypeLocations":255,"./ReactReconciler":259,"./ReactUpdates":270,"./emptyObject":301,"./invariant":321,"./shouldUpdateReactComponent":338,"./warning":342}],214:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34576,7 +34946,7 @@ var ReactContext = {
 
 module.exports = ReactContext;
 
-},{"./Object.assign":196,"./emptyObject":288,"./warning":328}],210:[function(require,module,exports){
+},{"./Object.assign":199,"./emptyObject":301,"./warning":342}],215:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34610,7 +34980,7 @@ var ReactCurrentOwner = {
 
 module.exports = ReactCurrentOwner;
 
-},{}],211:[function(require,module,exports){
+},{}],216:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34787,7 +35157,7 @@ var ReactDOM = mapObject({
 
 module.exports = ReactDOM;
 
-},{"./ReactElement":228,"./ReactElementValidator":229,"./mapObject":316}],212:[function(require,module,exports){
+},{"./ReactElement":233,"./ReactElementValidator":234,"./mapObject":329}],217:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34851,7 +35221,7 @@ var ReactDOMButton = ReactClass.createClass({
 
 module.exports = ReactDOMButton;
 
-},{"./AutoFocusMixin":171,"./ReactBrowserComponentMixin":199,"./ReactClass":203,"./ReactElement":228,"./keyMirror":314}],213:[function(require,module,exports){
+},{"./AutoFocusMixin":172,"./ReactBrowserComponentMixin":202,"./ReactClass":208,"./ReactElement":233,"./keyMirror":327}],218:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35359,7 +35729,7 @@ ReactDOMComponent.injection = {
 
 module.exports = ReactDOMComponent;
 
-},{"./CSSPropertyOperations":174,"./DOMProperty":179,"./DOMPropertyOperations":180,"./Object.assign":196,"./ReactBrowserEventEmitter":200,"./ReactComponentBrowserEnvironment":205,"./ReactMount":241,"./ReactMultiChild":242,"./ReactPerf":246,"./escapeTextContentForBrowser":289,"./invariant":308,"./isEventSupported":309,"./keyOf":315,"./warning":328}],214:[function(require,module,exports){
+},{"./CSSPropertyOperations":176,"./DOMProperty":181,"./DOMPropertyOperations":182,"./Object.assign":199,"./ReactBrowserEventEmitter":203,"./ReactComponentBrowserEnvironment":210,"./ReactMount":247,"./ReactMultiChild":248,"./ReactPerf":252,"./escapeTextContentForBrowser":302,"./invariant":321,"./isEventSupported":322,"./keyOf":328,"./warning":342}],219:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35408,7 +35778,7 @@ var ReactDOMForm = ReactClass.createClass({
 
 module.exports = ReactDOMForm;
 
-},{"./EventConstants":184,"./LocalEventTrapMixin":194,"./ReactBrowserComponentMixin":199,"./ReactClass":203,"./ReactElement":228}],215:[function(require,module,exports){
+},{"./EventConstants":186,"./LocalEventTrapMixin":197,"./ReactBrowserComponentMixin":202,"./ReactClass":208,"./ReactElement":233}],220:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35574,7 +35944,7 @@ ReactPerf.measureMethods(ReactDOMIDOperations, 'ReactDOMIDOperations', {
 
 module.exports = ReactDOMIDOperations;
 
-},{"./CSSPropertyOperations":174,"./DOMChildrenOperations":178,"./DOMPropertyOperations":180,"./ReactMount":241,"./ReactPerf":246,"./invariant":308,"./setInnerHTML":322}],216:[function(require,module,exports){
+},{"./CSSPropertyOperations":176,"./DOMChildrenOperations":180,"./DOMPropertyOperations":182,"./ReactMount":247,"./ReactPerf":252,"./invariant":321,"./setInnerHTML":335}],221:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35619,7 +35989,7 @@ var ReactDOMIframe = ReactClass.createClass({
 
 module.exports = ReactDOMIframe;
 
-},{"./EventConstants":184,"./LocalEventTrapMixin":194,"./ReactBrowserComponentMixin":199,"./ReactClass":203,"./ReactElement":228}],217:[function(require,module,exports){
+},{"./EventConstants":186,"./LocalEventTrapMixin":197,"./ReactBrowserComponentMixin":202,"./ReactClass":208,"./ReactElement":233}],222:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35665,7 +36035,7 @@ var ReactDOMImg = ReactClass.createClass({
 
 module.exports = ReactDOMImg;
 
-},{"./EventConstants":184,"./LocalEventTrapMixin":194,"./ReactBrowserComponentMixin":199,"./ReactClass":203,"./ReactElement":228}],218:[function(require,module,exports){
+},{"./EventConstants":186,"./LocalEventTrapMixin":197,"./ReactBrowserComponentMixin":202,"./ReactClass":208,"./ReactElement":233}],223:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35840,7 +36210,7 @@ var ReactDOMInput = ReactClass.createClass({
 
 module.exports = ReactDOMInput;
 
-},{"./AutoFocusMixin":171,"./DOMPropertyOperations":180,"./LinkedValueUtils":193,"./Object.assign":196,"./ReactBrowserComponentMixin":199,"./ReactClass":203,"./ReactElement":228,"./ReactMount":241,"./ReactUpdates":259,"./invariant":308}],219:[function(require,module,exports){
+},{"./AutoFocusMixin":172,"./DOMPropertyOperations":182,"./LinkedValueUtils":196,"./Object.assign":199,"./ReactBrowserComponentMixin":202,"./ReactClass":208,"./ReactElement":233,"./ReactMount":247,"./ReactUpdates":270,"./invariant":321}],224:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35890,7 +36260,7 @@ var ReactDOMOption = ReactClass.createClass({
 
 module.exports = ReactDOMOption;
 
-},{"./ReactBrowserComponentMixin":199,"./ReactClass":203,"./ReactElement":228,"./warning":328}],220:[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":202,"./ReactClass":208,"./ReactElement":233,"./warning":342}],225:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36068,7 +36438,7 @@ var ReactDOMSelect = ReactClass.createClass({
 
 module.exports = ReactDOMSelect;
 
-},{"./AutoFocusMixin":171,"./LinkedValueUtils":193,"./Object.assign":196,"./ReactBrowserComponentMixin":199,"./ReactClass":203,"./ReactElement":228,"./ReactUpdates":259}],221:[function(require,module,exports){
+},{"./AutoFocusMixin":172,"./LinkedValueUtils":196,"./Object.assign":199,"./ReactBrowserComponentMixin":202,"./ReactClass":208,"./ReactElement":233,"./ReactUpdates":270}],226:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36281,7 +36651,7 @@ var ReactDOMSelection = {
 
 module.exports = ReactDOMSelection;
 
-},{"./ExecutionEnvironment":190,"./getNodeForCharacterOffset":301,"./getTextContentAccessor":303}],222:[function(require,module,exports){
+},{"./ExecutionEnvironment":192,"./getNodeForCharacterOffset":314,"./getTextContentAccessor":316}],227:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36398,7 +36768,7 @@ assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 
-},{"./DOMPropertyOperations":180,"./Object.assign":196,"./ReactComponentBrowserEnvironment":205,"./ReactDOMComponent":213,"./escapeTextContentForBrowser":289}],223:[function(require,module,exports){
+},{"./DOMPropertyOperations":182,"./Object.assign":199,"./ReactComponentBrowserEnvironment":210,"./ReactDOMComponent":218,"./escapeTextContentForBrowser":302}],228:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36536,7 +36906,7 @@ var ReactDOMTextarea = ReactClass.createClass({
 
 module.exports = ReactDOMTextarea;
 
-},{"./AutoFocusMixin":171,"./DOMPropertyOperations":180,"./LinkedValueUtils":193,"./Object.assign":196,"./ReactBrowserComponentMixin":199,"./ReactClass":203,"./ReactElement":228,"./ReactUpdates":259,"./invariant":308,"./warning":328}],224:[function(require,module,exports){
+},{"./AutoFocusMixin":172,"./DOMPropertyOperations":182,"./LinkedValueUtils":196,"./Object.assign":199,"./ReactBrowserComponentMixin":202,"./ReactClass":208,"./ReactElement":233,"./ReactUpdates":270,"./invariant":321,"./warning":342}],229:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36609,7 +36979,7 @@ var ReactDefaultBatchingStrategy = {
 
 module.exports = ReactDefaultBatchingStrategy;
 
-},{"./Object.assign":196,"./ReactUpdates":259,"./Transaction":275,"./emptyFunction":287}],225:[function(require,module,exports){
+},{"./Object.assign":199,"./ReactUpdates":270,"./Transaction":287,"./emptyFunction":300}],230:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36766,7 +37136,7 @@ module.exports = {
   inject: inject
 };
 
-},{"./BeforeInputEventPlugin":172,"./ChangeEventPlugin":176,"./ClientReactRootIndex":177,"./DefaultEventPluginOrder":182,"./EnterLeaveEventPlugin":183,"./ExecutionEnvironment":190,"./HTMLDOMPropertyConfig":192,"./MobileSafariClickEventPlugin":195,"./ReactBrowserComponentMixin":199,"./ReactClass":203,"./ReactComponentBrowserEnvironment":205,"./ReactDOMButton":212,"./ReactDOMComponent":213,"./ReactDOMForm":214,"./ReactDOMIDOperations":215,"./ReactDOMIframe":216,"./ReactDOMImg":217,"./ReactDOMInput":218,"./ReactDOMOption":219,"./ReactDOMSelect":220,"./ReactDOMTextComponent":222,"./ReactDOMTextarea":223,"./ReactDefaultBatchingStrategy":224,"./ReactDefaultPerf":226,"./ReactElement":228,"./ReactEventListener":233,"./ReactInjection":235,"./ReactInstanceHandles":237,"./ReactMount":241,"./ReactReconcileTransaction":252,"./SVGDOMPropertyConfig":260,"./SelectEventPlugin":261,"./ServerReactRootIndex":262,"./SimpleEventPlugin":263,"./createFullPageComponent":284}],226:[function(require,module,exports){
+},{"./BeforeInputEventPlugin":173,"./ChangeEventPlugin":178,"./ClientReactRootIndex":179,"./DefaultEventPluginOrder":184,"./EnterLeaveEventPlugin":185,"./ExecutionEnvironment":192,"./HTMLDOMPropertyConfig":194,"./MobileSafariClickEventPlugin":198,"./ReactBrowserComponentMixin":202,"./ReactClass":208,"./ReactComponentBrowserEnvironment":210,"./ReactDOMButton":217,"./ReactDOMComponent":218,"./ReactDOMForm":219,"./ReactDOMIDOperations":220,"./ReactDOMIframe":221,"./ReactDOMImg":222,"./ReactDOMInput":223,"./ReactDOMOption":224,"./ReactDOMSelect":225,"./ReactDOMTextComponent":227,"./ReactDOMTextarea":228,"./ReactDefaultBatchingStrategy":229,"./ReactDefaultPerf":231,"./ReactElement":233,"./ReactEventListener":238,"./ReactInjection":240,"./ReactInstanceHandles":242,"./ReactMount":247,"./ReactReconcileTransaction":258,"./SVGDOMPropertyConfig":272,"./SelectEventPlugin":273,"./ServerReactRootIndex":274,"./SimpleEventPlugin":275,"./createFullPageComponent":296}],231:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37032,7 +37402,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 
-},{"./DOMProperty":179,"./ReactDefaultPerfAnalysis":227,"./ReactMount":241,"./ReactPerf":246,"./performanceNow":320}],227:[function(require,module,exports){
+},{"./DOMProperty":181,"./ReactDefaultPerfAnalysis":232,"./ReactMount":247,"./ReactPerf":252,"./performanceNow":333}],232:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37238,7 +37608,7 @@ var ReactDefaultPerfAnalysis = {
 
 module.exports = ReactDefaultPerfAnalysis;
 
-},{"./Object.assign":196}],228:[function(require,module,exports){
+},{"./Object.assign":199}],233:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -37544,7 +37914,7 @@ ReactElement.isValidElement = function(object) {
 
 module.exports = ReactElement;
 
-},{"./Object.assign":196,"./ReactContext":209,"./ReactCurrentOwner":210,"./warning":328}],229:[function(require,module,exports){
+},{"./Object.assign":199,"./ReactContext":214,"./ReactCurrentOwner":215,"./warning":342}],234:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -38007,7 +38377,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 
-},{"./ReactCurrentOwner":210,"./ReactElement":228,"./ReactFragment":234,"./ReactNativeComponent":244,"./ReactPropTypeLocationNames":248,"./ReactPropTypeLocations":249,"./getIteratorFn":299,"./invariant":308,"./warning":328}],230:[function(require,module,exports){
+},{"./ReactCurrentOwner":215,"./ReactElement":233,"./ReactFragment":239,"./ReactNativeComponent":250,"./ReactPropTypeLocationNames":254,"./ReactPropTypeLocations":255,"./getIteratorFn":312,"./invariant":321,"./warning":342}],235:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -38100,7 +38470,7 @@ var ReactEmptyComponent = {
 
 module.exports = ReactEmptyComponent;
 
-},{"./ReactElement":228,"./ReactInstanceMap":238,"./invariant":308}],231:[function(require,module,exports){
+},{"./ReactElement":233,"./ReactInstanceMap":243,"./invariant":321}],236:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38132,7 +38502,7 @@ var ReactErrorUtils = {
 
 module.exports = ReactErrorUtils;
 
-},{}],232:[function(require,module,exports){
+},{}],237:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38182,7 +38552,7 @@ var ReactEventEmitterMixin = {
 
 module.exports = ReactEventEmitterMixin;
 
-},{"./EventPluginHub":186}],233:[function(require,module,exports){
+},{"./EventPluginHub":188}],238:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38365,7 +38735,7 @@ var ReactEventListener = {
 
 module.exports = ReactEventListener;
 
-},{"./EventListener":185,"./ExecutionEnvironment":190,"./Object.assign":196,"./PooledClass":197,"./ReactInstanceHandles":237,"./ReactMount":241,"./ReactUpdates":259,"./getEventTarget":298,"./getUnboundedScrollPosition":304}],234:[function(require,module,exports){
+},{"./EventListener":187,"./ExecutionEnvironment":192,"./Object.assign":199,"./PooledClass":200,"./ReactInstanceHandles":242,"./ReactMount":247,"./ReactUpdates":270,"./getEventTarget":311,"./getUnboundedScrollPosition":317}],239:[function(require,module,exports){
 /**
  * Copyright 2015, Facebook, Inc.
  * All rights reserved.
@@ -38548,7 +38918,7 @@ var ReactFragment = {
 
 module.exports = ReactFragment;
 
-},{"./ReactElement":228,"./warning":328}],235:[function(require,module,exports){
+},{"./ReactElement":233,"./warning":342}],240:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38590,7 +38960,7 @@ var ReactInjection = {
 
 module.exports = ReactInjection;
 
-},{"./DOMProperty":179,"./EventPluginHub":186,"./ReactBrowserEventEmitter":200,"./ReactClass":203,"./ReactComponentEnvironment":206,"./ReactDOMComponent":213,"./ReactEmptyComponent":230,"./ReactNativeComponent":244,"./ReactPerf":246,"./ReactRootIndex":255,"./ReactUpdates":259}],236:[function(require,module,exports){
+},{"./DOMProperty":181,"./EventPluginHub":188,"./ReactBrowserEventEmitter":203,"./ReactClass":208,"./ReactComponentEnvironment":211,"./ReactDOMComponent":218,"./ReactEmptyComponent":235,"./ReactNativeComponent":250,"./ReactPerf":252,"./ReactRootIndex":261,"./ReactUpdates":270}],241:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38725,7 +39095,7 @@ var ReactInputSelection = {
 
 module.exports = ReactInputSelection;
 
-},{"./ReactDOMSelection":221,"./containsNode":282,"./focusNode":292,"./getActiveElement":294}],237:[function(require,module,exports){
+},{"./ReactDOMSelection":226,"./containsNode":294,"./focusNode":305,"./getActiveElement":307}],242:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39059,7 +39429,7 @@ var ReactInstanceHandles = {
 
 module.exports = ReactInstanceHandles;
 
-},{"./ReactRootIndex":255,"./invariant":308}],238:[function(require,module,exports){
+},{"./ReactRootIndex":261,"./invariant":321}],243:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39108,7 +39478,7 @@ var ReactInstanceMap = {
 
 module.exports = ReactInstanceMap;
 
-},{}],239:[function(require,module,exports){
+},{}],244:[function(require,module,exports){
 /**
  * Copyright 2015, Facebook, Inc.
  * All rights reserved.
@@ -39145,7 +39515,80 @@ var ReactLifeCycle = {
 
 module.exports = ReactLifeCycle;
 
-},{}],240:[function(require,module,exports){
+},{}],245:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule ReactLink
+ * @typechecks static-only
+ */
+
+'use strict';
+
+/**
+ * ReactLink encapsulates a common pattern in which a component wants to modify
+ * a prop received from its parent. ReactLink allows the parent to pass down a
+ * value coupled with a callback that, when invoked, expresses an intent to
+ * modify that value. For example:
+ *
+ * React.createClass({
+ *   getInitialState: function() {
+ *     return {value: ''};
+ *   },
+ *   render: function() {
+ *     var valueLink = new ReactLink(this.state.value, this._handleValueChange);
+ *     return <input valueLink={valueLink} />;
+ *   },
+ *   this._handleValueChange: function(newValue) {
+ *     this.setState({value: newValue});
+ *   }
+ * });
+ *
+ * We have provided some sugary mixins to make the creation and
+ * consumption of ReactLink easier; see LinkedValueUtils and LinkedStateMixin.
+ */
+
+var React = require("./React");
+
+/**
+ * @param {*} value current value of the link
+ * @param {function} requestChange callback to request a change
+ */
+function ReactLink(value, requestChange) {
+  this.value = value;
+  this.requestChange = requestChange;
+}
+
+/**
+ * Creates a PropType that enforces the ReactLink API and optionally checks the
+ * type of the value being passed inside the link. Example:
+ *
+ * MyComponent.propTypes = {
+ *   tabIndexLink: ReactLink.PropTypes.link(React.PropTypes.number)
+ * }
+ */
+function createLinkTypeChecker(linkType) {
+  var shapes = {
+    value: typeof linkType === 'undefined' ?
+      React.PropTypes.any.isRequired :
+      linkType.isRequired,
+    requestChange: React.PropTypes.func.isRequired
+  };
+  return React.PropTypes.shape(shapes);
+}
+
+ReactLink.PropTypes = {
+  link: createLinkTypeChecker
+};
+
+module.exports = ReactLink;
+
+},{"./React":201}],246:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39193,7 +39636,7 @@ var ReactMarkupChecksum = {
 
 module.exports = ReactMarkupChecksum;
 
-},{"./adler32":278}],241:[function(require,module,exports){
+},{"./adler32":290}],247:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -40082,7 +40525,7 @@ ReactPerf.measureMethods(ReactMount, 'ReactMount', {
 
 module.exports = ReactMount;
 
-},{"./DOMProperty":179,"./ReactBrowserEventEmitter":200,"./ReactCurrentOwner":210,"./ReactElement":228,"./ReactElementValidator":229,"./ReactEmptyComponent":230,"./ReactInstanceHandles":237,"./ReactInstanceMap":238,"./ReactMarkupChecksum":240,"./ReactPerf":246,"./ReactReconciler":253,"./ReactUpdateQueue":258,"./ReactUpdates":259,"./containsNode":282,"./emptyObject":288,"./getReactRootElementInContainer":302,"./instantiateReactComponent":307,"./invariant":308,"./setInnerHTML":322,"./shouldUpdateReactComponent":325,"./warning":328}],242:[function(require,module,exports){
+},{"./DOMProperty":181,"./ReactBrowserEventEmitter":203,"./ReactCurrentOwner":215,"./ReactElement":233,"./ReactElementValidator":234,"./ReactEmptyComponent":235,"./ReactInstanceHandles":242,"./ReactInstanceMap":243,"./ReactMarkupChecksum":246,"./ReactPerf":252,"./ReactReconciler":259,"./ReactUpdateQueue":269,"./ReactUpdates":270,"./containsNode":294,"./emptyObject":301,"./getReactRootElementInContainer":315,"./instantiateReactComponent":320,"./invariant":321,"./setInnerHTML":335,"./shouldUpdateReactComponent":338,"./warning":342}],248:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -40512,7 +40955,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 
-},{"./ReactChildReconciler":201,"./ReactComponentEnvironment":206,"./ReactMultiChildUpdateTypes":243,"./ReactReconciler":253}],243:[function(require,module,exports){
+},{"./ReactChildReconciler":206,"./ReactComponentEnvironment":211,"./ReactMultiChildUpdateTypes":249,"./ReactReconciler":259}],249:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -40545,7 +40988,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 
 module.exports = ReactMultiChildUpdateTypes;
 
-},{"./keyMirror":314}],244:[function(require,module,exports){
+},{"./keyMirror":327}],250:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -40650,7 +41093,7 @@ var ReactNativeComponent = {
 
 module.exports = ReactNativeComponent;
 
-},{"./Object.assign":196,"./invariant":308}],245:[function(require,module,exports){
+},{"./Object.assign":199,"./invariant":321}],251:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -40760,7 +41203,7 @@ var ReactOwner = {
 
 module.exports = ReactOwner;
 
-},{"./invariant":308}],246:[function(require,module,exports){
+},{"./invariant":321}],252:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -40862,7 +41305,7 @@ function _noMeasure(objName, fnName, func) {
 
 module.exports = ReactPerf;
 
-},{}],247:[function(require,module,exports){
+},{}],253:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -40972,7 +41415,7 @@ var ReactPropTransferer = {
 
 module.exports = ReactPropTransferer;
 
-},{"./Object.assign":196,"./emptyFunction":287,"./joinClasses":313}],248:[function(require,module,exports){
+},{"./Object.assign":199,"./emptyFunction":300,"./joinClasses":326}],254:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -40998,7 +41441,7 @@ if ("production" !== "production") {
 
 module.exports = ReactPropTypeLocationNames;
 
-},{}],249:[function(require,module,exports){
+},{}],255:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -41022,7 +41465,7 @@ var ReactPropTypeLocations = keyMirror({
 
 module.exports = ReactPropTypeLocations;
 
-},{"./keyMirror":314}],250:[function(require,module,exports){
+},{"./keyMirror":327}],256:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -41371,7 +41814,7 @@ function getPreciseType(propValue) {
 
 module.exports = ReactPropTypes;
 
-},{"./ReactElement":228,"./ReactFragment":234,"./ReactPropTypeLocationNames":248,"./emptyFunction":287}],251:[function(require,module,exports){
+},{"./ReactElement":233,"./ReactFragment":239,"./ReactPropTypeLocationNames":254,"./emptyFunction":300}],257:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -41427,7 +41870,7 @@ PooledClass.addPoolingTo(ReactPutListenerQueue);
 
 module.exports = ReactPutListenerQueue;
 
-},{"./Object.assign":196,"./PooledClass":197,"./ReactBrowserEventEmitter":200}],252:[function(require,module,exports){
+},{"./Object.assign":199,"./PooledClass":200,"./ReactBrowserEventEmitter":203}],258:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -41603,7 +42046,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 
-},{"./CallbackQueue":175,"./Object.assign":196,"./PooledClass":197,"./ReactBrowserEventEmitter":200,"./ReactInputSelection":236,"./ReactPutListenerQueue":251,"./Transaction":275}],253:[function(require,module,exports){
+},{"./CallbackQueue":177,"./Object.assign":199,"./PooledClass":200,"./ReactBrowserEventEmitter":203,"./ReactInputSelection":241,"./ReactPutListenerQueue":257,"./Transaction":287}],259:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -41725,7 +42168,7 @@ var ReactReconciler = {
 
 module.exports = ReactReconciler;
 
-},{"./ReactElementValidator":229,"./ReactRef":254}],254:[function(require,module,exports){
+},{"./ReactElementValidator":234,"./ReactRef":260}],260:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -41796,7 +42239,7 @@ ReactRef.detachRefs = function(instance, element) {
 
 module.exports = ReactRef;
 
-},{"./ReactOwner":245}],255:[function(require,module,exports){
+},{"./ReactOwner":251}],261:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -41827,7 +42270,7 @@ var ReactRootIndex = {
 
 module.exports = ReactRootIndex;
 
-},{}],256:[function(require,module,exports){
+},{}],262:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -41907,7 +42350,7 @@ module.exports = {
   renderToStaticMarkup: renderToStaticMarkup
 };
 
-},{"./ReactElement":228,"./ReactInstanceHandles":237,"./ReactMarkupChecksum":240,"./ReactServerRenderingTransaction":257,"./emptyObject":288,"./instantiateReactComponent":307,"./invariant":308}],257:[function(require,module,exports){
+},{"./ReactElement":233,"./ReactInstanceHandles":242,"./ReactMarkupChecksum":246,"./ReactServerRenderingTransaction":263,"./emptyObject":301,"./instantiateReactComponent":320,"./invariant":321}],263:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -42020,7 +42463,1073 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 
-},{"./CallbackQueue":175,"./Object.assign":196,"./PooledClass":197,"./ReactPutListenerQueue":251,"./Transaction":275,"./emptyFunction":287}],258:[function(require,module,exports){
+},{"./CallbackQueue":177,"./Object.assign":199,"./PooledClass":200,"./ReactPutListenerQueue":257,"./Transaction":287,"./emptyFunction":300}],264:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule ReactStateSetters
+ */
+
+'use strict';
+
+var ReactStateSetters = {
+  /**
+   * Returns a function that calls the provided function, and uses the result
+   * of that to set the component's state.
+   *
+   * @param {ReactCompositeComponent} component
+   * @param {function} funcReturningState Returned callback uses this to
+   *                                      determine how to update state.
+   * @return {function} callback that when invoked uses funcReturningState to
+   *                    determined the object literal to setState.
+   */
+  createStateSetter: function(component, funcReturningState) {
+    return function(a, b, c, d, e, f) {
+      var partialState = funcReturningState.call(component, a, b, c, d, e, f);
+      if (partialState) {
+        component.setState(partialState);
+      }
+    };
+  },
+
+  /**
+   * Returns a single-argument callback that can be used to update a single
+   * key in the component's state.
+   *
+   * Note: this is memoized function, which makes it inexpensive to call.
+   *
+   * @param {ReactCompositeComponent} component
+   * @param {string} key The key in the state that you should update.
+   * @return {function} callback of 1 argument which calls setState() with
+   *                    the provided keyName and callback argument.
+   */
+  createStateKeySetter: function(component, key) {
+    // Memoize the setters.
+    var cache = component.__keySetters || (component.__keySetters = {});
+    return cache[key] || (cache[key] = createStateKeySetter(component, key));
+  }
+};
+
+function createStateKeySetter(component, key) {
+  // Partial state is allocated outside of the function closure so it can be
+  // reused with every call, avoiding memory allocation when this function
+  // is called.
+  var partialState = {};
+  return function stateKeySetter(value) {
+    partialState[key] = value;
+    component.setState(partialState);
+  };
+}
+
+ReactStateSetters.Mixin = {
+  /**
+   * Returns a function that calls the provided function, and uses the result
+   * of that to set the component's state.
+   *
+   * For example, these statements are equivalent:
+   *
+   *   this.setState({x: 1});
+   *   this.createStateSetter(function(xValue) {
+   *     return {x: xValue};
+   *   })(1);
+   *
+   * @param {function} funcReturningState Returned callback uses this to
+   *                                      determine how to update state.
+   * @return {function} callback that when invoked uses funcReturningState to
+   *                    determined the object literal to setState.
+   */
+  createStateSetter: function(funcReturningState) {
+    return ReactStateSetters.createStateSetter(this, funcReturningState);
+  },
+
+  /**
+   * Returns a single-argument callback that can be used to update a single
+   * key in the component's state.
+   *
+   * For example, these statements are equivalent:
+   *
+   *   this.setState({x: 1});
+   *   this.createStateKeySetter('x')(1);
+   *
+   * Note: this is memoized function, which makes it inexpensive to call.
+   *
+   * @param {string} key The key in the state that you should update.
+   * @return {function} callback of 1 argument which calls setState() with
+   *                    the provided keyName and callback argument.
+   */
+  createStateKeySetter: function(key) {
+    return ReactStateSetters.createStateKeySetter(this, key);
+  }
+};
+
+module.exports = ReactStateSetters;
+
+},{}],265:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule ReactTestUtils
+ */
+
+'use strict';
+
+var EventConstants = require("./EventConstants");
+var EventPluginHub = require("./EventPluginHub");
+var EventPropagators = require("./EventPropagators");
+var React = require("./React");
+var ReactElement = require("./ReactElement");
+var ReactEmptyComponent = require("./ReactEmptyComponent");
+var ReactBrowserEventEmitter = require("./ReactBrowserEventEmitter");
+var ReactCompositeComponent = require("./ReactCompositeComponent");
+var ReactInstanceHandles = require("./ReactInstanceHandles");
+var ReactInstanceMap = require("./ReactInstanceMap");
+var ReactMount = require("./ReactMount");
+var ReactUpdates = require("./ReactUpdates");
+var SyntheticEvent = require("./SyntheticEvent");
+
+var assign = require("./Object.assign");
+var emptyObject = require("./emptyObject");
+
+var topLevelTypes = EventConstants.topLevelTypes;
+
+function Event(suffix) {}
+
+/**
+ * @class ReactTestUtils
+ */
+
+/**
+ * Todo: Support the entire DOM.scry query syntax. For now, these simple
+ * utilities will suffice for testing purposes.
+ * @lends ReactTestUtils
+ */
+var ReactTestUtils = {
+  renderIntoDocument: function(instance) {
+    var div = document.createElement('div');
+    // None of our tests actually require attaching the container to the
+    // DOM, and doing so creates a mess that we rely on test isolation to
+    // clean up, so we're going to stop honoring the name of this method
+    // (and probably rename it eventually) if no problems arise.
+    // document.documentElement.appendChild(div);
+    return React.render(instance, div);
+  },
+
+  isElement: function(element) {
+    return ReactElement.isValidElement(element);
+  },
+
+  isElementOfType: function(inst, convenienceConstructor) {
+    return (
+      ReactElement.isValidElement(inst) &&
+      inst.type === convenienceConstructor
+    );
+  },
+
+  isDOMComponent: function(inst) {
+    // TODO: Fix this heuristic. It's just here because composites can currently
+    // pretend to be DOM components.
+    return !!(inst && inst.tagName && inst.getDOMNode);
+  },
+
+  isDOMComponentElement: function(inst) {
+    return !!(inst &&
+              ReactElement.isValidElement(inst) &&
+              !!inst.tagName);
+  },
+
+  isCompositeComponent: function(inst) {
+    return typeof inst.render === 'function' &&
+           typeof inst.setState === 'function';
+  },
+
+  isCompositeComponentWithType: function(inst, type) {
+    return !!(ReactTestUtils.isCompositeComponent(inst) &&
+             (inst.constructor === type));
+  },
+
+  isCompositeComponentElement: function(inst) {
+    if (!ReactElement.isValidElement(inst)) {
+      return false;
+    }
+    // We check the prototype of the type that will get mounted, not the
+    // instance itself. This is a future proof way of duck typing.
+    var prototype = inst.type.prototype;
+    return (
+      typeof prototype.render === 'function' &&
+      typeof prototype.setState === 'function'
+    );
+  },
+
+  isCompositeComponentElementWithType: function(inst, type) {
+    return !!(ReactTestUtils.isCompositeComponentElement(inst) &&
+             (inst.constructor === type));
+  },
+
+  getRenderedChildOfCompositeComponent: function(inst) {
+    if (!ReactTestUtils.isCompositeComponent(inst)) {
+      return null;
+    }
+    var internalInstance = ReactInstanceMap.get(inst);
+    return internalInstance._renderedComponent.getPublicInstance();
+  },
+
+  findAllInRenderedTree: function(inst, test) {
+    if (!inst) {
+      return [];
+    }
+    var ret = test(inst) ? [inst] : [];
+    if (ReactTestUtils.isDOMComponent(inst)) {
+      var internalInstance = ReactInstanceMap.get(inst);
+      var renderedChildren = internalInstance
+        ._renderedComponent
+        ._renderedChildren;
+      var key;
+      for (key in renderedChildren) {
+        if (!renderedChildren.hasOwnProperty(key)) {
+          continue;
+        }
+        if (!renderedChildren[key].getPublicInstance) {
+          continue;
+        }
+        ret = ret.concat(
+          ReactTestUtils.findAllInRenderedTree(
+            renderedChildren[key].getPublicInstance(),
+            test
+          )
+        );
+      }
+    } else if (ReactTestUtils.isCompositeComponent(inst)) {
+      ret = ret.concat(
+        ReactTestUtils.findAllInRenderedTree(
+          ReactTestUtils.getRenderedChildOfCompositeComponent(inst),
+          test
+        )
+      );
+    }
+    return ret;
+  },
+
+  /**
+   * Finds all instance of components in the rendered tree that are DOM
+   * components with the class name matching `className`.
+   * @return an array of all the matches.
+   */
+  scryRenderedDOMComponentsWithClass: function(root, className) {
+    return ReactTestUtils.findAllInRenderedTree(root, function(inst) {
+      var instClassName = inst.props.className;
+      return ReactTestUtils.isDOMComponent(inst) && (
+        (instClassName && (' ' + instClassName + ' ').indexOf(' ' + className + ' ') !== -1)
+      );
+    });
+  },
+
+  /**
+   * Like scryRenderedDOMComponentsWithClass but expects there to be one result,
+   * and returns that one result, or throws exception if there is any other
+   * number of matches besides one.
+   * @return {!ReactDOMComponent} The one match.
+   */
+  findRenderedDOMComponentWithClass: function(root, className) {
+    var all =
+      ReactTestUtils.scryRenderedDOMComponentsWithClass(root, className);
+    if (all.length !== 1) {
+      throw new Error('Did not find exactly one match ' +
+        '(found: ' + all.length + ') for class:' + className
+      );
+    }
+    return all[0];
+  },
+
+
+  /**
+   * Finds all instance of components in the rendered tree that are DOM
+   * components with the tag name matching `tagName`.
+   * @return an array of all the matches.
+   */
+  scryRenderedDOMComponentsWithTag: function(root, tagName) {
+    return ReactTestUtils.findAllInRenderedTree(root, function(inst) {
+      return ReactTestUtils.isDOMComponent(inst) &&
+            inst.tagName === tagName.toUpperCase();
+    });
+  },
+
+  /**
+   * Like scryRenderedDOMComponentsWithTag but expects there to be one result,
+   * and returns that one result, or throws exception if there is any other
+   * number of matches besides one.
+   * @return {!ReactDOMComponent} The one match.
+   */
+  findRenderedDOMComponentWithTag: function(root, tagName) {
+    var all = ReactTestUtils.scryRenderedDOMComponentsWithTag(root, tagName);
+    if (all.length !== 1) {
+      throw new Error('Did not find exactly one match for tag:' + tagName);
+    }
+    return all[0];
+  },
+
+
+  /**
+   * Finds all instances of components with type equal to `componentType`.
+   * @return an array of all the matches.
+   */
+  scryRenderedComponentsWithType: function(root, componentType) {
+    return ReactTestUtils.findAllInRenderedTree(root, function(inst) {
+      return ReactTestUtils.isCompositeComponentWithType(
+        inst,
+        componentType
+      );
+    });
+  },
+
+  /**
+   * Same as `scryRenderedComponentsWithType` but expects there to be one result
+   * and returns that one result, or throws exception if there is any other
+   * number of matches besides one.
+   * @return {!ReactComponent} The one match.
+   */
+  findRenderedComponentWithType: function(root, componentType) {
+    var all = ReactTestUtils.scryRenderedComponentsWithType(
+      root,
+      componentType
+    );
+    if (all.length !== 1) {
+      throw new Error(
+        'Did not find exactly one match for componentType:' + componentType
+      );
+    }
+    return all[0];
+  },
+
+  /**
+   * Pass a mocked component module to this method to augment it with
+   * useful methods that allow it to be used as a dummy React component.
+   * Instead of rendering as usual, the component will become a simple
+   * <div> containing any provided children.
+   *
+   * @param {object} module the mock function object exported from a
+   *                        module that defines the component to be mocked
+   * @param {?string} mockTagName optional dummy root tag name to return
+   *                              from render method (overrides
+   *                              module.mockTagName if provided)
+   * @return {object} the ReactTestUtils object (for chaining)
+   */
+  mockComponent: function(module, mockTagName) {
+    mockTagName = mockTagName || module.mockTagName || "div";
+
+    module.prototype.render.mockImplementation(function() {
+      return React.createElement(
+        mockTagName,
+        null,
+        this.props.children
+      );
+    });
+
+    return this;
+  },
+
+  /**
+   * Simulates a top level event being dispatched from a raw event that occured
+   * on an `Element` node.
+   * @param topLevelType {Object} A type from `EventConstants.topLevelTypes`
+   * @param {!Element} node The dom to simulate an event occurring on.
+   * @param {?Event} fakeNativeEvent Fake native event to use in SyntheticEvent.
+   */
+  simulateNativeEventOnNode: function(topLevelType, node, fakeNativeEvent) {
+    fakeNativeEvent.target = node;
+    ReactBrowserEventEmitter.ReactEventListener.dispatchEvent(
+      topLevelType,
+      fakeNativeEvent
+    );
+  },
+
+  /**
+   * Simulates a top level event being dispatched from a raw event that occured
+   * on the `ReactDOMComponent` `comp`.
+   * @param topLevelType {Object} A type from `EventConstants.topLevelTypes`.
+   * @param comp {!ReactDOMComponent}
+   * @param {?Event} fakeNativeEvent Fake native event to use in SyntheticEvent.
+   */
+  simulateNativeEventOnDOMComponent: function(
+      topLevelType,
+      comp,
+      fakeNativeEvent) {
+    ReactTestUtils.simulateNativeEventOnNode(
+      topLevelType,
+      comp.getDOMNode(),
+      fakeNativeEvent
+    );
+  },
+
+  nativeTouchData: function(x, y) {
+    return {
+      touches: [
+        {pageX: x, pageY: y}
+      ]
+    };
+  },
+
+  createRenderer: function() {
+    return new ReactShallowRenderer();
+  },
+
+  Simulate: null,
+  SimulateNative: {}
+};
+
+/**
+ * @class ReactShallowRenderer
+ */
+var ReactShallowRenderer = function() {
+  this._instance = null;
+};
+
+ReactShallowRenderer.prototype.getRenderOutput = function() {
+  return (
+    (this._instance && this._instance._renderedComponent &&
+     this._instance._renderedComponent._renderedOutput)
+    || null
+  );
+};
+
+var NoopInternalComponent = function(element) {
+  this._renderedOutput = element;
+  this._currentElement = element === null || element === false ?
+    ReactEmptyComponent.emptyElement :
+    element;
+};
+
+NoopInternalComponent.prototype = {
+
+  mountComponent: function() {
+  },
+
+  receiveComponent: function(element) {
+    this._renderedOutput = element;
+    this._currentElement = element === null || element === false ?
+      ReactEmptyComponent.emptyElement :
+      element;
+  },
+
+  unmountComponent: function() {
+  }
+
+};
+
+var ShallowComponentWrapper = function() { };
+assign(
+  ShallowComponentWrapper.prototype,
+  ReactCompositeComponent.Mixin, {
+    _instantiateReactComponent: function(element) {
+      return new NoopInternalComponent(element);
+    },
+    _replaceNodeWithMarkupByID: function() {},
+    _renderValidatedComponent:
+      ReactCompositeComponent.Mixin.
+        _renderValidatedComponentWithoutOwnerOrContext
+  }
+);
+
+ReactShallowRenderer.prototype.render = function(element, context) {
+  if (!context) {
+    context = emptyObject;
+  }
+  var transaction = ReactUpdates.ReactReconcileTransaction.getPooled();
+  this._render(element, transaction, context);
+  ReactUpdates.ReactReconcileTransaction.release(transaction);
+};
+
+ReactShallowRenderer.prototype.unmount = function() {
+  if (this._instance) {
+    this._instance.unmountComponent();
+  }
+};
+
+ReactShallowRenderer.prototype._render = function(element, transaction, context) {
+  if (!this._instance) {
+    var rootID = ReactInstanceHandles.createReactRootID();
+    var instance = new ShallowComponentWrapper(element.type);
+    instance.construct(element);
+
+    instance.mountComponent(rootID, transaction, context);
+
+    this._instance = instance;
+  } else {
+    this._instance.receiveComponent(element, transaction, context);
+  }
+};
+
+/**
+ * Exports:
+ *
+ * - `ReactTestUtils.Simulate.click(Element/ReactDOMComponent)`
+ * - `ReactTestUtils.Simulate.mouseMove(Element/ReactDOMComponent)`
+ * - `ReactTestUtils.Simulate.change(Element/ReactDOMComponent)`
+ * - ... (All keys from event plugin `eventTypes` objects)
+ */
+function makeSimulator(eventType) {
+  return function(domComponentOrNode, eventData) {
+    var node;
+    if (ReactTestUtils.isDOMComponent(domComponentOrNode)) {
+      node = domComponentOrNode.getDOMNode();
+    } else if (domComponentOrNode.tagName) {
+      node = domComponentOrNode;
+    }
+
+    var fakeNativeEvent = new Event();
+    fakeNativeEvent.target = node;
+    // We don't use SyntheticEvent.getPooled in order to not have to worry about
+    // properly destroying any properties assigned from `eventData` upon release
+    var event = new SyntheticEvent(
+      ReactBrowserEventEmitter.eventNameDispatchConfigs[eventType],
+      ReactMount.getID(node),
+      fakeNativeEvent
+    );
+    assign(event, eventData);
+    EventPropagators.accumulateTwoPhaseDispatches(event);
+
+    ReactUpdates.batchedUpdates(function() {
+      EventPluginHub.enqueueEvents(event);
+      EventPluginHub.processEventQueue();
+    });
+  };
+}
+
+function buildSimulators() {
+  ReactTestUtils.Simulate = {};
+
+  var eventType;
+  for (eventType in ReactBrowserEventEmitter.eventNameDispatchConfigs) {
+    /**
+     * @param {!Element || ReactDOMComponent} domComponentOrNode
+     * @param {?object} eventData Fake event data to use in SyntheticEvent.
+     */
+    ReactTestUtils.Simulate[eventType] = makeSimulator(eventType);
+  }
+}
+
+// Rebuild ReactTestUtils.Simulate whenever event plugins are injected
+var oldInjectEventPluginOrder = EventPluginHub.injection.injectEventPluginOrder;
+EventPluginHub.injection.injectEventPluginOrder = function() {
+  oldInjectEventPluginOrder.apply(this, arguments);
+  buildSimulators();
+};
+var oldInjectEventPlugins = EventPluginHub.injection.injectEventPluginsByName;
+EventPluginHub.injection.injectEventPluginsByName = function() {
+  oldInjectEventPlugins.apply(this, arguments);
+  buildSimulators();
+};
+
+buildSimulators();
+
+/**
+ * Exports:
+ *
+ * - `ReactTestUtils.SimulateNative.click(Element/ReactDOMComponent)`
+ * - `ReactTestUtils.SimulateNative.mouseMove(Element/ReactDOMComponent)`
+ * - `ReactTestUtils.SimulateNative.mouseIn/ReactDOMComponent)`
+ * - `ReactTestUtils.SimulateNative.mouseOut(Element/ReactDOMComponent)`
+ * - ... (All keys from `EventConstants.topLevelTypes`)
+ *
+ * Note: Top level event types are a subset of the entire set of handler types
+ * (which include a broader set of "synthetic" events). For example, onDragDone
+ * is a synthetic event. Except when testing an event plugin or React's event
+ * handling code specifically, you probably want to use ReactTestUtils.Simulate
+ * to dispatch synthetic events.
+ */
+
+function makeNativeSimulator(eventType) {
+  return function(domComponentOrNode, nativeEventData) {
+    var fakeNativeEvent = new Event(eventType);
+    assign(fakeNativeEvent, nativeEventData);
+    if (ReactTestUtils.isDOMComponent(domComponentOrNode)) {
+      ReactTestUtils.simulateNativeEventOnDOMComponent(
+        eventType,
+        domComponentOrNode,
+        fakeNativeEvent
+      );
+    } else if (!!domComponentOrNode.tagName) {
+      // Will allow on actual dom nodes.
+      ReactTestUtils.simulateNativeEventOnNode(
+        eventType,
+        domComponentOrNode,
+        fakeNativeEvent
+      );
+    }
+  };
+}
+
+var eventType;
+for (eventType in topLevelTypes) {
+  // Event type is stored as 'topClick' - we transform that to 'click'
+  var convenienceName = eventType.indexOf('top') === 0 ?
+    eventType.charAt(3).toLowerCase() + eventType.substr(4) : eventType;
+  /**
+   * @param {!Element || ReactDOMComponent} domComponentOrNode
+   * @param {?Event} nativeEventData Fake native event to use in SyntheticEvent.
+   */
+  ReactTestUtils.SimulateNative[convenienceName] =
+    makeNativeSimulator(eventType);
+}
+
+module.exports = ReactTestUtils;
+
+},{"./EventConstants":186,"./EventPluginHub":188,"./EventPropagators":191,"./Object.assign":199,"./React":201,"./ReactBrowserEventEmitter":203,"./ReactCompositeComponent":213,"./ReactElement":233,"./ReactEmptyComponent":235,"./ReactInstanceHandles":242,"./ReactInstanceMap":243,"./ReactMount":247,"./ReactUpdates":270,"./SyntheticEvent":279,"./emptyObject":301}],266:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @typechecks static-only
+ * @providesModule ReactTransitionChildMapping
+ */
+
+'use strict';
+
+var ReactChildren = require("./ReactChildren");
+var ReactFragment = require("./ReactFragment");
+
+var ReactTransitionChildMapping = {
+  /**
+   * Given `this.props.children`, return an object mapping key to child. Just
+   * simple syntactic sugar around ReactChildren.map().
+   *
+   * @param {*} children `this.props.children`
+   * @return {object} Mapping of key to child
+   */
+  getChildMapping: function(children) {
+    if (!children) {
+      return children;
+    }
+    return ReactFragment.extract(ReactChildren.map(children, function(child) {
+      return child;
+    }));
+  },
+
+  /**
+   * When you're adding or removing children some may be added or removed in the
+   * same render pass. We want to show *both* since we want to simultaneously
+   * animate elements in and out. This function takes a previous set of keys
+   * and a new set of keys and merges them with its best guess of the correct
+   * ordering. In the future we may expose some of the utilities in
+   * ReactMultiChild to make this easy, but for now React itself does not
+   * directly have this concept of the union of prevChildren and nextChildren
+   * so we implement it here.
+   *
+   * @param {object} prev prev children as returned from
+   * `ReactTransitionChildMapping.getChildMapping()`.
+   * @param {object} next next children as returned from
+   * `ReactTransitionChildMapping.getChildMapping()`.
+   * @return {object} a key set that contains all keys in `prev` and all keys
+   * in `next` in a reasonable order.
+   */
+  mergeChildMappings: function(prev, next) {
+    prev = prev || {};
+    next = next || {};
+
+    function getValueForKey(key) {
+      if (next.hasOwnProperty(key)) {
+        return next[key];
+      } else {
+        return prev[key];
+      }
+    }
+
+    // For each key of `next`, the list of keys to insert before that key in
+    // the combined list
+    var nextKeysPending = {};
+
+    var pendingKeys = [];
+    for (var prevKey in prev) {
+      if (next.hasOwnProperty(prevKey)) {
+        if (pendingKeys.length) {
+          nextKeysPending[prevKey] = pendingKeys;
+          pendingKeys = [];
+        }
+      } else {
+        pendingKeys.push(prevKey);
+      }
+    }
+
+    var i;
+    var childMapping = {};
+    for (var nextKey in next) {
+      if (nextKeysPending.hasOwnProperty(nextKey)) {
+        for (i = 0; i < nextKeysPending[nextKey].length; i++) {
+          var pendingNextKey = nextKeysPending[nextKey][i];
+          childMapping[nextKeysPending[nextKey][i]] = getValueForKey(
+            pendingNextKey
+          );
+        }
+      }
+      childMapping[nextKey] = getValueForKey(nextKey);
+    }
+
+    // Finally, add the keys which didn't appear before any key in `next`
+    for (i = 0; i < pendingKeys.length; i++) {
+      childMapping[pendingKeys[i]] = getValueForKey(pendingKeys[i]);
+    }
+
+    return childMapping;
+  }
+};
+
+module.exports = ReactTransitionChildMapping;
+
+},{"./ReactChildren":207,"./ReactFragment":239}],267:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule ReactTransitionEvents
+ */
+
+'use strict';
+
+var ExecutionEnvironment = require("./ExecutionEnvironment");
+
+/**
+ * EVENT_NAME_MAP is used to determine which event fired when a
+ * transition/animation ends, based on the style property used to
+ * define that event.
+ */
+var EVENT_NAME_MAP = {
+  transitionend: {
+    'transition': 'transitionend',
+    'WebkitTransition': 'webkitTransitionEnd',
+    'MozTransition': 'mozTransitionEnd',
+    'OTransition': 'oTransitionEnd',
+    'msTransition': 'MSTransitionEnd'
+  },
+
+  animationend: {
+    'animation': 'animationend',
+    'WebkitAnimation': 'webkitAnimationEnd',
+    'MozAnimation': 'mozAnimationEnd',
+    'OAnimation': 'oAnimationEnd',
+    'msAnimation': 'MSAnimationEnd'
+  }
+};
+
+var endEvents = [];
+
+function detectEvents() {
+  var testEl = document.createElement('div');
+  var style = testEl.style;
+
+  // On some platforms, in particular some releases of Android 4.x,
+  // the un-prefixed "animation" and "transition" properties are defined on the
+  // style object but the events that fire will still be prefixed, so we need
+  // to check if the un-prefixed events are useable, and if not remove them
+  // from the map
+  if (!('AnimationEvent' in window)) {
+    delete EVENT_NAME_MAP.animationend.animation;
+  }
+
+  if (!('TransitionEvent' in window)) {
+    delete EVENT_NAME_MAP.transitionend.transition;
+  }
+
+  for (var baseEventName in EVENT_NAME_MAP) {
+    var baseEvents = EVENT_NAME_MAP[baseEventName];
+    for (var styleName in baseEvents) {
+      if (styleName in style) {
+        endEvents.push(baseEvents[styleName]);
+        break;
+      }
+    }
+  }
+}
+
+if (ExecutionEnvironment.canUseDOM) {
+  detectEvents();
+}
+
+// We use the raw {add|remove}EventListener() call because EventListener
+// does not know how to remove event listeners and we really should
+// clean up. Also, these events are not triggered in older browsers
+// so we should be A-OK here.
+
+function addEventListener(node, eventName, eventListener) {
+  node.addEventListener(eventName, eventListener, false);
+}
+
+function removeEventListener(node, eventName, eventListener) {
+  node.removeEventListener(eventName, eventListener, false);
+}
+
+var ReactTransitionEvents = {
+  addEndEventListener: function(node, eventListener) {
+    if (endEvents.length === 0) {
+      // If CSS transitions are not supported, trigger an "end animation"
+      // event immediately.
+      window.setTimeout(eventListener, 0);
+      return;
+    }
+    endEvents.forEach(function(endEvent) {
+      addEventListener(node, endEvent, eventListener);
+    });
+  },
+
+  removeEndEventListener: function(node, eventListener) {
+    if (endEvents.length === 0) {
+      return;
+    }
+    endEvents.forEach(function(endEvent) {
+      removeEventListener(node, endEvent, eventListener);
+    });
+  }
+};
+
+module.exports = ReactTransitionEvents;
+
+},{"./ExecutionEnvironment":192}],268:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule ReactTransitionGroup
+ */
+
+'use strict';
+
+var React = require("./React");
+var ReactTransitionChildMapping = require("./ReactTransitionChildMapping");
+
+var assign = require("./Object.assign");
+var cloneWithProps = require("./cloneWithProps");
+var emptyFunction = require("./emptyFunction");
+
+var ReactTransitionGroup = React.createClass({
+  displayName: 'ReactTransitionGroup',
+
+  propTypes: {
+    component: React.PropTypes.any,
+    childFactory: React.PropTypes.func
+  },
+
+  getDefaultProps: function() {
+    return {
+      component: 'span',
+      childFactory: emptyFunction.thatReturnsArgument
+    };
+  },
+
+  getInitialState: function() {
+    return {
+      children: ReactTransitionChildMapping.getChildMapping(this.props.children)
+    };
+  },
+
+  componentWillMount: function() {
+    this.currentlyTransitioningKeys = {};
+    this.keysToEnter = [];
+    this.keysToLeave = [];
+  },
+
+  componentDidMount: function() {
+    var initialChildMapping = this.state.children;
+    for (var key in initialChildMapping) {
+      if (initialChildMapping[key]) {
+        this.performAppear(key);
+      }
+    }
+  },
+
+  componentWillReceiveProps: function(nextProps) {
+    var nextChildMapping = ReactTransitionChildMapping.getChildMapping(
+      nextProps.children
+    );
+    var prevChildMapping = this.state.children;
+
+    this.setState({
+      children: ReactTransitionChildMapping.mergeChildMappings(
+        prevChildMapping,
+        nextChildMapping
+      )
+    });
+
+    var key;
+
+    for (key in nextChildMapping) {
+      var hasPrev = prevChildMapping && prevChildMapping.hasOwnProperty(key);
+      if (nextChildMapping[key] && !hasPrev &&
+          !this.currentlyTransitioningKeys[key]) {
+        this.keysToEnter.push(key);
+      }
+    }
+
+    for (key in prevChildMapping) {
+      var hasNext = nextChildMapping && nextChildMapping.hasOwnProperty(key);
+      if (prevChildMapping[key] && !hasNext &&
+          !this.currentlyTransitioningKeys[key]) {
+        this.keysToLeave.push(key);
+      }
+    }
+
+    // If we want to someday check for reordering, we could do it here.
+  },
+
+  componentDidUpdate: function() {
+    var keysToEnter = this.keysToEnter;
+    this.keysToEnter = [];
+    keysToEnter.forEach(this.performEnter);
+
+    var keysToLeave = this.keysToLeave;
+    this.keysToLeave = [];
+    keysToLeave.forEach(this.performLeave);
+  },
+
+  performAppear: function(key) {
+    this.currentlyTransitioningKeys[key] = true;
+
+    var component = this.refs[key];
+
+    if (component.componentWillAppear) {
+      component.componentWillAppear(
+        this._handleDoneAppearing.bind(this, key)
+      );
+    } else {
+      this._handleDoneAppearing(key);
+    }
+  },
+
+  _handleDoneAppearing: function(key) {
+    var component = this.refs[key];
+    if (component.componentDidAppear) {
+      component.componentDidAppear();
+    }
+
+    delete this.currentlyTransitioningKeys[key];
+
+    var currentChildMapping = ReactTransitionChildMapping.getChildMapping(
+      this.props.children
+    );
+
+    if (!currentChildMapping || !currentChildMapping.hasOwnProperty(key)) {
+      // This was removed before it had fully appeared. Remove it.
+      this.performLeave(key);
+    }
+  },
+
+  performEnter: function(key) {
+    this.currentlyTransitioningKeys[key] = true;
+
+    var component = this.refs[key];
+
+    if (component.componentWillEnter) {
+      component.componentWillEnter(
+        this._handleDoneEntering.bind(this, key)
+      );
+    } else {
+      this._handleDoneEntering(key);
+    }
+  },
+
+  _handleDoneEntering: function(key) {
+    var component = this.refs[key];
+    if (component.componentDidEnter) {
+      component.componentDidEnter();
+    }
+
+    delete this.currentlyTransitioningKeys[key];
+
+    var currentChildMapping = ReactTransitionChildMapping.getChildMapping(
+      this.props.children
+    );
+
+    if (!currentChildMapping || !currentChildMapping.hasOwnProperty(key)) {
+      // This was removed before it had fully entered. Remove it.
+      this.performLeave(key);
+    }
+  },
+
+  performLeave: function(key) {
+    this.currentlyTransitioningKeys[key] = true;
+
+    var component = this.refs[key];
+    if (component.componentWillLeave) {
+      component.componentWillLeave(this._handleDoneLeaving.bind(this, key));
+    } else {
+      // Note that this is somewhat dangerous b/c it calls setState()
+      // again, effectively mutating the component before all the work
+      // is done.
+      this._handleDoneLeaving(key);
+    }
+  },
+
+  _handleDoneLeaving: function(key) {
+    var component = this.refs[key];
+
+    if (component.componentDidLeave) {
+      component.componentDidLeave();
+    }
+
+    delete this.currentlyTransitioningKeys[key];
+
+    var currentChildMapping = ReactTransitionChildMapping.getChildMapping(
+      this.props.children
+    );
+
+    if (currentChildMapping && currentChildMapping.hasOwnProperty(key)) {
+      // This entered again before it fully left. Add it again.
+      this.performEnter(key);
+    } else {
+      var newChildren = assign({}, this.state.children);
+      delete newChildren[key];
+      this.setState({children: newChildren});
+    }
+  },
+
+  render: function() {
+    // TODO: we could get rid of the need for the wrapper node
+    // by cloning a single child
+    var childrenToRender = [];
+    for (var key in this.state.children) {
+      var child = this.state.children[key];
+      if (child) {
+        // You may need to apply reactive updates to a child as it is leaving.
+        // The normal React way to do it won't work since the child will have
+        // already been removed. In case you need this behavior you can provide
+        // a childFactory function to wrap every child, even the ones that are
+        // leaving.
+        childrenToRender.push(cloneWithProps(
+          this.props.childFactory(child),
+          {ref: key, key: key}
+        ));
+      }
+    }
+    return React.createElement(
+      this.props.component,
+      this.props,
+      childrenToRender
+    );
+  }
+});
+
+module.exports = ReactTransitionGroup;
+
+},{"./Object.assign":199,"./React":201,"./ReactTransitionChildMapping":266,"./cloneWithProps":293,"./emptyFunction":300}],269:[function(require,module,exports){
 /**
  * Copyright 2015, Facebook, Inc.
  * All rights reserved.
@@ -42317,7 +43826,7 @@ var ReactUpdateQueue = {
 
 module.exports = ReactUpdateQueue;
 
-},{"./Object.assign":196,"./ReactCurrentOwner":210,"./ReactElement":228,"./ReactInstanceMap":238,"./ReactLifeCycle":239,"./ReactUpdates":259,"./invariant":308,"./warning":328}],259:[function(require,module,exports){
+},{"./Object.assign":199,"./ReactCurrentOwner":215,"./ReactElement":233,"./ReactInstanceMap":243,"./ReactLifeCycle":244,"./ReactUpdates":270,"./invariant":321,"./warning":342}],270:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -42597,7 +44106,61 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 
-},{"./CallbackQueue":175,"./Object.assign":196,"./PooledClass":197,"./ReactCurrentOwner":210,"./ReactPerf":246,"./ReactReconciler":253,"./Transaction":275,"./invariant":308,"./warning":328}],260:[function(require,module,exports){
+},{"./CallbackQueue":177,"./Object.assign":199,"./PooledClass":200,"./ReactCurrentOwner":215,"./ReactPerf":252,"./ReactReconciler":259,"./Transaction":287,"./invariant":321,"./warning":342}],271:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule ReactWithAddons
+ */
+
+/**
+ * This module exists purely in the open source project, and is meant as a way
+ * to create a separate standalone build of React. This build has "addons", or
+ * functionality we've built and think might be useful but doesn't have a good
+ * place to live inside React core.
+ */
+
+'use strict';
+
+var LinkedStateMixin = require("./LinkedStateMixin");
+var React = require("./React");
+var ReactComponentWithPureRenderMixin =
+  require("./ReactComponentWithPureRenderMixin");
+var ReactCSSTransitionGroup = require("./ReactCSSTransitionGroup");
+var ReactFragment = require("./ReactFragment");
+var ReactTransitionGroup = require("./ReactTransitionGroup");
+var ReactUpdates = require("./ReactUpdates");
+
+var cx = require("./cx");
+var cloneWithProps = require("./cloneWithProps");
+var update = require("./update");
+
+React.addons = {
+  CSSTransitionGroup: ReactCSSTransitionGroup,
+  LinkedStateMixin: LinkedStateMixin,
+  PureRenderMixin: ReactComponentWithPureRenderMixin,
+  TransitionGroup: ReactTransitionGroup,
+
+  batchedUpdates: ReactUpdates.batchedUpdates,
+  classSet: cx,
+  cloneWithProps: cloneWithProps,
+  createFragment: ReactFragment.create,
+  update: update
+};
+
+if ("production" !== "production") {
+  React.addons.Perf = require("./ReactDefaultPerf");
+  React.addons.TestUtils = require("./ReactTestUtils");
+}
+
+module.exports = React;
+
+},{"./LinkedStateMixin":195,"./React":201,"./ReactCSSTransitionGroup":204,"./ReactComponentWithPureRenderMixin":212,"./ReactDefaultPerf":231,"./ReactFragment":239,"./ReactTestUtils":265,"./ReactTransitionGroup":268,"./ReactUpdates":270,"./cloneWithProps":293,"./cx":298,"./update":341}],272:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -42691,7 +44254,7 @@ var SVGDOMPropertyConfig = {
 
 module.exports = SVGDOMPropertyConfig;
 
-},{"./DOMProperty":179}],261:[function(require,module,exports){
+},{"./DOMProperty":181}],273:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -42886,7 +44449,7 @@ var SelectEventPlugin = {
 
 module.exports = SelectEventPlugin;
 
-},{"./EventConstants":184,"./EventPropagators":189,"./ReactInputSelection":236,"./SyntheticEvent":267,"./getActiveElement":294,"./isTextInputElement":311,"./keyOf":315,"./shallowEqual":324}],262:[function(require,module,exports){
+},{"./EventConstants":186,"./EventPropagators":191,"./ReactInputSelection":241,"./SyntheticEvent":279,"./getActiveElement":307,"./isTextInputElement":324,"./keyOf":328,"./shallowEqual":337}],274:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -42917,7 +44480,7 @@ var ServerReactRootIndex = {
 
 module.exports = ServerReactRootIndex;
 
-},{}],263:[function(require,module,exports){
+},{}],275:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43343,7 +44906,7 @@ var SimpleEventPlugin = {
 
 module.exports = SimpleEventPlugin;
 
-},{"./EventConstants":184,"./EventPluginUtils":188,"./EventPropagators":189,"./SyntheticClipboardEvent":264,"./SyntheticDragEvent":266,"./SyntheticEvent":267,"./SyntheticFocusEvent":268,"./SyntheticKeyboardEvent":270,"./SyntheticMouseEvent":271,"./SyntheticTouchEvent":272,"./SyntheticUIEvent":273,"./SyntheticWheelEvent":274,"./getEventCharCode":295,"./invariant":308,"./keyOf":315,"./warning":328}],264:[function(require,module,exports){
+},{"./EventConstants":186,"./EventPluginUtils":190,"./EventPropagators":191,"./SyntheticClipboardEvent":276,"./SyntheticDragEvent":278,"./SyntheticEvent":279,"./SyntheticFocusEvent":280,"./SyntheticKeyboardEvent":282,"./SyntheticMouseEvent":283,"./SyntheticTouchEvent":284,"./SyntheticUIEvent":285,"./SyntheticWheelEvent":286,"./getEventCharCode":308,"./invariant":321,"./keyOf":328,"./warning":342}],276:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43388,7 +44951,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 
 module.exports = SyntheticClipboardEvent;
 
-},{"./SyntheticEvent":267}],265:[function(require,module,exports){
+},{"./SyntheticEvent":279}],277:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43433,7 +44996,7 @@ SyntheticEvent.augmentClass(
 
 module.exports = SyntheticCompositionEvent;
 
-},{"./SyntheticEvent":267}],266:[function(require,module,exports){
+},{"./SyntheticEvent":279}],278:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43472,7 +45035,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
 
-},{"./SyntheticMouseEvent":271}],267:[function(require,module,exports){
+},{"./SyntheticMouseEvent":283}],279:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43638,7 +45201,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.threeArgumentPooler);
 
 module.exports = SyntheticEvent;
 
-},{"./Object.assign":196,"./PooledClass":197,"./emptyFunction":287,"./getEventTarget":298}],268:[function(require,module,exports){
+},{"./Object.assign":199,"./PooledClass":200,"./emptyFunction":300,"./getEventTarget":311}],280:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43677,7 +45240,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
 
-},{"./SyntheticUIEvent":273}],269:[function(require,module,exports){
+},{"./SyntheticUIEvent":285}],281:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43723,7 +45286,7 @@ SyntheticEvent.augmentClass(
 
 module.exports = SyntheticInputEvent;
 
-},{"./SyntheticEvent":267}],270:[function(require,module,exports){
+},{"./SyntheticEvent":279}],282:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43810,7 +45373,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
 
-},{"./SyntheticUIEvent":273,"./getEventCharCode":295,"./getEventKey":296,"./getEventModifierState":297}],271:[function(require,module,exports){
+},{"./SyntheticUIEvent":285,"./getEventCharCode":308,"./getEventKey":309,"./getEventModifierState":310}],283:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43891,7 +45454,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
 
-},{"./SyntheticUIEvent":273,"./ViewportMetrics":276,"./getEventModifierState":297}],272:[function(require,module,exports){
+},{"./SyntheticUIEvent":285,"./ViewportMetrics":288,"./getEventModifierState":310}],284:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -43939,7 +45502,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
 
-},{"./SyntheticUIEvent":273,"./getEventModifierState":297}],273:[function(require,module,exports){
+},{"./SyntheticUIEvent":285,"./getEventModifierState":310}],285:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44001,7 +45564,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
 
-},{"./SyntheticEvent":267,"./getEventTarget":298}],274:[function(require,module,exports){
+},{"./SyntheticEvent":279,"./getEventTarget":311}],286:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44062,7 +45625,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
 
-},{"./SyntheticMouseEvent":271}],275:[function(require,module,exports){
+},{"./SyntheticMouseEvent":283}],287:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44301,7 +45864,7 @@ var Transaction = {
 
 module.exports = Transaction;
 
-},{"./invariant":308}],276:[function(require,module,exports){
+},{"./invariant":321}],288:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44330,7 +45893,7 @@ var ViewportMetrics = {
 
 module.exports = ViewportMetrics;
 
-},{}],277:[function(require,module,exports){
+},{}],289:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -44394,7 +45957,7 @@ function accumulateInto(current, next) {
 
 module.exports = accumulateInto;
 
-},{"./invariant":308}],278:[function(require,module,exports){
+},{"./invariant":321}],290:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44428,7 +45991,7 @@ function adler32(data) {
 
 module.exports = adler32;
 
-},{}],279:[function(require,module,exports){
+},{}],291:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44460,7 +46023,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],280:[function(require,module,exports){
+},{}],292:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -44502,7 +46065,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":279}],281:[function(require,module,exports){
+},{"./camelize":291}],293:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44559,7 +46122,7 @@ function cloneWithProps(child, props) {
 
 module.exports = cloneWithProps;
 
-},{"./ReactElement":228,"./ReactPropTransferer":247,"./keyOf":315,"./warning":328}],282:[function(require,module,exports){
+},{"./ReactElement":233,"./ReactPropTransferer":253,"./keyOf":328,"./warning":342}],294:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44603,7 +46166,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":312}],283:[function(require,module,exports){
+},{"./isTextNode":325}],295:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44689,7 +46252,7 @@ function createArrayFromMixed(obj) {
 
 module.exports = createArrayFromMixed;
 
-},{"./toArray":326}],284:[function(require,module,exports){
+},{"./toArray":339}],296:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44749,7 +46312,7 @@ function createFullPageComponent(tag) {
 
 module.exports = createFullPageComponent;
 
-},{"./ReactClass":203,"./ReactElement":228,"./invariant":308}],285:[function(require,module,exports){
+},{"./ReactClass":208,"./ReactElement":233,"./invariant":321}],297:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44837,7 +46400,61 @@ function createNodesFromMarkup(markup, handleScript) {
 
 module.exports = createNodesFromMarkup;
 
-},{"./ExecutionEnvironment":190,"./createArrayFromMixed":283,"./getMarkupWrap":300,"./invariant":308}],286:[function(require,module,exports){
+},{"./ExecutionEnvironment":192,"./createArrayFromMixed":295,"./getMarkupWrap":313,"./invariant":321}],298:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule cx
+ */
+
+/**
+ * This function is used to mark string literals representing CSS class names
+ * so that they can be transformed statically. This allows for modularization
+ * and minification of CSS class names.
+ *
+ * In static_upstream, this function is actually implemented, but it should
+ * eventually be replaced with something more descriptive, and the transform
+ * that is used in the main stack should be ported for use elsewhere.
+ *
+ * @param string|object className to modularize, or an object of key/values.
+ *                      In the object case, the values are conditions that
+ *                      determine if the className keys should be included.
+ * @param [string ...]  Variable list of classNames in the string case.
+ * @return string       Renderable space-separated CSS className.
+ */
+
+'use strict';
+var warning = require("./warning");
+
+var warned = false;
+
+function cx(classNames) {
+  if ("production" !== "production") {
+    ("production" !== "production" ? warning(
+      warned,
+      'React.addons.classSet will be deprecated in a future version. See ' +
+      'http://fb.me/react-addons-classset'
+    ) : null);
+    warned = true;
+  }
+
+  if (typeof classNames == 'object') {
+    return Object.keys(classNames).filter(function(className) {
+      return classNames[className];
+    }).join(' ');
+  } else {
+    return Array.prototype.join.call(arguments, ' ');
+  }
+}
+
+module.exports = cx;
+
+},{"./warning":342}],299:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44895,7 +46512,7 @@ function dangerousStyleValue(name, value) {
 
 module.exports = dangerousStyleValue;
 
-},{"./CSSProperty":173}],287:[function(require,module,exports){
+},{"./CSSProperty":175}],300:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44929,7 +46546,7 @@ emptyFunction.thatReturnsArgument = function(arg) { return arg; };
 
 module.exports = emptyFunction;
 
-},{}],288:[function(require,module,exports){
+},{}],301:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44951,7 +46568,7 @@ if ("production" !== "production") {
 
 module.exports = emptyObject;
 
-},{}],289:[function(require,module,exports){
+},{}],302:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -44991,7 +46608,7 @@ function escapeTextContentForBrowser(text) {
 
 module.exports = escapeTextContentForBrowser;
 
-},{}],290:[function(require,module,exports){
+},{}],303:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45062,7 +46679,7 @@ function findDOMNode(componentOrElement) {
 
 module.exports = findDOMNode;
 
-},{"./ReactCurrentOwner":210,"./ReactInstanceMap":238,"./ReactMount":241,"./invariant":308,"./isNode":310,"./warning":328}],291:[function(require,module,exports){
+},{"./ReactCurrentOwner":215,"./ReactInstanceMap":243,"./ReactMount":247,"./invariant":321,"./isNode":323,"./warning":342}],304:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45118,7 +46735,7 @@ function flattenChildren(children) {
 
 module.exports = flattenChildren;
 
-},{"./traverseAllChildren":327,"./warning":328}],292:[function(require,module,exports){
+},{"./traverseAllChildren":340,"./warning":342}],305:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -45147,7 +46764,7 @@ function focusNode(node) {
 
 module.exports = focusNode;
 
-},{}],293:[function(require,module,exports){
+},{}],306:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45178,7 +46795,7 @@ var forEachAccumulated = function(arr, cb, scope) {
 
 module.exports = forEachAccumulated;
 
-},{}],294:[function(require,module,exports){
+},{}],307:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45207,7 +46824,7 @@ function getActiveElement() /*?DOMElement*/ {
 
 module.exports = getActiveElement;
 
-},{}],295:[function(require,module,exports){
+},{}],308:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45259,7 +46876,7 @@ function getEventCharCode(nativeEvent) {
 
 module.exports = getEventCharCode;
 
-},{}],296:[function(require,module,exports){
+},{}],309:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45364,7 +46981,7 @@ function getEventKey(nativeEvent) {
 
 module.exports = getEventKey;
 
-},{"./getEventCharCode":295}],297:[function(require,module,exports){
+},{"./getEventCharCode":308}],310:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45411,7 +47028,7 @@ function getEventModifierState(nativeEvent) {
 
 module.exports = getEventModifierState;
 
-},{}],298:[function(require,module,exports){
+},{}],311:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45442,7 +47059,7 @@ function getEventTarget(nativeEvent) {
 
 module.exports = getEventTarget;
 
-},{}],299:[function(require,module,exports){
+},{}],312:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45486,7 +47103,7 @@ function getIteratorFn(maybeIterable) {
 
 module.exports = getIteratorFn;
 
-},{}],300:[function(require,module,exports){
+},{}],313:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45603,7 +47220,7 @@ function getMarkupWrap(nodeName) {
 
 module.exports = getMarkupWrap;
 
-},{"./ExecutionEnvironment":190,"./invariant":308}],301:[function(require,module,exports){
+},{"./ExecutionEnvironment":192,"./invariant":321}],314:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45678,7 +47295,7 @@ function getNodeForCharacterOffset(root, offset) {
 
 module.exports = getNodeForCharacterOffset;
 
-},{}],302:[function(require,module,exports){
+},{}],315:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45713,7 +47330,7 @@ function getReactRootElementInContainer(container) {
 
 module.exports = getReactRootElementInContainer;
 
-},{}],303:[function(require,module,exports){
+},{}],316:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45750,7 +47367,7 @@ function getTextContentAccessor() {
 
 module.exports = getTextContentAccessor;
 
-},{"./ExecutionEnvironment":190}],304:[function(require,module,exports){
+},{"./ExecutionEnvironment":192}],317:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45790,7 +47407,7 @@ function getUnboundedScrollPosition(scrollable) {
 
 module.exports = getUnboundedScrollPosition;
 
-},{}],305:[function(require,module,exports){
+},{}],318:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45823,7 +47440,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],306:[function(require,module,exports){
+},{}],319:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -45864,7 +47481,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":305}],307:[function(require,module,exports){
+},{"./hyphenate":318}],320:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46000,7 +47617,7 @@ function instantiateReactComponent(node, parentCompositeType) {
 
 module.exports = instantiateReactComponent;
 
-},{"./Object.assign":196,"./ReactCompositeComponent":208,"./ReactEmptyComponent":230,"./ReactNativeComponent":244,"./invariant":308,"./warning":328}],308:[function(require,module,exports){
+},{"./Object.assign":199,"./ReactCompositeComponent":213,"./ReactEmptyComponent":235,"./ReactNativeComponent":250,"./invariant":321,"./warning":342}],321:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46055,7 +47672,7 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 
-},{}],309:[function(require,module,exports){
+},{}],322:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46120,7 +47737,7 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
-},{"./ExecutionEnvironment":190}],310:[function(require,module,exports){
+},{"./ExecutionEnvironment":192}],323:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46147,7 +47764,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],311:[function(require,module,exports){
+},{}],324:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46190,7 +47807,7 @@ function isTextInputElement(elem) {
 
 module.exports = isTextInputElement;
 
-},{}],312:[function(require,module,exports){
+},{}],325:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46215,7 +47832,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":310}],313:[function(require,module,exports){
+},{"./isNode":323}],326:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46256,7 +47873,7 @@ function joinClasses(className/*, ... */) {
 
 module.exports = joinClasses;
 
-},{}],314:[function(require,module,exports){
+},{}],327:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46309,7 +47926,7 @@ var keyMirror = function(obj) {
 
 module.exports = keyMirror;
 
-},{"./invariant":308}],315:[function(require,module,exports){
+},{"./invariant":321}],328:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46345,7 +47962,7 @@ var keyOf = function(oneKeyObj) {
 
 module.exports = keyOf;
 
-},{}],316:[function(require,module,exports){
+},{}],329:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46398,7 +48015,7 @@ function mapObject(object, callback, context) {
 
 module.exports = mapObject;
 
-},{}],317:[function(require,module,exports){
+},{}],330:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46431,7 +48048,7 @@ function memoizeStringOnly(callback) {
 
 module.exports = memoizeStringOnly;
 
-},{}],318:[function(require,module,exports){
+},{}],331:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46469,7 +48086,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 
-},{"./ReactElement":228,"./invariant":308}],319:[function(require,module,exports){
+},{"./ReactElement":233,"./invariant":321}],332:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46497,7 +48114,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = performance || {};
 
-},{"./ExecutionEnvironment":190}],320:[function(require,module,exports){
+},{"./ExecutionEnvironment":192}],333:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46525,7 +48142,7 @@ var performanceNow = performance.now.bind(performance);
 
 module.exports = performanceNow;
 
-},{"./performance":319}],321:[function(require,module,exports){
+},{"./performance":332}],334:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46553,7 +48170,7 @@ function quoteAttributeValueForBrowser(value) {
 
 module.exports = quoteAttributeValueForBrowser;
 
-},{"./escapeTextContentForBrowser":289}],322:[function(require,module,exports){
+},{"./escapeTextContentForBrowser":302}],335:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46642,7 +48259,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setInnerHTML;
 
-},{"./ExecutionEnvironment":190}],323:[function(require,module,exports){
+},{"./ExecutionEnvironment":192}],336:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46684,7 +48301,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setTextContent;
 
-},{"./ExecutionEnvironment":190,"./escapeTextContentForBrowser":289,"./setInnerHTML":322}],324:[function(require,module,exports){
+},{"./ExecutionEnvironment":192,"./escapeTextContentForBrowser":302,"./setInnerHTML":335}],337:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46728,7 +48345,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],325:[function(require,module,exports){
+},{}],338:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -46830,7 +48447,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 
 module.exports = shouldUpdateReactComponent;
 
-},{"./warning":328}],326:[function(require,module,exports){
+},{"./warning":342}],339:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -46900,7 +48517,7 @@ function toArray(obj) {
 
 module.exports = toArray;
 
-},{"./invariant":308}],327:[function(require,module,exports){
+},{"./invariant":321}],340:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -47151,7 +48768,176 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 
-},{"./ReactElement":228,"./ReactFragment":234,"./ReactInstanceHandles":237,"./getIteratorFn":299,"./invariant":308,"./warning":328}],328:[function(require,module,exports){
+},{"./ReactElement":233,"./ReactFragment":239,"./ReactInstanceHandles":242,"./getIteratorFn":312,"./invariant":321,"./warning":342}],341:[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule update
+ */
+
+ /* global hasOwnProperty:true */
+
+'use strict';
+
+var assign = require("./Object.assign");
+var keyOf = require("./keyOf");
+var invariant = require("./invariant");
+var hasOwnProperty = {}.hasOwnProperty;
+
+function shallowCopy(x) {
+  if (Array.isArray(x)) {
+    return x.concat();
+  } else if (x && typeof x === 'object') {
+    return assign(new x.constructor(), x);
+  } else {
+    return x;
+  }
+}
+
+var COMMAND_PUSH = keyOf({$push: null});
+var COMMAND_UNSHIFT = keyOf({$unshift: null});
+var COMMAND_SPLICE = keyOf({$splice: null});
+var COMMAND_SET = keyOf({$set: null});
+var COMMAND_MERGE = keyOf({$merge: null});
+var COMMAND_APPLY = keyOf({$apply: null});
+
+var ALL_COMMANDS_LIST = [
+  COMMAND_PUSH,
+  COMMAND_UNSHIFT,
+  COMMAND_SPLICE,
+  COMMAND_SET,
+  COMMAND_MERGE,
+  COMMAND_APPLY
+];
+
+var ALL_COMMANDS_SET = {};
+
+ALL_COMMANDS_LIST.forEach(function(command) {
+  ALL_COMMANDS_SET[command] = true;
+});
+
+function invariantArrayCase(value, spec, command) {
+  ("production" !== "production" ? invariant(
+    Array.isArray(value),
+    'update(): expected target of %s to be an array; got %s.',
+    command,
+    value
+  ) : invariant(Array.isArray(value)));
+  var specValue = spec[command];
+  ("production" !== "production" ? invariant(
+    Array.isArray(specValue),
+    'update(): expected spec of %s to be an array; got %s. ' +
+    'Did you forget to wrap your parameter in an array?',
+    command,
+    specValue
+  ) : invariant(Array.isArray(specValue)));
+}
+
+function update(value, spec) {
+  ("production" !== "production" ? invariant(
+    typeof spec === 'object',
+    'update(): You provided a key path to update() that did not contain one ' +
+    'of %s. Did you forget to include {%s: ...}?',
+    ALL_COMMANDS_LIST.join(', '),
+    COMMAND_SET
+  ) : invariant(typeof spec === 'object'));
+
+  if (hasOwnProperty.call(spec, COMMAND_SET)) {
+    ("production" !== "production" ? invariant(
+      Object.keys(spec).length === 1,
+      'Cannot have more than one key in an object with %s',
+      COMMAND_SET
+    ) : invariant(Object.keys(spec).length === 1));
+
+    return spec[COMMAND_SET];
+  }
+
+  var nextValue = shallowCopy(value);
+
+  if (hasOwnProperty.call(spec, COMMAND_MERGE)) {
+    var mergeObj = spec[COMMAND_MERGE];
+    ("production" !== "production" ? invariant(
+      mergeObj && typeof mergeObj === 'object',
+      'update(): %s expects a spec of type \'object\'; got %s',
+      COMMAND_MERGE,
+      mergeObj
+    ) : invariant(mergeObj && typeof mergeObj === 'object'));
+    ("production" !== "production" ? invariant(
+      nextValue && typeof nextValue === 'object',
+      'update(): %s expects a target of type \'object\'; got %s',
+      COMMAND_MERGE,
+      nextValue
+    ) : invariant(nextValue && typeof nextValue === 'object'));
+    assign(nextValue, spec[COMMAND_MERGE]);
+  }
+
+  if (hasOwnProperty.call(spec, COMMAND_PUSH)) {
+    invariantArrayCase(value, spec, COMMAND_PUSH);
+    spec[COMMAND_PUSH].forEach(function(item) {
+      nextValue.push(item);
+    });
+  }
+
+  if (hasOwnProperty.call(spec, COMMAND_UNSHIFT)) {
+    invariantArrayCase(value, spec, COMMAND_UNSHIFT);
+    spec[COMMAND_UNSHIFT].forEach(function(item) {
+      nextValue.unshift(item);
+    });
+  }
+
+  if (hasOwnProperty.call(spec, COMMAND_SPLICE)) {
+    ("production" !== "production" ? invariant(
+      Array.isArray(value),
+      'Expected %s target to be an array; got %s',
+      COMMAND_SPLICE,
+      value
+    ) : invariant(Array.isArray(value)));
+    ("production" !== "production" ? invariant(
+      Array.isArray(spec[COMMAND_SPLICE]),
+      'update(): expected spec of %s to be an array of arrays; got %s. ' +
+      'Did you forget to wrap your parameters in an array?',
+      COMMAND_SPLICE,
+      spec[COMMAND_SPLICE]
+    ) : invariant(Array.isArray(spec[COMMAND_SPLICE])));
+    spec[COMMAND_SPLICE].forEach(function(args) {
+      ("production" !== "production" ? invariant(
+        Array.isArray(args),
+        'update(): expected spec of %s to be an array of arrays; got %s. ' +
+        'Did you forget to wrap your parameters in an array?',
+        COMMAND_SPLICE,
+        spec[COMMAND_SPLICE]
+      ) : invariant(Array.isArray(args)));
+      nextValue.splice.apply(nextValue, args);
+    });
+  }
+
+  if (hasOwnProperty.call(spec, COMMAND_APPLY)) {
+    ("production" !== "production" ? invariant(
+      typeof spec[COMMAND_APPLY] === 'function',
+      'update(): expected spec of %s to be a function; got %s.',
+      COMMAND_APPLY,
+      spec[COMMAND_APPLY]
+    ) : invariant(typeof spec[COMMAND_APPLY] === 'function'));
+    nextValue = spec[COMMAND_APPLY](nextValue);
+  }
+
+  for (var k in spec) {
+    if (!(ALL_COMMANDS_SET.hasOwnProperty(k) && ALL_COMMANDS_SET[k])) {
+      nextValue[k] = update(value[k], spec[k]);
+    }
+  }
+
+  return nextValue;
+}
+
+module.exports = update;
+
+},{"./Object.assign":199,"./invariant":321,"./keyOf":328}],342:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -47212,10 +48998,54 @@ if ("production" !== "production") {
 
 module.exports = warning;
 
-},{"./emptyFunction":287}],329:[function(require,module,exports){
+},{"./emptyFunction":300}],343:[function(require,module,exports){
 module.exports = require('./lib/React');
 
-},{"./lib/React":198}],330:[function(require,module,exports){
+},{"./lib/React":201}],344:[function(require,module,exports){
+'use strict';
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _componentsSideBarJsx = require('./components/SideBar.jsx');
+
+var _componentsSideBarJsx2 = _interopRequireDefault(_componentsSideBarJsx);
+
+var _componentsMainJsx = require('./components/Main.jsx');
+
+var _componentsMainJsx2 = _interopRequireDefault(_componentsMainJsx);
+
+var _componentsControlsJsx = require('./components/Controls.jsx');
+
+var _componentsControlsJsx2 = _interopRequireDefault(_componentsControlsJsx);
+
+var _componentsNotificationsJsx = require('./components/Notifications.jsx');
+
+var _componentsNotificationsJsx2 = _interopRequireDefault(_componentsNotificationsJsx);
+
+window.React = _react2['default'];
+
+var App = _react2['default'].createClass({
+    displayName: 'App',
+
+    render: function render() {
+        return _react2['default'].createElement(
+            'div',
+            { className: 'row' },
+            _react2['default'].createElement(_componentsNotificationsJsx2['default'], null),
+            _react2['default'].createElement(_componentsControlsJsx2['default'], { className: 'col-xs-12' }),
+            _react2['default'].createElement(_componentsSideBarJsx2['default'], { className: 'col-xs-12 col-md-5 col-lg-4' }),
+            _react2['default'].createElement(_componentsMainJsx2['default'], { className: 'col-xs-12 col-md-7 col-lg-8' })
+        );
+    }
+});
+
+_react2['default'].render(_react2['default'].createElement(App, null), document.getElementById('react'));
+
+},{"./components/Controls.jsx":346,"./components/Main.jsx":350,"./components/Notifications.jsx":351,"./components/SideBar.jsx":353,"react":343}],345:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -47228,9 +49058,9 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _CourseCtrlJs = require('./CourseCtrl.js');
+var _modelsCourseCtrlJs = require('../models/CourseCtrl.js');
 
-var _CourseCtrlJs2 = _interopRequireDefault(_CourseCtrlJs);
+var _modelsCourseCtrlJs2 = _interopRequireDefault(_modelsCourseCtrlJs);
 
 var _reactBootstrap = require('react-bootstrap');
 
@@ -47276,7 +49106,7 @@ exports['default'] = _react2['default'].createClass({
                 _reactBootstrap.Button,
                 { key: 1, bsSize: 'xsmall', bsStyle: 'success',
                     onClick: function () {
-                        return _CourseCtrlJs2['default'].add(course);
+                        return _modelsCourseCtrlJs2['default'].add(course);
                     } },
                 _react2['default'].createElement('i', { className: 'fa fa-plus' })
             )
@@ -47289,13 +49119,13 @@ exports['default'] = _react2['default'].createClass({
                 _reactBootstrap.Button,
                 { key: 1, bsSize: 'xsmall', bsStyle: 'danger',
                     onClick: function () {
-                        return _CourseCtrlJs2['default'].remove(course);
+                        return _modelsCourseCtrlJs2['default'].remove(course);
                     } },
                 _react2['default'].createElement('i', { className: 'fa fa-minus' })
             )
         );
 
-        var button = _CourseCtrlJs2['default'].isAdded(course) ? remove : add;
+        var button = _modelsCourseCtrlJs2['default'].isAdded(course) ? remove : add;
 
         var info = _react2['default'].createElement(
             _reactBootstrap.OverlayTrigger,
@@ -47315,10 +49145,634 @@ exports['default'] = _react2['default'].createClass({
 });
 module.exports = exports['default'];
 
-},{"./CourseCtrl.js":332,"./CourseModal.jsx":334,"react":329,"react-bootstrap":97}],331:[function(require,module,exports){
+},{"../models/CourseCtrl.js":355,"./CourseModal.jsx":348,"react":343,"react-bootstrap":97}],346:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _reactAddons = require('react/addons');
+
+var _reactAddons2 = _interopRequireDefault(_reactAddons);
+
+var _reactBootstrap = require('react-bootstrap');
+
+var _modelsStorageJs = require('../models/Storage.js');
+
+var _modelsStorageJs2 = _interopRequireDefault(_modelsStorageJs);
+
+var _modelsCourseCtrlJs = require('../models/CourseCtrl.js');
+
+var _modelsCourseCtrlJs2 = _interopRequireDefault(_modelsCourseCtrlJs);
+
+exports['default'] = _reactAddons2['default'].createClass({
+    displayName: 'Controls',
+
+    render: function render() {
+        var save = _reactAddons2['default'].createElement(
+            _reactBootstrap.Button,
+            { onClick: _modelsStorageJs2['default'].save, bsStyle: 'primary' },
+            'Save'
+        );
+        var reset = _reactAddons2['default'].createElement(
+            _reactBootstrap.Button,
+            { onClick: _modelsCourseCtrlJs2['default'].reset, bsStyle: 'danger' },
+            'Reset'
+        );
+        var load = _reactAddons2['default'].createElement(
+            _reactBootstrap.Button,
+            { onClick: _modelsStorageJs2['default'].load, bsStyle: 'primary' },
+            'Load'
+        );
+        var importBt = _reactAddons2['default'].createElement(
+            _reactBootstrap.Button,
+            { bsStyle: 'primary' },
+            'Import'
+        );
+        var exportBt = _reactAddons2['default'].createElement(
+            _reactBootstrap.Button,
+            { bsStyle: 'primary' },
+            'Export'
+        );
+        return _reactAddons2['default'].createElement(
+            'div',
+            { className: 'controls ' + this.props.className },
+            _reactAddons2['default'].createElement(
+                _reactBootstrap.ButtonGroup,
+                null,
+                save,
+                load
+            ),
+            _reactAddons2['default'].createElement(
+                _reactBootstrap.ButtonGroup,
+                null,
+                reset
+            ),
+            _reactAddons2['default'].createElement(
+                _reactBootstrap.ButtonGroup,
+                null,
+                importBt,
+                exportBt
+            )
+        );
+    }
+});
+module.exports = exports['default'];
+
+},{"../models/CourseCtrl.js":355,"../models/Storage.js":357,"react-bootstrap":97,"react/addons":171}],347:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = require('react-bootstrap');
+
+var _AddRemoveJsx = require('./AddRemove.jsx');
+
+var _AddRemoveJsx2 = _interopRequireDefault(_AddRemoveJsx);
+
+exports['default'] = _react2['default'].createClass({
+    displayName: 'CourseGridItem',
+
+    render: function render() {
+        var course = this.props.course;
+        return _react2['default'].createElement(
+            'div',
+            this.props,
+            course.courseName,
+            ' ',
+            _react2['default'].createElement(
+                _reactBootstrap.Badge,
+                null,
+                'EC ',
+                course.ects
+            ),
+            _react2['default'].createElement(_AddRemoveJsx2['default'], { course: course, className: '' })
+        );
+    }
+});
+module.exports = exports['default'];
+
+},{"./AddRemove.jsx":345,"react":343,"react-bootstrap":97}],348:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = require('react-bootstrap');
+
+exports['default'] = _react2['default'].createClass({
+    displayName: 'CourseModal',
+
+    getInitialState: function getInitialState() {
+        return {
+            show: this.props.show
+        };
+    },
+    componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
+        this.setState({
+            show: nextProps.show
+        });
+    },
+    close: function close() {
+        this.setState({
+            show: false
+        });
+    },
+    render: function render() {
+        var course = this.props.course;
+        var filterKeys = ['depth', 'nr', 'parent', 'children', 'id'];
+        return _react2['default'].createElement(
+            _reactBootstrap.Modal,
+            { show: this.state.show, onHide: this.close },
+            _react2['default'].createElement(
+                _reactBootstrap.Modal.Header,
+                { closeButton: true },
+                _react2['default'].createElement(
+                    _reactBootstrap.Modal.Title,
+                    null,
+                    course.name,
+                    ' ',
+                    course.courseName
+                )
+            ),
+            _react2['default'].createElement(
+                _reactBootstrap.Modal.Body,
+                null,
+                _react2['default'].createElement(
+                    'dl',
+                    null,
+                    Object.keys(course).map(function (key) {
+                        if (filterKeys.indexOf(key) !== -1) {
+                            return null;
+                        }
+                        return [_react2['default'].createElement(
+                            'dt',
+                            null,
+                            key
+                        ), _react2['default'].createElement(
+                            'dd',
+                            null,
+                            course[key]
+                        )];
+                    })
+                )
+            )
+        );
+    }
+});
+module.exports = exports['default'];
+
+},{"react":343,"react-bootstrap":97}],349:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _modelsCourseCtrlJs = require('../models/CourseCtrl.js');
+
+var _modelsCourseCtrlJs2 = _interopRequireDefault(_modelsCourseCtrlJs);
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = require('react-bootstrap');
+
+var _modelsEventServerJs = require('../models/EventServer.js');
+
+var _modelsEventServerJs2 = _interopRequireDefault(_modelsEventServerJs);
+
+var _AddRemoveJsx = require('./AddRemove.jsx');
+
+var _AddRemoveJsx2 = _interopRequireDefault(_AddRemoveJsx);
+
+var hasNeedle = function hasNeedle(needle, course) {
+    if (!needle) {
+        return false;
+    }
+    return course.name.toLowerCase().indexOf(needle) !== -1 || !!course.courseName && course.courseName.toLowerCase().indexOf(needle) !== -1;
+};
+
+var CourseTree = _react2['default'].createClass({
+    displayName: 'CourseTree',
+
+    getInitialState: function getInitialState() {
+        return {
+            childVisible: false,
+            visible: this.props.visible
+        };
+    },
+    toggle: function toggle() {
+        var nextVisibility = !this.state.childVisible;
+        this.setState({
+            childVisible: nextVisibility
+        });
+        _modelsEventServerJs2['default'].emit('visible::' + this.props.course.nr, nextVisibility);
+    },
+    componentDidMount: function componentDidMount() {
+        var $self = this;
+        _modelsEventServerJs2['default'].on('visible::' + this.props.course.parent, function (toggle) {
+            var nextState = {
+                visible: toggle
+            };
+            if (!toggle) {
+                _modelsEventServerJs2['default'].emit('visible::' + $self.props.course.nr, toggle);
+                nextState.childVisible = false;
+            }
+            $self.setState(nextState);
+        });
+    },
+    renderSingle: function renderSingle() {
+        var course = this.props.course;
+        var totalEcts = _modelsCourseCtrlJs2['default'].totalEcts(course);
+        var subEcts = _modelsCourseCtrlJs2['default'].addedEcts(course);
+        var isSearching = this.props.search.length > 0;
+
+        var chevronClass = 'fa fa-chevron-' + (this.state.childVisible ? 'right' : 'down');
+        var chevron = course.children.length && !isSearching ? _react2['default'].createElement('i', { key: 1, className: chevronClass }) : null;
+
+        var badge = _react2['default'].createElement(
+            _reactBootstrap.Badge,
+            { key: 2 },
+            'EC ',
+            subEcts,
+            '/',
+            totalEcts
+        );
+        if (course.children.length === 0) {
+            badge = _react2['default'].createElement(
+                _reactBootstrap.Badge,
+                { key: 2 },
+                'EC ',
+                totalEcts
+            );
+        }
+
+        var style = {
+            marginLeft: isSearching ? 0 : (course.depth - 1) * 10
+        };
+
+        return _react2['default'].createElement(
+            _reactBootstrap.ListGroupItem,
+            { className: 'row', key: course.nr, style: style },
+            _react2['default'].createElement(
+                'span',
+                { key: 4, onClick: this.toggle, className: 'col-xs-10' },
+                chevron,
+                ' ',
+                course.name,
+                ' ',
+                course.courseName,
+                ' ',
+                badge
+            ),
+            _react2['default'].createElement(_AddRemoveJsx2['default'], { key: 5, course: course, className: 'col-xs-2 pull-right' })
+        );
+    },
+    render: function render() {
+        var visible = this.state.visible;
+        if (this.props.search.length > 0) {
+            visible = hasNeedle(this.props.search, this.props.course);
+        }
+        return visible ? this.renderSingle() : null;
+    }
+});
+
+exports['default'] = CourseTree;
+module.exports = exports['default'];
+
+},{"../models/CourseCtrl.js":355,"../models/EventServer.js":356,"./AddRemove.jsx":345,"react":343,"react-bootstrap":97}],350:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _modelsCourseCtrlJs = require('../models/CourseCtrl.js');
+
+var _modelsCourseCtrlJs2 = _interopRequireDefault(_modelsCourseCtrlJs);
+
+var _modelsEventServerJs = require('../models/EventServer.js');
+
+var _modelsEventServerJs2 = _interopRequireDefault(_modelsEventServerJs);
+
+var _reactGridLayout = require('react-grid-layout');
+
+var _reactGridLayout2 = _interopRequireDefault(_reactGridLayout);
+
+var _reactBootstrap = require('react-bootstrap');
+
+var _CourseGridItemJsx = require('./CourseGridItem.jsx');
+
+var _CourseGridItemJsx2 = _interopRequireDefault(_CourseGridItemJsx);
+
+var courseGrid = function courseGrid(course) {
+    var start = course['Start Education'];
+    var periods = course['Education Period'];
+    var x = start ? parseInt(start) - 1 : 0;
+    var w = periods ? periods.split(',').length : 1;
+    return {
+        'static': true,
+        x: x,
+        y: 0,
+        w: w,
+        h: 1
+    };
+};
+
+exports['default'] = _react2['default'].createClass({
+    displayName: 'Main',
+
+    componentDidMount: function componentDidMount() {
+        var _this = this;
+
+        _modelsEventServerJs2['default'].onAny(function () {
+            return _this.forceUpdate();
+        });
+    },
+    render: function render() {
+        var panelHeader = _react2['default'].createElement(
+            'div',
+            { className: 'row' },
+            [1, 2, 3, 4].map(function (index) {
+                var ects = _modelsCourseCtrlJs2['default'].periodEcts(index);
+                return _react2['default'].createElement(
+                    'span',
+                    { key: index, className: 'col-xs-3' },
+                    'Q' + index,
+                    _react2['default'].createElement('br', null),
+                    _react2['default'].createElement(
+                        _reactBootstrap.Badge,
+                        null,
+                        'EC ',
+                        ects
+                    )
+                );
+            })
+        );
+        return _react2['default'].createElement(
+            'div',
+            { className: 'col-xs-12 col-md-8 col-lg-8' },
+            'Total ects: ',
+            _modelsCourseCtrlJs2['default'].addedEcts(),
+            _react2['default'].createElement(
+                _reactBootstrap.Panel,
+                { header: panelHeader },
+                _react2['default'].createElement(
+                    'div',
+                    { className: 'row' },
+                    _react2['default'].createElement(
+                        _reactGridLayout2['default'],
+                        {
+                            isResizable: false,
+                            isDraggable: false,
+                            cols: 4 },
+                        _modelsCourseCtrlJs2['default'].added.map(function (course) {
+                            return _react2['default'].createElement(_CourseGridItemJsx2['default'], { _grid: courseGrid(course),
+                                key: course.id, course: course });
+                        })
+                    )
+                )
+            )
+        );
+    }
+});
+module.exports = exports['default'];
+
+},{"../models/CourseCtrl.js":355,"../models/EventServer.js":356,"./CourseGridItem.jsx":347,"react":343,"react-bootstrap":97,"react-grid-layout":159}],351:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = require('react-bootstrap');
+
+var _modelsEventServerJs = require('../models/EventServer.js');
+
+var _modelsEventServerJs2 = _interopRequireDefault(_modelsEventServerJs);
+
+exports['default'] = _react2['default'].createClass({
+    displayName: 'Notifications',
+
+    getInitialState: function getInitialState() {
+        return {
+            notification: null
+        };
+    },
+    componentDidMount: function componentDidMount() {
+        var _this = this;
+
+        _modelsEventServerJs2['default'].on('saved', function () {
+            return _this.setState({
+                notification: {
+                    msg: 'Saved to your local storage',
+                    style: 'success'
+                }
+            });
+        });
+    },
+    onDismiss: function onDismiss() {
+        this.setState({
+            notification: null
+        });
+    },
+    render: function render() {
+        var notification = this.state.notification;
+        if (notification !== null) {
+            return _react2['default'].createElement(
+                'div',
+                { className: 'alerts' },
+                _react2['default'].createElement(
+                    _reactBootstrap.Alert,
+                    {
+                        bsSize: 'medium',
+                        bsStyle: notification.style,
+                        onDismiss: this.onDismiss,
+                        dismissAfter: 3000 },
+                    _react2['default'].createElement(
+                        'p',
+                        null,
+                        notification.msg
+                    )
+                )
+            );
+        }
+        return null;
+    }
+});
+module.exports = exports['default'];
+
+},{"../models/EventServer.js":356,"react":343,"react-bootstrap":97}],352:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDebounceInput = require('react-debounce-input');
+
+var _reactDebounceInput2 = _interopRequireDefault(_reactDebounceInput);
+
+exports['default'] = _react2['default'].createClass({
+    displayName: 'SearchInput',
+
+    getInitialState: function getInitialState() {
+        return {
+            value: ''
+        };
+    },
+    onChange: function onChange(nextValue) {
+        this.setState({
+            value: nextValue
+        });
+        this.props.setSearch(nextValue);
+    },
+    render: function render() {
+        var searchAddon = _react2['default'].createElement('i', { className: 'fa fa-search' });
+        return _react2['default'].createElement(
+            'div',
+            { className: 'form-group' },
+            _react2['default'].createElement(
+                'div',
+                { className: 'input-group' },
+                _react2['default'].createElement(
+                    'span',
+                    { className: 'input-group-addon' },
+                    searchAddon
+                ),
+                _react2['default'].createElement(_reactDebounceInput2['default'], {
+                    minLength: 3,
+                    debounceTimeout: 300,
+                    type: 'text',
+                    value: this.state.value,
+                    className: 'form-control',
+                    placeholder: 'search on code or name, atleast 3 characters',
+                    onChange: this.onChange })
+            )
+        );
+    }
+});
+module.exports = exports['default'];
+
+},{"react":343,"react-debounce-input":149}],353:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = require('react-bootstrap');
+
+var _modelsCourseCtrlJs = require('../models/CourseCtrl.js');
+
+var _modelsCourseCtrlJs2 = _interopRequireDefault(_modelsCourseCtrlJs);
+
+var _modelsEventServerJs = require('../models/EventServer.js');
+
+var _modelsEventServerJs2 = _interopRequireDefault(_modelsEventServerJs);
+
+var _CourseTreeJsx = require('./CourseTree.jsx');
+
+var _CourseTreeJsx2 = _interopRequireDefault(_CourseTreeJsx);
+
+var _SearchInputJsx = require('./SearchInput.jsx');
+
+var _SearchInputJsx2 = _interopRequireDefault(_SearchInputJsx);
+
+exports['default'] = _react2['default'].createClass({
+    displayName: 'SideBar',
+
+    getInitialState: function getInitialState() {
+        return { search: '' };
+    },
+    componentDidMount: function componentDidMount() {
+        var _this = this;
+
+        _modelsEventServerJs2['default'].onAny(function () {
+            return _this.forceUpdate();
+        });
+    },
+    setSearch: function setSearch(nextSearch) {
+        this.setState({
+            search: nextSearch
+        });
+    },
+    render: function render() {
+        var search = this.state.search.toLowerCase();
+        var filterId = search !== '' ? 'id' : 'nr';
+        var rows = _modelsCourseCtrlJs2['default'].flatten(function () {
+            return true;
+        }, null, filterId).map(function (child) {
+            var visible = child.parent === 1;
+            return _react2['default'].createElement(_CourseTreeJsx2['default'], { key: child.nr,
+                search: search,
+                visible: visible,
+                course: child });
+        });
+        return _react2['default'].createElement(
+            'div',
+            this.props,
+            _react2['default'].createElement(
+                _reactBootstrap.ListGroup,
+                null,
+                _react2['default'].createElement(_SearchInputJsx2['default'], { setSearch: this.setSearch }),
+                rows
+            )
+        );
+    }
+});
+module.exports = exports['default'];
+
+},{"../models/CourseCtrl.js":355,"../models/EventServer.js":356,"./CourseTree.jsx":349,"./SearchInput.jsx":352,"react":343,"react-bootstrap":97}],354:[function(require,module,exports){
 "use strict";Object.defineProperty(exports,"__esModule",{value:true});exports["default"] = {"nr":1,"name":"root","id":"root","children":[{"nr":2,"parent":1,"name":"EWI4000","id":36583,"children":[],"courseName":"Master Kick-off","ects":"0","Responsible Instructor":"Dr.A.Coetzee    ,A.Coetzee@tudelft.nl , M.L.Korterink    ,M.L.Korterink@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"In an increasingly globalised economy it is important for MSc graduates to be able to work in multicultural teams and be aware of intercultural differences. The course is aimed at both Dutch and International students.International students become aware of the Dutch culture and the Delft way of project management and communication. Dutch students get an opportunity to work closely with students from other nationalities and other backgrounds. Both national and international students have the opportunity to form a network with fellow master students from the EEMCS faculty.","Education Method":"Lectures, workshops and projects are carried out in small groups and assisted by student assistants.","Assessment":"Attendance is obligatory.Participation will be evaluated by the project assistants. There will be a presentation of the project at the end of the 3-day programme. Lecture material covered during the Master Kick-off will be assessed during the regular assessments of the respective courses."},{"nr":3,"parent":1,"name":"Track Software Technology 2015","id":15761,"children":[{"nr":4,"parent":3,"name":"Common Core ST 2015","id":16576,"children":[{"nr":5,"parent":4,"name":"CS4015","id":37826,"children":[],"courseName":"Behaviour Change Support Systems","ects":"5","Responsible Instructor":"Dr.ir.W.P.Brinkman    ,W.P.Brinkman@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The course allows students to achieve understanding of principles, concepts and theories underlying BCCS systems and methods for designing them.","Education Method":"In the lectures, theories, principles and methods are presented and discussed. Students will work in small groups on their own design for a BCCS. The students will present these ideas during the lectures to complement the theoretical part presented in the lectures.","Literature and Study Materials":"Will be announced on blackboard","Books":"Wendel, S. (2013). Designing for Behavior Change: Applying Psychology and Behavioral Economics. \" O'Reilly Media, Inc.\".","Assessment":"The module is assessed by coursework and an exam as follows:(60%) Written Exam (40%) Coursework Project (resulting in a reportThis will be combined into a single mark. To pass the module, students need to pass both the exam and coursework part."},{"nr":6,"parent":4,"name":"CS4065","id":37836,"children":[],"courseName":"Multimedia Search and Recommendation","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , C.C.S.Liem    ,C.C.S.Liem@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4+lab","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"Students will be able to�explain the concept of �multimedia�;�explain the principles underlying basic multimedia search engines;�explain the functioning of basic multimedia recommender systems;�describe and implement common representations of multimedia content;�describe and implement common ranking mechanisms for multimedia search;�describe and implement common recommender system techniques;�describe and implement common social media analytics techniques for multimedia search and recommendation;�interpret current academic literature in the field of multimedia search and recommendation;�identify strengths and weaknesses of state-of-the-art multimedia search and recommendation functionalities;�identify challenges belonging to the development of multimedia search and recommendation functionalities;�identify evaluation criteria for multimedia search engines and recommender systems;�explain the difference between topical relevance and utility in multimedia search and recommendation.In addition to the core goals, students choosing the MMSR Analytics specialization will be able to:�describe and implement cross-disciplinary approaches to multimedia search and recommendation;�propose and justify a vision on near-future improvement opportunities for a selected state-of-the-art multimedia search and/or recommendation analytics technique.In addition to the core goals, students choosing the MMSR Systems specialization will be able to:�describe and implement practical solutions to deal with real-world multimedia search and/or recommendation; �develop a practical implementation based on an academic description of a selected state-of-the-art multimedia search and/or recommendation technique and assess it against a baseline on a real-world dataset.","Education Method":"lectures, lab course, individual research or development assignment","Literature and Study Materials":"Will be handed out by lecturers during the course","Assessment":"Written exams (30% + 30%):�Written partial exam over MMSR core topics (week 3, 30%);�Written partial exam over chosen MMSR specialization (week 9, 30%).For the resit, each MMSR specialization will offer one resit exam, covering the material of the two partial exams described above (60%). Individual assignment for chosen MMSR specialization (week 11, 40%):�For MMSR Analytics: research proposal on an emerging topic in MMSR;�For MMSR Systems: implementation of a state-of-the art MMSR research paper.","Special Information":"Please see the Blackboard pages of this course for further information about course organization and suggested prerequisite knowledge.","Judgement":"Partial exam on MMSR core (30%)Partial exam on MMSR specialization (30%)(Or resit on MMSR core & specialization in one exam (60%))Individual assignment (40%)"},{"nr":7,"parent":4,"name":"IN4073TU","id":35723,"children":[],"courseName":"Embedded Real-Time Systems","ects":"6","Responsible Instructor":"Prof.dr.K.G.Langendoen    ,K.G.Langendoen@tudelft.nl","Contact Hours / Week  x/x/x/x":"Q5 4/0/0/0 & lab. not in 2014 2015","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"MUST have C programming skills as, for example, obtained by taking the TI2726-B Emb. Software course","Study Goals":"Student is acquainted with real-time programming in an embedded context, along with a basic understanding of embedded systems, real-time communication, sensor data processing, actuator control, control theory, and simulation. Moreover, the student has had exposure to integrating the various multidisciplinary aspects at the system level.","Education Method":"Lectures, lab work","Literature and Study Materials":"Web","Assessment":"Lab. project (120 hours) + written report"},{"nr":8,"parent":4,"name":"IN4085","id":35756,"children":[],"courseName":"Pattern Recognition","ects":"6","Responsible Instructor":"Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Instructor":"M.Loog    ,M.Loog@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0Pract.","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Linear algebra, multivariate statistics.","Study Goals":"After succesfully completing this course, the student is able to: recognise pattern recognition problems and select algorithms to solve them; read and comprehend recent articles in engineering-oriented pattern recognition journals, such as IEEE Tr. on PAMI; construct a learning system to solve a given simple pattern recognition problem, using existing software.","Education Method":"Lectures, lab work","Literature and Study Materials":"S.Theodoridis and K.Koutroumbas, Pattern Recognition (2nd ed.), Elsevier, 2009, ISBN-978-1-59749-272-0; Sheets; PRTools user manual; Pattern Recognition exercises with PRTools.","Assessment":"Homework, Computer laboratory assignment and written examination.","Remarks":"see also http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":9,"parent":4,"name":"IN4150","id":36645,"children":[],"courseName":"Distributed Algorithms","ects":"6","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0 college; Pract. 3e en 4e kwartaal","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"Operating system concepts (IN1805)Computer Networks (IN2605)","Study Goals":"After having completed this course, the student has a good knowledge of and insight into important fundamental (theoretical) problems in distributed systems and their algorithmic solutions. In addition, the student can design and implement distributed algorithms that solve these problems.","Education Method":"Lectures, lab work","Literature and Study Materials":"Lecture notes (on Blackboard)","Assessment":"Paper review and written exam (closed book)","Remarks":"Lab work is 40 hrs."},{"nr":10,"parent":4,"name":"IN4152","id":36692,"children":[],"courseName":"3D Computer Graphics and Animation","ects":"5","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/proj pract","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"TI2710-B, IN2905-A, IN2905-I or IN2770 Computer Graphics; students that haven't followed any of these courses might still be able to participate, but should be willing to invest some more time","Study Goals":"The course teaches computer graphics techniques on an advanced level. After the course the student is able to classify the different modeling, shading and display techniques, and can reproduce the basic mathematical and algorithmic notions associated with these concepts, can comment on the weak and strong points of these techniques, and can apply the concepts within a graphics program.","Education Method":"research, lab work","Literature and Study Materials":"Research Papers in domain of selected topics, Lecture sheets","Books":"Real-time Rendering by Tomas Akenine-M�ller, Eric Haines, Naty Hoffman - Peters, Wellesley Real-Time Shadows by Elmar Eisemann, Michael Schwarz, Ulf Assarsson, Michael Wimmer - Taylor & Francis Computer Graphics. Principles and Practice by James D. Foley, Andries VanDam, Steven K. Feiner - Addison Wesley OpenGL Programming Guide: The Official Guide to Learning OpenGL, Versions 3.0 and 3.1 by Dave Shreiner - Addison Wesley -AVAILABLE AS DOWNLOAD FOR FREE SEARCH FOR \"RED BOOK OpenGL\"","Assessment":"Some of the practical assignments might be checked and not passing might lead to a penalty on the final grade.The final project, paper presentation (including an individual oral evaluation covering the course content) will be graded. The oral exam might be replaced by a multiple choice evaluation."},{"nr":11,"parent":4,"name":"IN4191","id":36694,"children":[],"courseName":"Security and Cryptography ","ects":"5","Responsible Instructor":"Dr.ir.J.C.A.van derLubbe    ,J.C.A.vanderLubbe@tudelft.nl","Instructor":"Z.Erkin    ,Z.Erkin@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"It is the aim that at the end of the course one has a survey of the state of the art of both cryptographic algorithms and protocols for security and privacy, as well as is familiar with present applications.","Education Method":"lectures","Literature and Study Materials":"Basic Methods of Cryptography, J.C.A. van der Lubbe, VSSD, Delft or Idem, Cambridge University Press. Handouts of lectures","Assessment":"written exam"},{"nr":12,"parent":4,"name":"IN4252","id":34989,"children":[],"courseName":"Web Science & Engineering","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student learns the important principles and concepts of web-based information systems and their engineering processes, and understands the main research challenges in the area.The student has knowledge about the main methods, techniques and languages used in the area of web-based information systems, in particular concerning web data. The student has knowledge of the main principles and techniques for user modelling and adaptation, and of the role of Social Web data for user modelling.The student learns the major challenges and principles from the research in the field of Web Science, and the role of web data for Web Science.The student is able to write a paper contributing to Web Science based on a problem in the field of web-based information systems.","Education Method":"The education includes:- Lectures, before which and after which students study material by themselves, to get an understanding of the relevant material;- Small assignments and hands-on exercises, to apply the understanding of relevant material;- One large assignment, with a number of feedback moments, to learn how to write a web science paper and contribute to relevant research.Lectures will be not each week in the class period (1+2): in between lectures there is time reserved for studying before and after lectures, for small assignments and exercises, and for writing the large assignment paper. The writing of the large assignment paper happens throughout the class period (1+2) to enable frequent feedback.","Assessment":"Assessment happens on the basis of the small assignments (accompanying the lectures), for 40% of the grade, and the large assignment (writing the web science paper), for 60% of the grade. Both parts need to be completed by the indicated deadlines."},{"nr":13,"parent":4,"name":"IN4301","id":36664,"children":[],"courseName":"Advanced Algorithms","ects":"5","Responsible Instructor":"Prof.dr.C.Witteveen    ,C.Witteveen@tudelft.nl","Instructor":"Prof.dr.ir.K.I.Aardal    ,K.I.Aardal@tudelft.nl , Dr.M.M.deWeerdt    ,M.M.deWeerdt@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Basic courses in Algorithmics and Complexity Theory","Study Goals":"Knowledge of some advanced algorithmic techniques likekernelization techniques, general approximation techniques, and linear programming relaxation techniques.Knowledge of techniques to analyze the performance of algorithms.","Education Method":"Lectures, homework exercises, and programming assignments.","Literature and Study Materials":"Parts of the course are derived from the textbook J. Kleinberg and E. Tardos, Algorithmic Design,Pearson Education, 2006. ISBN 0-321-37291-3Supplemental study material will be provided via Blackboard.","Assessment":"Homework exercises, programming assignments and a written exam.There is a mid semester test after the first two parts of the course."},{"nr":14,"parent":4,"name":"IN4303","id":36630,"children":[],"courseName":"Compiler Construction","ects":"5","Responsible Instructor":"G.H.Wachsmuth    ,G.H.Wachsmuth@tudelft.nl","Instructor":"Prof.dr.E.Visser    ,E.Visser@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0 coll + 4/4/0/0 pract","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"- programming (required) - software engineering (advised)- programming languages (advised)","Study Goals":"- to be able to specify a language in a declarative style- to be able to construct a compiler from such specifications withstate-of-the-art compiler construction tools- to understand different language aspects- to understand the working of compiler components realising theseaspects","Education Method":"Lectures, lab work","Literature and Study Materials":"Book \"Modern Compiler Implementation in Java. Second Edition\" byAndrew Appel & Jens Palsberg. Cambridge University Press,2002. ISBN-13: 978-0521820608","Books":"Andrew Appel, Jens Palsberg: Modern Compiler Implementation in Java, 2nd Edition. Cambridge University Press, 2002. ISBN-13: 978-0521820608","Assessment":"Practical work + written exam"},{"nr":15,"parent":4,"name":"IN5000","id":36663,"children":[],"courseName":"Final Project","ects":"45","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl , Dr.ir.A.J.H.Hidders    ,A.J.H.Hidders@tudelft.nl , Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/x/x/x","Education Period":"1,2,3,4,Summer Holidays","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The master CS has a general knowledge of computer science and the relevant issues of mathematics and computer engineering, and has in-depth knowledge on a particular domain of computer science and the associated area of application and has shown to be able to apply and extend this knowledge by means of a Master�s thesis.The master CS has competence in designing, modeling, implementing and testing of information and software systems for a broad range of application areas, and knows how to work individually or in teams on the develop ment of these systems. The academic profile of the master is fostered by educating and stimulating students in such a way that he/she is able to analyse and conceptualize on a formal and abstract level; understand the fundamental issues of this field and to contribute to research and the further development of the field; place his contribution within the wider scope of the overall development of science and technology and within industry and society and communicate, verbally and in writing, on results and methodology, both to his colleagues in the professional field as well as to layman.","Education Method":"Project.","Prerequisites":"The thesis project is the final part of the Master's degree programme. Before starting the thesis project, students must satisfy the following entry requirements.-Successful completion of all common core courses-For students who started the MSc programme in 2006 or after, but before 2012: completion of at least 57 EC of the Master's degree programme-For students who started the MSc programme in 2012 or after: completion of at least 63 EC of the Master's degree programme and in possession of a Thesis Entrance Permit (TEP)Note: In some cases, the thesis supervisor may impose additional conditions for starting this project.","Assessment":"The thesis committee assesses the thesis and the defense on the following criteria: quality of work: novelty, volume, grasp, methodology, publishable;personal performance: autonomy, planning, creativity, attitude; quality of thesis report: clarity, organisation, argumentation; oral presentation and defense: clarity, focus, relevance, discussion. These criteria are published in the study guide and should be known to the student beforehand. (Use \"Thesis evaluation form\").The voting members of the thesis committee determine the final grade. The grade should reflect a weighted average of the four scores above, but need not to be an exact arithmetical mean. The final mark starts from 5 up to and 10. Marks ending in .5 may also be used.If the student shows excellence (is nominated for a 10) the chair of the thesis committee should consult the chair of the Board of Examiners, at least five working days in advance of the defense. The chair may advice to add an extra member to the thesis committee.The motivation for the grade at each of the four criteria as listed above is summarized on a form (Use: \"Thesis evaluation form\") and signed by the chairman of the thesis committee. The candidate is given a short account of the assessment, either in private or in front of the audience."}]},{"nr":16,"parent":3,"name":"Specialisation Courses 1st semester 2015","id":16584,"children":[{"nr":17,"parent":16,"name":"AP3421","id":37768,"children":[],"courseName":"Fundamentals of Quantum Information","ects":"4","Responsible Instructor":"L.Di Carlo    ,L.DiCarlo@tudelft.nl","Instructor":"S.D.C.Wehner    ,S.D.C.Wehner@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1","Course Language":"English","Expected prior knowledge":"Knowledge of linear algebra, probability and statistics.","Study Goals":"Motivation: Quantum information is the future of computing and communication. Quantum computers offer exponential speedup over any classical computer. Similarly, quantum communication offers many advantages, including the ability to create secure encryption keys where security rests only on the laws of nature. Synopsis:This class will teach you the fundamental principles of quantum information. You will learn essential concepts that distinguish quantum from classical devices. You will learn about quantum bits and the quantum operations and measurements that can be performed on them. You will learn the basic techniques used in quantum algorithms, and examine basic examples of such algorithms. You will also take the first step in understanding how a quantum bit can be physically implemented. Aim: To learn the fundamental concepts underlying quantum computation and communication systems.","Education Method":"Taught in Quarter 1 of 2015-16; 3 hours of lecture, 1 hour tutorial per week.","Literature and Study Materials":"The main reference textbook for the course will be Nielsen and Chuang, �Quantum Computation and Information�, Cambridge University Press.","Assessment":"60% homework assignments, 10% in class quiz, 30% final exam.","Permitted Materials during Tests":"","Continuing Courses":"CS4090 � Quantum Communication and Cryptography; AP3292D � Quantum Hardware;ET4575 � Quantum Electronics."},{"nr":18,"parent":16,"name":"CS4010","id":37825,"children":[],"courseName":"Algorithms for Planning and Scheduling","ects":"5","Responsible Instructor":"Dr.M.T.J.Spaan    ,M.T.J.Spaan@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"After completing the Algorithms for Planning and Scheduling (P&S) course, the student is able to:1. Explain general techniques used in P&S algorithms.2. Explain several specific P&S problem settings and corresponding algorithms.3. Apply P&S algorithms to problem domains, and can compare and evaluate them.4. Design and implement an extension of a P&S algorithm.5. Communicate his/her findings effectively.","Education Method":"Lectures combined with research projects in small groups.","Literature and Study Materials":"Mainly survey papers and book chapters.","Assessment":"The assessment will consist of the following items:1. Homework exercises based on the lectures2. A scientific report of the research project3. Peer review of a report4. Presentation of the research project"},{"nr":19,"parent":16,"name":"CS4055","id":37834,"children":[],"courseName":"High Performance Data Networking","ects":"5","Responsible Instructor":"Dr.ir.F.A.Kuipers    ,F.A.Kuipers@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The learning objective of this course is threefold: (1) The student should have a passive to active knowledge of the treated networking technologies. (2) The student should be able to apply and work with the technologies in a network lab/emulator/simulator. (3) The student should be able to perform research in the field of high-performance data networking.","Education Method":"Lectures and projects","Assessment":"The final assessment is based on the project report(s) and a written exam."},{"nr":20,"parent":16,"name":"CS4060","id":37835,"children":[],"courseName":"Integration week","ects":"1.5","Contact Hours / Week  x/x/x/x":"Q1, week 1, 24/7","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English"},{"nr":21,"parent":16,"name":"CS4070","id":37837,"children":[],"courseName":"Multivariate Data Analyse","ects":"5","Responsible Instructor":"Dr.A.J.Cabo    ,A.J.Cabo@tudelft.nl , Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"1,2,3","Course Language":"English","Expected prior knowledge":"* Introduction Probability Theory and Statistics: see for instance A Modern Introduction to Probability and StatisticsUnderstanding Why and HowSeries: Springer Texts in StatisticsDekking, F.M., Kraaikamp, C., Lopuha�, H.P., Meester, L.E.2005, XVI, 488 p. 120 illus., HardcoverISBN: 1-85233-896-2* Basic calculus* Linear Algebra: matrix multiplication, the inverse of a matrix, the transpose of a matrix, least square solution.see:David C. Lay: Linear Algebra and Its ApplicationsISBN-10: 0321385179 � ISBN-13: 9780321385178�2012 � Pearson)","Study Goals":"PART I:1. Probability Theory- Conditional) probabilities, the law of total probability, and Bayes� rule.- Solve probability problems that require the use of axioms of probability.2. Definition and Description of Random Variables and ProcessesPDF, PMF, CDF, Covariance, Correlation- Determine if a given PDF, PMF, CDF, variance, (auto/cross-)correlation(-function), (auto/cross-)covariance(-function), power spectral density complies with (theoretical and analytical) requirements. - Convert the description of a probabilistic problem into a probabilistic model using PDF, PMF, or CDF.3. PDF/PMF and Expected ValueCalculate the various forms of expected value of (combinations of) random variables and random processes- For a given (amplitude continuous/discrete and time continuous/discrete) probability model calculate the following probabilistic (marginal, joint and conditional) characterizations: PDF, PMF, CDF, probability of an event, expected value, variance, covariance, correlation, correlation coefficient, auto/crosscorrelation function, auto/crosscovariance function, (cross) power spectral density.- Calculate the PDF, PMF, expected value and variance of a derived random variable.4. Properties of Random Processes- Independence, orthogonality, uncorrelated, whiteness, IID- Determine if random variables/processes have the following properties: independent, orthogonal, uncorrelated, white, Poisson, Gaussian, Bernoulli, Markov, IID, stationary, WSS, ergodic.- Calculate the expected value, variance, auto/crosscorrelation(function), auto/crosscovariance(function), power spectral density of a linear combination of random variables and of a linearly filtered (WSS, amplitude discrete/continuous, time discrete/continuous) random process.5. Large NumbersCentral limit theorem, law of large numbers- Solve problems that require the use of the central limit theorem in an engineering context- Explain the law of the large numbers in an engineering context.6. Statistical Estimators- Estimated mean, variance, and correlation function- Given a set of outcomes, sample functions or realizations, calculate estimators for expected value, variance, and (auto-)correlation function.12. Application to Engineering Problems and Simulations- Select and translate a simple electrical engineering or computer science problem into mathematical probability model. The emphasis is on problems in signal and image processing, telecommunication, and media and knowledge technology. The class of probability models encompasses the following random variables/processes: Bernoulli, exponential, binomial, Poisson, Gaussian, uniform.- Justify and reflect on the approach taken in calculating or simulating (MatLab) the following probabilistic properties: PDF, PMF, expected value, variance, autocorrelation function, autocovariance function.PART II:After finishing this course, the student is acquainted with several statistical techniques to analyse a multivariate dataset by means of a linear model. The student is capable of applying these techniques to a multivariate dataset by means of a statistical software package and is capable of interpreting the output drawing conclusions from it. The student is acquainted with the statistical notions and concepts that underly the statistical technique.","Education Method":"PART I:Lectures, working groups (problem solving), laboratory work (Matlab exercises)PART II:Classes, exercises and weekly mandatory computer assignments, that are graded.","Books":"PART I:R.D. Yates and D.J. Goodman, \"Probability and Stochastic Processes: A Friendly Introduction for Electrical and Computer Engineers\", ISBN 0-471-17837-3, John Wiley and Sons, New York, 2005, Second Edition.PART II:John Fox Applied Regression Analysis and Generalized Linear Models, 3rd Edition2015 Sage Publications, Inc","Assessment":"Lab and written exam Q1, lab (35% of the second part) and written exam (65% of the second part) Q2","Exam Hours":"PART I:Written exam of 3 hours.PART II:Written exam of 3 hours.","Permitted Materials during Tests":"PART I:Self made notes on a two-sided written A4 sheet. Calculator.PART II:Self made notes on a two-sided written A4 sheet. Calculator.","Remarks":"PART II:This course is particularly interesting for students that are interested in statistical exploratory and quantitative techniques to analyse multivariate data."},{"nr":22,"parent":16,"name":"CS4070-D2","id":38013,"children":[],"courseName":"Multivariate Data Analyse ","ects":"2.5","Responsible Instructor":"Dr.A.J.Cabo    ,A.J.Cabo@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The student is able to examine data graphically, to transform data if necessary, to perform statistical test on the coefficients of a linear regression models, to interpret the outcome of the test and to explain the underlying statistaical principles","Education Method":"Lectures, Exercises, Computer Lab","Assessment":"Written exam (70%), computer lab assignments (30%)"},{"nr":23,"parent":16,"name":"CS4090","id":37841,"children":[],"courseName":"Quantum Communication and Cryptography","ects":"5","Responsible Instructor":"S.D.C.Wehner    ,S.D.C.Wehner@tudelft.nl","Contact Hours / Week  x/x/x/x":"weekly: 3 hours lecture, 1 hour tutorial","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Linear Algebra, Probability & Statistics, Q101 (Fundamentals of quantum information)","Study Goals":"The student will acquire:�A good understanding of the fundamental concepts of quantum information theory�A good understanding of the essential tools in quantum cryptpgraphy �Insight into the differences between classical and quantum communication and cryptography�Skill set required to follow the remainder of the quantum curriculum (Q301 � Quantum hardware and Q401 � Quantum electronics)","Education Method":"Lectures and Tutorials","Literature and Study Materials":"Primary: Lecture NotesAuxilliary:Nielsen and Chuang �Quantum computation and information�, Cambridge University Press. Mark Wilde �Quantum information theory�, Cambridge University Press","Assessment":"60% Homework assignments and presentation, 40% final exam"},{"nr":24,"parent":16,"name":"CS4105","id":37844,"children":[],"courseName":"Software Security","ects":"5","Responsible Instructor":"Prof.dr.E.Visser    ,E.Visser@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/2/0/0 lecture + lab","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The student will acquire:- A good understanding of the nature of security vulnerabilities in software systems- A good understanding of principles for secure software development- A basic understanding of security testing and dynamic analysis techniques- A good understanding of static analysis techniques and language-based security","Education Method":"Lectures + lab assignments","Assessment":"The grade for the course is determined by Exam + Lab AssignmentsWritten exam in WebLab (can be done on multiple sites) and homework (programming) assignments."},{"nr":25,"parent":16,"name":"EE4C06","id":37869,"children":[],"courseName":"Networking","ects":"5","Responsible Instructor":"Prof.dr.ir.P.F.A.Van Mieghem    ,P.F.A.VanMieghem@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"The new Networking course aims to provide a general and basic introduction to the art of �networking� necessary to understand any operational network. After this course, students are expected to represent/abstract real-world infrastructural network (e.g. a communication system) as a complex network, understand the basic methods to analyze properties of networks and dynamic processes on networks. Students will also understand why processes on networks and design of networks are so complex. Finally, students may appreciate the fascinatingly rich structure and behavior of networks and may realize that much in the theory of networks still lies open to be discovered.","Education Method":"Lectures, slides & homework","Assessment":"written examination"},{"nr":26,"parent":16,"name":"ET4283","id":35640,"children":[],"courseName":"Seminar Advanced Digital Image Processing  ","ects":"6","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl","Instructor":"Prof.dr.ir.L.J.vanVliet    ,L.J.vanVliet@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Basics of signal processing, image processing, linear algebra, stochastic processes. The course will start with a brief review of basic image processing principles as discussed in the TI bachelor course TI2716-B.","Study Goals":"General learning outcomes:The student has insight into state of the art algorithms for image processing including Multi-Resolution Image Processing, Morphological Image Processing, Image Features Representation/Description, Motion Estimation and Optic Flow, Image Restoration, Image Segmentation and 3D Computer Vision. The student is able to read, discuss, summarize and comment on scientific journal and conference papers in this area.Specific learning outcomes:1.Multi-resolution Image Processing:Gaussian scale space, windowed Fourier transform, Gabor filters, multi-resolution systems (pyramids, subband coding and Haar transform), multi-resolution expansions (scaling functions and wavelet functions), wavelet Transforms (Wave series expansion, Discrete Wavelet Transform (DWT), Continuous Wavelet Transform (CWT), Fast Wavelet Transform (FWT))The student is able to motivate the use of space-frequency representations, analyze the behavior of space-frequency techniques, explain the principles behind, classify and evaluate multi-resolution techniques..2.Morpological Image Processing:Definitions of gray-scale morphology: erosion, dilation, opening, closing; Application of gray-scale morphology: smoothing, gradient, second derivatives (top hat), morphological sieves (granulometry).The student is able to apply, recognize the priciples and analyze (a sequence of) morphological operations for noise suppression, edge detection, and sharpening.3.Image Feature Representation and Description:Measurement principles: accuracy vs. precision ; Size measurements: area and length (perimeter); Shape descriptors of the object outline: form factor, sphericity, eccentricity, curvature signature, bending energy, Fourier descriptors, convex hull, topology; Shape descriptors of the gray-scale object: moments, PCA, intensity and density; Structure tensor in 2D and 3D: Harris Stephens corner detector, isophote curvature.The student is able to comprehend and explain the properties of measurements in digitized images, combine measurement principles to solve a new problem, comprehend the structure tensor in various notations and apply it in measurement procedures.4.Motion and optic flow:Motion is strcuture in spatio-temporal images; Two frame registration: Taylor expansion method; Multi-frame registration: Optic flow. Applications of image registration.The student is able to explain the properties of image registration and optic flow and comprehend the aperture problem in optic flow.5.Image Restoration:Noise filtering, Wiener filtering, Inverse filtering, Geometric transformation, Grey value interpolationThe student is able to discuss the use of linear and non-linear noise filters, explain the use of inverse filters andproblems of inverse filtering in the case of noise, describe (the use of) a Wiener filter and apply geometric transformations and bi-linear grey value interpolation6.Image Segmentation:Thresholding, edge and contour detection, data-driven and model-driven image segmentation, edge trackingThe student is able to discuss isodata thresholding, optimal thresholding, multimodal thresholding and adaptive thresholding techniques,apply Gaussian derivative filters and difference based filters for calculation of edge point candidates, explain the trade off between localization and detection of edges, discuss split and merge techniques and edge tracking techniques. The student has insight into model-based image segmentation (object detection) approaches like template matching, Hough Transform, Deformable Template matching, Active Contours and Active Shape models and is able to formulate how shape information and image intensity information can be incorporated into these approaches.","Education Method":"lectures, group assignment with plenar presentation and discussion","Computer Use":"Matlab and dipimage toolbox and/or other imaging toolbox","Literature and Study Materials":"Book 'Digital Image Processing', van R.C. Gonzalez en R.E. Woods, third edition, 2002, ISBN 9780131687288.(Online) Book 'Computer Vision, Algorithms and Applications', R. Szeliski, (http://szeliski.org/Book/). The online version is available for free.We have used the Book �Introductory Techniques for 3-D Computer Vision�, E. Trucco and A. Verri, ISBN 0-13-261108-2 in the past.Lecture notes �Fundamentals of Image Processing�(http://homepage.tudelft.nl/e3q6n/education/et4085/sheets/ppt/FIP2.2.pdf) PDF-files of the lecture slides (see blackboard)","Assessment":"written exam and assignment. Both have weight 0.5 and both should be 5.0 or higher.Weighted average should be 5.8 or higher.","Exam Hours":"There will be a written examination in the exam period after the first semester. The assessment of the assignment will take place at the end of the first semester or in the exam period after the first semester.","Permitted Materials during Tests":"Books, print-out of pdf files of the lecture slides and lecture notes are not permitted during the written examination"},{"nr":27,"parent":16,"name":"ET4388","id":37622,"children":[],"courseName":"Ad-hoc Networks","ects":"5","Responsible Instructor":"R.R.Venkatesha Prasad    ,R.R.VenkateshaPrasad@tudelft.nl","Contact Hours / Week  x/x/x/x":"3/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Expected prior knowledge":"Wireless communications andnetworkingComputer communication principles, Layering principle of Computer Networks.Digital communication.","Study Goals":"By the end of this course students should be able to:- Model the ad-hoc networks using Graphs.- Describe the working principles of medium access control protocols for ad-hoc networks- Explain the working principles, advantages and disadvantages of different classes of routing protocols for ad-hoc networks- Choose various components to form a coherent ad hoc networking architecture- Develop a simulator to evaluate the MAC and routing protocols for ad hoc networks- Assess the suitability of ad-hoc networks for different communication needs and scenarios","Education Method":"The course will be taught in lecture form. The presence of students at all lectures is required for optimum result. Students are required to participate actively in various forms of activities and peer-learning. New forms of teaching aids are used.","Literature and Study Materials":"1. Textbook: Ad Hoc Wireless Networks, Architectures and Protocols by C. Siva Ram Murthy and B.S.Manoj, Prentice-Hall Pearson, 2004.2. Lecture notes consisting of slides presented at the lectures (Slides are only teaching aid and they are not substitute for textbooks, research papers, etc).3. Some recent journal papers 4. Optional Reference Books 4.1. Distributed Algorithms, Nancy A. Lynch, Morgan Kaufmann, 1996 (for networking algorithms)4.2. Ad Hoc Mobile Wireless Networks, Principles, Protocols and Applications by Subir Kumar Sarkar , C Puttamadappa , and T. G Basavaraju, Auerbach Publications, 2008. This book is avaliable online in the library.4.3. Wireless Ad Hoc and Sensor Networks, A Cross-Layer Design Perspective� by Jurdak, Raja, Springer, 2007. This book is avaliable online in the library.4.4. Ad-hoc Networks: Fundamental Properties and Network Topologies, by Ramin Hekmat, Springer. 5. OPNET/ns-2 web pages, tutorials and video lectures","Books":"Ad Hoc Wireless Networks, Architectures and Protocols by C. Siva Ram Murthy and B.S.Manoj, Prentice-Hall Pearson, 2004.","Assessment":"1. There will be written tests/examinations for this course. 2. The students will carry out a project in a group and submit a short report.3. Participation in off-track discussions on Facebook/Blackboard/FeedbackFruits and wikis.","Permitted Materials during Tests":"Different conditions for different test/exams.Conditions will be informed 1 week before the exams/test."},{"nr":28,"parent":16,"name":"IN4049TU","id":36621,"children":[],"courseName":"Introduction to High Performance Computing","ects":"6","Responsible Instructor":"Prof.dr.ir.H.X.Lin    ,H.X.Lin@tudelft.nl","Instructor":"Prof.dr.ir.H.J.Sips    ,H.J.Sips@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0 and pract","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Study Goals":"1. Knowledge about high performance computer systems including parallel and distributed architectures, and programming models; 2. Basic knowledge about the concepts of data decomposition and parallel algorithms; 3. Knowledge about various high performance (numerical) methods and their parallelization; 4. Capable to implement parallel programs (using MPI) on cluster of computers; 5. Obtain some experience on performance analysis of parallel programs.","Education Method":"Lectures, computer lab excercise using MPI","Literature and Study Materials":"Will be made available through throughout the course and can be downloaded from the blackboard.","Assessment":"Written exam (50%) + Lab work (50%)","Enrolment / Application":"Via Osiris"},{"nr":29,"parent":16,"name":"IN4150","id":36645,"children":[],"courseName":"Distributed Algorithms","ects":"6","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0 college; Pract. 3e en 4e kwartaal","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"Operating system concepts (IN1805)Computer Networks (IN2605)","Study Goals":"After having completed this course, the student has a good knowledge of and insight into important fundamental (theoretical) problems in distributed systems and their algorithmic solutions. In addition, the student can design and implement distributed algorithms that solve these problems.","Education Method":"Lectures, lab work","Literature and Study Materials":"Lecture notes (on Blackboard)","Assessment":"Paper review and written exam (closed book)","Remarks":"Lab work is 40 hrs."},{"nr":30,"parent":16,"name":"IN4170","id":36705,"children":[],"courseName":"Databases and Datamining","ects":"6","Responsible Instructor":"Dr.E.M.Bakker    ,E.M.Bakker@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0Pract.In Leiden","Education Period":"1,2","Start Education":"1","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Data Bases, Data Mining","Study Goals":"Obtain knowledge and skills about databases and data mining such that these can be applied to bio-informatics","Education Method":"Lectures, lab work","Literature and Study Materials":"J. Han and M. Kamber. Data Mining Concepts and Techniques (Second Edition), Elsevier Inc., 2006 (ISBN 1-55860-901-6)","Assessment":"There will be a total of 5 database - and data mining assignments. The assignments will be graded and determine the final grade.","Remarks":"For all materials and up to date information about the course (final schedule, location, etc.)see www.liacs.nl/~erwin/dbdm2007and see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":31,"parent":16,"name":"IN4178","id":36714,"children":[],"courseName":"Optimization (Swarm-based Computation with Applications in Bioinformatics)","ects":"6","Responsible Instructor":"Prof.dr.T.Back    ,T.Back@tudelft.nl , Dr.M.T.M.Emmerich    ,M.T.M.Emmerich@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0 in Leiden","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"Objective:-Learn methods for optimization - Understand the difficulties of optimization - Understand applications of optimization in bioinformatics","Education Method":"Lectures","Literature and Study Materials":"Copies of the lecturing slides will be distributed in class. Also, papers to work into the seminar topics will be distributed in class","Assessment":"Written exam.Exam will cover the first part (6 lectures)","Remarks":"For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":32,"parent":16,"name":"IN4188","id":36702,"children":[],"courseName":"Seminar Affective Computing","ects":"5","Responsible Instructor":"Dr.ir.D.J.Broekens    ,D.J.Broekens@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0 + project","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Intermediate-level programming skills in one of the following languages: C(++)/Java/Flash script/Python/Processing (or related language).Completion of a course on human computer interaction or related topic.Knowledge of Artificial Intelligence.In doubt: contact lecturer!","Study Goals":"Position the field of affective computing in computer science and psychology, and identify its major goals and angles of study.Define and explain emotion and affect.Relate emotion and affect to psychological theories of emotion.Explain major affect recognition, affect simulation and affect expression techniques. Explain how they are used in technological artifacts.Identify and evaluate implications and assumptions of a theoretical framework for affective system development.Develop in collaboration with others an affective system, and together evaluate the resulting system using the theoretical affective framework(s).","Education Method":"Seminar/Project form:Seminar:2 hours of lectures per week.Self-study of papers.The papers will be made available at the start of the course.Project:Perform a piece of research (survey, research question, programming, testing) and write a paper about it. Students will work in teams of about 3-4 persons!The different teams will probably have research projects that relate to the projects of other teams. As such, active participation is a must! Others depend on you work.","Literature and Study Materials":"papers and course slides. The papers will be made available at the start of the course.Depending on the cost, this year a book will be used. If that is the case, students will be notified at least 1 month in advance through blackboard.","Books":"Material consists of papers and course slides. The papers will be made available at the start of the course.Depending on the cost, this year a book will be used. If that is the case, students will be notified at least 1 month in advance through blackboard.","Assessment":"Project work (50%): paper, presentation, review of the paper of another group.Theoretical lectures (50%): mini exams, each lecture starts with a min exam on the material discussed in the previous lecture.Project and theoretical work will be averaged. This is your only official final grade. No separate project / theoretical grades will be administrated in OSIRIS.No final exam.","Enrolment / Application":"Mandatory (!) and in advance through blackboard or email.","maximum aantal deelnemers":"16"},{"nr":33,"parent":16,"name":"IN4189","id":36673,"children":[],"courseName":"Software Reengineering ","ects":"5","Responsible Instructor":"A.E.Zaidman    ,A.E.Zaidman@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"Bring students into the position that they can efficiently work with an already existing, complex software system. Introduce students to best-practices in software reengineering and to the state-of-the-art refactoring tools, metric tools, profiling tools, reverse engineering tools (e.g., software visualization tools), code duplication removal and management tools, etc.","Education Method":"Limited number of lectures, 1 big lab assignment accompanied by a paper and presentation.","Assessment":"No written exams. Lab assignment, paper and presentation."},{"nr":34,"parent":16,"name":"IN4302TU","id":35166,"children":[],"courseName":"Building Serious Games","ects":"5","Responsible Instructor":"Dr.ir.A.R.Bidarra    ,R.Bidarra@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"Different, to be announced","Course Language":"English","Expected prior knowledge":"For TI students: programming experience with some object-oriented language; experience with graphics, AI and/or some game engine(s) is a plus.For all students: though not compulsory, it may be convenient to have followed the course SPM9235 (Game design project), which is taught in the first quarter.","Study Goals":"At the end of the project, the student will demonstrate proficiency in the following aspects:o identifying and valuing the soft skills necessary to work in interdisciplinary teamso interacting within a team, integrating its members' varying talents and expertiseo adapting with flexibility to the dynamic requirements of a complex external assignmento translating feedback received into proactive personal development stepsAdditionally, the CS student will demonstrate proficiency in the following specific aspects:o identify, select and deploy the most adequate game technologies for a given serious game applicationo deepening programming skills while building a complex and large software system in an agile context","Education Method":"ProjectAlso a few plenary sessions and/or lectures","Assessment":"Project assessment will be based on a combination of a product grade (unique for the whole group), a process grade (individual) and peer evaluation.The end-user will be involved both as advisor and as assessor."},{"nr":35,"parent":16,"name":"IN4306","id":36666,"children":[],"courseName":"Literature Survey ","ects":"10","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl , Dr.ir.F.F.J.Hermans    ,F.F.J.Hermans@tudelft.nl","Contact Hours / Week  x/x/x/x":"Not applicable","Education Period":"None (Self Study)","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student is able to read contemporary scientific literature in the chosen field of specialisation.The student is able to distill the main ideas of a paper and to write these down in his or her own words.The student is able to place the ideas of different papers in perspective by comparing these.","Education Method":"Individual assignment.The student should consult the MSc coordinator for further details.","Assessment":"Writing a report, individually and under supervision of a staff member. This staff member will also mark the report."},{"nr":36,"parent":16,"name":"IN4307","id":36622,"children":[],"courseName":"Medical Visualization","ects":"5","Responsible Instructor":"Dr.A.Vilanova Bartroli    ,A.Vilanova@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0 + final project 2th quarter (8x2)","Education Period":"1","Start Education":"1","Exam Period":"Different, to be announced","Course Language":"English","Study Goals":"At the end of the course, the students should be able to understand, and judge the advantages and disadvantages of the medical visualization algorithms, as well as their applicability to a specific medical problem. The students should be able to propose suitable solutions to a problem, backed by sound knowledge of the underlying theory and the practical possibilities.They should be able to design, implement, test and discuss these solutions, consisting of a number of medical visualization algorithms.","Education Method":"The course will be based on a combination of lectures and practical assignments.","Assessment":"The evaluation will be based on a final project (60%) and an oral exam (40%). The final project will be done during the 2nd quarter.The deliverables for the final project will be a report (paper), the results (e.g., code) and a presentation. There will be a day in the second quarter were all projects will be presented.The oral exam will be arranged at the end of the first quarter.Both Assignment (60 %) and oral exam (40%) have to get the mark of pass to successfully pass the course."},{"nr":37,"parent":16,"name":"IN4310","id":38128,"children":[],"courseName":"Seminar Computer Graphics","ects":"5","Responsible Instructor":"Dr.ir.A.R.Bidarra    ,R.Bidarra@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"One of the CS core courses (IN4086 Data Visualization, and IN4152 3D Computer Graphics and Animation), and at least one of the Computer Graphics specialization courses (IN4255 Geometric Modeling, IN4302 Building Serious Games, and IN4307 Medical Visualization) are expected as prior knowledge.","Study Goals":"To obtain in-depth knowledge about an advanced topic within Computer Graphics, in particular in rendering, game technology, visualization or geometric modeling. The seminar may be used as a preparation for an MSc thesis topic.To acquire practical skills with reading, presenting, and discussing scientific papers, as well as with writing scientific papers.","Education Method":"This course has the format of a student seminar. Students will therefore have to read research papers about the selected topic, and prepare a short written survey based of those papers.They will also choose one of the techniques surveyed, and prepare a presentation that goes in-depth on its research significance and challenges; these presentations, and the corresponding research discussions, will be held in a few plenary colloquium sessions.","Literature and Study Materials":"Recent research papers about the selected topic.","Assessment":"The quality of the survey and of its presentation, together with the active participation in the plenary colloquium discussions, will determine the final grade.","Remarks":"Please contact the instructor via email far ahead of education period 1, if you are interested in attending this seminar."},{"nr":38,"parent":16,"name":"IN4314","id":36698,"children":[],"courseName":"Seminar Selected Topics in Multimedia Computing","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , M.A.Larson    ,M.A.Larson@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"signal (image, audio) processing, data mining, pattern recognition","Study Goals":"To become acquainted with the state-of-the-art research and development activities in the field of Multimedia Computing, and to become an expert in one particular \"hot topic\", such that they are able to identify the \"knowledge gap\" (i.e., the place in which more research is needed in order to advance the state of the art).","Education Method":"readings, seminar discussions, presentations, survey paper","Literature and Study Materials":"Readings, possibly including video lectures.","Assessment":"The students demonstrate the knowledge that they have acquired by making a presentation on a pre-existing survey (10%), then writing their own survey on a new topic (65%), and finally by making a presentation on that topic (25%). The students must complete all three components."},{"nr":39,"parent":16,"name":"IN4318","id":36716,"children":[],"courseName":"Introduction to Life Science","ects":"10","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/x/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"To learn about the basic concepts in molecular biology required for bioinformaticians.","Education Method":"Tutorial: students independently read a standard work on molecular biology and discuss with the teacher if necessary.","Assessment":"Examination by appointment.","Remarks":"Taught by Erwin Bakker at Leiden University."},{"nr":40,"parent":16,"name":"IN4326","id":36667,"children":[],"courseName":"Seminar Web Information Systems","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"-to expose the student to current developments in research on web information systems and its methodologies; -to familiarise the student with reading, presenting and discussing scientific literature in the area;-to help the student in reading and writing scientific papers and choosing a topic for her/his thesis in the area.","Education Method":"Student seminar.","Assessment":"-Quality of presentation of the scientific paper studied (15%).-Participation in the seminar discussions (10%).-Quality of paper written (75%)."},{"nr":41,"parent":16,"name":"IN4334","id":36671,"children":[],"courseName":"Mining Software Repositories","ects":"5","Responsible Instructor":"A.Bacchelli    ,A.Bacchelli@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/5/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"This course explores techniques and leading research in mining Software Engineering data, discusses challenges associated with mining SE data, highlights SE data mining success stories, and outlines future research directions. Students will acquire the knowledge needed to perform research or conduct practice in the field. Once completed, students should be able to do data science on software repositories in their own research or practice.","Education Method":"Frontal lectures with hands-on tutorials. Students will learn techniques of data mining and see how these were practically applied in software engineering context.","Assessment":"One original project done alone or in a group of 2 or 3 students. The project will explore one or more of the themes covered in the course from a novel perspective (e.g., on new data). The project will be graded according to originality and interestingness, depth of the work, correctness of the analysis, and the presentation quality of the written (6-page IEEE format) report and accompanying source code."},{"nr":42,"parent":16,"name":"IN4354","id":36701,"children":[],"courseName":"Seminar Human-Agent/Robot Teamwork","ects":"5","Responsible Instructor":"Dr.M.B.vanRiemsdijk    ,M.B.vanRiemsdijk@tudelft.nl","Instructor":"M.Harbers    ,M.Harbers@tudelft.nl","Contact Hours / Week  x/x/x/x":"This course is cancelled due to circumstances","Education Period":"1","Start Education":"1","Exam Period":"1","Course Language":"English","Expected prior knowledge":"IN4010 (Artificial Intelligence Techniques) is recommended, otherwise at least knowledge of Java","Study Goals":"After succesful completion of the course, students can:- analyze a scientific paper - present a scientific paper- explain key notions of HART frameworks- analyze similarities and differences between HART frameworks- develope (parts of) an intelligent system that cooperates with humans- relate the developed intelligent system to the HART theory- evaluate to what extent the theory supports the development of systems for HART","Education Method":"Lectures, seminar, practical assignment","Computer Use":"Students are expected to use their own computers for the practical assignment.","Literature and Study Materials":"Each year, a new selection of important papers will be made. See Blackboard for the current selection.","Assessment":"- quality of presentation- quality of report (including description of the developed system)- participation"},{"nr":43,"parent":16,"name":"IN4355","id":36676,"children":[],"courseName":"Functional Programming","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl , Prof.dr.H.J.M.Meijer    ,H.J.M.Meijer@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The aim of this module is to teach the principles of pure functional programming, and the corresponding Category Theoretical principles, using the modern functional language Haskell, and apply these techniques in mainstream programming languages such as PHP, JavaScript, Dart, C#, Java, etc.","Education Method":"Lectures + lab workThe lectures will be given by Erik Meijer. The lectures will be given in a block of 2-3 weeks at Delft University of Technology. After that, several interactive sessions (including student presentations and code reviews) with the USA (Silicon Valley) will be held over skype. Due to the 9 hour time difference, these sessions will take place in the (early) evening.The exact timing of the blocks in Delft differs per year, and will be announced on blackboard.","Books":"Programming in HaskellGraham Hutton, University of NottinghamCambridge University Press, 2007Paperback: �23.99 / $45.00 (ISBN-13: 9780521692694 | ISBN-10: 0521692695)eBook: $36.00 (ISBN-13: 9780511292187 | ISBN-10: 051129218X) Kindle: $36.00 (ASIN: B001FSKE6Q)","Assessment":"The grade for this course will be based on (1) group participation; (2) lab work; (3) a paper describing the lab work or explaining advanced functional programming concepts to practitioners; (4) final presentation of paper and lab work."},{"nr":44,"parent":16,"name":"IN4387","id":35644,"children":[],"courseName":"System Validation ","ects":"5","Responsible Instructor":"J.J.A.Keiren    ,J.J.A.Keiren@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"Embedded Systems Masters","Parts":"Introduction to Behavioural SpecificationBehavioural Equivalences (Strong and Weak)Abstract Data TypesSequential and Parallel ProcessesModal mu-CalculusConfluence","Study Goals":"Upon completion of the course:1. The student knows the fundamental theory necessary for specifying the behaviour of embedded systems and for reasoning about this behaviour.2. The student can describe simple systems using this theory.3. The student can formally specify requirements and prove (or disprove) them on the behaviour.4. The student is able to model a concrete embedded system,and verify that it satisfies its requirements.","Education Method":"Lectures + Practical ProjectThe lectures are held in the first quarter after which a written exam (on the theory treated in the lectures) is taken. Parallel to the theory part,a practical project is done. The project is carried out in groups of (about) 4 students and the result is a verified model of an embedded system together with a comprehensive report on the steps towards to the model.","Literature and Study Materials":"J.F. Groote and M.R. Mousavi. Modeling and Analysis of CommunicatingSystems. MIT Press, 2014. ISBN: 9780262027717 (Chapters 1-7,11 are mandatory)","Assessment":"The result of this course will be based upon the results of the written examination (50%) and the practical project (50%). For both the written examination and the practical project a minimum of 5.0 is required in order to pass the course.","Enrolment / Application":"Blackboard"},{"nr":45,"parent":16,"name":"IN4390","id":35645,"children":[],"courseName":"Quantitative Evaluation of Embedded Systems","ects":"5","Responsible Instructor":"M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"At the end of the course, the student has a good overview over the specific formalisms that are used when quantitative aspects like time, probability and resource usage play a role in the analysis of system behavior. The student knows how to use these formalisms and what their limitations are. In particular, the student has detailed knowledge of the relevant state-automata and event-graphs, the relevant transition-system based and order based semantics, and the process equivalences and verification-techniques for logics in this area. Also, the student has gained experience with the gathering of quantitative data and the use of several analysis tools for verification and validation of formal models based on such data.","Education Method":"Lectures + Hands-on Sessions","Assessment":"Written exam + practicals"},{"nr":46,"parent":16,"name":"IN4392","id":36681,"children":[],"courseName":"Cloud Computing","ects":"5","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl , A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"1.Explain the basic concepts, objectives, and functions of cloud computing.2.Describe the architecture and operation of cloud computing.3.Describe the elements of user workloads in cloud computing.4.Explain how cloud computing can schedule the workloads of multiple users (virtualization, multi-tenancy).5.Describe the programming models applicable for cloud computing.6.Implement complex operations of cloud computing in realistic scenarios.7.Analyze the tradeoffs inherent in the design of cloud computing data centers and applications.","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLecturesand reviews:in-class, 7 weeks x 2h + self-study, 40h: at least 6 articles of the offered 12-15Seminar:self-study, 28h + 20 minutes: Presentation on selected topic(once)Practical:Groups of 2 on the DAS distributed computer system.three exercises in-class, 6 weeks x 2h + one large exercise of 40h: large exercise based on course topics 6 and 7 + report of 4�6 pagesNote: This course is synchronized with an equivalent course at TU Eindhoven.","Assessment":"Overall: Assessment through: in-class presentation, portfolio of reviews of self-study material, and demonstration of practical ability through three minor and one major assignment.Note: There is no final exam.Summary:Type of assessmentPart of final gradePresentation25%Reviews35%Practical40%"},{"nr":47,"parent":16,"name":"IN4398","id":36635,"children":[],"courseName":"Internet of Things seminar","ects":"5","Responsible Instructor":"Dr.P.Pawelczak    ,P.Pawelczak@tudelft.nl","Instructor":"R.R.Venkatesha Prasad    ,R.R.VenkateshaPrasad@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"fundamental understanding of wireless communications, familiarity with wireless communications and embedded systems; knowledge of Python/C++/Matlab is a plus.","Parts":"Each seminar: 2x 45 minutes (2 parts) + 10 minute break","Study Goals":"To be able to design components of Internet of Things. To be able to criticize and assess system-level components of the Internet of Things environment discussed in the scientific literature.","Education Method":"Seminar will be composed of (i) lecture presentation on a given research paper presented by an individual student and (ii) work on an associated research project. Students will be provided with a list of projects and articles that will be assigned to them. Mini-project will be summarized in the form of a written report (report must include critical analysis of the paper assigned). Within a project any hardware/software platform is allowed to be used. Assigned paper needs to be critically evaluated and a proposal to extend the assigned paper will need to be presented in a form of a presentation. Paper extension should focus on a system level idea, no deep evaluation will be necessary.","Assessment":"Part 1: assessment based on presentation quality, Part 2: a report describing the outcome of the assigned project. Part 1: 0.35 of the whole mark; Part 2: 0.65 of the whole mark. In the assessment, a focus on the practicality and entrepreneurial aspect of the idea will be prevailing.","maximum aantal deelnemers":"18-20 students, which translates to max of 10 groups (in case of odd number one group composed of 3 students)."},{"nr":48,"parent":16,"name":"IN4400","id":36669,"children":[],"courseName":"Programming and data science for the 99%","ects":"5","Responsible Instructor":"Dr.ir.F.F.J.Hermans    ,F.F.J.Hermans@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"Learning the basics of programming and data analysis","Education Method":"Lectures and hands-on exercises","Assessment":"Exam and assignment","Elective":"Yes"},{"nr":49,"parent":16,"name":"SPM4110","id":35214,"children":[],"courseName":"Designing Multi-actor Systems","ects":"6","Module Manager":"Dr.S.G.Lukosch    ,S.G.Lukosch@tudelft.nl","Instructor":"S.Cunningham    ,S.Cunningham@tudelft.nl , Dr.ir.J.H.Kwakkel    ,J.H.Kwakkel@tudelft.nl , H.K.Lukosch    ,H.K.Lukosch@tudelft.nl , Prof.dr.ir.A.Verbraeck    ,A.Verbraeck@tudelft.nl , Dr.H.G.van derVoort    ,H.G.vanderVoort@tudelft.nl","Contact Hours / Week  x/x/x/x":"X/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"SPM4140 - Service Systems Engineering","Summary":"In this course, students learn about designing complex, technological, large scale systems in multi-actor environments (in short, multi-actor systems). Different perspectives on systems design are discussed to provide students with a background for working with designers from different disciplines. Various aspects and principles of designing multi-actor systems are discussed from an engineering and a process perspective.Methods and tools for analysis and design of systems are introduced to teach students specific skills for the design of multi-actor systems. Thereby, the course provides students with a background for working with designers from different disciplines and they becomes familiar with the specific SEPAM-perspective on designing multi-actor systems.","Study Goals":"On completion of this course students are familiar with the specific SEPAM perspective on designing large scale, technology enabled multi-actor systems (MAS) in multi-actor environments. In particular: - Students are able to use and discuss concepts and terminology related to the design of MAS.- Students are able to use and discuss methods and tools that facilitate systems design and engineering.- Students are able to discuss the differences between design perspectives used in technical and social disciplines.- Students are able to describe and discuss process design guidelines for designing a decision making process in a multi-actor environment.- Students are able determine the appropriate use of methods for addressing socio-technical design challenges. - Students can design and specify systems engineering solutions through the use of requirements analysis and conceptual designs. - Students are able to apply methods and tools to enhance creativity in design processes.","Education Method":"The class sessions include lectures covering basic concepts. The course emphasis is mainly put on participation of the students in creativity discussions, problem solving, and concept design. Throughout the course student groups work on a project-based assignment. The project has the goal to create a design of a multi-actor system.","Literature and Study Materials":"- Sage, A.P. and Armstrong (Jr.), J.E. (2000). Introduction to Systems Engineering. John Wiley & Sons, Inc.- de Bruijn, H., ten Heuvelhof, E., and in 't Veld, R. J. (2010). Process Management. Springer Netherlands.- Reading materials: the concepts and topics discussed in the course will be reinforced by regular reading of papers, articles and book chapters as appropriate. These reading materials will be available on Blackboard.","Assessment":"At the end of the period, the course is assessed with an open book exam. The grade for the course is to 70% your grade for the exam and for 30% the grade for the final report that has to be prepared for the project-based assignment. Both, exam and case study, need to be passed.","Category":"MSc level"},{"nr":50,"parent":16,"name":"SPM4340IA","id":35181,"children":[],"courseName":"Design of Innovative ICT-infrastructures and Services","ects":"6","Module Manager":"Prof.dr.ir.M.F.W.H.A.Janssen    ,M.F.W.H.A.Janssen@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"� Basic knowledge of information and communication technology technology� Basic knowledge of software eningeering or engineering methods and principles in general� Basic knowledge of multi-actor systems","Summary":"The purpose of this course is to teach the design of innovative and large scale ICT infrastructures and services in the light of the challenges imposed by the requirements from the systems� physical, economic and social environment. Emphasis will be put on the concept and role of ICT-architectures to model information needs and services in order to properly design ICT solutions within a multi-actor context. Attention will be paid to relevant aspects such as flexibility, adaptivity, and accountability. Next, the students will learn how to plan and design a large scale ICT implementation project by partitioning it in phases with for each the suitable decision moments. Finally, students will learn methods and tools for designing IT-services.","Study Goals":"1.The student is able to describe basic concepts related to designing large and complex ICT-infrastructures and service systems.2.The student is able to analyse and discuss problems with regard to designing large ICT-systems.3.The student is able to apply system engineering and architecture-based approaches to deal with problems with regard to designing large ICT-systems.4.The student is able to describe methods and tools for designing large and complex ICT-infrastructures and service systems within a multiple actor context.5.The student is able to apply methods and tools for designing large and complex ICT-infrastructures and service systems within a multiple actor context.6.The student is able to explain how to apply architectural concepts for translating business needs into ICT-designs within constellation of public and private actors.","Education Method":"� Lectures� Guest lectures (obliged)� Assignments","Literature and Study Materials":"-N. Bharosa, R. Van Wijk, N. De Winne & M. Janssen (2015). Challenging the Chain. Governing the Automated Exchange and Processing of Business Information. IOS Press http://www.iospress.nl/book/challenging-the-chain/ (open access)-Reader-All papers, slides and material on blackboard (including the slides of the guest lecturers)","Assessment":"Assignment (60%)Written exam (40%)Each grade should be sufficient to pass"},{"nr":51,"parent":16,"name":"SPM5441","id":37475,"children":[],"courseName":"Cyber Risk Management","ects":"5","Module Manager":"Prof.dr.ir.J.van denBerg    ,J.vandenBerg@tudelft.nl","Instructor":"Dr.ir.W.Pieters    ,W.Pieters@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"To get knowledge, understanding and skills with respect to�Cyber risk assessment methods of (complex, multi-step) cyber incidents, possibly with cascading effects�Preventive measures that help to prevent the occurrence of cyber incidents�The fundamentals of repressive measures (detecting incidents in-time and reducing their impact)�Balancing the various human values at stake, including the balance between privacy and security, primarily from a governmental (macro-level) perspective","Education Method":"LECTURES and ASSIGNMENTS.LEARNING OUTCOMES: Students will acquire:�A sound understanding of the theoretical principles of cyber risk management�An understanding of the weaknesses and strengths of current risk management standards �Skills in applying state of the art cyber risk management methods�Insights into the cause and effects of high profile incidents�Ability to justify investments in cyber securityLANGUAGE: The course is taught in English.LECTURERS: Prof Dr Ir Jan van den Berg (TUD/EWI&TPM) and Dr Ir Wolter Pieters (TUD/TPM)","Assessment":"Grading will be based on a) the quality of delivered assignments and b) the grade for the written examination. To be made precise when the course starts."},{"nr":52,"parent":16,"name":"UT-192110940","id":37842,"children":[],"courseName":"Secure Data Management","ects":"5","Contact Hours / Week  x/x/x/x":"2/0/0/0+ assignments","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English"},{"nr":53,"parent":16,"name":"UT-201500039","id":37843,"children":[],"courseName":"Security Verification","ects":"5","Contact Hours / Week  x/x/x/x":"2/0/0/0+ assignments. Starts in 2016","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English"},{"nr":54,"parent":16,"name":"UT-201500040","id":37827,"children":[],"courseName":"Biometrics","ects":"5","Contact Hours / Week  x/x/x/x":"0/2/0/0+ project","Education Period":"2","Start Education":"2","Exam Period":"none","Course Language":"English"},{"nr":55,"parent":16,"name":"UT-201500041","id":37832,"children":[],"courseName":"Cyber Security Management","ects":"5","Contact Hours / Week  x/x/x/x":"0/2/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English"},{"nr":56,"parent":16,"name":"UT-201500042","id":37840,"children":[],"courseName":"Privacy Enhancing Technologies","ects":"5","Contact Hours / Week  x/x/x/x":"0/0/0/2+ assignments","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":57,"parent":16,"name":"WM0332IN","id":36665,"children":[],"courseName":"Methodology of Science and Engineering","ects":"4","Module Manager":"Dr.M.P.M.Franssen    ,M.P.M.Franssen@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"M.Sc. programme Computer EngineeringM.Sc. programme Media and Knowledge Engineering","Expected prior knowledge":"Standard propositional and predicate logic;Elementary probability theory","Summary":"This module introduces the student to:1. the aims and character of science and engineering as human practices;2. the distinction between facts and values or norms, and the role they play in science and engineering;3. ways of arguing in support of factual and in support of normative claims;4. aspects of empirical research: induction, deduction, measurement, evaluation;5. the character and status of theories and models in science and engineering;6. similarities and differences between the natural sciences and the human or social sciences.","Study Goals":"(1) To learn to distinguish the specific roles that empirical, formal and normative claims play in science and engineering;(2) To recognize and analyze the epistemic status of each type of claim and the ways in which claims in each of these categories can be supported and argued for;(3) To learn to appreciate the role of norms, values, and human decision-making in science and technology;(4) To come to understand the nature of empirical research, the role of different types of claims in it, and the constraints put to the justifiability of knowledge claims in science and engineering; (6) To learn to judge the similarities and distinctions between science and engineering (or belief and action), and between the natural and the social sciences;(7) To learn to recognize and explore the limits of formal and scientific descriptions of natural and social reality, and of the role of models, idealization, and abstraction in scientific and engineering knowledge.","Education Method":"The module is taught in the form of lectures with discussions mainly of exercises presented during the course. Students will be required to work on these exercises in-between classes.","Literature and Study Materials":"The study material for this course will be made available at the start of the course.","Assessment":"The student's grades for this course will be determined by the result of an individual exam taken at the end of the course. During the course students will be required to work at exercise questions; sufficient marks for the answers to these exercises will not be weighed into the final grade but will allow students to drop an exam question or work for bonus points.","Category":"BSc niveau"},{"nr":58,"parent":16,"name":"WM0824TU","id":37738,"children":[],"courseName":"Economics of Cyber Security","ects":"5","Module Manager":"Dr.ir.C.H.G.Hernandez Ganan    ,C.H.G.HernandezGanan@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"The student will:Gain a sound understanding of the economics of cybersecurity as a systems discipline, from security policies (modelling what ought to be protected) to mechanisms (how to implement the protection goals). Obtain skills in collecting and analysing data on information security issuesGain insights into the design of effective policies to enhance and maintain cyber security must take into account a complex set of incentives facing not only the providers and users of the internet and computer software, but also those of potential attackersLearn to apply economic analysis and data analytics to the open issues and pending activities in cybersecurity.","Education Method":"Blackboard TU Delft will be used for communications and distributing study material.The course will consists of 5 weeks of intensive theory (2 hours twice per week) after which students will perform their own EconSec study.During the period in which students are working on their study there will be one half-day meeting in which students get the opportunity to discuss their experiences and possible bottle-necks with the group and instructors.One month before the report deadline, there will be a full day meeting in which students are expected to present their research and (preliminary) results to the group and instructors with the aim to generate valuable feedback for finishing their research and report. While performing their own research students will have access to a forum via which students can discuss possible bottlenecks and exchange tips. The instructors will closely monitor the discussions and join when appropriate.","Assessment":"The final grade is based on a short research proposal, a presentation and a final case study report. When a final report is graded lower than 6, students have one month to improve the report for re-submission. The maximum grade after re-submission is 6.","Enrolment / Application":"A maximum number of 20 students will participate in the course."},{"nr":59,"parent":16,"name":"WM0825TU","id":37739,"children":[],"courseName":"Ethics and Cyber Security","ects":"5","Module Manager":"M.J.van denHoven    ,M.J.vandenHoven@tudelft.nl","Instructor":"Dr.ir.W.Pieters    ,W.Pieters@tudelft.nl , Dr.M.E.Warnier    ,M.E.Warnier@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/x/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English"}]},{"nr":60,"parent":3,"name":"Specialisation Courses 2nd semester 2015","id":16585,"children":[{"nr":61,"parent":60,"name":"AP3292 D","id":37767,"children":[],"courseName":"Quantum Hardware","ects":"6","Responsible Instructor":"Prof.dr.ir.L.M.K.Vandersypen    ,L.M.K.Vandersypen@tudelft.nl","Instructor":"Prof.dr.ir.R.Hanson    ,R.Hanson@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3","Course Language":"English","Expected prior knowledge":"Undergraduate electricity and magnetism; AP3421 Fundamentals of quantum information","Study Goals":"To acquire a good understanding of the requirements of quantum hardware both at the conceptual level and at the practical level.To acquire conceptual insight in the operation, opportunities, and challenges of various qubit realisations.To obtain a good overview of the state-of-the-art.","Education Method":"2 hours weekly lecture, 1 hour student presentations, literature study","Course Relations":"This course forms part of the curriculum on Quantum Technologies offered at TU Delft, which at present consists of Q101 - AP3421 Fundamentals of quantum informationQ201 - CS4090 Quantum communication and cryptographyQ301 - AP3292D Quantum hardware Q401 - EE4575 Quantum Electronics","Literature and Study Materials":"Scientific publications (both review articles and research articles)","Assessment":"60% final assignment, 10% in class quiz, 30% presentations","Permitted Materials during Tests":"","Continuing Courses":""},{"nr":62,"parent":60,"name":"CS4080","id":37839,"children":[],"courseName":"Principles of Data Protection","ects":"5","Responsible Instructor":"Dr.N.Zannone    ,N.Zannone@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"Basic knowledge on security","Study Goals":"After completing this course- the student is able to understand the relevance of data protection in real settings;- the student is able to have a detailed understanding of most important access control models;- the student has knowledge of the well-established privacy principles;- the student is able to specify access control and privacy policies;- the student is able to evaluate access control and privacy policies;","Education Method":"lectures","Literature and Study Materials":"Seminal papers from the literature. Links will be provided on the course website","Assessment":"Assignment(s)Written (3 hours)Assignment is 20% and written exam 80% of the final grade","Permitted Materials during Tests":"No material is allowed during Tests"},{"nr":63,"parent":60,"name":"CS4110","id":37845,"children":[],"courseName":"Software Testing and Reverse Engineering","ects":"5","Responsible Instructor":"Dr.ir.S.E.Verwer    ,S.E.Verwer@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Co-instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl"},{"nr":64,"parent":60,"name":"EE4560","id":37856,"children":[],"courseName":"Information Theory","ects":"5","Responsible Instructor":"Dr.ir.R.Heusdens    ,R.Heusdens@tudelft.nl","Instructor":"Dr.ir.J.H.Weber    ,J.H.Weber@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"Upon completion of this course the student will understand the fundamentals of Information Theory, which includes the following: (a) the correspondences between the elements of this theory and certain natural concepts of importance in a wide number of fields, such as transmission, storage, authoring and protection of data, (b) core theorems of information theory, (c) the models that are developed for a discrete information source and a discrete communication channel on the basis of simple concepts from probability calculus, (d) how to develop source coding algorithms, and (e) how to secure optimal data transmission through a (noisy) discrete communication channel.","Education Method":"lectures + mini project","Assessment":"Written exam + evaluation of the mini project"},{"nr":65,"parent":60,"name":"EE4575","id":37859,"children":[],"courseName":"Electronics for Quantum Computation","ects":"5","Responsible Instructor":"K.L.M.Bertels    ,K.L.M.Bertels@tudelft.nl , Prof.dr.E.Charbon    ,E.Charbon@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"The course will be an introduction to quantum computing, covering error quantum correction, fault tolerance, and surface codes. Labs will focus on the simulation, detection, and correction of errors using field- programmable-gate-arrays (FPGAs). Students will get familiar with the concepts of quantum computing while practicing to interface to a quantum computer in real life.","Education Method":"The course will focus on electronics for quantum computing, both ASICs and reconfigurable architectures.There will be weekly lectures & labs: 2-hour lecture on first day, 1-hour lecture + 1-hour exercises/lab or a 2-hour lab on second day. The lab will be available to students for completing assignments.","Assessment":"There will be a final exam and a project at the end of the quarter. 6 labs will receive a pass/no pass assessment."},{"nr":66,"parent":60,"name":"ET4030","id":37660,"children":[],"courseName":"Error Correcting Codes","ects":"4","Responsible Instructor":"Dr.ir.J.H.Weber    ,J.H.Weber@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/3","Education Period":"4","Start Education":"4","Exam Period":"4","Course Language":"English","Expected prior knowledge":"A B.Sc. Programme in Electrical Engineering, Computer Science, or Mathematics","Study Goals":"The global goal of this course is to get acquinted with the basics and applications of error correction coding techniques. Such techniques are applied in order to protect information against errors which may occur during transmission or storage. The specific techniques under consideration in the course are the ones discussed in the lecture notes, which may be updated from year to year according to recent developments. The emphasis will be on the basic trade-offs between efficiency, reliability, and complexity. Unless explicitly indicated, the proofs of the results are not part of the course contents (the interested student may consult books from the bibliography). In the end, the student should be capable of making choices for suitable error correction coding techniques in the context of information transmission and storage applications. The student has to demonstrate to have understood the aforementioned techniques and trade-offs. This can be done in various ways.* \"Broad\": The student solves exercises in a closed-book written or oral exam. The level of these exercises is similar to the examples and exercises provided in the lecture notes. * \"Narrow, but in-depth\": In consultation with the lecturer, the student chooses a certain topic from the course, which is investigated in more detail, by writing either an essay (discussing a paper from the recent literature) or a computer program for a demo explaining the chosen topic (to be used by the lecturer in class room).","Education Method":"Lectures","Literature and Study Materials":"Lecture notes \"Error-Correcting Codes\" by J.H. Weber","Assessment":"Written (closed book), oral (closed book), essay, or computer program","Remarks":"Actual course information available on Blackboard."},{"nr":67,"parent":60,"name":"ET4389","id":36679,"children":[],"courseName":"Complex Networks from Nature to Man-made Networks","ects":"4","Responsible Instructor":"H.Wang    ,H.Wang@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"EE variant:After this course, students could represent/abstract a complex system such as a brain or a communication system as a complex network, understand the basic methods to analyze properties of networks and dynamic processes on the networks, design robust networks against e.g. failures and epidemics and be able to apply them to real-world complex systems. CS variant: After this course, students could construct the network based on the dataset, characterize and model the network, model the data via e.g. dynamic processes (e.g. viral information spreading) on networks, in order to possibly predicate the future e.g. the popularity of a product, news, or a social network and the prevalence of a disease/computer virus.Both variants: Students could obtain an overview of the Msc/Phd projects on the frontiers of complex networks and networked data analysis.","Education Method":"In total, there will be 7 lectures where one lecture is given by a guest lecturer on the applications in one specific domain e.g. economy, social networks and the brain.","Assessment":"Assessment is based on both homework assignments and the exam (or project).The homework requires basic programming (in e.g matlab or C)"},{"nr":68,"parent":60,"name":"ET4394","id":37651,"children":[],"courseName":"Wireless Networking","ects":"5","Responsible Instructor":"Dr.P.Pawelczak    ,P.Pawelczak@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"Students at the end of the course will be able to: (i) employ their own analysis methodology of wireless network systems based on mathematical tools and simulations; (ii) identify and classify modern wireless networking standards; (iii) explain the differences between wireless systems that have specific applications in mind; (iv) will be able to design a conceptual model for future wireless networking systems","Education Method":"Lecture presentations; project assignment and analysis; assigned paper reading, its critical analysis and presentation","Assessment":"Max. of two project assessment over the lecture course based on wireless network simulator (presumably NS-2/NS-3); mini-presentations at the end of a course dealing with a state-of-the-art wireless technology (research paper analysis from conferences such as IEEE INFOCOM, ACM MobiCom), final written, closed-book exam"},{"nr":69,"parent":60,"name":"ET4397IN","id":37657,"children":[],"courseName":"Network Security","ects":"5","Responsible Instructor":"C.Doerr    ,C.Doerr@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Required for":"IN4253ET","Study Goals":"see course contents","Education Method":"Lectures, independent project","Assessment":"Combination of essay or student project and work sheets during the term. No final written exam in week 10."},{"nr":70,"parent":60,"name":"IN4015","id":36704,"children":[],"courseName":"Neural Networks","ects":"6","Responsible Instructor":"Dr.J.A.Redi    ,J.A.Redi@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2Pract.","Education Period":"3,4","Start Education":"3","Exam Period":"4,5","Course Language":"English","Expected prior knowledge":"A basic knowledge of pattern recogntion and AI techniques is useful but not required. Basic programming skills are also useful.","Study Goals":"Upon successful completion of the course, students will be able to:[LO1].Describe the different bio-inspired techniques reviewed in the course, such as Neural Networks, Genetic Algorithms, or Learning classifiers.[LO2].Research literature concerning one of the above techniques, summarize it and report it to their peers (e.g., by means of a power-point presentation or a demonstration)[LO3].Debate upon positive and negative aspects of the techniques mentioned above[LO4].Implement one or more of the above mentioned techniques in a computer language (e.g. Java, C, C++, Html, Matlab scripts�)[LO5].Determine which technique(s) is most appropriate for being used in a certain problem domain, for example learning algorithms for robot navigation in unknown environments[LO6].Apply the appropriate technique to a (simple) problem domain (e.g., simulation of robot navigation in a simple maze)","Education Method":"Seminar (including some lectures) and lab work.","Literature and Study Materials":"Research papers that will be available through Blackboard.","Assessment":"1. Presentation: during the lectures everyone presents one of the topics in the course.2. Group assignment: you experiment with one or more of the discussed techniques in a (simulated) robotics platform and write a research report on you findings."},{"nr":71,"parent":60,"name":"IN4026(-12)","id":36626,"children":[],"courseName":"Parallel Algorithms and Parallel Computers","ects":"6","Responsible Instructor":"Prof.dr.ir.H.J.Sips    ,H.J.Sips@tudelft.nl","Instructor":"Prof.dr.C.Witteveen    ,C.Witteveen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2Pract.","Education Period":"3,4","Start Education":"3","Exam Period":"3,4,5","Course Language":"English","Expected prior knowledge":"Some programming skills [C]","Study Goals":"The student has as outcome of the course a basic knowledge of the underlying fundamental concepts and principles of parallel algorithms for parallel computers and is able to reason about scalability and performance of parallel algorithms","Education Method":"Course lectures and lab work (30 hours)","Literature and Study Materials":"A. Grama et al, Introduction to Parallel Computing, Addison Wesley, 2003","Assessment":"Written examination in two sub exams (Part-1 and Part-2), closed book"},{"nr":72,"parent":60,"name":"IN4144","id":36695,"children":[],"courseName":"Scalable Data Management for Data Science","ects":"4","Responsible Instructor":"Prof.dr.ir.A.P.deVries    ,A.P.deVries@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2Pract.","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Study Goals":"The course has three goals:1. Theory: Database technology has been successful for administrative data because it offers a balance between flexibility and efficiency. The course investigates how the fundamentals of database technology can be applied also to create support platforms for heterogeneous multimedia dataspaces.2. Learn to work with research papers (and recognize their limitations).3. Gain practical \"engineering\" skills when turning research ideas into a prototype implementation.","Education Method":"Lectures, lab work.","Literature and Study Materials":"Reader (made available online).","Assessment":"Paper presentation, participation in class, project assignment.","Remarks":"The course is organized as follows. Each student organizes one of the classes, in which a research paper on the topics related to class is discussed. During the course period, students develop a prototype that illustrates one or more aspects of multimedia search and its implications on data management. Assessment is based on class participation, the quality of the presentation of the research paper treated, and a short report and demonstration of the prototype work performed."},{"nr":73,"parent":60,"name":"IN4152","id":36692,"children":[],"courseName":"3D Computer Graphics and Animation","ects":"5","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/proj pract","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"TI2710-B, IN2905-A, IN2905-I or IN2770 Computer Graphics; students that haven't followed any of these courses might still be able to participate, but should be willing to invest some more time","Study Goals":"The course teaches computer graphics techniques on an advanced level. After the course the student is able to classify the different modeling, shading and display techniques, and can reproduce the basic mathematical and algorithmic notions associated with these concepts, can comment on the weak and strong points of these techniques, and can apply the concepts within a graphics program.","Education Method":"research, lab work","Literature and Study Materials":"Research Papers in domain of selected topics, Lecture sheets","Books":"Real-time Rendering by Tomas Akenine-M�ller, Eric Haines, Naty Hoffman - Peters, Wellesley Real-Time Shadows by Elmar Eisemann, Michael Schwarz, Ulf Assarsson, Michael Wimmer - Taylor & Francis Computer Graphics. Principles and Practice by James D. Foley, Andries VanDam, Steven K. Feiner - Addison Wesley OpenGL Programming Guide: The Official Guide to Learning OpenGL, Versions 3.0 and 3.1 by Dave Shreiner - Addison Wesley -AVAILABLE AS DOWNLOAD FOR FREE SEARCH FOR \"RED BOOK OpenGL\"","Assessment":"Some of the practical assignments might be checked and not passing might lead to a penalty on the final grade.The final project, paper presentation (including an individual oral evaluation covering the course content) will be graded. The oral exam might be replaced by a multiple choice evaluation."},{"nr":74,"parent":60,"name":"IN4173","id":36706,"children":[],"courseName":"Computational Molecular Biology","ects":"6","Responsible Instructor":"Dr.H.J.Hoogeboom    ,H.J.Hoogeboom@tudelft.nl","Instructor":"Dr.A.P.Gultyaev    ,A.P.Gultyaev@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2 in Leiden","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Study Goals":"<>","Education Method":"Lectures","Literature and Study Materials":"Shamir's Lecture Notes, Tel Aviv University School of Computer Science.","Assessment":"The course consists of lectures and independent study of the relevant databases and algorithms available on the internet.","Remarks":"For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":75,"parent":60,"name":"IN4174","id":36713,"children":[],"courseName":"Multimedia Information Retrieval","ects":"3","Responsible Instructor":"Dr.M.S.Lew    ,M.S.Lew@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/3/0 in LeidenPract.","Education Period":"3","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Programming language: C, C++Intended Group(s):Master Computer Science","Study Goals":"<>","Education Method":"Lectures, Project","Literature and Study Materials":"Principles of Visual Information Retrieval, Michael S. Lew, Springer-Verlag, London, ISBN 1-852333-381-2, January 2001","Assessment":"- Design & Programming & Documentation for your project (70% of grade). - Class discussions, attendance, and problem sets (30% of grade). Note, this course can be taken for 3-7 ECTS based on the work within a programming project. It is necessary to be at every class. If you can not be there, you must contact Dr. Lew (mlew@liacs.nl) before the class!","Special Information":"Note, this course can be taken for 3-7 ECTS based on the work within a programming project.","Remarks":"Web site for the course: www.liacs.nl/~mlew/mir2007 For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":76,"parent":60,"name":"IN4174P","id":36711,"children":[],"courseName":"Multimedia Information Retrieval, lab","ects":"3"},{"nr":77,"parent":60,"name":"IN4176","id":36707,"children":[],"courseName":"Functional Genomics and Systems Biology","ects":"6","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"The student is expected to have a basic knowledge of molecular biology, statistics and linear algebra. It is advisable to have followed IN4085 (Pattern Recognition) and IN4329 (Advanced Bioinformatics).","Study Goals":"After succesfully completing this course, a student is able to: list the basic elements of a living cell and their interactions, and describe how these can be measured; explain what type of mathematical model is applicable to what measurement(s), at what level(s), in a given systems biology problem; read and comment upon recent systems biology literature; discuss the state-of-the-art in systems biology and integrative bioinformatics, and future challenges.","Education Method":"The course will consist of a mixture of lectures by the teachers and paper presentations by one or more of the students. All other students will hand in a review-type discussion on one aspect of the paper. A discussion is required for each scheduled presentation (i.e. there are meetings for which 2 such discussions are required). There will also be a practical session allowing students to get hands-on experience with network models, integration and analysis, mainly through Cytoscape.","Literature and Study Materials":"Slides, collection of papers and lab course manual (Blackboard).","Assessment":"The weekly discussion papers will be graded. A final grade for the course will be based on these grades as well as on a final written assignment.","Remarks":"As students depend on each other (to present the material to the class), a commitment to follow the course through to the end is required."},{"nr":78,"parent":60,"name":"IN4177","id":36620,"children":[],"courseName":"Mathematical Biology: the Virtual Cell","ects":"6","Responsible Instructor":"Dr.S.C.Hille    ,S.C.Hille@tudelft.nl , Prof.S.M.Verduyn    ,S.M.Verduyn@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/3/3","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Study Goals":"<>","Education Method":"Lectures","Literature and Study Materials":"To be announced","Assessment":"To be announced","Remarks":"For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":79,"parent":60,"name":"IN4179","id":36703,"children":[],"courseName":"Intelligent User Experience Engineering","ects":"6","Responsible Instructor":"Prof.dr.M.A.Neerincx    ,M.A.Neerincx@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"The main aim is to achieve an understanding and practical experience of key principles, methods and theories in the area of intelligent user experience engineering. The module provides opportunities for students to develop and demonstrate knowledge and understanding, qualities, skills and other attributes in the following areas:1. Knowledge of a basic, coherent approach for developing software technology in such a way that the users can accomplish their goals effectively and efficiently, and with a high level of satisfaction.2. Knowledge of recent theories and methods for improving human-technology collaboration with intelligent adaptive agents (ePartners), and of research approaches to enhance the theoretical and empirical foundation of such collaboration.3. Acquaintance with a situated cognitive engineering methodology for developing mutual human-automation empowerment in specific domains (e.g., for chronically ill or first responders). 4. Practical experience in an iterative human-centred development process, i.e. the application of theories and methods for the generation and testing of intelligent user interfaces. This process comprises the generation of a design with its rationale, and user experience testing with complementary data-analyses. The application domain is personalized music for improving the social, cognitive and affective conditions of older adults with dementia.","Education Method":"In the lectures, theories, models and methods are being presented and discussed from scientific literature. During a part of these lectures, student groups have to prepare presentations and discussions, addressing science and engineering issues. In the project, these groups will get practical experience in applying user-interface design and testing methods. They have to plan, execute, present and report a complete cognitive engineering process for a specific design question (i.e., a music application for older adults with dementia). The students will use the situated Cognitive Engineering Tool (sCET) to specify the design (incl. the trade-offs and choices).","Literature and Study Materials":"Papers from scientific journals on Blackboard.Lecture notes on Blackboard.","Assessment":"The module is assessed by coursework and an exam as follows:1. Exam of the theory (oral examination on topics presented in the reading material and discussed in the lectures; 50%)2. Project (the presentations and final report; 50%)PROJECTThe project will be in the area of socio-cognitive support forpersons who have to cope withcritical, demanding situations. The current topic is the development of a music application for persons with dementia, their caregivers, friends and family. Students work in small groups to (re)design and evaluate such support. They will apply the cognitive theories in a scenario-based development process by claim analyses. Interim results will be regularly presented during the lecture (in total 5 presentations will be given in so-called �milestones�). At the end, each team will present and discuss the evaluation results.","Exam Hours":"Individual oral exam.","Enrolment / Application":"Blackboard"},{"nr":80,"parent":60,"name":"IN4182","id":36696,"children":[],"courseName":"Digital Audio and Speech Processing","ects":"6","Responsible Instructor":"Dr.ir.R.Heusdens    ,R.Heusdens@tudelft.nl","Instructor":"R.C.Hendriks    ,R.C.Hendriks@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Signal processing, stochastic processes and preferably statistical signal processing. Knowledge of MATLAB is advantageous.","Study Goals":"1. Audio codingKeywords: psycho-acoustics, spectral/temporal masking, time-to-frequency transformations, audio coding standards, multi-channel codingThe student� is able to explain the general mechanisms of human auditory perception � is able to discuss the use of human auditory perception in state-of-the-art audio compression algorithms� is able to discuss the structure and principles used in standardized perceptual audio coding algorithms2. Speech enhancementkeywords: spectral subtraction, Wiener filtering, conditional mean estimators, noise power spectral density trackingThe student � is able to implement state-of-the-art algorithms for suppressing noise in noisy speech signals� is able to design components/functional blocks in noise suppression algorithms (e.g. derive Bayesian suppression rules)3. Speech codingkeywords: speech production, linear predictive analysis, fundamental frequency estimation, voicing estimation, speech coding based on linear predictionThe student� is able to identify how the human speech production process is exploited in speech processing algorithms� is able to implement a linear predictive speech synthesizer� is able to discuss the signal processing techniques used in speech coding","Education Method":"lectures, mini projects + hands-on exercises","Literature and Study Materials":"Overhead sheets + selected articles/book chapters","Assessment":"Written examination + evaluation of the mini projects","Special Information":"Participation in the mini projects is mandatory to qualify for the exam."},{"nr":81,"parent":60,"name":"IN4185","id":36674,"children":[],"courseName":"Globally Distributed Software Engineering","ects":"5","Responsible Instructor":"Prof.dr.ir.D.M.vanSolingen    ,D.M.vanSolingen@tudelft.nl","Contact Hours / Week  x/x/x/x":"colleges en practicum 0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Software Engineering (= IN2705)","Study Goals":"The course Globally Distributed Software Engineering (GDSE) aims at teaching participants (1) the technical and organisational setting of carrying out software engineering in practice when distributed over the world, and (2) understanding best-practices in collaboration in software engineering project teams that carry out their work in a distributed setting.","Education Method":"Lab work + lectures","Literature and Study Materials":"Presentation handouts","Assessment":"Written report on lab work and literature research","Enrolment / Application":"Please enroll in Blackboard","Special Information":"Please contact d.m.vansolingen@tudelft.nl"},{"nr":82,"parent":60,"name":"IN4253ET","id":36677,"children":[],"courseName":"\"Hacking Lab\"-Applied Security Analysis","ects":"5","Responsible Instructor":"C.Doerr    ,C.Doerr@tudelft.nl , Dr.ir.J.A.Pouwelse    ,J.A.Pouwelse@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"After this course, the student will have a thorough knowledge of security in real-world systems, and will be able to explore the literature on this topic independently. The student will be aware of the poor state of security in real-world computer systems. The student can explain the common pitfalls, why these known failures still occur and reasons behind the poor state of security in general.","Education Method":"Lectures, student presentations, written final report and active participation. Attendance to lectures is mandatory.","Assessment":"The final class grade is composed of several partial grades. Partial grades are given for the written Hack Project report, final presentation of result, presentation of ongoing project progress, participation in discussions, overall quality of the practical work and class attendance. Students are required to obtain a passing grade on all partial grades.Attendance to lectures is mandatory. No final written exam. No resit will be offered of any practical work.","maximum aantal deelnemers":"If there is an unexpected high demand for this course, thenenrollment will be based on past performance in relevant courses."},{"nr":83,"parent":60,"name":"IN4254","id":36678,"children":[],"courseName":"Smart Phone Sensing","ects":"5","Responsible Instructor":"M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2 & lab","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Requirement 1: Students MUST either(1.1) have passed a JAVA programming course, or(1.2) have passed a C/C++ programming course and be familiar with JAVA, or(1.3) know Objective C (programming language for MACs)This requirement is equivalent to having passed the course TI 1206 in our first year Bachelor curriculum \"Object Oriented Programming\"Requirement 2: Students MUST(2.1) have passed a basic course on Probability Theory. This requirement is equivalent to having passed the course TI 2216M in our second year Bachelor curriculum \"Probability and Statistics\". We will be refreshing some concepts on Probability, but we will not be refreshing concepts on Object Oriented Programming.","Study Goals":"The goals of this course are twofold. First, to expose students to the increasingly important area of mobile computing. Students will learn how mobile phones can be used to solve problems in areas ranging from health care and indoor localization to song recognition and traffic management. Second, to provide students with a basic set of tools to develop their own applications. For students aiming for industry, the course should enhance their ability to use theoretical tools to solve practical problems. For students involved on research activities, the course will provide them with the necessary background to use smartphones as a distributed sensing and processing unit that could be used to solve the particular problems in their areas.","Education Method":"Lectures","Literature and Study Materials":"Web","Assessment":"Written reports + project presentation + oral exam"},{"nr":84,"parent":60,"name":"IN4255","id":36691,"children":[],"courseName":"Geometric Modeling","ects":"5","Responsible Instructor":"Dr.K.A.Hildebrandt    ,K.A.Hildebrandt@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"In this course, the participants will get an overview of concepts and techniques used in geometry processing and learn how to use them for solving specific problems in this area. In addition, the students collect experience in implementing algorithms for processing digital geometry.","Education Method":"The course will combine lectures, tutorials, practical project work, and (ungraded) homework assignments.","Assessment":"To pass the course, the practical projects need to be completed successfully and a final exam must be passed. The homework assignments help with preparing for the exam. The final grade will be based on thegrade of the final exam and the grade of the project work."},{"nr":85,"parent":60,"name":"IN4304","id":36687,"children":[],"courseName":"Empirical Research Methods","ects":"5","Responsible Instructor":"Dr.ir.W.P.Brinkman    ,W.P.Brinkman@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"4,5","Course Language":"English","Study Goals":"MAIN AIMS OF THE MODULETo achieve understanding of empirical research methods and obtain practical experience with quantitative data analysis methods. LEARNING OUTCOMES FOR THE MODULEIn providing the opportunity for students to develop and demonstrate understanding, knowledge and competence, the learning outcomes for the module are that students will be able to:1. Recognise and begin to utilise appropriate strategies for carrying out empirical research for answering research questions2. Appreciate how empirical research is conducted and findings can be evaluated 3. Understand key principles underlying statistical data analysis 4. Develop and apply appropriate research strategy and measure instruments5. Successfully use statistical software tools to analyse data","Education Method":"In the lectures, theories, principles and methods are presented and discussed. During the lectures class-demonstrations will be given on how statistical application such as SPSS or Rcan be used to analyse empirical data. In the practicum students work in small groups (2 to 3 students) on assignments and discuss them with an instructor. The instructors will also provide practical guidance on the use of SPSS and R.","Literature and Study Materials":"Will be announced on blackboard","Books":"Robson, C., (2002) Real world research: A resource for social scientists and practitioner-researchers (2nd or 3rd ed). Malden: MA, Blackwell.","Assessment":"The module is assessed by coursework and an exam as follows:(70%) Written Exam (30%) Coursework Project (resulting in a report)"},{"nr":86,"parent":60,"name":"IN4306","id":36666,"children":[],"courseName":"Literature Survey ","ects":"10","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl , Dr.ir.F.F.J.Hermans    ,F.F.J.Hermans@tudelft.nl","Contact Hours / Week  x/x/x/x":"Not applicable","Education Period":"None (Self Study)","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student is able to read contemporary scientific literature in the chosen field of specialisation.The student is able to distill the main ideas of a paper and to write these down in his or her own words.The student is able to place the ideas of different papers in perspective by comparing these.","Education Method":"Individual assignment.The student should consult the MSc coordinator for further details.","Assessment":"Writing a report, individually and under supervision of a staff member. This staff member will also mark the report."},{"nr":87,"parent":60,"name":"IN4315","id":35212,"children":[],"courseName":"Software Architecture","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"Different, to be announced","Course Language":"English","Expected prior knowledge":"Software engineering","Study Goals":"Bring students into the position that they can (1) explain the key architectural concepts and methods for modeling software architectures; (2) apply viewpoints and perspectives to model software architectures; (3) discuss the benefits of architecting and the role of the software architect; (4) evaluate and validate software architectures; and (5) explain and discuss the concepts of component-based and plugin architectures, service-oriented architectures, and software product lines.","Education Method":"Interactive lectures, lab assignment, paperpresentation and discussion.","Literature and Study Materials":"The course uses the book \"Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives\" by Nick Rozanski and Eoin Woods, Addison-Wesley Professional 2005, ISBN: 9780321112293. Additional reading material will be announced in the lectures.","Assessment":"No written exams. Lab assignment, paper and presentation.","Special Information":"Twitter handle: https://twitter.com/delftswa"},{"nr":88,"parent":60,"name":"IN4320","id":36697,"children":[],"courseName":"Machine learning     ","ects":"5","Responsible Instructor":"M.Loog    ,M.Loog@tudelft.nl","Instructor":"Dr.ing.J.Kober    ,J.Kober@tudelft.nl , Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"4","Course Language":"English","Expected prior knowledge":"IN4085","Study Goals":"After the course, the student is able to comprehensively read scientific publications in the area of machine learning.The student is able to recognize the (limits to the) practical applicability of the presented theory.Moreover, s/he is able to see the relationships of a novel technique to those discussed in the course, and has insight in what type of problem requires application of which type of machine learning technique.","Education Method":"We follow a scheme in which every topic is treated in a two-week block.In the first week, one of lecturer will present a technique based on a tutorial paper or other reading material.In the second week, the student will work on an exercise that extends and deepens their knowledge and understanding of the technique under consideration in that particular block.A large part of the exercises involves programming.The final output to every exercise is a report covering the necessary derivations, snippets of code, figures, and general text.","Assessment":"Assessment grades are based on the reports handed in (about 60%) and the final assignment (about 40%), the latter of which is based on a somewhat larger and more advanced machine learning challenge that the students will write a report on as well."},{"nr":89,"parent":60,"name":"IN4322","id":36712,"children":[],"courseName":"Mathematical Biology, Metabolic Network","ects":"6","Contact Hours / Week  x/x/x/x":"0/0/3/3 not in 2015 2016","Education Period":"3,4","Start Education":"3","Course Language":"English","Remarks":"Leiden"},{"nr":90,"parent":60,"name":"IN4325","id":35210,"children":[],"courseName":"Information Retrieval","ects":"5","Responsible Instructor":"A.Bozzon    ,A.Bozzon@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"Learning Objectives:= Describe the different information retrieval models, and to compare their weaknesses and strengths. [Learning Objective 1]= Compare the weaknesses and strengths of different indexing techniques, describing their most suited applications trough meaningful examples. [Learning Objective 2]= Compare the weaknesses and strengths of different querying techniques, describing their most suited applications trough meaningful examples. [Learning Objective 3]= Analyse the performance of an Information Retrieval system by applying the proper evaluation measures. [Learning Objective 4]= Design and develop (Web) Information Retrieval systems, possibly using advanced social and se- mantic search functionalities. Support and defend the relevance and correctness of his/her choices with regards to the adopted information retrieval model, indexing technique, and querying tech- nique. [Learning Objective 5]= Describe and compare several crowdsourcing techniques. [Learning Objective 6]= Illustrate Information Retrieval application scenario for crowdsourcing. [Learning Objective 7]= Design and develop crowdsourcing applications, and to evaluate the obtained results. [Learning Objective 8]= Illustrate suitable application scenario for advanced Information Retrieval topics such as Semantic Search, Information Seeking Paradigms and User Interfaces for Information Retrieval, Search Results Diversification, and Expert Finding. [Learning Objective 9]","Education Method":"Lectures, individual and group exercises","Literature and Study Materials":"Scientific papers, course slides and blackboard notes.","Books":"*Introduction to Information Retrieval*Author(s): Christopher D. Manning, Prabhakar Raghavan and Hinrich Schtze.Cambridge University Press. 2008. ISBN-13: 978-0000000000http://nlp.stanford.edu/IR-book/information-retrieval-book.html*Web Information Retrieval*. Author(s): Stefano Ceri, Alessandro Bozzon, Marco Brambilla, Piero Fraternali, Emanuele Della Valle, Silvia Quarteroni.Springer, 2013. ISBN-13: 978-3642393136http://www.springer.com/computer/database+management+\\%26+information+retrieval/book/978-3-642-39313","Assessment":"Individual and group assignments"},{"nr":91,"parent":60,"name":"IN4329","id":36715,"children":[],"courseName":"Advanced Bioinformatics","ects":"4","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Instructor":"J.deRidder    ,J.deRidder@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"After successfully completing this course, the student is able to:� understand several high-throughput experiments, such as microarrays, and next generation sequencing, and discuss the benefits and limitations of these methods� comprehend the statistical and computer science issues in analyzing high-throughput data� discuss the basic systems biology approach, and the role of high-throughput measurements, gene selection and classification therein� read and comprehend a current paper on systems biology","Education Method":"In this course we will study some key examples of bioinformatics analyses by reading a set of selected papers that present some significant biological conclusions. Instead of the teachers giving lectures about the methodologies, the students are stimulated to read, study and comprehend the available course material. To do so the following format has been chosen: � Each week there are one or two lectures, each of 45 minutes.� In each lecture one paper (the course material) will be discussed in detail.� One student will present and explain the details of this paper. It is essential that you highlight the (bioinformatics) methodology of the paper.� All students are expected to have read the paper and should have an active role in the discussion about the paper.� When the students in discussion with the teachers are not able to grasp the followed methodology in the paper, the teachers will explain this on the spot.� Each week, an exercise on one of the papers discussed will be handed out.","Assessment":"Written examination"},{"nr":92,"parent":60,"name":"IN4331","id":36668,"children":[],"courseName":"Web Data Management","ects":"5","Responsible Instructor":"Dr.ir.A.J.H.Hidders    ,A.J.H.Hidders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Bachelor level courses in database management systems and operating systems. A prior course in distributed systems or middleware would be helpful but is not required. Working knowledge of Java or C++ will be important for the final assignment.","Study Goals":"At the end of this course the student can- describe, explain and use effectively XML technologies such as XML, DTDs, XPath, XSLT and web services- describe, explain and use XQuery for data management, including its various extensions for scripting and full-text search- describe use and explain distributed file systems such as Google File System (GFS or GoogleFS) and the Hadoop Distributed File System (HDFS)- use and explain the advantages and disadvantages of distributed NoSQL databases such as CouchDB- program MapReduce frameworks to perform efficiently workflows for data analytics","Education Method":"Lectures, practical exercises, and depending upon the number of students presentations by students.","Literature and Study Materials":"Course slides, hand outs and blackboard notes.","Books":"(mandatory, but will be made available for free on Blackboard)Serge Abiteboul, Ioana Manolescu, Philippe Rigaux, Marie-Christine Rousset, Pierre Senellart: Web Data Management. Cambridge University Press, 30 nov. 2011, 406 pages.(advised, not mandatory reading)Abiteboul, S., Peter Buneman, and Dan Suciu. Data on the Web: From Relations to Semistructured Data and XML. San Francisco: Morgan Kaufmann, 1999.Katz, Howard, and D. D. Chamberlin. XQuery from the Experts: A Guide to the W3C XML Query Language. Boston: Addison-Wesley, 2003.Melton, Jim, and Stephen Buxton. Querying XML: XQuery, XPath, and SQL/XML in Context. The Morgan Kaufmann series in data management systems. Amsterdam: Elsevier/Morgan Kaufmann, 2006.","Assessment":"Presentation (if applicable) and final assignment."},{"nr":93,"parent":60,"name":"IN4333","id":36670,"children":[],"courseName":"Language Engineering Project","ects":"5","Responsible Instructor":"Prof.dr.E.Visser    ,E.Visser@tudelft.nl","Instructor":"G.H.Wachsmuth    ,G.H.Wachsmuth@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Students are expected to have completed the compiler construction course IN4303.","Study Goals":"Learn to apply language engineering principles and tools to a real (domain-specific) programming language. Explore the definition of all aspects of a programming language: syntax, name binding, type analysis, transformations, code generation.","Education Method":"This is a project course. Students deepen their language engineering skills and insights by building a complete language definition. Students work in small teams on the definition of a (domain-specific) programming language using the Spoofax Language Workbench. Assistance and feedback is provided during weekly lab hours. The project should span the full life cycle of language implementation including a test suite, IDE, code generator, and distribution of the result as an Eclipse plugin.","Assessment":"The work is assessed based on a code review of the language definition and a written report about the project. The work needs to be submitted in four intermediate stages with a deadline and a grade. The final grade is the weighted average of these intermediate grades."},{"nr":94,"parent":60,"name":"IN4335","id":36682,"children":[],"courseName":"Seminar Algorithms: Economics and Computation","ects":"5","Responsible Instructor":"Dr.M.M.deWeerdt    ,M.M.deWeerdt@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2, seminar","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"For this course you need to be able to read scientific papers/books (e.g. you have followed the bachelor seminar course), and you need to be able to understand and analyse algorithms (e.g. followed a course on algorithm design).Also, it is preferred to have some knowledge and experience with reasoning about the computational complexity of problems (e.g. from a course on complexity theory).","Study Goals":"After completion of this course, the student has an overview of the state of the art and main challenges on the border of computer science and economics.He/she can name applications and give definitions and (dis)advantages of a number of formal models and methods for these applications.Furthermore, the student is able to prepare and give an interactive lecture on these topics based on the provided chapters, including: - defining lecture goals - making a lecture plan, and - making exam questions.","Education Method":"Student seminar; since we need to allocate topics, please register for this course on Blackboard before the course starts.","Literature and Study Materials":"A selection of chapters from the following book will be made available:David Parkes and Sven Seuken. Economics and Computation. 2015.","Assessment":"The end grade will be based on:* Quality of preparation and lecture of the chapter studied (50%). * Question answering during the seminar (10%).* Result of a final test on all chapters (40%).On Blackboard there are extensive guidelines regarding the evaluation of the lecture and its preparation."},{"nr":95,"parent":60,"name":"IN4337","id":36684,"children":[],"courseName":"Randomized Algorithms","ects":"5","Responsible Instructor":"Dr.M.T.J.Spaan    ,M.T.J.Spaan@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0 hc and 0/0/2/0 instr","Education Period":"3","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Probability, complexity theory, and calculus.","Study Goals":"After completing the Randomized Algorithms course, the student is able to1. Explain the use of and the rationale behind randomized algorithms;2. Argue and decide when a deterministic, a Las Vegas or a Monte Carlo algorithm is most appropriate to solve a problem;3. Analyze a randomized algorithm in terms of bounds on run-time performance, error probability and computational complexity;4. Implement and evaluate a randomized algorithm.","Education Method":"Lectures, home work, lab work","Literature and Study Materials":"Textbooks (details on which book will be used will be posted on Blackboard):\"Randomized Algorithms\" by R. Motwani and P. Raghavan. Cambridge University Press, 1995. ISBN 0-521-47465-5�Probability and Computing: Randomized Algorithms and Probabilistic Analysis� by M. Mitzenmacher and E. Upfal. Cambridge University Press, 2005.","Assessment":"Oral exam, assignments and lab work"},{"nr":96,"parent":60,"name":"IN4343","id":35642,"children":[],"courseName":"Real-time Systems","ects":"5","Responsible Instructor":"Prof.dr.K.G.Langendoen    ,K.G.Langendoen@tudelft.nl , M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0 and 0/0/4/0 lab","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Required for":"3TU MSc Embedded Systems; the corresponding courses are 2IN26 at TU Eindhoven, and 312030 at TU Twente","Expected prior knowledge":"Basic software engineering, C system programming, basic Linux operating system knowledge","Study Goals":"The objective of this course is to bring students into the position to analyse real-time systems with respect to meeting timing constraints. It is intended to bring the student into the position to - explain and apply the fundamental concepts and terminology of real-time systems - explain and apply various scheduling policies- analyse real-time systems in a practical context","Education Method":"lectures with exercises; self study; lab assignments","Books":"Hard Real-Time Computing Systems by G.C. Buttazzo, Springer 2005","Assessment":"Written exam (grade) + lab work (pass/fail)"},{"nr":97,"parent":60,"name":"IN4389","id":36672,"children":[],"courseName":"Reactive Programming","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"The course Reactive Programming aims at teaching participants (1) the foundations of reactive programming:(2) how to expose the asynchronous event-driven model of computation as observable collections and (3) how to write real-world complex server- and client-side programs that orchestrate and coordinate asynchronous computations using declarative queries over event streams.(4) how to apply the principles of reactive programming to the development of cloud applications.","Education Method":"Lectures + lab workThe lectures will be given by Erik Meijer. The lectures will be given in a block of 2-3 weeks at Delft University of Technology. After that, several interactive sessions (including student presentations and code reviews) with the USA (Silicon Valley) will be held over skype. Due to the 9 hour time difference, these sessions will take place in the (early) evening.The exact timing of the blocks in Delft differs per year, and will be announced on blackboard.","Literature and Study Materials":"- research papers distributed via blackboard- Jesse Liberty and Paul Betts: Programming Reactive Extensions and LINQ, APress, 2011. ISBN 1430237473","Assessment":"Hands-on labwork + oral presentation + written report","maximum aantal deelnemers":"15"},{"nr":98,"parent":60,"name":"IN4391","id":36680,"children":[],"courseName":"Distributed Computing Systems","ects":"5","Responsible Instructor":"A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"1.Explain the objectives and functions of distributed computing systems.2.Describe how distributed computing systems have evolved, over time, from primitive batch systems to sophisticated multi-user systems.3.Describe the architecture and operation of distributed computing systems.4.Explain how distributed computing systems can process user workloads.5.Explain how distributed computing systems can detect and correct faults and errors.6.Implement complex operations of modern distributed computing systems in realistic scenarios.7.Analyze the tradeoffs inherent in the design of distributed computing systems (performance, efficiency, scalability, reliability, availability, fault-tolerance.)","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLectures:7 weeks x 2hPractical:Groups of 2 on the DAS distributed computer system.3 weeks x 4h + 16h: large exercise based on course topic 6 + report of 4�6 pages4 weeks x 4h + 40h: large exercise based on course topic 7 +report of 4�6 pages","Literature and Study Materials":"Textbook: Andrew S. Tanenbaum, Maarten Van Steen, Distributed Systems, Principles and Paradigms (2nd Edition), Prentice Hall, 2006. The textbook introduces the student to the traditional theory of distributed systems.Additional material: Several relevant research articles introduce the student to the latest advances on the topic.","Assessment":"Overview: The course consists of two main parts: the theoretical Part I and the practical Part II. Students are assessed through a written exam (open questions), an oral exam, and a demonstration of practical skills. Part I: An optional mid-term exam is also organized. The results of the mid-term exam count only if the final exam is also taken by the student, and only if it increases the final grade of the student. Additionally, the course is gamified: there is testing through open questions and various exercises during and at the end of the lectures, counting as bonus points for Part I.The result of Part I of this course must be at least 6. The result of Part II of this course (practical) must be Completed (C, Voltooid/V in Dutch). The final grade is the result of Part I.Summary of assessment:Type of assessmentPart of final gradePart I: Exam, open questions40%Part I: Exam, oral20%Part II: Practical40%"},{"nr":99,"parent":60,"name":"IN4393","id":36699,"children":[],"courseName":"Computer Vision","ects":"5","Responsible Instructor":"H.Dibeklioglu    ,H.Dibeklioglu@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2 en 4 uur werkcollege in 4e Q","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Expected prior knowledge":"You are expected to have a working understanding of linear algebra, and of probability and statistics. Knowledge about pattern recognition and/or machine learning is preferred.","Study Goals":"After successfully completing this course:- You are able to explain and implement various techniques for feature point detection, and can explain the type of feature points these detectors identify.- You are able to explain and implement techniques for feature point description and feature point matching. You are able to use these techniques in applications such as object detection and image stitching.- You are able to explain and implement techniques for image stitching. The student understands the key problems in developing image-stitching algorithms (such as alignment and parallax removal).- You are able to explain and implement techniques for shape analysis.- You are able to explain and implement techniques for face detection and face recognition. - You are able to explain and implement techniques for object recognition and scene understanding.- You are able to explain and implement basic techniques for feature tracking, in particular, Kanade-Lucas-Tomasi tracking and particle filter tracking. - You are able to explain Markov Random Field models, and is able to use such models in problems such as image denoising and inpainting.- You are able to develop and explain computer vision systems for real-world applications. In particular, you are able to select computer vision techniques that are to solve a specific image analysis or image understanding problem, to motivate this selection, and to combine the selected techniques into a working computer vision system.","Education Method":"- Section 1, 2, 3, 4, 6, 9, 10.5, and 14; Appendix B of �Computer Vision, Algorithms and Applications�, R. Szeliski, Springer, 2011, ISBN 978-1-84882-934-3. (This book is freely available online.) - \"Shape Matching and Object Recognition Using Shape Contexts\", S. Belongie, J. Malik, and J. Puzicha. IEEE Transactions on Pattern Analysis and Machine Intelligence 24(24): 509�521, 2002.- �Discriminative random fields�, S. Kumar and M. Hebert, International Journal of Computer Vision 68(2):179�202.- �Fields of Experts�, S. Roth and M.J. Black, International Journal of Computer Vision 82(2):205�229, 2009.- Section 1 and 2 of \"Lucas-Kanade 20 Years On: A Unifying Framework\", S. Baker and I. Matthews, International Journal of Computer Vision 56(3):221�255, 2004.- \"CONDENSATION � Conditional Density Propagation for Visual Tracking\", M. Isard and A. Blake, International Journal of Computer Vision 29(1):5-28, 1998.","Prerequisites":"Prerequisite courses (mandatory): Image or signal processing (TI2710-A or TI2710-C or EE2521); Linear algebra (WI1200TI-A or WI1200TI-B or WI1142TN); Probability and statistics (WI2211TI or WI1120EE or WI1102CT or WI1321TB or WI2013wbmt). If you have take comparable courses at other universities, this is also fine. Please contact the instructor when in doubt!Prerequisite courses (preferred): Pattern recognition (IN4085).","Assessment":"The assessment for this course consist of two main parts:1) You will develop a computer vision system for an application of your choice, and will write a small report with a description of your system. Your grade for the project forms 50% of the final grade for the course.2) A written final exam will determine the remaining 50% of your final grade. The final exam covers: (1) all content covered in the lectures and (2) all material listed under �Course material�. The final exam is an open-book exam: all slides and course material can be used during the exam."},{"nr":100,"parent":60,"name":"IN4394","id":36718,"children":[],"courseName":"EIT Summer School","ects":"4","Responsible Instructor":"Prof.dr.ir.F.W.Jansen    ,F.W.Jansen@tudelft.nl","Contact Hours / Week  x/x/x/x":"Selfstudy","Education Period":"None (Self Study)","Start Education":"1","Exam Period":"none","Course Language":"English","Required for":"EIT master programma","Expected prior knowledge":"First year I&E courses","Study Goals":"- Understanding the process of Business Model Generation, andknowing how to define and analyse the nine building blocks (customer segments, customer relations, channels, value proposition, key activities, key resources, key partners, cost structure and revenue streams). [BDL learning outcome]- The ability to perform a business development process in the context of a societal relevant thematic area (such as Health and Wellbeing)- Understanding how technology and innovation interact with all stakeholders (eco-system, competitors, alliances, networks, markets, etc.)- The ability to reflect upon ethical, societal, scientific and sustainability considerations when developing new products/technologies and business models.- The ability to direct a business development process and to communicate and convey business proposals to business people and other stakeholders","Education Method":"A strong emphasis is on project work, team building, (personal) networking, cultural exchange, and creat-ing global awareness of societal and business trends. During the two weeks, students are confronted (i.e. meet in person) with involved stakeholders and with the ethical, societal, scientific and sustainability relevance of their ideas. The course emphasizes multidisciplinary work with attention to cure (societal and personal needs), culture (motivation and acceptation), concept (usability and technical realisation), and commercialisation (marketing plan and business realisation). During the first week, students are introduced to the thematic area by presentations on societal problems, trends, new technologies, and possible business opportunities. Here, the emphasis is on discussion, opin-ion making, and experiencing through observational practices and field tests. Students work in groups on a business cases and develop ICT applications (products or services) for a particular thematic area. They perform market studies, define user segments, analyse competitors, and develop their concepts into testable (lo-fi) prototypes. They perform user studies (focus groups) and further detail the technical concepts. At the end of the week they pitch their plan for a business panel.In the second week, students work towards a business plan (Product Operational Plan) and analyse all is-sues of relevance; markets, feasibility, usability, business life-cycles, operations and maintenance. They make a design/choice for a business pattern and platform, and a suitable revenue model, and analyse relevant issues, such as IPR, venture financing, etc.","Assessment":"Pitching of the business plans before a business panel and evaluation of a project report."},{"nr":101,"parent":60,"name":"IN4395","id":36708,"children":[],"courseName":"Image Analysis in Microscopy","ects":"6","Responsible Instructor":"Dr.ir.F.J.Verbeek    ,F.J.Verbeek@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/3/3","Education Period":"3,4","Start Education":"3","Exam Period":"4","Course Language":"English","Study Goals":"<>","Education Method":"Lectures. For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum","Literature and Study Materials":"Course material: to be announced","Assessment":"The course consists of a series of lectures, practical assignments using programmable image analysis software environments and �hands-on� experience with microscopes (i.e. image acquisition). The course is concluded with a report on the practical work and a written exam."},{"nr":102,"parent":60,"name":"IN4396","id":36709,"children":[],"courseName":"Bio-modeling and Petri nets","ects":"6","Contact Hours / Week  x/x/x/x":"0/0/2/2 in Leiden","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English"},{"nr":103,"parent":60,"name":"IN4401","id":36717,"children":[],"courseName":"Business Development Lab","ects":"10","Responsible Instructor":"Prof.dr.ir.F.W.Jansen    ,F.W.Jansen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/x/x","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English","Required for":"The Business Development Lab is part of the I&E minor of the EIT ICT Labs master school and is mandatory for the DMT and CCS students. It aims to provide the student with a basic understanding and ability to perform a business devel-opment process, focused on the development of a product and service and exploring its customer value, possible value chains, and its market potential (and not so much on the venturing process of starting a company). The applied methodology is based on the Business Model Generation method, emphasizing the nine building blocks of a business process model: customer segments, customer relations, channels, value proposition, key activities, key resources, key partners, cost structure and revenue streams.","Study Goals":"- In depth understanding of the different phases of a business development process- The ability to succesfully apply the learned knowledge for development of a new product or business concept- The ability to sytematically explore and create ideas or modify existing ideas and technology for business solutions- The ability to transforming new ideas into business solutions on the commercial market, combined with decision-making and leadership competencies- The ability to work in multi-disciplinary teams, and to reflect upon ethical and team processes","Education Method":"The BDL is done in projects groups and includes both a technical product design project and a business plan development. The project work is supported by coaches. During the course, several workshops and presentations are planned on the above topics. Towards the end of the course the students are trained to present their Business Plans. The course ends with a Business Plan pitch.The BDL will start with a winterschool, a 3-day workshop round a business case at the CLC (co-location) in Eindhoven. Applied lectures and workshops: 56 h (4h week)Group work: 168h (12h/week)Winterschool: 24hPresentation (report/pitch): 32h","Literature and Study Materials":"A. Osterwalder & Y. Piguer, Business Model Generation, John Wiley & Sons.","Assessment":"Peer evaluation of BP Presentation (25%) and expert evaluation BP Presentation (25%) - Evaluation BP by coaches (50%)"},{"nr":104,"parent":60,"name":"IN5010","id":36710,"children":[],"courseName":"Research Project","ects":"15","Education Period":"1,2,3,4,Summer Holidays","Start Education":"1","Exam Period":"none","Course Language":"English"},{"nr":105,"parent":60,"name":"SPM4450","id":35183,"children":[],"courseName":"Fundamentals of Data Analytics\t","ects":"5","Module Manager":"Prof.dr.ir.J.van denBerg    ,J.vandenBerg@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/x","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"The learning objectives of this course area) to get an overview of the Business Intelligence field;b) to understand the fundamental principles that underly1) the realization of an intelligent organisation2) the TRANSFORMATION OF DATA INTO INFORMATION AND KNOWLEDGEc) to obtain experience with basis BI tools and/or applications.","Education Method":"Around 14 classical lectures with discussions supplemented with group work on 2 to 3 practical data analytics assignments.","Course Relations":"This course is truly an advanced version of the introductory BSc course \"Business Intelligence\" (SPM4424) (there is little overlap and all topics are treated at much more fundamental level).","Literature and Study Materials":"Intelligent Data Analysis: see http://www.springer.com/computer/image+processing/book/978-3-540-43060-5 A (legal) soft copy of this book is made available.Very many other materials (slides, books, articles, references to software packages, etc.) will be made available as well.","Assessment":"Groups of (in principal two) students are composed who work on a 2 to 3 assignments.The first assignment concerns a study on the bias-variance dilemma using a simulation study.The second assignment concerns a study related to the curse of dimensionality also by executing a simulation study.The deliverable of the final (third) assignment is a scientific report that includes, among others, a literature review related to the topic of choice. The focus can either be on a practical data mining exercise or on a more theoretical subject.Groups of students work separately and get supervision and feedback on their work progress from the lecturer(s)."},{"nr":106,"parent":60,"name":"UT-192654000","id":37838,"children":[],"courseName":"Network Security","ects":"5","Contact Hours / Week  x/x/x/x":"2/0/0/0+ assignments","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English"},{"nr":107,"parent":60,"name":"UT-201100022","id":37829,"children":[],"courseName":"Cyber Crime Science","ects":"5","Contact Hours / Week  x/x/x/x":"0/0/2/0+project","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English"},{"nr":108,"parent":60,"name":"UT-201500042","id":37840,"children":[],"courseName":"Privacy Enhancing Technologies","ects":"5","Contact Hours / Week  x/x/x/x":"0/0/0/2+ assignments","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":109,"parent":60,"name":"WM0705TU","id":37737,"children":[],"courseName":"E-law","ects":"5","Module Manager":"Mr.dr.M.M.Groothuis    ,M.M.Groothuis@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/x","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"}]}]},{"nr":110,"parent":1,"name":"Track Data Science & Technology 2015","id":16575,"children":[{"nr":111,"parent":110,"name":"Common Core DST 2015","id":16577,"children":[{"nr":112,"parent":111,"name":"CS4035","id":37830,"children":[],"courseName":"Cyber Data Analytics","ects":"5","Responsible Instructor":"Dr.ir.S.E.Verwer    ,S.E.Verwer@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2+lab","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":113,"parent":111,"name":"CS4065","id":37836,"children":[],"courseName":"Multimedia Search and Recommendation","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , C.C.S.Liem    ,C.C.S.Liem@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4+lab","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"Students will be able to�explain the concept of �multimedia�;�explain the principles underlying basic multimedia search engines;�explain the functioning of basic multimedia recommender systems;�describe and implement common representations of multimedia content;�describe and implement common ranking mechanisms for multimedia search;�describe and implement common recommender system techniques;�describe and implement common social media analytics techniques for multimedia search and recommendation;�interpret current academic literature in the field of multimedia search and recommendation;�identify strengths and weaknesses of state-of-the-art multimedia search and recommendation functionalities;�identify challenges belonging to the development of multimedia search and recommendation functionalities;�identify evaluation criteria for multimedia search engines and recommender systems;�explain the difference between topical relevance and utility in multimedia search and recommendation.In addition to the core goals, students choosing the MMSR Analytics specialization will be able to:�describe and implement cross-disciplinary approaches to multimedia search and recommendation;�propose and justify a vision on near-future improvement opportunities for a selected state-of-the-art multimedia search and/or recommendation analytics technique.In addition to the core goals, students choosing the MMSR Systems specialization will be able to:�describe and implement practical solutions to deal with real-world multimedia search and/or recommendation; �develop a practical implementation based on an academic description of a selected state-of-the-art multimedia search and/or recommendation technique and assess it against a baseline on a real-world dataset.","Education Method":"lectures, lab course, individual research or development assignment","Literature and Study Materials":"Will be handed out by lecturers during the course","Assessment":"Written exams (30% + 30%):�Written partial exam over MMSR core topics (week 3, 30%);�Written partial exam over chosen MMSR specialization (week 9, 30%).For the resit, each MMSR specialization will offer one resit exam, covering the material of the two partial exams described above (60%). Individual assignment for chosen MMSR specialization (week 11, 40%):�For MMSR Analytics: research proposal on an emerging topic in MMSR;�For MMSR Systems: implementation of a state-of-the art MMSR research paper.","Special Information":"Please see the Blackboard pages of this course for further information about course organization and suggested prerequisite knowledge.","Judgement":"Partial exam on MMSR core (30%)Partial exam on MMSR specialization (30%)(Or resit on MMSR core & specialization in one exam (60%))Individual assignment (40%)"},{"nr":114,"parent":111,"name":"IN4010(-12)","id":34988,"children":[],"courseName":"Artificial Intelligence Techniques","ects":"6","Responsible Instructor":"Dr.K.V.Hindriks    ,K.V.Hindriks@tudelft.nl , Prof.dr.C.M.Jonker    ,C.M.Jonker@tudelft.nl","Assistent":"C.G.Rozemuller    ,C.G.Rozemuller@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0 college1/1/0/0 instructiePract.","Education Period":"1,2","Start Education":"1","Exam Period":"1,2,3","Course Language":"English","Expected prior knowledge":"Computer science experience and knowledge at Bachelor level or similar, including in particular knowledge of algorithms (e.g. search algorithms), logic (TI1305), and probability theory (TW2215TI).","Study Goals":"After successful completion of the course:- Students have a general overview of artificial intelligence- Students are able to apply various artificial intelligence techniques- Students are able to model knowledge and preferences and using knowledge representation languages.- Students are able to design and implement intelligent agents for complex decision making problems.","Education Method":"Lectures, tutorials, lab work","Literature and Study Materials":"Stuart J. Russel and Peter Norvig (2010). Artificial Intelligence: A Modern Approach. 3rd Edition. Prentice-Hall. ISBN-13: 978-0-13-604259-4 + additional handouts.","Assessment":"Written exam and practical assignments.","Remarks":"40 hrs of lab work"},{"nr":115,"parent":111,"name":"IN4073TU","id":35723,"children":[],"courseName":"Embedded Real-Time Systems","ects":"6","Responsible Instructor":"Prof.dr.K.G.Langendoen    ,K.G.Langendoen@tudelft.nl","Contact Hours / Week  x/x/x/x":"Q5 4/0/0/0 & lab. not in 2014 2015","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"MUST have C programming skills as, for example, obtained by taking the TI2726-B Emb. Software course","Study Goals":"Student is acquainted with real-time programming in an embedded context, along with a basic understanding of embedded systems, real-time communication, sensor data processing, actuator control, control theory, and simulation. Moreover, the student has had exposure to integrating the various multidisciplinary aspects at the system level.","Education Method":"Lectures, lab work","Literature and Study Materials":"Web","Assessment":"Lab. project (120 hours) + written report"},{"nr":116,"parent":111,"name":"IN4085","id":35756,"children":[],"courseName":"Pattern Recognition","ects":"6","Responsible Instructor":"Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Instructor":"M.Loog    ,M.Loog@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0Pract.","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Linear algebra, multivariate statistics.","Study Goals":"After succesfully completing this course, the student is able to: recognise pattern recognition problems and select algorithms to solve them; read and comprehend recent articles in engineering-oriented pattern recognition journals, such as IEEE Tr. on PAMI; construct a learning system to solve a given simple pattern recognition problem, using existing software.","Education Method":"Lectures, lab work","Literature and Study Materials":"S.Theodoridis and K.Koutroumbas, Pattern Recognition (2nd ed.), Elsevier, 2009, ISBN-978-1-59749-272-0; Sheets; PRTools user manual; Pattern Recognition exercises with PRTools.","Assessment":"Homework, Computer laboratory assignment and written examination.","Remarks":"see also http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":117,"parent":111,"name":"IN4086-14","id":34990,"children":[],"courseName":"Data Visualization","ects":"6","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl , Dr.A.Vilanova Bartroli    ,A.Vilanova@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0 + lab","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Required for":"Master course MKE","Expected prior knowledge":"IN2905-A Computer Graphics (recommended, not required)","Study Goals":"In this course, techniques and cases of data visualization are discussed: models, algorithms, and data representations for conversion of data sets into visual images, and associated interactive techniques.There are several applications for the techniques, medical, engineering, finances, economics, game analytics.After the course, the student has knowledge and understanding of a wide range of general visualization techniques, their mathematical foundations, their algorithmic form, and relevant data representations, so that (s)he can choose, adapt, and develop suitable techniques for a given practical visualization problem. Also, the student can describe practical examples and cases of visualization in several application fields.","Education Method":"Lectures, practical assignments, self-study of academic literature, projects.","Literature and Study Materials":"Course slides, instructions for projects.All available in electronic form via Blackboard.","Assessment":"The final grade is a weighted average based on up to three assignments, an exam that might contain multiple choice questions, and a visualization project. The project and assignments will be developed in couples and is evaluated based on the developed result, its documentation and presentation.","Judgement":"The grade consists of 3 elements: assignments, an exam, and a project.Main assignments (up to 3) will be checked and will represent 20% of the mark. All assignments, which are handed in late will be evaluated with a zero and impact the part of the mark that corresponds to the assignment. Additionally, an exam will be held, which will represent 30% of the mark. The exam might contain multiple-choice questions .Finally, the largest contribution is a visualization project (50%), which will be developed in couples.The project is evaluated based on the developed result, its documentation and presentation.Final Mark = 0.2 Assignments + 0.3 Exam + 0.5 ProjectThe course is passed if the final grade is 6 or higher in average.The only part that will get a resit is the exam. No resit will be provided for the project or assignments"},{"nr":118,"parent":111,"name":"IN4252","id":34989,"children":[],"courseName":"Web Science & Engineering","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student learns the important principles and concepts of web-based information systems and their engineering processes, and understands the main research challenges in the area.The student has knowledge about the main methods, techniques and languages used in the area of web-based information systems, in particular concerning web data. The student has knowledge of the main principles and techniques for user modelling and adaptation, and of the role of Social Web data for user modelling.The student learns the major challenges and principles from the research in the field of Web Science, and the role of web data for Web Science.The student is able to write a paper contributing to Web Science based on a problem in the field of web-based information systems.","Education Method":"The education includes:- Lectures, before which and after which students study material by themselves, to get an understanding of the relevant material;- Small assignments and hands-on exercises, to apply the understanding of relevant material;- One large assignment, with a number of feedback moments, to learn how to write a web science paper and contribute to relevant research.Lectures will be not each week in the class period (1+2): in between lectures there is time reserved for studying before and after lectures, for small assignments and exercises, and for writing the large assignment paper. The writing of the large assignment paper happens throughout the class period (1+2) to enable frequent feedback.","Assessment":"Assessment happens on the basis of the small assignments (accompanying the lectures), for 40% of the grade, and the large assignment (writing the web science paper), for 60% of the grade. Both parts need to be completed by the indicated deadlines."},{"nr":119,"parent":111,"name":"IN4301","id":36664,"children":[],"courseName":"Advanced Algorithms","ects":"5","Responsible Instructor":"Prof.dr.C.Witteveen    ,C.Witteveen@tudelft.nl","Instructor":"Prof.dr.ir.K.I.Aardal    ,K.I.Aardal@tudelft.nl , Dr.M.M.deWeerdt    ,M.M.deWeerdt@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Basic courses in Algorithmics and Complexity Theory","Study Goals":"Knowledge of some advanced algorithmic techniques likekernelization techniques, general approximation techniques, and linear programming relaxation techniques.Knowledge of techniques to analyze the performance of algorithms.","Education Method":"Lectures, homework exercises, and programming assignments.","Literature and Study Materials":"Parts of the course are derived from the textbook J. Kleinberg and E. Tardos, Algorithmic Design,Pearson Education, 2006. ISBN 0-321-37291-3Supplemental study material will be provided via Blackboard.","Assessment":"Homework exercises, programming assignments and a written exam.There is a mid semester test after the first two parts of the course."},{"nr":120,"parent":111,"name":"IN4315","id":35212,"children":[],"courseName":"Software Architecture","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"Different, to be announced","Course Language":"English","Expected prior knowledge":"Software engineering","Study Goals":"Bring students into the position that they can (1) explain the key architectural concepts and methods for modeling software architectures; (2) apply viewpoints and perspectives to model software architectures; (3) discuss the benefits of architecting and the role of the software architect; (4) evaluate and validate software architectures; and (5) explain and discuss the concepts of component-based and plugin architectures, service-oriented architectures, and software product lines.","Education Method":"Interactive lectures, lab assignment, paperpresentation and discussion.","Literature and Study Materials":"The course uses the book \"Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives\" by Nick Rozanski and Eoin Woods, Addison-Wesley Professional 2005, ISBN: 9780321112293. Additional reading material will be announced in the lectures.","Assessment":"No written exams. Lab assignment, paper and presentation.","Special Information":"Twitter handle: https://twitter.com/delftswa"},{"nr":121,"parent":111,"name":"IN4391","id":36680,"children":[],"courseName":"Distributed Computing Systems","ects":"5","Responsible Instructor":"A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"1.Explain the objectives and functions of distributed computing systems.2.Describe how distributed computing systems have evolved, over time, from primitive batch systems to sophisticated multi-user systems.3.Describe the architecture and operation of distributed computing systems.4.Explain how distributed computing systems can process user workloads.5.Explain how distributed computing systems can detect and correct faults and errors.6.Implement complex operations of modern distributed computing systems in realistic scenarios.7.Analyze the tradeoffs inherent in the design of distributed computing systems (performance, efficiency, scalability, reliability, availability, fault-tolerance.)","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLectures:7 weeks x 2hPractical:Groups of 2 on the DAS distributed computer system.3 weeks x 4h + 16h: large exercise based on course topic 6 + report of 4�6 pages4 weeks x 4h + 40h: large exercise based on course topic 7 +report of 4�6 pages","Literature and Study Materials":"Textbook: Andrew S. Tanenbaum, Maarten Van Steen, Distributed Systems, Principles and Paradigms (2nd Edition), Prentice Hall, 2006. The textbook introduces the student to the traditional theory of distributed systems.Additional material: Several relevant research articles introduce the student to the latest advances on the topic.","Assessment":"Overview: The course consists of two main parts: the theoretical Part I and the practical Part II. Students are assessed through a written exam (open questions), an oral exam, and a demonstration of practical skills. Part I: An optional mid-term exam is also organized. The results of the mid-term exam count only if the final exam is also taken by the student, and only if it increases the final grade of the student. Additionally, the course is gamified: there is testing through open questions and various exercises during and at the end of the lectures, counting as bonus points for Part I.The result of Part I of this course must be at least 6. The result of Part II of this course (practical) must be Completed (C, Voltooid/V in Dutch). The final grade is the result of Part I.Summary of assessment:Type of assessmentPart of final gradePart I: Exam, open questions40%Part I: Exam, oral20%Part II: Practical40%"},{"nr":122,"parent":111,"name":"IN5000","id":36663,"children":[],"courseName":"Final Project","ects":"45","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl , Dr.ir.A.J.H.Hidders    ,A.J.H.Hidders@tudelft.nl , Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/x/x/x","Education Period":"1,2,3,4,Summer Holidays","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The master CS has a general knowledge of computer science and the relevant issues of mathematics and computer engineering, and has in-depth knowledge on a particular domain of computer science and the associated area of application and has shown to be able to apply and extend this knowledge by means of a Master�s thesis.The master CS has competence in designing, modeling, implementing and testing of information and software systems for a broad range of application areas, and knows how to work individually or in teams on the develop ment of these systems. The academic profile of the master is fostered by educating and stimulating students in such a way that he/she is able to analyse and conceptualize on a formal and abstract level; understand the fundamental issues of this field and to contribute to research and the further development of the field; place his contribution within the wider scope of the overall development of science and technology and within industry and society and communicate, verbally and in writing, on results and methodology, both to his colleagues in the professional field as well as to layman.","Education Method":"Project.","Prerequisites":"The thesis project is the final part of the Master's degree programme. Before starting the thesis project, students must satisfy the following entry requirements.-Successful completion of all common core courses-For students who started the MSc programme in 2006 or after, but before 2012: completion of at least 57 EC of the Master's degree programme-For students who started the MSc programme in 2012 or after: completion of at least 63 EC of the Master's degree programme and in possession of a Thesis Entrance Permit (TEP)Note: In some cases, the thesis supervisor may impose additional conditions for starting this project.","Assessment":"The thesis committee assesses the thesis and the defense on the following criteria: quality of work: novelty, volume, grasp, methodology, publishable;personal performance: autonomy, planning, creativity, attitude; quality of thesis report: clarity, organisation, argumentation; oral presentation and defense: clarity, focus, relevance, discussion. These criteria are published in the study guide and should be known to the student beforehand. (Use \"Thesis evaluation form\").The voting members of the thesis committee determine the final grade. The grade should reflect a weighted average of the four scores above, but need not to be an exact arithmetical mean. The final mark starts from 5 up to and 10. Marks ending in .5 may also be used.If the student shows excellence (is nominated for a 10) the chair of the thesis committee should consult the chair of the Board of Examiners, at least five working days in advance of the defense. The chair may advice to add an extra member to the thesis committee.The motivation for the grade at each of the four criteria as listed above is summarized on a form (Use: \"Thesis evaluation form\") and signed by the chairman of the thesis committee. The candidate is given a short account of the assessment, either in private or in front of the audience."}]},{"nr":123,"parent":110,"name":"Specialisation Courses 1st semester 2015","id":16592,"children":[{"nr":124,"parent":123,"name":"AP3421","id":37768,"children":[],"courseName":"Fundamentals of Quantum Information","ects":"4","Responsible Instructor":"L.Di Carlo    ,L.DiCarlo@tudelft.nl","Instructor":"S.D.C.Wehner    ,S.D.C.Wehner@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1","Course Language":"English","Expected prior knowledge":"Knowledge of linear algebra, probability and statistics.","Study Goals":"Motivation: Quantum information is the future of computing and communication. Quantum computers offer exponential speedup over any classical computer. Similarly, quantum communication offers many advantages, including the ability to create secure encryption keys where security rests only on the laws of nature. Synopsis:This class will teach you the fundamental principles of quantum information. You will learn essential concepts that distinguish quantum from classical devices. You will learn about quantum bits and the quantum operations and measurements that can be performed on them. You will learn the basic techniques used in quantum algorithms, and examine basic examples of such algorithms. You will also take the first step in understanding how a quantum bit can be physically implemented. Aim: To learn the fundamental concepts underlying quantum computation and communication systems.","Education Method":"Taught in Quarter 1 of 2015-16; 3 hours of lecture, 1 hour tutorial per week.","Literature and Study Materials":"The main reference textbook for the course will be Nielsen and Chuang, �Quantum Computation and Information�, Cambridge University Press.","Assessment":"60% homework assignments, 10% in class quiz, 30% final exam.","Permitted Materials during Tests":"","Continuing Courses":"CS4090 � Quantum Communication and Cryptography; AP3292D � Quantum Hardware;ET4575 � Quantum Electronics."},{"nr":125,"parent":123,"name":"CS4010","id":37825,"children":[],"courseName":"Algorithms for Planning and Scheduling","ects":"5","Responsible Instructor":"Dr.M.T.J.Spaan    ,M.T.J.Spaan@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"After completing the Algorithms for Planning and Scheduling (P&S) course, the student is able to:1. Explain general techniques used in P&S algorithms.2. Explain several specific P&S problem settings and corresponding algorithms.3. Apply P&S algorithms to problem domains, and can compare and evaluate them.4. Design and implement an extension of a P&S algorithm.5. Communicate his/her findings effectively.","Education Method":"Lectures combined with research projects in small groups.","Literature and Study Materials":"Mainly survey papers and book chapters.","Assessment":"The assessment will consist of the following items:1. Homework exercises based on the lectures2. A scientific report of the research project3. Peer review of a report4. Presentation of the research project"},{"nr":126,"parent":123,"name":"CS4055","id":37834,"children":[],"courseName":"High Performance Data Networking","ects":"5","Responsible Instructor":"Dr.ir.F.A.Kuipers    ,F.A.Kuipers@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The learning objective of this course is threefold: (1) The student should have a passive to active knowledge of the treated networking technologies. (2) The student should be able to apply and work with the technologies in a network lab/emulator/simulator. (3) The student should be able to perform research in the field of high-performance data networking.","Education Method":"Lectures and projects","Assessment":"The final assessment is based on the project report(s) and a written exam."},{"nr":127,"parent":123,"name":"CS4060","id":37835,"children":[],"courseName":"Integration week","ects":"1.5","Contact Hours / Week  x/x/x/x":"Q1, week 1, 24/7","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English"},{"nr":128,"parent":123,"name":"CS4070","id":37837,"children":[],"courseName":"Multivariate Data Analyse","ects":"5","Responsible Instructor":"Dr.A.J.Cabo    ,A.J.Cabo@tudelft.nl , Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"1,2,3","Course Language":"English","Expected prior knowledge":"* Introduction Probability Theory and Statistics: see for instance A Modern Introduction to Probability and StatisticsUnderstanding Why and HowSeries: Springer Texts in StatisticsDekking, F.M., Kraaikamp, C., Lopuha�, H.P., Meester, L.E.2005, XVI, 488 p. 120 illus., HardcoverISBN: 1-85233-896-2* Basic calculus* Linear Algebra: matrix multiplication, the inverse of a matrix, the transpose of a matrix, least square solution.see:David C. Lay: Linear Algebra and Its ApplicationsISBN-10: 0321385179 � ISBN-13: 9780321385178�2012 � Pearson)","Study Goals":"PART I:1. Probability Theory- Conditional) probabilities, the law of total probability, and Bayes� rule.- Solve probability problems that require the use of axioms of probability.2. Definition and Description of Random Variables and ProcessesPDF, PMF, CDF, Covariance, Correlation- Determine if a given PDF, PMF, CDF, variance, (auto/cross-)correlation(-function), (auto/cross-)covariance(-function), power spectral density complies with (theoretical and analytical) requirements. - Convert the description of a probabilistic problem into a probabilistic model using PDF, PMF, or CDF.3. PDF/PMF and Expected ValueCalculate the various forms of expected value of (combinations of) random variables and random processes- For a given (amplitude continuous/discrete and time continuous/discrete) probability model calculate the following probabilistic (marginal, joint and conditional) characterizations: PDF, PMF, CDF, probability of an event, expected value, variance, covariance, correlation, correlation coefficient, auto/crosscorrelation function, auto/crosscovariance function, (cross) power spectral density.- Calculate the PDF, PMF, expected value and variance of a derived random variable.4. Properties of Random Processes- Independence, orthogonality, uncorrelated, whiteness, IID- Determine if random variables/processes have the following properties: independent, orthogonal, uncorrelated, white, Poisson, Gaussian, Bernoulli, Markov, IID, stationary, WSS, ergodic.- Calculate the expected value, variance, auto/crosscorrelation(function), auto/crosscovariance(function), power spectral density of a linear combination of random variables and of a linearly filtered (WSS, amplitude discrete/continuous, time discrete/continuous) random process.5. Large NumbersCentral limit theorem, law of large numbers- Solve problems that require the use of the central limit theorem in an engineering context- Explain the law of the large numbers in an engineering context.6. Statistical Estimators- Estimated mean, variance, and correlation function- Given a set of outcomes, sample functions or realizations, calculate estimators for expected value, variance, and (auto-)correlation function.12. Application to Engineering Problems and Simulations- Select and translate a simple electrical engineering or computer science problem into mathematical probability model. The emphasis is on problems in signal and image processing, telecommunication, and media and knowledge technology. The class of probability models encompasses the following random variables/processes: Bernoulli, exponential, binomial, Poisson, Gaussian, uniform.- Justify and reflect on the approach taken in calculating or simulating (MatLab) the following probabilistic properties: PDF, PMF, expected value, variance, autocorrelation function, autocovariance function.PART II:After finishing this course, the student is acquainted with several statistical techniques to analyse a multivariate dataset by means of a linear model. The student is capable of applying these techniques to a multivariate dataset by means of a statistical software package and is capable of interpreting the output drawing conclusions from it. The student is acquainted with the statistical notions and concepts that underly the statistical technique.","Education Method":"PART I:Lectures, working groups (problem solving), laboratory work (Matlab exercises)PART II:Classes, exercises and weekly mandatory computer assignments, that are graded.","Books":"PART I:R.D. Yates and D.J. Goodman, \"Probability and Stochastic Processes: A Friendly Introduction for Electrical and Computer Engineers\", ISBN 0-471-17837-3, John Wiley and Sons, New York, 2005, Second Edition.PART II:John Fox Applied Regression Analysis and Generalized Linear Models, 3rd Edition2015 Sage Publications, Inc","Assessment":"Lab and written exam Q1, lab (35% of the second part) and written exam (65% of the second part) Q2","Exam Hours":"PART I:Written exam of 3 hours.PART II:Written exam of 3 hours.","Permitted Materials during Tests":"PART I:Self made notes on a two-sided written A4 sheet. Calculator.PART II:Self made notes on a two-sided written A4 sheet. Calculator.","Remarks":"PART II:This course is particularly interesting for students that are interested in statistical exploratory and quantitative techniques to analyse multivariate data."},{"nr":129,"parent":123,"name":"CS4070-D2","id":38013,"children":[],"courseName":"Multivariate Data Analyse ","ects":"2.5","Responsible Instructor":"Dr.A.J.Cabo    ,A.J.Cabo@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The student is able to examine data graphically, to transform data if necessary, to perform statistical test on the coefficients of a linear regression models, to interpret the outcome of the test and to explain the underlying statistaical principles","Education Method":"Lectures, Exercises, Computer Lab","Assessment":"Written exam (70%), computer lab assignments (30%)"},{"nr":130,"parent":123,"name":"CS4090","id":37841,"children":[],"courseName":"Quantum Communication and Cryptography","ects":"5","Responsible Instructor":"S.D.C.Wehner    ,S.D.C.Wehner@tudelft.nl","Contact Hours / Week  x/x/x/x":"weekly: 3 hours lecture, 1 hour tutorial","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Linear Algebra, Probability & Statistics, Q101 (Fundamentals of quantum information)","Study Goals":"The student will acquire:�A good understanding of the fundamental concepts of quantum information theory�A good understanding of the essential tools in quantum cryptpgraphy �Insight into the differences between classical and quantum communication and cryptography�Skill set required to follow the remainder of the quantum curriculum (Q301 � Quantum hardware and Q401 � Quantum electronics)","Education Method":"Lectures and Tutorials","Literature and Study Materials":"Primary: Lecture NotesAuxilliary:Nielsen and Chuang �Quantum computation and information�, Cambridge University Press. Mark Wilde �Quantum information theory�, Cambridge University Press","Assessment":"60% Homework assignments and presentation, 40% final exam"},{"nr":131,"parent":123,"name":"CS4105","id":37844,"children":[],"courseName":"Software Security","ects":"5","Responsible Instructor":"Prof.dr.E.Visser    ,E.Visser@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/2/0/0 lecture + lab","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The student will acquire:- A good understanding of the nature of security vulnerabilities in software systems- A good understanding of principles for secure software development- A basic understanding of security testing and dynamic analysis techniques- A good understanding of static analysis techniques and language-based security","Education Method":"Lectures + lab assignments","Assessment":"The grade for the course is determined by Exam + Lab AssignmentsWritten exam in WebLab (can be done on multiple sites) and homework (programming) assignments."},{"nr":132,"parent":123,"name":"EE4C06","id":37869,"children":[],"courseName":"Networking","ects":"5","Responsible Instructor":"Prof.dr.ir.P.F.A.Van Mieghem    ,P.F.A.VanMieghem@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"The new Networking course aims to provide a general and basic introduction to the art of �networking� necessary to understand any operational network. After this course, students are expected to represent/abstract real-world infrastructural network (e.g. a communication system) as a complex network, understand the basic methods to analyze properties of networks and dynamic processes on networks. Students will also understand why processes on networks and design of networks are so complex. Finally, students may appreciate the fascinatingly rich structure and behavior of networks and may realize that much in the theory of networks still lies open to be discovered.","Education Method":"Lectures, slides & homework","Assessment":"written examination"},{"nr":133,"parent":123,"name":"ET4283","id":35640,"children":[],"courseName":"Seminar Advanced Digital Image Processing  ","ects":"6","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl","Instructor":"Prof.dr.ir.L.J.vanVliet    ,L.J.vanVliet@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Basics of signal processing, image processing, linear algebra, stochastic processes. The course will start with a brief review of basic image processing principles as discussed in the TI bachelor course TI2716-B.","Study Goals":"General learning outcomes:The student has insight into state of the art algorithms for image processing including Multi-Resolution Image Processing, Morphological Image Processing, Image Features Representation/Description, Motion Estimation and Optic Flow, Image Restoration, Image Segmentation and 3D Computer Vision. The student is able to read, discuss, summarize and comment on scientific journal and conference papers in this area.Specific learning outcomes:1.Multi-resolution Image Processing:Gaussian scale space, windowed Fourier transform, Gabor filters, multi-resolution systems (pyramids, subband coding and Haar transform), multi-resolution expansions (scaling functions and wavelet functions), wavelet Transforms (Wave series expansion, Discrete Wavelet Transform (DWT), Continuous Wavelet Transform (CWT), Fast Wavelet Transform (FWT))The student is able to motivate the use of space-frequency representations, analyze the behavior of space-frequency techniques, explain the principles behind, classify and evaluate multi-resolution techniques..2.Morpological Image Processing:Definitions of gray-scale morphology: erosion, dilation, opening, closing; Application of gray-scale morphology: smoothing, gradient, second derivatives (top hat), morphological sieves (granulometry).The student is able to apply, recognize the priciples and analyze (a sequence of) morphological operations for noise suppression, edge detection, and sharpening.3.Image Feature Representation and Description:Measurement principles: accuracy vs. precision ; Size measurements: area and length (perimeter); Shape descriptors of the object outline: form factor, sphericity, eccentricity, curvature signature, bending energy, Fourier descriptors, convex hull, topology; Shape descriptors of the gray-scale object: moments, PCA, intensity and density; Structure tensor in 2D and 3D: Harris Stephens corner detector, isophote curvature.The student is able to comprehend and explain the properties of measurements in digitized images, combine measurement principles to solve a new problem, comprehend the structure tensor in various notations and apply it in measurement procedures.4.Motion and optic flow:Motion is strcuture in spatio-temporal images; Two frame registration: Taylor expansion method; Multi-frame registration: Optic flow. Applications of image registration.The student is able to explain the properties of image registration and optic flow and comprehend the aperture problem in optic flow.5.Image Restoration:Noise filtering, Wiener filtering, Inverse filtering, Geometric transformation, Grey value interpolationThe student is able to discuss the use of linear and non-linear noise filters, explain the use of inverse filters andproblems of inverse filtering in the case of noise, describe (the use of) a Wiener filter and apply geometric transformations and bi-linear grey value interpolation6.Image Segmentation:Thresholding, edge and contour detection, data-driven and model-driven image segmentation, edge trackingThe student is able to discuss isodata thresholding, optimal thresholding, multimodal thresholding and adaptive thresholding techniques,apply Gaussian derivative filters and difference based filters for calculation of edge point candidates, explain the trade off between localization and detection of edges, discuss split and merge techniques and edge tracking techniques. The student has insight into model-based image segmentation (object detection) approaches like template matching, Hough Transform, Deformable Template matching, Active Contours and Active Shape models and is able to formulate how shape information and image intensity information can be incorporated into these approaches.","Education Method":"lectures, group assignment with plenar presentation and discussion","Computer Use":"Matlab and dipimage toolbox and/or other imaging toolbox","Literature and Study Materials":"Book 'Digital Image Processing', van R.C. Gonzalez en R.E. Woods, third edition, 2002, ISBN 9780131687288.(Online) Book 'Computer Vision, Algorithms and Applications', R. Szeliski, (http://szeliski.org/Book/). The online version is available for free.We have used the Book �Introductory Techniques for 3-D Computer Vision�, E. Trucco and A. Verri, ISBN 0-13-261108-2 in the past.Lecture notes �Fundamentals of Image Processing�(http://homepage.tudelft.nl/e3q6n/education/et4085/sheets/ppt/FIP2.2.pdf) PDF-files of the lecture slides (see blackboard)","Assessment":"written exam and assignment. Both have weight 0.5 and both should be 5.0 or higher.Weighted average should be 5.8 or higher.","Exam Hours":"There will be a written examination in the exam period after the first semester. The assessment of the assignment will take place at the end of the first semester or in the exam period after the first semester.","Permitted Materials during Tests":"Books, print-out of pdf files of the lecture slides and lecture notes are not permitted during the written examination"},{"nr":134,"parent":123,"name":"ET4388","id":37622,"children":[],"courseName":"Ad-hoc Networks","ects":"5","Responsible Instructor":"R.R.Venkatesha Prasad    ,R.R.VenkateshaPrasad@tudelft.nl","Contact Hours / Week  x/x/x/x":"3/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Expected prior knowledge":"Wireless communications andnetworkingComputer communication principles, Layering principle of Computer Networks.Digital communication.","Study Goals":"By the end of this course students should be able to:- Model the ad-hoc networks using Graphs.- Describe the working principles of medium access control protocols for ad-hoc networks- Explain the working principles, advantages and disadvantages of different classes of routing protocols for ad-hoc networks- Choose various components to form a coherent ad hoc networking architecture- Develop a simulator to evaluate the MAC and routing protocols for ad hoc networks- Assess the suitability of ad-hoc networks for different communication needs and scenarios","Education Method":"The course will be taught in lecture form. The presence of students at all lectures is required for optimum result. Students are required to participate actively in various forms of activities and peer-learning. New forms of teaching aids are used.","Literature and Study Materials":"1. Textbook: Ad Hoc Wireless Networks, Architectures and Protocols by C. Siva Ram Murthy and B.S.Manoj, Prentice-Hall Pearson, 2004.2. Lecture notes consisting of slides presented at the lectures (Slides are only teaching aid and they are not substitute for textbooks, research papers, etc).3. Some recent journal papers 4. Optional Reference Books 4.1. Distributed Algorithms, Nancy A. Lynch, Morgan Kaufmann, 1996 (for networking algorithms)4.2. Ad Hoc Mobile Wireless Networks, Principles, Protocols and Applications by Subir Kumar Sarkar , C Puttamadappa , and T. G Basavaraju, Auerbach Publications, 2008. This book is avaliable online in the library.4.3. Wireless Ad Hoc and Sensor Networks, A Cross-Layer Design Perspective� by Jurdak, Raja, Springer, 2007. This book is avaliable online in the library.4.4. Ad-hoc Networks: Fundamental Properties and Network Topologies, by Ramin Hekmat, Springer. 5. OPNET/ns-2 web pages, tutorials and video lectures","Books":"Ad Hoc Wireless Networks, Architectures and Protocols by C. Siva Ram Murthy and B.S.Manoj, Prentice-Hall Pearson, 2004.","Assessment":"1. There will be written tests/examinations for this course. 2. The students will carry out a project in a group and submit a short report.3. Participation in off-track discussions on Facebook/Blackboard/FeedbackFruits and wikis.","Permitted Materials during Tests":"Different conditions for different test/exams.Conditions will be informed 1 week before the exams/test."},{"nr":135,"parent":123,"name":"IN4049TU","id":36621,"children":[],"courseName":"Introduction to High Performance Computing","ects":"6","Responsible Instructor":"Prof.dr.ir.H.X.Lin    ,H.X.Lin@tudelft.nl","Instructor":"Prof.dr.ir.H.J.Sips    ,H.J.Sips@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0 and pract","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Study Goals":"1. Knowledge about high performance computer systems including parallel and distributed architectures, and programming models; 2. Basic knowledge about the concepts of data decomposition and parallel algorithms; 3. Knowledge about various high performance (numerical) methods and their parallelization; 4. Capable to implement parallel programs (using MPI) on cluster of computers; 5. Obtain some experience on performance analysis of parallel programs.","Education Method":"Lectures, computer lab excercise using MPI","Literature and Study Materials":"Will be made available through throughout the course and can be downloaded from the blackboard.","Assessment":"Written exam (50%) + Lab work (50%)","Enrolment / Application":"Via Osiris"},{"nr":136,"parent":123,"name":"IN4150","id":36645,"children":[],"courseName":"Distributed Algorithms","ects":"6","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0 college; Pract. 3e en 4e kwartaal","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"Operating system concepts (IN1805)Computer Networks (IN2605)","Study Goals":"After having completed this course, the student has a good knowledge of and insight into important fundamental (theoretical) problems in distributed systems and their algorithmic solutions. In addition, the student can design and implement distributed algorithms that solve these problems.","Education Method":"Lectures, lab work","Literature and Study Materials":"Lecture notes (on Blackboard)","Assessment":"Paper review and written exam (closed book)","Remarks":"Lab work is 40 hrs."},{"nr":137,"parent":123,"name":"IN4170","id":36705,"children":[],"courseName":"Databases and Datamining","ects":"6","Responsible Instructor":"Dr.E.M.Bakker    ,E.M.Bakker@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0Pract.In Leiden","Education Period":"1,2","Start Education":"1","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Data Bases, Data Mining","Study Goals":"Obtain knowledge and skills about databases and data mining such that these can be applied to bio-informatics","Education Method":"Lectures, lab work","Literature and Study Materials":"J. Han and M. Kamber. Data Mining Concepts and Techniques (Second Edition), Elsevier Inc., 2006 (ISBN 1-55860-901-6)","Assessment":"There will be a total of 5 database - and data mining assignments. The assignments will be graded and determine the final grade.","Remarks":"For all materials and up to date information about the course (final schedule, location, etc.)see www.liacs.nl/~erwin/dbdm2007and see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":138,"parent":123,"name":"IN4178","id":36714,"children":[],"courseName":"Optimization (Swarm-based Computation with Applications in Bioinformatics)","ects":"6","Responsible Instructor":"Prof.dr.T.Back    ,T.Back@tudelft.nl , Dr.M.T.M.Emmerich    ,M.T.M.Emmerich@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0 in Leiden","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"Objective:-Learn methods for optimization - Understand the difficulties of optimization - Understand applications of optimization in bioinformatics","Education Method":"Lectures","Literature and Study Materials":"Copies of the lecturing slides will be distributed in class. Also, papers to work into the seminar topics will be distributed in class","Assessment":"Written exam.Exam will cover the first part (6 lectures)","Remarks":"For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":139,"parent":123,"name":"IN4188","id":36702,"children":[],"courseName":"Seminar Affective Computing","ects":"5","Responsible Instructor":"Dr.ir.D.J.Broekens    ,D.J.Broekens@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0 + project","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Intermediate-level programming skills in one of the following languages: C(++)/Java/Flash script/Python/Processing (or related language).Completion of a course on human computer interaction or related topic.Knowledge of Artificial Intelligence.In doubt: contact lecturer!","Study Goals":"Position the field of affective computing in computer science and psychology, and identify its major goals and angles of study.Define and explain emotion and affect.Relate emotion and affect to psychological theories of emotion.Explain major affect recognition, affect simulation and affect expression techniques. Explain how they are used in technological artifacts.Identify and evaluate implications and assumptions of a theoretical framework for affective system development.Develop in collaboration with others an affective system, and together evaluate the resulting system using the theoretical affective framework(s).","Education Method":"Seminar/Project form:Seminar:2 hours of lectures per week.Self-study of papers.The papers will be made available at the start of the course.Project:Perform a piece of research (survey, research question, programming, testing) and write a paper about it. Students will work in teams of about 3-4 persons!The different teams will probably have research projects that relate to the projects of other teams. As such, active participation is a must! Others depend on you work.","Literature and Study Materials":"papers and course slides. The papers will be made available at the start of the course.Depending on the cost, this year a book will be used. If that is the case, students will be notified at least 1 month in advance through blackboard.","Books":"Material consists of papers and course slides. The papers will be made available at the start of the course.Depending on the cost, this year a book will be used. If that is the case, students will be notified at least 1 month in advance through blackboard.","Assessment":"Project work (50%): paper, presentation, review of the paper of another group.Theoretical lectures (50%): mini exams, each lecture starts with a min exam on the material discussed in the previous lecture.Project and theoretical work will be averaged. This is your only official final grade. No separate project / theoretical grades will be administrated in OSIRIS.No final exam.","Enrolment / Application":"Mandatory (!) and in advance through blackboard or email.","maximum aantal deelnemers":"16"},{"nr":140,"parent":123,"name":"IN4189","id":36673,"children":[],"courseName":"Software Reengineering ","ects":"5","Responsible Instructor":"A.E.Zaidman    ,A.E.Zaidman@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"Bring students into the position that they can efficiently work with an already existing, complex software system. Introduce students to best-practices in software reengineering and to the state-of-the-art refactoring tools, metric tools, profiling tools, reverse engineering tools (e.g., software visualization tools), code duplication removal and management tools, etc.","Education Method":"Limited number of lectures, 1 big lab assignment accompanied by a paper and presentation.","Assessment":"No written exams. Lab assignment, paper and presentation."},{"nr":141,"parent":123,"name":"IN4302TU","id":35166,"children":[],"courseName":"Building Serious Games","ects":"5","Responsible Instructor":"Dr.ir.A.R.Bidarra    ,R.Bidarra@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"Different, to be announced","Course Language":"English","Expected prior knowledge":"For TI students: programming experience with some object-oriented language; experience with graphics, AI and/or some game engine(s) is a plus.For all students: though not compulsory, it may be convenient to have followed the course SPM9235 (Game design project), which is taught in the first quarter.","Study Goals":"At the end of the project, the student will demonstrate proficiency in the following aspects:o identifying and valuing the soft skills necessary to work in interdisciplinary teamso interacting within a team, integrating its members' varying talents and expertiseo adapting with flexibility to the dynamic requirements of a complex external assignmento translating feedback received into proactive personal development stepsAdditionally, the CS student will demonstrate proficiency in the following specific aspects:o identify, select and deploy the most adequate game technologies for a given serious game applicationo deepening programming skills while building a complex and large software system in an agile context","Education Method":"ProjectAlso a few plenary sessions and/or lectures","Assessment":"Project assessment will be based on a combination of a product grade (unique for the whole group), a process grade (individual) and peer evaluation.The end-user will be involved both as advisor and as assessor."},{"nr":142,"parent":123,"name":"IN4306","id":36666,"children":[],"courseName":"Literature Survey ","ects":"10","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl , Dr.ir.F.F.J.Hermans    ,F.F.J.Hermans@tudelft.nl","Contact Hours / Week  x/x/x/x":"Not applicable","Education Period":"None (Self Study)","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student is able to read contemporary scientific literature in the chosen field of specialisation.The student is able to distill the main ideas of a paper and to write these down in his or her own words.The student is able to place the ideas of different papers in perspective by comparing these.","Education Method":"Individual assignment.The student should consult the MSc coordinator for further details.","Assessment":"Writing a report, individually and under supervision of a staff member. This staff member will also mark the report."},{"nr":143,"parent":123,"name":"IN4307","id":36622,"children":[],"courseName":"Medical Visualization","ects":"5","Responsible Instructor":"Dr.A.Vilanova Bartroli    ,A.Vilanova@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0 + final project 2th quarter (8x2)","Education Period":"1","Start Education":"1","Exam Period":"Different, to be announced","Course Language":"English","Study Goals":"At the end of the course, the students should be able to understand, and judge the advantages and disadvantages of the medical visualization algorithms, as well as their applicability to a specific medical problem. The students should be able to propose suitable solutions to a problem, backed by sound knowledge of the underlying theory and the practical possibilities.They should be able to design, implement, test and discuss these solutions, consisting of a number of medical visualization algorithms.","Education Method":"The course will be based on a combination of lectures and practical assignments.","Assessment":"The evaluation will be based on a final project (60%) and an oral exam (40%). The final project will be done during the 2nd quarter.The deliverables for the final project will be a report (paper), the results (e.g., code) and a presentation. There will be a day in the second quarter were all projects will be presented.The oral exam will be arranged at the end of the first quarter.Both Assignment (60 %) and oral exam (40%) have to get the mark of pass to successfully pass the course."},{"nr":144,"parent":123,"name":"IN4310","id":38128,"children":[],"courseName":"Seminar Computer Graphics","ects":"5","Responsible Instructor":"Dr.ir.A.R.Bidarra    ,R.Bidarra@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"One of the CS core courses (IN4086 Data Visualization, and IN4152 3D Computer Graphics and Animation), and at least one of the Computer Graphics specialization courses (IN4255 Geometric Modeling, IN4302 Building Serious Games, and IN4307 Medical Visualization) are expected as prior knowledge.","Study Goals":"To obtain in-depth knowledge about an advanced topic within Computer Graphics, in particular in rendering, game technology, visualization or geometric modeling. The seminar may be used as a preparation for an MSc thesis topic.To acquire practical skills with reading, presenting, and discussing scientific papers, as well as with writing scientific papers.","Education Method":"This course has the format of a student seminar. Students will therefore have to read research papers about the selected topic, and prepare a short written survey based of those papers.They will also choose one of the techniques surveyed, and prepare a presentation that goes in-depth on its research significance and challenges; these presentations, and the corresponding research discussions, will be held in a few plenary colloquium sessions.","Literature and Study Materials":"Recent research papers about the selected topic.","Assessment":"The quality of the survey and of its presentation, together with the active participation in the plenary colloquium discussions, will determine the final grade.","Remarks":"Please contact the instructor via email far ahead of education period 1, if you are interested in attending this seminar."},{"nr":145,"parent":123,"name":"IN4314","id":36698,"children":[],"courseName":"Seminar Selected Topics in Multimedia Computing","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , M.A.Larson    ,M.A.Larson@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"signal (image, audio) processing, data mining, pattern recognition","Study Goals":"To become acquainted with the state-of-the-art research and development activities in the field of Multimedia Computing, and to become an expert in one particular \"hot topic\", such that they are able to identify the \"knowledge gap\" (i.e., the place in which more research is needed in order to advance the state of the art).","Education Method":"readings, seminar discussions, presentations, survey paper","Literature and Study Materials":"Readings, possibly including video lectures.","Assessment":"The students demonstrate the knowledge that they have acquired by making a presentation on a pre-existing survey (10%), then writing their own survey on a new topic (65%), and finally by making a presentation on that topic (25%). The students must complete all three components."},{"nr":146,"parent":123,"name":"IN4318","id":36716,"children":[],"courseName":"Introduction to Life Science","ects":"10","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/x/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"To learn about the basic concepts in molecular biology required for bioinformaticians.","Education Method":"Tutorial: students independently read a standard work on molecular biology and discuss with the teacher if necessary.","Assessment":"Examination by appointment.","Remarks":"Taught by Erwin Bakker at Leiden University."},{"nr":147,"parent":123,"name":"IN4326","id":36667,"children":[],"courseName":"Seminar Web Information Systems","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"-to expose the student to current developments in research on web information systems and its methodologies; -to familiarise the student with reading, presenting and discussing scientific literature in the area;-to help the student in reading and writing scientific papers and choosing a topic for her/his thesis in the area.","Education Method":"Student seminar.","Assessment":"-Quality of presentation of the scientific paper studied (15%).-Participation in the seminar discussions (10%).-Quality of paper written (75%)."},{"nr":148,"parent":123,"name":"IN4334","id":36671,"children":[],"courseName":"Mining Software Repositories","ects":"5","Responsible Instructor":"A.Bacchelli    ,A.Bacchelli@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/5/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"This course explores techniques and leading research in mining Software Engineering data, discusses challenges associated with mining SE data, highlights SE data mining success stories, and outlines future research directions. Students will acquire the knowledge needed to perform research or conduct practice in the field. Once completed, students should be able to do data science on software repositories in their own research or practice.","Education Method":"Frontal lectures with hands-on tutorials. Students will learn techniques of data mining and see how these were practically applied in software engineering context.","Assessment":"One original project done alone or in a group of 2 or 3 students. The project will explore one or more of the themes covered in the course from a novel perspective (e.g., on new data). The project will be graded according to originality and interestingness, depth of the work, correctness of the analysis, and the presentation quality of the written (6-page IEEE format) report and accompanying source code."},{"nr":149,"parent":123,"name":"IN4354","id":36701,"children":[],"courseName":"Seminar Human-Agent/Robot Teamwork","ects":"5","Responsible Instructor":"Dr.M.B.vanRiemsdijk    ,M.B.vanRiemsdijk@tudelft.nl","Instructor":"M.Harbers    ,M.Harbers@tudelft.nl","Contact Hours / Week  x/x/x/x":"This course is cancelled due to circumstances","Education Period":"1","Start Education":"1","Exam Period":"1","Course Language":"English","Expected prior knowledge":"IN4010 (Artificial Intelligence Techniques) is recommended, otherwise at least knowledge of Java","Study Goals":"After succesful completion of the course, students can:- analyze a scientific paper - present a scientific paper- explain key notions of HART frameworks- analyze similarities and differences between HART frameworks- develope (parts of) an intelligent system that cooperates with humans- relate the developed intelligent system to the HART theory- evaluate to what extent the theory supports the development of systems for HART","Education Method":"Lectures, seminar, practical assignment","Computer Use":"Students are expected to use their own computers for the practical assignment.","Literature and Study Materials":"Each year, a new selection of important papers will be made. See Blackboard for the current selection.","Assessment":"- quality of presentation- quality of report (including description of the developed system)- participation"},{"nr":150,"parent":123,"name":"IN4355","id":36676,"children":[],"courseName":"Functional Programming","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl , Prof.dr.H.J.M.Meijer    ,H.J.M.Meijer@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The aim of this module is to teach the principles of pure functional programming, and the corresponding Category Theoretical principles, using the modern functional language Haskell, and apply these techniques in mainstream programming languages such as PHP, JavaScript, Dart, C#, Java, etc.","Education Method":"Lectures + lab workThe lectures will be given by Erik Meijer. The lectures will be given in a block of 2-3 weeks at Delft University of Technology. After that, several interactive sessions (including student presentations and code reviews) with the USA (Silicon Valley) will be held over skype. Due to the 9 hour time difference, these sessions will take place in the (early) evening.The exact timing of the blocks in Delft differs per year, and will be announced on blackboard.","Books":"Programming in HaskellGraham Hutton, University of NottinghamCambridge University Press, 2007Paperback: �23.99 / $45.00 (ISBN-13: 9780521692694 | ISBN-10: 0521692695)eBook: $36.00 (ISBN-13: 9780511292187 | ISBN-10: 051129218X) Kindle: $36.00 (ASIN: B001FSKE6Q)","Assessment":"The grade for this course will be based on (1) group participation; (2) lab work; (3) a paper describing the lab work or explaining advanced functional programming concepts to practitioners; (4) final presentation of paper and lab work."},{"nr":151,"parent":123,"name":"IN4387","id":35644,"children":[],"courseName":"System Validation ","ects":"5","Responsible Instructor":"J.J.A.Keiren    ,J.J.A.Keiren@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"Embedded Systems Masters","Parts":"Introduction to Behavioural SpecificationBehavioural Equivalences (Strong and Weak)Abstract Data TypesSequential and Parallel ProcessesModal mu-CalculusConfluence","Study Goals":"Upon completion of the course:1. The student knows the fundamental theory necessary for specifying the behaviour of embedded systems and for reasoning about this behaviour.2. The student can describe simple systems using this theory.3. The student can formally specify requirements and prove (or disprove) them on the behaviour.4. The student is able to model a concrete embedded system,and verify that it satisfies its requirements.","Education Method":"Lectures + Practical ProjectThe lectures are held in the first quarter after which a written exam (on the theory treated in the lectures) is taken. Parallel to the theory part,a practical project is done. The project is carried out in groups of (about) 4 students and the result is a verified model of an embedded system together with a comprehensive report on the steps towards to the model.","Literature and Study Materials":"J.F. Groote and M.R. Mousavi. Modeling and Analysis of CommunicatingSystems. MIT Press, 2014. ISBN: 9780262027717 (Chapters 1-7,11 are mandatory)","Assessment":"The result of this course will be based upon the results of the written examination (50%) and the practical project (50%). For both the written examination and the practical project a minimum of 5.0 is required in order to pass the course.","Enrolment / Application":"Blackboard"},{"nr":152,"parent":123,"name":"IN4390","id":35645,"children":[],"courseName":"Quantitative Evaluation of Embedded Systems","ects":"5","Responsible Instructor":"M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"At the end of the course, the student has a good overview over the specific formalisms that are used when quantitative aspects like time, probability and resource usage play a role in the analysis of system behavior. The student knows how to use these formalisms and what their limitations are. In particular, the student has detailed knowledge of the relevant state-automata and event-graphs, the relevant transition-system based and order based semantics, and the process equivalences and verification-techniques for logics in this area. Also, the student has gained experience with the gathering of quantitative data and the use of several analysis tools for verification and validation of formal models based on such data.","Education Method":"Lectures + Hands-on Sessions","Assessment":"Written exam + practicals"},{"nr":153,"parent":123,"name":"IN4392","id":36681,"children":[],"courseName":"Cloud Computing","ects":"5","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl , A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"1.Explain the basic concepts, objectives, and functions of cloud computing.2.Describe the architecture and operation of cloud computing.3.Describe the elements of user workloads in cloud computing.4.Explain how cloud computing can schedule the workloads of multiple users (virtualization, multi-tenancy).5.Describe the programming models applicable for cloud computing.6.Implement complex operations of cloud computing in realistic scenarios.7.Analyze the tradeoffs inherent in the design of cloud computing data centers and applications.","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLecturesand reviews:in-class, 7 weeks x 2h + self-study, 40h: at least 6 articles of the offered 12-15Seminar:self-study, 28h + 20 minutes: Presentation on selected topic(once)Practical:Groups of 2 on the DAS distributed computer system.three exercises in-class, 6 weeks x 2h + one large exercise of 40h: large exercise based on course topics 6 and 7 + report of 4�6 pagesNote: This course is synchronized with an equivalent course at TU Eindhoven.","Assessment":"Overall: Assessment through: in-class presentation, portfolio of reviews of self-study material, and demonstration of practical ability through three minor and one major assignment.Note: There is no final exam.Summary:Type of assessmentPart of final gradePresentation25%Reviews35%Practical40%"},{"nr":154,"parent":123,"name":"IN4398","id":36635,"children":[],"courseName":"Internet of Things seminar","ects":"5","Responsible Instructor":"Dr.P.Pawelczak    ,P.Pawelczak@tudelft.nl","Instructor":"R.R.Venkatesha Prasad    ,R.R.VenkateshaPrasad@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"fundamental understanding of wireless communications, familiarity with wireless communications and embedded systems; knowledge of Python/C++/Matlab is a plus.","Parts":"Each seminar: 2x 45 minutes (2 parts) + 10 minute break","Study Goals":"To be able to design components of Internet of Things. To be able to criticize and assess system-level components of the Internet of Things environment discussed in the scientific literature.","Education Method":"Seminar will be composed of (i) lecture presentation on a given research paper presented by an individual student and (ii) work on an associated research project. Students will be provided with a list of projects and articles that will be assigned to them. Mini-project will be summarized in the form of a written report (report must include critical analysis of the paper assigned). Within a project any hardware/software platform is allowed to be used. Assigned paper needs to be critically evaluated and a proposal to extend the assigned paper will need to be presented in a form of a presentation. Paper extension should focus on a system level idea, no deep evaluation will be necessary.","Assessment":"Part 1: assessment based on presentation quality, Part 2: a report describing the outcome of the assigned project. Part 1: 0.35 of the whole mark; Part 2: 0.65 of the whole mark. In the assessment, a focus on the practicality and entrepreneurial aspect of the idea will be prevailing.","maximum aantal deelnemers":"18-20 students, which translates to max of 10 groups (in case of odd number one group composed of 3 students)."},{"nr":155,"parent":123,"name":"IN4400","id":36669,"children":[],"courseName":"Programming and data science for the 99%","ects":"5","Responsible Instructor":"Dr.ir.F.F.J.Hermans    ,F.F.J.Hermans@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"Learning the basics of programming and data analysis","Education Method":"Lectures and hands-on exercises","Assessment":"Exam and assignment","Elective":"Yes"},{"nr":156,"parent":123,"name":"SPM4110","id":35214,"children":[],"courseName":"Designing Multi-actor Systems","ects":"6","Module Manager":"Dr.S.G.Lukosch    ,S.G.Lukosch@tudelft.nl","Instructor":"S.Cunningham    ,S.Cunningham@tudelft.nl , Dr.ir.J.H.Kwakkel    ,J.H.Kwakkel@tudelft.nl , H.K.Lukosch    ,H.K.Lukosch@tudelft.nl , Prof.dr.ir.A.Verbraeck    ,A.Verbraeck@tudelft.nl , Dr.H.G.van derVoort    ,H.G.vanderVoort@tudelft.nl","Contact Hours / Week  x/x/x/x":"X/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"SPM4140 - Service Systems Engineering","Summary":"In this course, students learn about designing complex, technological, large scale systems in multi-actor environments (in short, multi-actor systems). Different perspectives on systems design are discussed to provide students with a background for working with designers from different disciplines. Various aspects and principles of designing multi-actor systems are discussed from an engineering and a process perspective.Methods and tools for analysis and design of systems are introduced to teach students specific skills for the design of multi-actor systems. Thereby, the course provides students with a background for working with designers from different disciplines and they becomes familiar with the specific SEPAM-perspective on designing multi-actor systems.","Study Goals":"On completion of this course students are familiar with the specific SEPAM perspective on designing large scale, technology enabled multi-actor systems (MAS) in multi-actor environments. In particular: - Students are able to use and discuss concepts and terminology related to the design of MAS.- Students are able to use and discuss methods and tools that facilitate systems design and engineering.- Students are able to discuss the differences between design perspectives used in technical and social disciplines.- Students are able to describe and discuss process design guidelines for designing a decision making process in a multi-actor environment.- Students are able determine the appropriate use of methods for addressing socio-technical design challenges. - Students can design and specify systems engineering solutions through the use of requirements analysis and conceptual designs. - Students are able to apply methods and tools to enhance creativity in design processes.","Education Method":"The class sessions include lectures covering basic concepts. The course emphasis is mainly put on participation of the students in creativity discussions, problem solving, and concept design. Throughout the course student groups work on a project-based assignment. The project has the goal to create a design of a multi-actor system.","Literature and Study Materials":"- Sage, A.P. and Armstrong (Jr.), J.E. (2000). Introduction to Systems Engineering. John Wiley & Sons, Inc.- de Bruijn, H., ten Heuvelhof, E., and in 't Veld, R. J. (2010). Process Management. Springer Netherlands.- Reading materials: the concepts and topics discussed in the course will be reinforced by regular reading of papers, articles and book chapters as appropriate. These reading materials will be available on Blackboard.","Assessment":"At the end of the period, the course is assessed with an open book exam. The grade for the course is to 70% your grade for the exam and for 30% the grade for the final report that has to be prepared for the project-based assignment. Both, exam and case study, need to be passed.","Category":"MSc level"},{"nr":157,"parent":123,"name":"SPM4340IA","id":35181,"children":[],"courseName":"Design of Innovative ICT-infrastructures and Services","ects":"6","Module Manager":"Prof.dr.ir.M.F.W.H.A.Janssen    ,M.F.W.H.A.Janssen@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"� Basic knowledge of information and communication technology technology� Basic knowledge of software eningeering or engineering methods and principles in general� Basic knowledge of multi-actor systems","Summary":"The purpose of this course is to teach the design of innovative and large scale ICT infrastructures and services in the light of the challenges imposed by the requirements from the systems� physical, economic and social environment. Emphasis will be put on the concept and role of ICT-architectures to model information needs and services in order to properly design ICT solutions within a multi-actor context. Attention will be paid to relevant aspects such as flexibility, adaptivity, and accountability. Next, the students will learn how to plan and design a large scale ICT implementation project by partitioning it in phases with for each the suitable decision moments. Finally, students will learn methods and tools for designing IT-services.","Study Goals":"1.The student is able to describe basic concepts related to designing large and complex ICT-infrastructures and service systems.2.The student is able to analyse and discuss problems with regard to designing large ICT-systems.3.The student is able to apply system engineering and architecture-based approaches to deal with problems with regard to designing large ICT-systems.4.The student is able to describe methods and tools for designing large and complex ICT-infrastructures and service systems within a multiple actor context.5.The student is able to apply methods and tools for designing large and complex ICT-infrastructures and service systems within a multiple actor context.6.The student is able to explain how to apply architectural concepts for translating business needs into ICT-designs within constellation of public and private actors.","Education Method":"� Lectures� Guest lectures (obliged)� Assignments","Literature and Study Materials":"-N. Bharosa, R. Van Wijk, N. De Winne & M. Janssen (2015). Challenging the Chain. Governing the Automated Exchange and Processing of Business Information. IOS Press http://www.iospress.nl/book/challenging-the-chain/ (open access)-Reader-All papers, slides and material on blackboard (including the slides of the guest lecturers)","Assessment":"Assignment (60%)Written exam (40%)Each grade should be sufficient to pass"},{"nr":158,"parent":123,"name":"SPM5441","id":37475,"children":[],"courseName":"Cyber Risk Management","ects":"5","Module Manager":"Prof.dr.ir.J.van denBerg    ,J.vandenBerg@tudelft.nl","Instructor":"Dr.ir.W.Pieters    ,W.Pieters@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"To get knowledge, understanding and skills with respect to�Cyber risk assessment methods of (complex, multi-step) cyber incidents, possibly with cascading effects�Preventive measures that help to prevent the occurrence of cyber incidents�The fundamentals of repressive measures (detecting incidents in-time and reducing their impact)�Balancing the various human values at stake, including the balance between privacy and security, primarily from a governmental (macro-level) perspective","Education Method":"LECTURES and ASSIGNMENTS.LEARNING OUTCOMES: Students will acquire:�A sound understanding of the theoretical principles of cyber risk management�An understanding of the weaknesses and strengths of current risk management standards �Skills in applying state of the art cyber risk management methods�Insights into the cause and effects of high profile incidents�Ability to justify investments in cyber securityLANGUAGE: The course is taught in English.LECTURERS: Prof Dr Ir Jan van den Berg (TUD/EWI&TPM) and Dr Ir Wolter Pieters (TUD/TPM)","Assessment":"Grading will be based on a) the quality of delivered assignments and b) the grade for the written examination. To be made precise when the course starts."},{"nr":159,"parent":123,"name":"UT-192110940","id":37842,"children":[],"courseName":"Secure Data Management","ects":"5","Contact Hours / Week  x/x/x/x":"2/0/0/0+ assignments","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English"},{"nr":160,"parent":123,"name":"UT-201500039","id":37843,"children":[],"courseName":"Security Verification","ects":"5","Contact Hours / Week  x/x/x/x":"2/0/0/0+ assignments. Starts in 2016","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English"},{"nr":161,"parent":123,"name":"UT-201500040","id":37827,"children":[],"courseName":"Biometrics","ects":"5","Contact Hours / Week  x/x/x/x":"0/2/0/0+ project","Education Period":"2","Start Education":"2","Exam Period":"none","Course Language":"English"},{"nr":162,"parent":123,"name":"UT-201500041","id":37832,"children":[],"courseName":"Cyber Security Management","ects":"5","Contact Hours / Week  x/x/x/x":"0/2/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English"},{"nr":163,"parent":123,"name":"UT-201500042","id":37840,"children":[],"courseName":"Privacy Enhancing Technologies","ects":"5","Contact Hours / Week  x/x/x/x":"0/0/0/2+ assignments","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":164,"parent":123,"name":"WM0332IN","id":36665,"children":[],"courseName":"Methodology of Science and Engineering","ects":"4","Module Manager":"Dr.M.P.M.Franssen    ,M.P.M.Franssen@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"M.Sc. programme Computer EngineeringM.Sc. programme Media and Knowledge Engineering","Expected prior knowledge":"Standard propositional and predicate logic;Elementary probability theory","Summary":"This module introduces the student to:1. the aims and character of science and engineering as human practices;2. the distinction between facts and values or norms, and the role they play in science and engineering;3. ways of arguing in support of factual and in support of normative claims;4. aspects of empirical research: induction, deduction, measurement, evaluation;5. the character and status of theories and models in science and engineering;6. similarities and differences between the natural sciences and the human or social sciences.","Study Goals":"(1) To learn to distinguish the specific roles that empirical, formal and normative claims play in science and engineering;(2) To recognize and analyze the epistemic status of each type of claim and the ways in which claims in each of these categories can be supported and argued for;(3) To learn to appreciate the role of norms, values, and human decision-making in science and technology;(4) To come to understand the nature of empirical research, the role of different types of claims in it, and the constraints put to the justifiability of knowledge claims in science and engineering; (6) To learn to judge the similarities and distinctions between science and engineering (or belief and action), and between the natural and the social sciences;(7) To learn to recognize and explore the limits of formal and scientific descriptions of natural and social reality, and of the role of models, idealization, and abstraction in scientific and engineering knowledge.","Education Method":"The module is taught in the form of lectures with discussions mainly of exercises presented during the course. Students will be required to work on these exercises in-between classes.","Literature and Study Materials":"The study material for this course will be made available at the start of the course.","Assessment":"The student's grades for this course will be determined by the result of an individual exam taken at the end of the course. During the course students will be required to work at exercise questions; sufficient marks for the answers to these exercises will not be weighed into the final grade but will allow students to drop an exam question or work for bonus points.","Category":"BSc niveau"},{"nr":165,"parent":123,"name":"WM0824TU","id":37738,"children":[],"courseName":"Economics of Cyber Security","ects":"5","Module Manager":"Dr.ir.C.H.G.Hernandez Ganan    ,C.H.G.HernandezGanan@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"The student will:Gain a sound understanding of the economics of cybersecurity as a systems discipline, from security policies (modelling what ought to be protected) to mechanisms (how to implement the protection goals). Obtain skills in collecting and analysing data on information security issuesGain insights into the design of effective policies to enhance and maintain cyber security must take into account a complex set of incentives facing not only the providers and users of the internet and computer software, but also those of potential attackersLearn to apply economic analysis and data analytics to the open issues and pending activities in cybersecurity.","Education Method":"Blackboard TU Delft will be used for communications and distributing study material.The course will consists of 5 weeks of intensive theory (2 hours twice per week) after which students will perform their own EconSec study.During the period in which students are working on their study there will be one half-day meeting in which students get the opportunity to discuss their experiences and possible bottle-necks with the group and instructors.One month before the report deadline, there will be a full day meeting in which students are expected to present their research and (preliminary) results to the group and instructors with the aim to generate valuable feedback for finishing their research and report. While performing their own research students will have access to a forum via which students can discuss possible bottlenecks and exchange tips. The instructors will closely monitor the discussions and join when appropriate.","Assessment":"The final grade is based on a short research proposal, a presentation and a final case study report. When a final report is graded lower than 6, students have one month to improve the report for re-submission. The maximum grade after re-submission is 6.","Enrolment / Application":"A maximum number of 20 students will participate in the course."},{"nr":166,"parent":123,"name":"WM0825TU","id":37739,"children":[],"courseName":"Ethics and Cyber Security","ects":"5","Module Manager":"M.J.van denHoven    ,M.J.vandenHoven@tudelft.nl","Instructor":"Dr.ir.W.Pieters    ,W.Pieters@tudelft.nl , Dr.M.E.Warnier    ,M.E.Warnier@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/x/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English"}]},{"nr":167,"parent":110,"name":"Specialisation Courses 2nd semester 2015","id":16593,"children":[{"nr":168,"parent":167,"name":"AP3292 D","id":37767,"children":[],"courseName":"Quantum Hardware","ects":"6","Responsible Instructor":"Prof.dr.ir.L.M.K.Vandersypen    ,L.M.K.Vandersypen@tudelft.nl","Instructor":"Prof.dr.ir.R.Hanson    ,R.Hanson@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3","Course Language":"English","Expected prior knowledge":"Undergraduate electricity and magnetism; AP3421 Fundamentals of quantum information","Study Goals":"To acquire a good understanding of the requirements of quantum hardware both at the conceptual level and at the practical level.To acquire conceptual insight in the operation, opportunities, and challenges of various qubit realisations.To obtain a good overview of the state-of-the-art.","Education Method":"2 hours weekly lecture, 1 hour student presentations, literature study","Course Relations":"This course forms part of the curriculum on Quantum Technologies offered at TU Delft, which at present consists of Q101 - AP3421 Fundamentals of quantum informationQ201 - CS4090 Quantum communication and cryptographyQ301 - AP3292D Quantum hardware Q401 - EE4575 Quantum Electronics","Literature and Study Materials":"Scientific publications (both review articles and research articles)","Assessment":"60% final assignment, 10% in class quiz, 30% presentations","Permitted Materials during Tests":"","Continuing Courses":""},{"nr":169,"parent":167,"name":"CS4080","id":37839,"children":[],"courseName":"Principles of Data Protection","ects":"5","Responsible Instructor":"Dr.N.Zannone    ,N.Zannone@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"Basic knowledge on security","Study Goals":"After completing this course- the student is able to understand the relevance of data protection in real settings;- the student is able to have a detailed understanding of most important access control models;- the student has knowledge of the well-established privacy principles;- the student is able to specify access control and privacy policies;- the student is able to evaluate access control and privacy policies;","Education Method":"lectures","Literature and Study Materials":"Seminal papers from the literature. Links will be provided on the course website","Assessment":"Assignment(s)Written (3 hours)Assignment is 20% and written exam 80% of the final grade","Permitted Materials during Tests":"No material is allowed during Tests"},{"nr":170,"parent":167,"name":"CS4110","id":37845,"children":[],"courseName":"Software Testing and Reverse Engineering","ects":"5","Responsible Instructor":"Dr.ir.S.E.Verwer    ,S.E.Verwer@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Co-instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl"},{"nr":171,"parent":167,"name":"EE4560","id":37856,"children":[],"courseName":"Information Theory","ects":"5","Responsible Instructor":"Dr.ir.R.Heusdens    ,R.Heusdens@tudelft.nl","Instructor":"Dr.ir.J.H.Weber    ,J.H.Weber@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"Upon completion of this course the student will understand the fundamentals of Information Theory, which includes the following: (a) the correspondences between the elements of this theory and certain natural concepts of importance in a wide number of fields, such as transmission, storage, authoring and protection of data, (b) core theorems of information theory, (c) the models that are developed for a discrete information source and a discrete communication channel on the basis of simple concepts from probability calculus, (d) how to develop source coding algorithms, and (e) how to secure optimal data transmission through a (noisy) discrete communication channel.","Education Method":"lectures + mini project","Assessment":"Written exam + evaluation of the mini project"},{"nr":172,"parent":167,"name":"EE4575","id":37859,"children":[],"courseName":"Electronics for Quantum Computation","ects":"5","Responsible Instructor":"K.L.M.Bertels    ,K.L.M.Bertels@tudelft.nl , Prof.dr.E.Charbon    ,E.Charbon@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"The course will be an introduction to quantum computing, covering error quantum correction, fault tolerance, and surface codes. Labs will focus on the simulation, detection, and correction of errors using field- programmable-gate-arrays (FPGAs). Students will get familiar with the concepts of quantum computing while practicing to interface to a quantum computer in real life.","Education Method":"The course will focus on electronics for quantum computing, both ASICs and reconfigurable architectures.There will be weekly lectures & labs: 2-hour lecture on first day, 1-hour lecture + 1-hour exercises/lab or a 2-hour lab on second day. The lab will be available to students for completing assignments.","Assessment":"There will be a final exam and a project at the end of the quarter. 6 labs will receive a pass/no pass assessment."},{"nr":173,"parent":167,"name":"ET4030","id":37660,"children":[],"courseName":"Error Correcting Codes","ects":"4","Responsible Instructor":"Dr.ir.J.H.Weber    ,J.H.Weber@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/3","Education Period":"4","Start Education":"4","Exam Period":"4","Course Language":"English","Expected prior knowledge":"A B.Sc. Programme in Electrical Engineering, Computer Science, or Mathematics","Study Goals":"The global goal of this course is to get acquinted with the basics and applications of error correction coding techniques. Such techniques are applied in order to protect information against errors which may occur during transmission or storage. The specific techniques under consideration in the course are the ones discussed in the lecture notes, which may be updated from year to year according to recent developments. The emphasis will be on the basic trade-offs between efficiency, reliability, and complexity. Unless explicitly indicated, the proofs of the results are not part of the course contents (the interested student may consult books from the bibliography). In the end, the student should be capable of making choices for suitable error correction coding techniques in the context of information transmission and storage applications. The student has to demonstrate to have understood the aforementioned techniques and trade-offs. This can be done in various ways.* \"Broad\": The student solves exercises in a closed-book written or oral exam. The level of these exercises is similar to the examples and exercises provided in the lecture notes. * \"Narrow, but in-depth\": In consultation with the lecturer, the student chooses a certain topic from the course, which is investigated in more detail, by writing either an essay (discussing a paper from the recent literature) or a computer program for a demo explaining the chosen topic (to be used by the lecturer in class room).","Education Method":"Lectures","Literature and Study Materials":"Lecture notes \"Error-Correcting Codes\" by J.H. Weber","Assessment":"Written (closed book), oral (closed book), essay, or computer program","Remarks":"Actual course information available on Blackboard."},{"nr":174,"parent":167,"name":"ET4389","id":36679,"children":[],"courseName":"Complex Networks from Nature to Man-made Networks","ects":"4","Responsible Instructor":"H.Wang    ,H.Wang@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"EE variant:After this course, students could represent/abstract a complex system such as a brain or a communication system as a complex network, understand the basic methods to analyze properties of networks and dynamic processes on the networks, design robust networks against e.g. failures and epidemics and be able to apply them to real-world complex systems. CS variant: After this course, students could construct the network based on the dataset, characterize and model the network, model the data via e.g. dynamic processes (e.g. viral information spreading) on networks, in order to possibly predicate the future e.g. the popularity of a product, news, or a social network and the prevalence of a disease/computer virus.Both variants: Students could obtain an overview of the Msc/Phd projects on the frontiers of complex networks and networked data analysis.","Education Method":"In total, there will be 7 lectures where one lecture is given by a guest lecturer on the applications in one specific domain e.g. economy, social networks and the brain.","Assessment":"Assessment is based on both homework assignments and the exam (or project).The homework requires basic programming (in e.g matlab or C)"},{"nr":175,"parent":167,"name":"ET4394","id":37651,"children":[],"courseName":"Wireless Networking","ects":"5","Responsible Instructor":"Dr.P.Pawelczak    ,P.Pawelczak@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"Students at the end of the course will be able to: (i) employ their own analysis methodology of wireless network systems based on mathematical tools and simulations; (ii) identify and classify modern wireless networking standards; (iii) explain the differences between wireless systems that have specific applications in mind; (iv) will be able to design a conceptual model for future wireless networking systems","Education Method":"Lecture presentations; project assignment and analysis; assigned paper reading, its critical analysis and presentation","Assessment":"Max. of two project assessment over the lecture course based on wireless network simulator (presumably NS-2/NS-3); mini-presentations at the end of a course dealing with a state-of-the-art wireless technology (research paper analysis from conferences such as IEEE INFOCOM, ACM MobiCom), final written, closed-book exam"},{"nr":176,"parent":167,"name":"ET4397IN","id":37657,"children":[],"courseName":"Network Security","ects":"5","Responsible Instructor":"C.Doerr    ,C.Doerr@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Required for":"IN4253ET","Study Goals":"see course contents","Education Method":"Lectures, independent project","Assessment":"Combination of essay or student project and work sheets during the term. No final written exam in week 10."},{"nr":177,"parent":167,"name":"IN4015","id":36704,"children":[],"courseName":"Neural Networks","ects":"6","Responsible Instructor":"Dr.J.A.Redi    ,J.A.Redi@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2Pract.","Education Period":"3,4","Start Education":"3","Exam Period":"4,5","Course Language":"English","Expected prior knowledge":"A basic knowledge of pattern recogntion and AI techniques is useful but not required. Basic programming skills are also useful.","Study Goals":"Upon successful completion of the course, students will be able to:[LO1].Describe the different bio-inspired techniques reviewed in the course, such as Neural Networks, Genetic Algorithms, or Learning classifiers.[LO2].Research literature concerning one of the above techniques, summarize it and report it to their peers (e.g., by means of a power-point presentation or a demonstration)[LO3].Debate upon positive and negative aspects of the techniques mentioned above[LO4].Implement one or more of the above mentioned techniques in a computer language (e.g. Java, C, C++, Html, Matlab scripts�)[LO5].Determine which technique(s) is most appropriate for being used in a certain problem domain, for example learning algorithms for robot navigation in unknown environments[LO6].Apply the appropriate technique to a (simple) problem domain (e.g., simulation of robot navigation in a simple maze)","Education Method":"Seminar (including some lectures) and lab work.","Literature and Study Materials":"Research papers that will be available through Blackboard.","Assessment":"1. Presentation: during the lectures everyone presents one of the topics in the course.2. Group assignment: you experiment with one or more of the discussed techniques in a (simulated) robotics platform and write a research report on you findings."},{"nr":178,"parent":167,"name":"IN4026(-12)","id":36626,"children":[],"courseName":"Parallel Algorithms and Parallel Computers","ects":"6","Responsible Instructor":"Prof.dr.ir.H.J.Sips    ,H.J.Sips@tudelft.nl","Instructor":"Prof.dr.C.Witteveen    ,C.Witteveen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2Pract.","Education Period":"3,4","Start Education":"3","Exam Period":"3,4,5","Course Language":"English","Expected prior knowledge":"Some programming skills [C]","Study Goals":"The student has as outcome of the course a basic knowledge of the underlying fundamental concepts and principles of parallel algorithms for parallel computers and is able to reason about scalability and performance of parallel algorithms","Education Method":"Course lectures and lab work (30 hours)","Literature and Study Materials":"A. Grama et al, Introduction to Parallel Computing, Addison Wesley, 2003","Assessment":"Written examination in two sub exams (Part-1 and Part-2), closed book"},{"nr":179,"parent":167,"name":"IN4144","id":36695,"children":[],"courseName":"Scalable Data Management for Data Science","ects":"4","Responsible Instructor":"Prof.dr.ir.A.P.deVries    ,A.P.deVries@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2Pract.","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Study Goals":"The course has three goals:1. Theory: Database technology has been successful for administrative data because it offers a balance between flexibility and efficiency. The course investigates how the fundamentals of database technology can be applied also to create support platforms for heterogeneous multimedia dataspaces.2. Learn to work with research papers (and recognize their limitations).3. Gain practical \"engineering\" skills when turning research ideas into a prototype implementation.","Education Method":"Lectures, lab work.","Literature and Study Materials":"Reader (made available online).","Assessment":"Paper presentation, participation in class, project assignment.","Remarks":"The course is organized as follows. Each student organizes one of the classes, in which a research paper on the topics related to class is discussed. During the course period, students develop a prototype that illustrates one or more aspects of multimedia search and its implications on data management. Assessment is based on class participation, the quality of the presentation of the research paper treated, and a short report and demonstration of the prototype work performed."},{"nr":180,"parent":167,"name":"IN4152","id":36692,"children":[],"courseName":"3D Computer Graphics and Animation","ects":"5","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/proj pract","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"TI2710-B, IN2905-A, IN2905-I or IN2770 Computer Graphics; students that haven't followed any of these courses might still be able to participate, but should be willing to invest some more time","Study Goals":"The course teaches computer graphics techniques on an advanced level. After the course the student is able to classify the different modeling, shading and display techniques, and can reproduce the basic mathematical and algorithmic notions associated with these concepts, can comment on the weak and strong points of these techniques, and can apply the concepts within a graphics program.","Education Method":"research, lab work","Literature and Study Materials":"Research Papers in domain of selected topics, Lecture sheets","Books":"Real-time Rendering by Tomas Akenine-M�ller, Eric Haines, Naty Hoffman - Peters, Wellesley Real-Time Shadows by Elmar Eisemann, Michael Schwarz, Ulf Assarsson, Michael Wimmer - Taylor & Francis Computer Graphics. Principles and Practice by James D. Foley, Andries VanDam, Steven K. Feiner - Addison Wesley OpenGL Programming Guide: The Official Guide to Learning OpenGL, Versions 3.0 and 3.1 by Dave Shreiner - Addison Wesley -AVAILABLE AS DOWNLOAD FOR FREE SEARCH FOR \"RED BOOK OpenGL\"","Assessment":"Some of the practical assignments might be checked and not passing might lead to a penalty on the final grade.The final project, paper presentation (including an individual oral evaluation covering the course content) will be graded. The oral exam might be replaced by a multiple choice evaluation."},{"nr":181,"parent":167,"name":"IN4173","id":36706,"children":[],"courseName":"Computational Molecular Biology","ects":"6","Responsible Instructor":"Dr.H.J.Hoogeboom    ,H.J.Hoogeboom@tudelft.nl","Instructor":"Dr.A.P.Gultyaev    ,A.P.Gultyaev@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2 in Leiden","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Study Goals":"<>","Education Method":"Lectures","Literature and Study Materials":"Shamir's Lecture Notes, Tel Aviv University School of Computer Science.","Assessment":"The course consists of lectures and independent study of the relevant databases and algorithms available on the internet.","Remarks":"For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":182,"parent":167,"name":"IN4174","id":36713,"children":[],"courseName":"Multimedia Information Retrieval","ects":"3","Responsible Instructor":"Dr.M.S.Lew    ,M.S.Lew@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/3/0 in LeidenPract.","Education Period":"3","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Programming language: C, C++Intended Group(s):Master Computer Science","Study Goals":"<>","Education Method":"Lectures, Project","Literature and Study Materials":"Principles of Visual Information Retrieval, Michael S. Lew, Springer-Verlag, London, ISBN 1-852333-381-2, January 2001","Assessment":"- Design & Programming & Documentation for your project (70% of grade). - Class discussions, attendance, and problem sets (30% of grade). Note, this course can be taken for 3-7 ECTS based on the work within a programming project. It is necessary to be at every class. If you can not be there, you must contact Dr. Lew (mlew@liacs.nl) before the class!","Special Information":"Note, this course can be taken for 3-7 ECTS based on the work within a programming project.","Remarks":"Web site for the course: www.liacs.nl/~mlew/mir2007 For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":183,"parent":167,"name":"IN4174P","id":36711,"children":[],"courseName":"Multimedia Information Retrieval, lab","ects":"3"},{"nr":184,"parent":167,"name":"IN4176","id":36707,"children":[],"courseName":"Functional Genomics and Systems Biology","ects":"6","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"The student is expected to have a basic knowledge of molecular biology, statistics and linear algebra. It is advisable to have followed IN4085 (Pattern Recognition) and IN4329 (Advanced Bioinformatics).","Study Goals":"After succesfully completing this course, a student is able to: list the basic elements of a living cell and their interactions, and describe how these can be measured; explain what type of mathematical model is applicable to what measurement(s), at what level(s), in a given systems biology problem; read and comment upon recent systems biology literature; discuss the state-of-the-art in systems biology and integrative bioinformatics, and future challenges.","Education Method":"The course will consist of a mixture of lectures by the teachers and paper presentations by one or more of the students. All other students will hand in a review-type discussion on one aspect of the paper. A discussion is required for each scheduled presentation (i.e. there are meetings for which 2 such discussions are required). There will also be a practical session allowing students to get hands-on experience with network models, integration and analysis, mainly through Cytoscape.","Literature and Study Materials":"Slides, collection of papers and lab course manual (Blackboard).","Assessment":"The weekly discussion papers will be graded. A final grade for the course will be based on these grades as well as on a final written assignment.","Remarks":"As students depend on each other (to present the material to the class), a commitment to follow the course through to the end is required."},{"nr":185,"parent":167,"name":"IN4177","id":36620,"children":[],"courseName":"Mathematical Biology: the Virtual Cell","ects":"6","Responsible Instructor":"Dr.S.C.Hille    ,S.C.Hille@tudelft.nl , Prof.S.M.Verduyn    ,S.M.Verduyn@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/3/3","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Study Goals":"<>","Education Method":"Lectures","Literature and Study Materials":"To be announced","Assessment":"To be announced","Remarks":"For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":186,"parent":167,"name":"IN4179","id":36703,"children":[],"courseName":"Intelligent User Experience Engineering","ects":"6","Responsible Instructor":"Prof.dr.M.A.Neerincx    ,M.A.Neerincx@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"The main aim is to achieve an understanding and practical experience of key principles, methods and theories in the area of intelligent user experience engineering. The module provides opportunities for students to develop and demonstrate knowledge and understanding, qualities, skills and other attributes in the following areas:1. Knowledge of a basic, coherent approach for developing software technology in such a way that the users can accomplish their goals effectively and efficiently, and with a high level of satisfaction.2. Knowledge of recent theories and methods for improving human-technology collaboration with intelligent adaptive agents (ePartners), and of research approaches to enhance the theoretical and empirical foundation of such collaboration.3. Acquaintance with a situated cognitive engineering methodology for developing mutual human-automation empowerment in specific domains (e.g., for chronically ill or first responders). 4. Practical experience in an iterative human-centred development process, i.e. the application of theories and methods for the generation and testing of intelligent user interfaces. This process comprises the generation of a design with its rationale, and user experience testing with complementary data-analyses. The application domain is personalized music for improving the social, cognitive and affective conditions of older adults with dementia.","Education Method":"In the lectures, theories, models and methods are being presented and discussed from scientific literature. During a part of these lectures, student groups have to prepare presentations and discussions, addressing science and engineering issues. In the project, these groups will get practical experience in applying user-interface design and testing methods. They have to plan, execute, present and report a complete cognitive engineering process for a specific design question (i.e., a music application for older adults with dementia). The students will use the situated Cognitive Engineering Tool (sCET) to specify the design (incl. the trade-offs and choices).","Literature and Study Materials":"Papers from scientific journals on Blackboard.Lecture notes on Blackboard.","Assessment":"The module is assessed by coursework and an exam as follows:1. Exam of the theory (oral examination on topics presented in the reading material and discussed in the lectures; 50%)2. Project (the presentations and final report; 50%)PROJECTThe project will be in the area of socio-cognitive support forpersons who have to cope withcritical, demanding situations. The current topic is the development of a music application for persons with dementia, their caregivers, friends and family. Students work in small groups to (re)design and evaluate such support. They will apply the cognitive theories in a scenario-based development process by claim analyses. Interim results will be regularly presented during the lecture (in total 5 presentations will be given in so-called �milestones�). At the end, each team will present and discuss the evaluation results.","Exam Hours":"Individual oral exam.","Enrolment / Application":"Blackboard"},{"nr":187,"parent":167,"name":"IN4182","id":36696,"children":[],"courseName":"Digital Audio and Speech Processing","ects":"6","Responsible Instructor":"Dr.ir.R.Heusdens    ,R.Heusdens@tudelft.nl","Instructor":"R.C.Hendriks    ,R.C.Hendriks@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Signal processing, stochastic processes and preferably statistical signal processing. Knowledge of MATLAB is advantageous.","Study Goals":"1. Audio codingKeywords: psycho-acoustics, spectral/temporal masking, time-to-frequency transformations, audio coding standards, multi-channel codingThe student� is able to explain the general mechanisms of human auditory perception � is able to discuss the use of human auditory perception in state-of-the-art audio compression algorithms� is able to discuss the structure and principles used in standardized perceptual audio coding algorithms2. Speech enhancementkeywords: spectral subtraction, Wiener filtering, conditional mean estimators, noise power spectral density trackingThe student � is able to implement state-of-the-art algorithms for suppressing noise in noisy speech signals� is able to design components/functional blocks in noise suppression algorithms (e.g. derive Bayesian suppression rules)3. Speech codingkeywords: speech production, linear predictive analysis, fundamental frequency estimation, voicing estimation, speech coding based on linear predictionThe student� is able to identify how the human speech production process is exploited in speech processing algorithms� is able to implement a linear predictive speech synthesizer� is able to discuss the signal processing techniques used in speech coding","Education Method":"lectures, mini projects + hands-on exercises","Literature and Study Materials":"Overhead sheets + selected articles/book chapters","Assessment":"Written examination + evaluation of the mini projects","Special Information":"Participation in the mini projects is mandatory to qualify for the exam."},{"nr":188,"parent":167,"name":"IN4185","id":36674,"children":[],"courseName":"Globally Distributed Software Engineering","ects":"5","Responsible Instructor":"Prof.dr.ir.D.M.vanSolingen    ,D.M.vanSolingen@tudelft.nl","Contact Hours / Week  x/x/x/x":"colleges en practicum 0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Software Engineering (= IN2705)","Study Goals":"The course Globally Distributed Software Engineering (GDSE) aims at teaching participants (1) the technical and organisational setting of carrying out software engineering in practice when distributed over the world, and (2) understanding best-practices in collaboration in software engineering project teams that carry out their work in a distributed setting.","Education Method":"Lab work + lectures","Literature and Study Materials":"Presentation handouts","Assessment":"Written report on lab work and literature research","Enrolment / Application":"Please enroll in Blackboard","Special Information":"Please contact d.m.vansolingen@tudelft.nl"},{"nr":189,"parent":167,"name":"IN4253ET","id":36677,"children":[],"courseName":"\"Hacking Lab\"-Applied Security Analysis","ects":"5","Responsible Instructor":"C.Doerr    ,C.Doerr@tudelft.nl , Dr.ir.J.A.Pouwelse    ,J.A.Pouwelse@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"After this course, the student will have a thorough knowledge of security in real-world systems, and will be able to explore the literature on this topic independently. The student will be aware of the poor state of security in real-world computer systems. The student can explain the common pitfalls, why these known failures still occur and reasons behind the poor state of security in general.","Education Method":"Lectures, student presentations, written final report and active participation. Attendance to lectures is mandatory.","Assessment":"The final class grade is composed of several partial grades. Partial grades are given for the written Hack Project report, final presentation of result, presentation of ongoing project progress, participation in discussions, overall quality of the practical work and class attendance. Students are required to obtain a passing grade on all partial grades.Attendance to lectures is mandatory. No final written exam. No resit will be offered of any practical work.","maximum aantal deelnemers":"If there is an unexpected high demand for this course, thenenrollment will be based on past performance in relevant courses."},{"nr":190,"parent":167,"name":"IN4254","id":36678,"children":[],"courseName":"Smart Phone Sensing","ects":"5","Responsible Instructor":"M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2 & lab","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Requirement 1: Students MUST either(1.1) have passed a JAVA programming course, or(1.2) have passed a C/C++ programming course and be familiar with JAVA, or(1.3) know Objective C (programming language for MACs)This requirement is equivalent to having passed the course TI 1206 in our first year Bachelor curriculum \"Object Oriented Programming\"Requirement 2: Students MUST(2.1) have passed a basic course on Probability Theory. This requirement is equivalent to having passed the course TI 2216M in our second year Bachelor curriculum \"Probability and Statistics\". We will be refreshing some concepts on Probability, but we will not be refreshing concepts on Object Oriented Programming.","Study Goals":"The goals of this course are twofold. First, to expose students to the increasingly important area of mobile computing. Students will learn how mobile phones can be used to solve problems in areas ranging from health care and indoor localization to song recognition and traffic management. Second, to provide students with a basic set of tools to develop their own applications. For students aiming for industry, the course should enhance their ability to use theoretical tools to solve practical problems. For students involved on research activities, the course will provide them with the necessary background to use smartphones as a distributed sensing and processing unit that could be used to solve the particular problems in their areas.","Education Method":"Lectures","Literature and Study Materials":"Web","Assessment":"Written reports + project presentation + oral exam"},{"nr":191,"parent":167,"name":"IN4255","id":36691,"children":[],"courseName":"Geometric Modeling","ects":"5","Responsible Instructor":"Dr.K.A.Hildebrandt    ,K.A.Hildebrandt@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"In this course, the participants will get an overview of concepts and techniques used in geometry processing and learn how to use them for solving specific problems in this area. In addition, the students collect experience in implementing algorithms for processing digital geometry.","Education Method":"The course will combine lectures, tutorials, practical project work, and (ungraded) homework assignments.","Assessment":"To pass the course, the practical projects need to be completed successfully and a final exam must be passed. The homework assignments help with preparing for the exam. The final grade will be based on thegrade of the final exam and the grade of the project work."},{"nr":192,"parent":167,"name":"IN4304","id":36687,"children":[],"courseName":"Empirical Research Methods","ects":"5","Responsible Instructor":"Dr.ir.W.P.Brinkman    ,W.P.Brinkman@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"4,5","Course Language":"English","Study Goals":"MAIN AIMS OF THE MODULETo achieve understanding of empirical research methods and obtain practical experience with quantitative data analysis methods. LEARNING OUTCOMES FOR THE MODULEIn providing the opportunity for students to develop and demonstrate understanding, knowledge and competence, the learning outcomes for the module are that students will be able to:1. Recognise and begin to utilise appropriate strategies for carrying out empirical research for answering research questions2. Appreciate how empirical research is conducted and findings can be evaluated 3. Understand key principles underlying statistical data analysis 4. Develop and apply appropriate research strategy and measure instruments5. Successfully use statistical software tools to analyse data","Education Method":"In the lectures, theories, principles and methods are presented and discussed. During the lectures class-demonstrations will be given on how statistical application such as SPSS or Rcan be used to analyse empirical data. In the practicum students work in small groups (2 to 3 students) on assignments and discuss them with an instructor. The instructors will also provide practical guidance on the use of SPSS and R.","Literature and Study Materials":"Will be announced on blackboard","Books":"Robson, C., (2002) Real world research: A resource for social scientists and practitioner-researchers (2nd or 3rd ed). Malden: MA, Blackwell.","Assessment":"The module is assessed by coursework and an exam as follows:(70%) Written Exam (30%) Coursework Project (resulting in a report)"},{"nr":193,"parent":167,"name":"IN4306","id":36666,"children":[],"courseName":"Literature Survey ","ects":"10","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl , Dr.ir.F.F.J.Hermans    ,F.F.J.Hermans@tudelft.nl","Contact Hours / Week  x/x/x/x":"Not applicable","Education Period":"None (Self Study)","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student is able to read contemporary scientific literature in the chosen field of specialisation.The student is able to distill the main ideas of a paper and to write these down in his or her own words.The student is able to place the ideas of different papers in perspective by comparing these.","Education Method":"Individual assignment.The student should consult the MSc coordinator for further details.","Assessment":"Writing a report, individually and under supervision of a staff member. This staff member will also mark the report."},{"nr":194,"parent":167,"name":"IN4315","id":35212,"children":[],"courseName":"Software Architecture","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"Different, to be announced","Course Language":"English","Expected prior knowledge":"Software engineering","Study Goals":"Bring students into the position that they can (1) explain the key architectural concepts and methods for modeling software architectures; (2) apply viewpoints and perspectives to model software architectures; (3) discuss the benefits of architecting and the role of the software architect; (4) evaluate and validate software architectures; and (5) explain and discuss the concepts of component-based and plugin architectures, service-oriented architectures, and software product lines.","Education Method":"Interactive lectures, lab assignment, paperpresentation and discussion.","Literature and Study Materials":"The course uses the book \"Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives\" by Nick Rozanski and Eoin Woods, Addison-Wesley Professional 2005, ISBN: 9780321112293. Additional reading material will be announced in the lectures.","Assessment":"No written exams. Lab assignment, paper and presentation.","Special Information":"Twitter handle: https://twitter.com/delftswa"},{"nr":195,"parent":167,"name":"IN4320","id":36697,"children":[],"courseName":"Machine learning     ","ects":"5","Responsible Instructor":"M.Loog    ,M.Loog@tudelft.nl","Instructor":"Dr.ing.J.Kober    ,J.Kober@tudelft.nl , Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"4","Course Language":"English","Expected prior knowledge":"IN4085","Study Goals":"After the course, the student is able to comprehensively read scientific publications in the area of machine learning.The student is able to recognize the (limits to the) practical applicability of the presented theory.Moreover, s/he is able to see the relationships of a novel technique to those discussed in the course, and has insight in what type of problem requires application of which type of machine learning technique.","Education Method":"We follow a scheme in which every topic is treated in a two-week block.In the first week, one of lecturer will present a technique based on a tutorial paper or other reading material.In the second week, the student will work on an exercise that extends and deepens their knowledge and understanding of the technique under consideration in that particular block.A large part of the exercises involves programming.The final output to every exercise is a report covering the necessary derivations, snippets of code, figures, and general text.","Assessment":"Assessment grades are based on the reports handed in (about 60%) and the final assignment (about 40%), the latter of which is based on a somewhat larger and more advanced machine learning challenge that the students will write a report on as well."},{"nr":196,"parent":167,"name":"IN4322","id":36712,"children":[],"courseName":"Mathematical Biology, Metabolic Network","ects":"6","Contact Hours / Week  x/x/x/x":"0/0/3/3 not in 2015 2016","Education Period":"3,4","Start Education":"3","Course Language":"English","Remarks":"Leiden"},{"nr":197,"parent":167,"name":"IN4325","id":35210,"children":[],"courseName":"Information Retrieval","ects":"5","Responsible Instructor":"A.Bozzon    ,A.Bozzon@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"Learning Objectives:= Describe the different information retrieval models, and to compare their weaknesses and strengths. [Learning Objective 1]= Compare the weaknesses and strengths of different indexing techniques, describing their most suited applications trough meaningful examples. [Learning Objective 2]= Compare the weaknesses and strengths of different querying techniques, describing their most suited applications trough meaningful examples. [Learning Objective 3]= Analyse the performance of an Information Retrieval system by applying the proper evaluation measures. [Learning Objective 4]= Design and develop (Web) Information Retrieval systems, possibly using advanced social and se- mantic search functionalities. Support and defend the relevance and correctness of his/her choices with regards to the adopted information retrieval model, indexing technique, and querying tech- nique. [Learning Objective 5]= Describe and compare several crowdsourcing techniques. [Learning Objective 6]= Illustrate Information Retrieval application scenario for crowdsourcing. [Learning Objective 7]= Design and develop crowdsourcing applications, and to evaluate the obtained results. [Learning Objective 8]= Illustrate suitable application scenario for advanced Information Retrieval topics such as Semantic Search, Information Seeking Paradigms and User Interfaces for Information Retrieval, Search Results Diversification, and Expert Finding. [Learning Objective 9]","Education Method":"Lectures, individual and group exercises","Literature and Study Materials":"Scientific papers, course slides and blackboard notes.","Books":"*Introduction to Information Retrieval*Author(s): Christopher D. Manning, Prabhakar Raghavan and Hinrich Schtze.Cambridge University Press. 2008. ISBN-13: 978-0000000000http://nlp.stanford.edu/IR-book/information-retrieval-book.html*Web Information Retrieval*. Author(s): Stefano Ceri, Alessandro Bozzon, Marco Brambilla, Piero Fraternali, Emanuele Della Valle, Silvia Quarteroni.Springer, 2013. ISBN-13: 978-3642393136http://www.springer.com/computer/database+management+\\%26+information+retrieval/book/978-3-642-39313","Assessment":"Individual and group assignments"},{"nr":198,"parent":167,"name":"IN4329","id":36715,"children":[],"courseName":"Advanced Bioinformatics","ects":"4","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Instructor":"J.deRidder    ,J.deRidder@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"After successfully completing this course, the student is able to:� understand several high-throughput experiments, such as microarrays, and next generation sequencing, and discuss the benefits and limitations of these methods� comprehend the statistical and computer science issues in analyzing high-throughput data� discuss the basic systems biology approach, and the role of high-throughput measurements, gene selection and classification therein� read and comprehend a current paper on systems biology","Education Method":"In this course we will study some key examples of bioinformatics analyses by reading a set of selected papers that present some significant biological conclusions. Instead of the teachers giving lectures about the methodologies, the students are stimulated to read, study and comprehend the available course material. To do so the following format has been chosen: � Each week there are one or two lectures, each of 45 minutes.� In each lecture one paper (the course material) will be discussed in detail.� One student will present and explain the details of this paper. It is essential that you highlight the (bioinformatics) methodology of the paper.� All students are expected to have read the paper and should have an active role in the discussion about the paper.� When the students in discussion with the teachers are not able to grasp the followed methodology in the paper, the teachers will explain this on the spot.� Each week, an exercise on one of the papers discussed will be handed out.","Assessment":"Written examination"},{"nr":199,"parent":167,"name":"IN4331","id":36668,"children":[],"courseName":"Web Data Management","ects":"5","Responsible Instructor":"Dr.ir.A.J.H.Hidders    ,A.J.H.Hidders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Bachelor level courses in database management systems and operating systems. A prior course in distributed systems or middleware would be helpful but is not required. Working knowledge of Java or C++ will be important for the final assignment.","Study Goals":"At the end of this course the student can- describe, explain and use effectively XML technologies such as XML, DTDs, XPath, XSLT and web services- describe, explain and use XQuery for data management, including its various extensions for scripting and full-text search- describe use and explain distributed file systems such as Google File System (GFS or GoogleFS) and the Hadoop Distributed File System (HDFS)- use and explain the advantages and disadvantages of distributed NoSQL databases such as CouchDB- program MapReduce frameworks to perform efficiently workflows for data analytics","Education Method":"Lectures, practical exercises, and depending upon the number of students presentations by students.","Literature and Study Materials":"Course slides, hand outs and blackboard notes.","Books":"(mandatory, but will be made available for free on Blackboard)Serge Abiteboul, Ioana Manolescu, Philippe Rigaux, Marie-Christine Rousset, Pierre Senellart: Web Data Management. Cambridge University Press, 30 nov. 2011, 406 pages.(advised, not mandatory reading)Abiteboul, S., Peter Buneman, and Dan Suciu. Data on the Web: From Relations to Semistructured Data and XML. San Francisco: Morgan Kaufmann, 1999.Katz, Howard, and D. D. Chamberlin. XQuery from the Experts: A Guide to the W3C XML Query Language. Boston: Addison-Wesley, 2003.Melton, Jim, and Stephen Buxton. Querying XML: XQuery, XPath, and SQL/XML in Context. The Morgan Kaufmann series in data management systems. Amsterdam: Elsevier/Morgan Kaufmann, 2006.","Assessment":"Presentation (if applicable) and final assignment."},{"nr":200,"parent":167,"name":"IN4333","id":36670,"children":[],"courseName":"Language Engineering Project","ects":"5","Responsible Instructor":"Prof.dr.E.Visser    ,E.Visser@tudelft.nl","Instructor":"G.H.Wachsmuth    ,G.H.Wachsmuth@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Students are expected to have completed the compiler construction course IN4303.","Study Goals":"Learn to apply language engineering principles and tools to a real (domain-specific) programming language. Explore the definition of all aspects of a programming language: syntax, name binding, type analysis, transformations, code generation.","Education Method":"This is a project course. Students deepen their language engineering skills and insights by building a complete language definition. Students work in small teams on the definition of a (domain-specific) programming language using the Spoofax Language Workbench. Assistance and feedback is provided during weekly lab hours. The project should span the full life cycle of language implementation including a test suite, IDE, code generator, and distribution of the result as an Eclipse plugin.","Assessment":"The work is assessed based on a code review of the language definition and a written report about the project. The work needs to be submitted in four intermediate stages with a deadline and a grade. The final grade is the weighted average of these intermediate grades."},{"nr":201,"parent":167,"name":"IN4335","id":36682,"children":[],"courseName":"Seminar Algorithms: Economics and Computation","ects":"5","Responsible Instructor":"Dr.M.M.deWeerdt    ,M.M.deWeerdt@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2, seminar","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"For this course you need to be able to read scientific papers/books (e.g. you have followed the bachelor seminar course), and you need to be able to understand and analyse algorithms (e.g. followed a course on algorithm design).Also, it is preferred to have some knowledge and experience with reasoning about the computational complexity of problems (e.g. from a course on complexity theory).","Study Goals":"After completion of this course, the student has an overview of the state of the art and main challenges on the border of computer science and economics.He/she can name applications and give definitions and (dis)advantages of a number of formal models and methods for these applications.Furthermore, the student is able to prepare and give an interactive lecture on these topics based on the provided chapters, including: - defining lecture goals - making a lecture plan, and - making exam questions.","Education Method":"Student seminar; since we need to allocate topics, please register for this course on Blackboard before the course starts.","Literature and Study Materials":"A selection of chapters from the following book will be made available:David Parkes and Sven Seuken. Economics and Computation. 2015.","Assessment":"The end grade will be based on:* Quality of preparation and lecture of the chapter studied (50%). * Question answering during the seminar (10%).* Result of a final test on all chapters (40%).On Blackboard there are extensive guidelines regarding the evaluation of the lecture and its preparation."},{"nr":202,"parent":167,"name":"IN4337","id":36684,"children":[],"courseName":"Randomized Algorithms","ects":"5","Responsible Instructor":"Dr.M.T.J.Spaan    ,M.T.J.Spaan@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0 hc and 0/0/2/0 instr","Education Period":"3","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Probability, complexity theory, and calculus.","Study Goals":"After completing the Randomized Algorithms course, the student is able to1. Explain the use of and the rationale behind randomized algorithms;2. Argue and decide when a deterministic, a Las Vegas or a Monte Carlo algorithm is most appropriate to solve a problem;3. Analyze a randomized algorithm in terms of bounds on run-time performance, error probability and computational complexity;4. Implement and evaluate a randomized algorithm.","Education Method":"Lectures, home work, lab work","Literature and Study Materials":"Textbooks (details on which book will be used will be posted on Blackboard):\"Randomized Algorithms\" by R. Motwani and P. Raghavan. Cambridge University Press, 1995. ISBN 0-521-47465-5�Probability and Computing: Randomized Algorithms and Probabilistic Analysis� by M. Mitzenmacher and E. Upfal. Cambridge University Press, 2005.","Assessment":"Oral exam, assignments and lab work"},{"nr":203,"parent":167,"name":"IN4343","id":35642,"children":[],"courseName":"Real-time Systems","ects":"5","Responsible Instructor":"Prof.dr.K.G.Langendoen    ,K.G.Langendoen@tudelft.nl , M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0 and 0/0/4/0 lab","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Required for":"3TU MSc Embedded Systems; the corresponding courses are 2IN26 at TU Eindhoven, and 312030 at TU Twente","Expected prior knowledge":"Basic software engineering, C system programming, basic Linux operating system knowledge","Study Goals":"The objective of this course is to bring students into the position to analyse real-time systems with respect to meeting timing constraints. It is intended to bring the student into the position to - explain and apply the fundamental concepts and terminology of real-time systems - explain and apply various scheduling policies- analyse real-time systems in a practical context","Education Method":"lectures with exercises; self study; lab assignments","Books":"Hard Real-Time Computing Systems by G.C. Buttazzo, Springer 2005","Assessment":"Written exam (grade) + lab work (pass/fail)"},{"nr":204,"parent":167,"name":"IN4389","id":36672,"children":[],"courseName":"Reactive Programming","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"The course Reactive Programming aims at teaching participants (1) the foundations of reactive programming:(2) how to expose the asynchronous event-driven model of computation as observable collections and (3) how to write real-world complex server- and client-side programs that orchestrate and coordinate asynchronous computations using declarative queries over event streams.(4) how to apply the principles of reactive programming to the development of cloud applications.","Education Method":"Lectures + lab workThe lectures will be given by Erik Meijer. The lectures will be given in a block of 2-3 weeks at Delft University of Technology. After that, several interactive sessions (including student presentations and code reviews) with the USA (Silicon Valley) will be held over skype. Due to the 9 hour time difference, these sessions will take place in the (early) evening.The exact timing of the blocks in Delft differs per year, and will be announced on blackboard.","Literature and Study Materials":"- research papers distributed via blackboard- Jesse Liberty and Paul Betts: Programming Reactive Extensions and LINQ, APress, 2011. ISBN 1430237473","Assessment":"Hands-on labwork + oral presentation + written report","maximum aantal deelnemers":"15"},{"nr":205,"parent":167,"name":"IN4391","id":36680,"children":[],"courseName":"Distributed Computing Systems","ects":"5","Responsible Instructor":"A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"1.Explain the objectives and functions of distributed computing systems.2.Describe how distributed computing systems have evolved, over time, from primitive batch systems to sophisticated multi-user systems.3.Describe the architecture and operation of distributed computing systems.4.Explain how distributed computing systems can process user workloads.5.Explain how distributed computing systems can detect and correct faults and errors.6.Implement complex operations of modern distributed computing systems in realistic scenarios.7.Analyze the tradeoffs inherent in the design of distributed computing systems (performance, efficiency, scalability, reliability, availability, fault-tolerance.)","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLectures:7 weeks x 2hPractical:Groups of 2 on the DAS distributed computer system.3 weeks x 4h + 16h: large exercise based on course topic 6 + report of 4�6 pages4 weeks x 4h + 40h: large exercise based on course topic 7 +report of 4�6 pages","Literature and Study Materials":"Textbook: Andrew S. Tanenbaum, Maarten Van Steen, Distributed Systems, Principles and Paradigms (2nd Edition), Prentice Hall, 2006. The textbook introduces the student to the traditional theory of distributed systems.Additional material: Several relevant research articles introduce the student to the latest advances on the topic.","Assessment":"Overview: The course consists of two main parts: the theoretical Part I and the practical Part II. Students are assessed through a written exam (open questions), an oral exam, and a demonstration of practical skills. Part I: An optional mid-term exam is also organized. The results of the mid-term exam count only if the final exam is also taken by the student, and only if it increases the final grade of the student. Additionally, the course is gamified: there is testing through open questions and various exercises during and at the end of the lectures, counting as bonus points for Part I.The result of Part I of this course must be at least 6. The result of Part II of this course (practical) must be Completed (C, Voltooid/V in Dutch). The final grade is the result of Part I.Summary of assessment:Type of assessmentPart of final gradePart I: Exam, open questions40%Part I: Exam, oral20%Part II: Practical40%"},{"nr":206,"parent":167,"name":"IN4393","id":36699,"children":[],"courseName":"Computer Vision","ects":"5","Responsible Instructor":"H.Dibeklioglu    ,H.Dibeklioglu@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2 en 4 uur werkcollege in 4e Q","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Expected prior knowledge":"You are expected to have a working understanding of linear algebra, and of probability and statistics. Knowledge about pattern recognition and/or machine learning is preferred.","Study Goals":"After successfully completing this course:- You are able to explain and implement various techniques for feature point detection, and can explain the type of feature points these detectors identify.- You are able to explain and implement techniques for feature point description and feature point matching. You are able to use these techniques in applications such as object detection and image stitching.- You are able to explain and implement techniques for image stitching. The student understands the key problems in developing image-stitching algorithms (such as alignment and parallax removal).- You are able to explain and implement techniques for shape analysis.- You are able to explain and implement techniques for face detection and face recognition. - You are able to explain and implement techniques for object recognition and scene understanding.- You are able to explain and implement basic techniques for feature tracking, in particular, Kanade-Lucas-Tomasi tracking and particle filter tracking. - You are able to explain Markov Random Field models, and is able to use such models in problems such as image denoising and inpainting.- You are able to develop and explain computer vision systems for real-world applications. In particular, you are able to select computer vision techniques that are to solve a specific image analysis or image understanding problem, to motivate this selection, and to combine the selected techniques into a working computer vision system.","Education Method":"- Section 1, 2, 3, 4, 6, 9, 10.5, and 14; Appendix B of �Computer Vision, Algorithms and Applications�, R. Szeliski, Springer, 2011, ISBN 978-1-84882-934-3. (This book is freely available online.) - \"Shape Matching and Object Recognition Using Shape Contexts\", S. Belongie, J. Malik, and J. Puzicha. IEEE Transactions on Pattern Analysis and Machine Intelligence 24(24): 509�521, 2002.- �Discriminative random fields�, S. Kumar and M. Hebert, International Journal of Computer Vision 68(2):179�202.- �Fields of Experts�, S. Roth and M.J. Black, International Journal of Computer Vision 82(2):205�229, 2009.- Section 1 and 2 of \"Lucas-Kanade 20 Years On: A Unifying Framework\", S. Baker and I. Matthews, International Journal of Computer Vision 56(3):221�255, 2004.- \"CONDENSATION � Conditional Density Propagation for Visual Tracking\", M. Isard and A. Blake, International Journal of Computer Vision 29(1):5-28, 1998.","Prerequisites":"Prerequisite courses (mandatory): Image or signal processing (TI2710-A or TI2710-C or EE2521); Linear algebra (WI1200TI-A or WI1200TI-B or WI1142TN); Probability and statistics (WI2211TI or WI1120EE or WI1102CT or WI1321TB or WI2013wbmt). If you have take comparable courses at other universities, this is also fine. Please contact the instructor when in doubt!Prerequisite courses (preferred): Pattern recognition (IN4085).","Assessment":"The assessment for this course consist of two main parts:1) You will develop a computer vision system for an application of your choice, and will write a small report with a description of your system. Your grade for the project forms 50% of the final grade for the course.2) A written final exam will determine the remaining 50% of your final grade. The final exam covers: (1) all content covered in the lectures and (2) all material listed under �Course material�. The final exam is an open-book exam: all slides and course material can be used during the exam."},{"nr":207,"parent":167,"name":"IN4394","id":36718,"children":[],"courseName":"EIT Summer School","ects":"4","Responsible Instructor":"Prof.dr.ir.F.W.Jansen    ,F.W.Jansen@tudelft.nl","Contact Hours / Week  x/x/x/x":"Selfstudy","Education Period":"None (Self Study)","Start Education":"1","Exam Period":"none","Course Language":"English","Required for":"EIT master programma","Expected prior knowledge":"First year I&E courses","Study Goals":"- Understanding the process of Business Model Generation, andknowing how to define and analyse the nine building blocks (customer segments, customer relations, channels, value proposition, key activities, key resources, key partners, cost structure and revenue streams). [BDL learning outcome]- The ability to perform a business development process in the context of a societal relevant thematic area (such as Health and Wellbeing)- Understanding how technology and innovation interact with all stakeholders (eco-system, competitors, alliances, networks, markets, etc.)- The ability to reflect upon ethical, societal, scientific and sustainability considerations when developing new products/technologies and business models.- The ability to direct a business development process and to communicate and convey business proposals to business people and other stakeholders","Education Method":"A strong emphasis is on project work, team building, (personal) networking, cultural exchange, and creat-ing global awareness of societal and business trends. During the two weeks, students are confronted (i.e. meet in person) with involved stakeholders and with the ethical, societal, scientific and sustainability relevance of their ideas. The course emphasizes multidisciplinary work with attention to cure (societal and personal needs), culture (motivation and acceptation), concept (usability and technical realisation), and commercialisation (marketing plan and business realisation). During the first week, students are introduced to the thematic area by presentations on societal problems, trends, new technologies, and possible business opportunities. Here, the emphasis is on discussion, opin-ion making, and experiencing through observational practices and field tests. Students work in groups on a business cases and develop ICT applications (products or services) for a particular thematic area. They perform market studies, define user segments, analyse competitors, and develop their concepts into testable (lo-fi) prototypes. They perform user studies (focus groups) and further detail the technical concepts. At the end of the week they pitch their plan for a business panel.In the second week, students work towards a business plan (Product Operational Plan) and analyse all is-sues of relevance; markets, feasibility, usability, business life-cycles, operations and maintenance. They make a design/choice for a business pattern and platform, and a suitable revenue model, and analyse relevant issues, such as IPR, venture financing, etc.","Assessment":"Pitching of the business plans before a business panel and evaluation of a project report."},{"nr":208,"parent":167,"name":"IN4395","id":36708,"children":[],"courseName":"Image Analysis in Microscopy","ects":"6","Responsible Instructor":"Dr.ir.F.J.Verbeek    ,F.J.Verbeek@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/3/3","Education Period":"3,4","Start Education":"3","Exam Period":"4","Course Language":"English","Study Goals":"<>","Education Method":"Lectures. For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum","Literature and Study Materials":"Course material: to be announced","Assessment":"The course consists of a series of lectures, practical assignments using programmable image analysis software environments and �hands-on� experience with microscopes (i.e. image acquisition). The course is concluded with a report on the practical work and a written exam."},{"nr":209,"parent":167,"name":"IN4396","id":36709,"children":[],"courseName":"Bio-modeling and Petri nets","ects":"6","Contact Hours / Week  x/x/x/x":"0/0/2/2 in Leiden","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English"},{"nr":210,"parent":167,"name":"IN4401","id":36717,"children":[],"courseName":"Business Development Lab","ects":"10","Responsible Instructor":"Prof.dr.ir.F.W.Jansen    ,F.W.Jansen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/x/x","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English","Required for":"The Business Development Lab is part of the I&E minor of the EIT ICT Labs master school and is mandatory for the DMT and CCS students. It aims to provide the student with a basic understanding and ability to perform a business devel-opment process, focused on the development of a product and service and exploring its customer value, possible value chains, and its market potential (and not so much on the venturing process of starting a company). The applied methodology is based on the Business Model Generation method, emphasizing the nine building blocks of a business process model: customer segments, customer relations, channels, value proposition, key activities, key resources, key partners, cost structure and revenue streams.","Study Goals":"- In depth understanding of the different phases of a business development process- The ability to succesfully apply the learned knowledge for development of a new product or business concept- The ability to sytematically explore and create ideas or modify existing ideas and technology for business solutions- The ability to transforming new ideas into business solutions on the commercial market, combined with decision-making and leadership competencies- The ability to work in multi-disciplinary teams, and to reflect upon ethical and team processes","Education Method":"The BDL is done in projects groups and includes both a technical product design project and a business plan development. The project work is supported by coaches. During the course, several workshops and presentations are planned on the above topics. Towards the end of the course the students are trained to present their Business Plans. The course ends with a Business Plan pitch.The BDL will start with a winterschool, a 3-day workshop round a business case at the CLC (co-location) in Eindhoven. Applied lectures and workshops: 56 h (4h week)Group work: 168h (12h/week)Winterschool: 24hPresentation (report/pitch): 32h","Literature and Study Materials":"A. Osterwalder & Y. Piguer, Business Model Generation, John Wiley & Sons.","Assessment":"Peer evaluation of BP Presentation (25%) and expert evaluation BP Presentation (25%) - Evaluation BP by coaches (50%)"},{"nr":211,"parent":167,"name":"IN5010","id":36710,"children":[],"courseName":"Research Project","ects":"15","Education Period":"1,2,3,4,Summer Holidays","Start Education":"1","Exam Period":"none","Course Language":"English"},{"nr":212,"parent":167,"name":"SPM4450","id":35183,"children":[],"courseName":"Fundamentals of Data Analytics\t","ects":"5","Module Manager":"Prof.dr.ir.J.van denBerg    ,J.vandenBerg@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/x","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"The learning objectives of this course area) to get an overview of the Business Intelligence field;b) to understand the fundamental principles that underly1) the realization of an intelligent organisation2) the TRANSFORMATION OF DATA INTO INFORMATION AND KNOWLEDGEc) to obtain experience with basis BI tools and/or applications.","Education Method":"Around 14 classical lectures with discussions supplemented with group work on 2 to 3 practical data analytics assignments.","Course Relations":"This course is truly an advanced version of the introductory BSc course \"Business Intelligence\" (SPM4424) (there is little overlap and all topics are treated at much more fundamental level).","Literature and Study Materials":"Intelligent Data Analysis: see http://www.springer.com/computer/image+processing/book/978-3-540-43060-5 A (legal) soft copy of this book is made available.Very many other materials (slides, books, articles, references to software packages, etc.) will be made available as well.","Assessment":"Groups of (in principal two) students are composed who work on a 2 to 3 assignments.The first assignment concerns a study on the bias-variance dilemma using a simulation study.The second assignment concerns a study related to the curse of dimensionality also by executing a simulation study.The deliverable of the final (third) assignment is a scientific report that includes, among others, a literature review related to the topic of choice. The focus can either be on a practical data mining exercise or on a more theoretical subject.Groups of students work separately and get supervision and feedback on their work progress from the lecturer(s)."},{"nr":213,"parent":167,"name":"UT-192654000","id":37838,"children":[],"courseName":"Network Security","ects":"5","Contact Hours / Week  x/x/x/x":"2/0/0/0+ assignments","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English"},{"nr":214,"parent":167,"name":"UT-201100022","id":37829,"children":[],"courseName":"Cyber Crime Science","ects":"5","Contact Hours / Week  x/x/x/x":"0/0/2/0+project","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English"},{"nr":215,"parent":167,"name":"UT-201500042","id":37840,"children":[],"courseName":"Privacy Enhancing Technologies","ects":"5","Contact Hours / Week  x/x/x/x":"0/0/0/2+ assignments","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":216,"parent":167,"name":"WM0705TU","id":37737,"children":[],"courseName":"E-law","ects":"5","Module Manager":"Mr.dr.M.M.Groothuis    ,M.M.Groothuis@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/x","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"}]}]},{"nr":217,"parent":1,"name":"Special Programmes 2015","id":16594,"children":[{"nr":218,"parent":217,"name":"Information Architecture 2015","id":16596,"children":[{"nr":219,"parent":218,"name":"IN4150","id":36645,"children":[],"courseName":"Distributed Algorithms","ects":"6","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0 college; Pract. 3e en 4e kwartaal","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"Operating system concepts (IN1805)Computer Networks (IN2605)","Study Goals":"After having completed this course, the student has a good knowledge of and insight into important fundamental (theoretical) problems in distributed systems and their algorithmic solutions. In addition, the student can design and implement distributed algorithms that solve these problems.","Education Method":"Lectures, lab work","Literature and Study Materials":"Lecture notes (on Blackboard)","Assessment":"Paper review and written exam (closed book)","Remarks":"Lab work is 40 hrs."},{"nr":220,"parent":218,"name":"IN4252","id":34989,"children":[],"courseName":"Web Science & Engineering","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student learns the important principles and concepts of web-based information systems and their engineering processes, and understands the main research challenges in the area.The student has knowledge about the main methods, techniques and languages used in the area of web-based information systems, in particular concerning web data. The student has knowledge of the main principles and techniques for user modelling and adaptation, and of the role of Social Web data for user modelling.The student learns the major challenges and principles from the research in the field of Web Science, and the role of web data for Web Science.The student is able to write a paper contributing to Web Science based on a problem in the field of web-based information systems.","Education Method":"The education includes:- Lectures, before which and after which students study material by themselves, to get an understanding of the relevant material;- Small assignments and hands-on exercises, to apply the understanding of relevant material;- One large assignment, with a number of feedback moments, to learn how to write a web science paper and contribute to relevant research.Lectures will be not each week in the class period (1+2): in between lectures there is time reserved for studying before and after lectures, for small assignments and exercises, and for writing the large assignment paper. The writing of the large assignment paper happens throughout the class period (1+2) to enable frequent feedback.","Assessment":"Assessment happens on the basis of the small assignments (accompanying the lectures), for 40% of the grade, and the large assignment (writing the web science paper), for 60% of the grade. Both parts need to be completed by the indicated deadlines."},{"nr":221,"parent":218,"name":"IN4301","id":36664,"children":[],"courseName":"Advanced Algorithms","ects":"5","Responsible Instructor":"Prof.dr.C.Witteveen    ,C.Witteveen@tudelft.nl","Instructor":"Prof.dr.ir.K.I.Aardal    ,K.I.Aardal@tudelft.nl , Dr.M.M.deWeerdt    ,M.M.deWeerdt@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Basic courses in Algorithmics and Complexity Theory","Study Goals":"Knowledge of some advanced algorithmic techniques likekernelization techniques, general approximation techniques, and linear programming relaxation techniques.Knowledge of techniques to analyze the performance of algorithms.","Education Method":"Lectures, homework exercises, and programming assignments.","Literature and Study Materials":"Parts of the course are derived from the textbook J. Kleinberg and E. Tardos, Algorithmic Design,Pearson Education, 2006. ISBN 0-321-37291-3Supplemental study material will be provided via Blackboard.","Assessment":"Homework exercises, programming assignments and a written exam.There is a mid semester test after the first two parts of the course."},{"nr":222,"parent":218,"name":"IN4306","id":36666,"children":[],"courseName":"Literature Survey ","ects":"10","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl , Dr.ir.F.F.J.Hermans    ,F.F.J.Hermans@tudelft.nl","Contact Hours / Week  x/x/x/x":"Not applicable","Education Period":"None (Self Study)","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student is able to read contemporary scientific literature in the chosen field of specialisation.The student is able to distill the main ideas of a paper and to write these down in his or her own words.The student is able to place the ideas of different papers in perspective by comparing these.","Education Method":"Individual assignment.The student should consult the MSc coordinator for further details.","Assessment":"Writing a report, individually and under supervision of a staff member. This staff member will also mark the report."},{"nr":223,"parent":218,"name":"IN4315","id":35212,"children":[],"courseName":"Software Architecture","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"Different, to be announced","Course Language":"English","Expected prior knowledge":"Software engineering","Study Goals":"Bring students into the position that they can (1) explain the key architectural concepts and methods for modeling software architectures; (2) apply viewpoints and perspectives to model software architectures; (3) discuss the benefits of architecting and the role of the software architect; (4) evaluate and validate software architectures; and (5) explain and discuss the concepts of component-based and plugin architectures, service-oriented architectures, and software product lines.","Education Method":"Interactive lectures, lab assignment, paperpresentation and discussion.","Literature and Study Materials":"The course uses the book \"Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives\" by Nick Rozanski and Eoin Woods, Addison-Wesley Professional 2005, ISBN: 9780321112293. Additional reading material will be announced in the lectures.","Assessment":"No written exams. Lab assignment, paper and presentation.","Special Information":"Twitter handle: https://twitter.com/delftswa"},{"nr":224,"parent":218,"name":"IN4325","id":35210,"children":[],"courseName":"Information Retrieval","ects":"5","Responsible Instructor":"A.Bozzon    ,A.Bozzon@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"Learning Objectives:= Describe the different information retrieval models, and to compare their weaknesses and strengths. [Learning Objective 1]= Compare the weaknesses and strengths of different indexing techniques, describing their most suited applications trough meaningful examples. [Learning Objective 2]= Compare the weaknesses and strengths of different querying techniques, describing their most suited applications trough meaningful examples. [Learning Objective 3]= Analyse the performance of an Information Retrieval system by applying the proper evaluation measures. [Learning Objective 4]= Design and develop (Web) Information Retrieval systems, possibly using advanced social and se- mantic search functionalities. Support and defend the relevance and correctness of his/her choices with regards to the adopted information retrieval model, indexing technique, and querying tech- nique. [Learning Objective 5]= Describe and compare several crowdsourcing techniques. [Learning Objective 6]= Illustrate Information Retrieval application scenario for crowdsourcing. [Learning Objective 7]= Design and develop crowdsourcing applications, and to evaluate the obtained results. [Learning Objective 8]= Illustrate suitable application scenario for advanced Information Retrieval topics such as Semantic Search, Information Seeking Paradigms and User Interfaces for Information Retrieval, Search Results Diversification, and Expert Finding. [Learning Objective 9]","Education Method":"Lectures, individual and group exercises","Literature and Study Materials":"Scientific papers, course slides and blackboard notes.","Books":"*Introduction to Information Retrieval*Author(s): Christopher D. Manning, Prabhakar Raghavan and Hinrich Schtze.Cambridge University Press. 2008. ISBN-13: 978-0000000000http://nlp.stanford.edu/IR-book/information-retrieval-book.html*Web Information Retrieval*. Author(s): Stefano Ceri, Alessandro Bozzon, Marco Brambilla, Piero Fraternali, Emanuele Della Valle, Silvia Quarteroni.Springer, 2013. ISBN-13: 978-3642393136http://www.springer.com/computer/database+management+\\%26+information+retrieval/book/978-3-642-39313","Assessment":"Individual and group assignments"},{"nr":225,"parent":218,"name":"IN4326","id":36667,"children":[],"courseName":"Seminar Web Information Systems","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"-to expose the student to current developments in research on web information systems and its methodologies; -to familiarise the student with reading, presenting and discussing scientific literature in the area;-to help the student in reading and writing scientific papers and choosing a topic for her/his thesis in the area.","Education Method":"Student seminar.","Assessment":"-Quality of presentation of the scientific paper studied (15%).-Participation in the seminar discussions (10%).-Quality of paper written (75%)."},{"nr":226,"parent":218,"name":"IN4331","id":36668,"children":[],"courseName":"Web Data Management","ects":"5","Responsible Instructor":"Dr.ir.A.J.H.Hidders    ,A.J.H.Hidders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Bachelor level courses in database management systems and operating systems. A prior course in distributed systems or middleware would be helpful but is not required. Working knowledge of Java or C++ will be important for the final assignment.","Study Goals":"At the end of this course the student can- describe, explain and use effectively XML technologies such as XML, DTDs, XPath, XSLT and web services- describe, explain and use XQuery for data management, including its various extensions for scripting and full-text search- describe use and explain distributed file systems such as Google File System (GFS or GoogleFS) and the Hadoop Distributed File System (HDFS)- use and explain the advantages and disadvantages of distributed NoSQL databases such as CouchDB- program MapReduce frameworks to perform efficiently workflows for data analytics","Education Method":"Lectures, practical exercises, and depending upon the number of students presentations by students.","Literature and Study Materials":"Course slides, hand outs and blackboard notes.","Books":"(mandatory, but will be made available for free on Blackboard)Serge Abiteboul, Ioana Manolescu, Philippe Rigaux, Marie-Christine Rousset, Pierre Senellart: Web Data Management. Cambridge University Press, 30 nov. 2011, 406 pages.(advised, not mandatory reading)Abiteboul, S., Peter Buneman, and Dan Suciu. Data on the Web: From Relations to Semistructured Data and XML. San Francisco: Morgan Kaufmann, 1999.Katz, Howard, and D. D. Chamberlin. XQuery from the Experts: A Guide to the W3C XML Query Language. Boston: Addison-Wesley, 2003.Melton, Jim, and Stephen Buxton. Querying XML: XQuery, XPath, and SQL/XML in Context. The Morgan Kaufmann series in data management systems. Amsterdam: Elsevier/Morgan Kaufmann, 2006.","Assessment":"Presentation (if applicable) and final assignment."},{"nr":227,"parent":218,"name":"SPM4110","id":35214,"children":[],"courseName":"Designing Multi-actor Systems","ects":"6","Module Manager":"Dr.S.G.Lukosch    ,S.G.Lukosch@tudelft.nl","Instructor":"S.Cunningham    ,S.Cunningham@tudelft.nl , Dr.ir.J.H.Kwakkel    ,J.H.Kwakkel@tudelft.nl , H.K.Lukosch    ,H.K.Lukosch@tudelft.nl , Prof.dr.ir.A.Verbraeck    ,A.Verbraeck@tudelft.nl , Dr.H.G.van derVoort    ,H.G.vanderVoort@tudelft.nl","Contact Hours / Week  x/x/x/x":"X/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"SPM4140 - Service Systems Engineering","Summary":"In this course, students learn about designing complex, technological, large scale systems in multi-actor environments (in short, multi-actor systems). Different perspectives on systems design are discussed to provide students with a background for working with designers from different disciplines. Various aspects and principles of designing multi-actor systems are discussed from an engineering and a process perspective.Methods and tools for analysis and design of systems are introduced to teach students specific skills for the design of multi-actor systems. Thereby, the course provides students with a background for working with designers from different disciplines and they becomes familiar with the specific SEPAM-perspective on designing multi-actor systems.","Study Goals":"On completion of this course students are familiar with the specific SEPAM perspective on designing large scale, technology enabled multi-actor systems (MAS) in multi-actor environments. In particular: - Students are able to use and discuss concepts and terminology related to the design of MAS.- Students are able to use and discuss methods and tools that facilitate systems design and engineering.- Students are able to discuss the differences between design perspectives used in technical and social disciplines.- Students are able to describe and discuss process design guidelines for designing a decision making process in a multi-actor environment.- Students are able determine the appropriate use of methods for addressing socio-technical design challenges. - Students can design and specify systems engineering solutions through the use of requirements analysis and conceptual designs. - Students are able to apply methods and tools to enhance creativity in design processes.","Education Method":"The class sessions include lectures covering basic concepts. The course emphasis is mainly put on participation of the students in creativity discussions, problem solving, and concept design. Throughout the course student groups work on a project-based assignment. The project has the goal to create a design of a multi-actor system.","Literature and Study Materials":"- Sage, A.P. and Armstrong (Jr.), J.E. (2000). Introduction to Systems Engineering. John Wiley & Sons, Inc.- de Bruijn, H., ten Heuvelhof, E., and in 't Veld, R. J. (2010). Process Management. Springer Netherlands.- Reading materials: the concepts and topics discussed in the course will be reinforced by regular reading of papers, articles and book chapters as appropriate. These reading materials will be available on Blackboard.","Assessment":"At the end of the period, the course is assessed with an open book exam. The grade for the course is to 70% your grade for the exam and for 30% the grade for the final report that has to be prepared for the project-based assignment. Both, exam and case study, need to be passed.","Category":"MSc level"},{"nr":228,"parent":218,"name":"SPM4340IA","id":35181,"children":[],"courseName":"Design of Innovative ICT-infrastructures and Services","ects":"6","Module Manager":"Prof.dr.ir.M.F.W.H.A.Janssen    ,M.F.W.H.A.Janssen@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"� Basic knowledge of information and communication technology technology� Basic knowledge of software eningeering or engineering methods and principles in general� Basic knowledge of multi-actor systems","Summary":"The purpose of this course is to teach the design of innovative and large scale ICT infrastructures and services in the light of the challenges imposed by the requirements from the systems� physical, economic and social environment. Emphasis will be put on the concept and role of ICT-architectures to model information needs and services in order to properly design ICT solutions within a multi-actor context. Attention will be paid to relevant aspects such as flexibility, adaptivity, and accountability. Next, the students will learn how to plan and design a large scale ICT implementation project by partitioning it in phases with for each the suitable decision moments. Finally, students will learn methods and tools for designing IT-services.","Study Goals":"1.The student is able to describe basic concepts related to designing large and complex ICT-infrastructures and service systems.2.The student is able to analyse and discuss problems with regard to designing large ICT-systems.3.The student is able to apply system engineering and architecture-based approaches to deal with problems with regard to designing large ICT-systems.4.The student is able to describe methods and tools for designing large and complex ICT-infrastructures and service systems within a multiple actor context.5.The student is able to apply methods and tools for designing large and complex ICT-infrastructures and service systems within a multiple actor context.6.The student is able to explain how to apply architectural concepts for translating business needs into ICT-designs within constellation of public and private actors.","Education Method":"� Lectures� Guest lectures (obliged)� Assignments","Literature and Study Materials":"-N. Bharosa, R. Van Wijk, N. De Winne & M. Janssen (2015). Challenging the Chain. Governing the Automated Exchange and Processing of Business Information. IOS Press http://www.iospress.nl/book/challenging-the-chain/ (open access)-Reader-All papers, slides and material on blackboard (including the slides of the guest lecturers)","Assessment":"Assignment (60%)Written exam (40%)Each grade should be sufficient to pass"},{"nr":229,"parent":218,"name":"SPM5430","id":35203,"children":[],"courseName":"Service Systems Engineering","ects":"5","Module Manager":"G.A.DeReuver    ,Mark.deReuver@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/3/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The objective of the course is to show how service design differs from general design, and what specific methods and tools can be used for the design of service concepts and service delivery systems, as well as discuss (open) service innovation and management. After the course, students have a good theoretical background on services and service design, (open) service innovation management, and they are able to apply the design guidelines for cases that are not too complex.","Education Method":"(Guest) lectures and working groups. Students have to work out a design for a specific service applying material from this course and the generic design courses (and apply the design and process design guidelines). The attendance of students is mandatory. The examination will be closed-book.","Literature and Study Materials":"H. Chesborough (2011). Open Services Innovation. San Francisco: Jossey BassStudy material will be made available via BB","Assessment":"Design assignments (A), a half-way presentation (P) and a written exam (E). The written exam of SPM 5430 IA only includes a case.The written exam of SPM 5430 includes a case (50%), as well as a multiple-choice and open questions (50%)All marks have to be >= 5, 8. The final mark will be calculated by a weighted average of A (40%), P (10%), and E (50%)."},{"nr":230,"parent":218,"name":"SPM5920IA","id":35211,"children":[],"courseName":"IA Design Project","ects":"6","Module Manager":"Dr.M.V.Dignum    ,M.V.Dignum@tudelft.nl","Instructor":"Dr.H.M.Aldewereld    ,H.M.Aldewereld@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/x","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"The courses in the first year of the MSc program SEPAM/IA","Summary":"This course involves a design assignment in which students will apply the theory on information system engineering methods, tools and principles taught in the prior courses in a realistic case related to their domain. Students will design a (complex multi-actor) system related to Information Architecture applying specific SEPAM and/or CS perspectives on designing. Most projects will integrate technical, system and actor related aspects. This includes addressing technology aspects, system engineering, decision-making support, and process and institutional aspects of the design and implementation process. Students are free to come up with suggestions for their own case study. The final delivery of this course concerns a scientific report which should more or less have the same structure as an individual MSc thesis. In this sense, this design course is an excellent preparation (within a group assignment) for the writing of an individual MSc thesis.","Study Goals":"On completion of this course, students will be able:- to choose suitable system design methods and tools, taking into account the substantive and process characteristics of the system and the multi-actor environment in a specific and realistic case in their domain;- to apply the chosen design methods and tools for this case;- to design a system taking into account technical domain, system engineering, decision-making, change process management and institutional aspects that are relevant for a certain case;- to develop knowledge and experience on the setup up and implementation of project teams.","Education Method":"The design teams will consist of preferably 3 or 4 students from the same domain. We aim at a realistic project management requiring independence and self organization of the teams. Teams are responsible for, e.g.: Project organization and task allocation and responsibilities; Interaction with client and problem owner to achieve agreement on focus, acceptance procedures, deliverables etc.; Planning and time management; Presentation of intermediary and final results. Each team is supervised by a docent and is required to maintain an up to date project page including logbook for each member, meeting reports, and other relevant information.Project timeline:- The project starts at the beginning of the period with a kick-off meeting for each subject (to be announced on Blackboard). - By mid-term, the first part of the assignment (problem analysis, list of requirements, choice of design methods and project plan) is handed in and presented.- In the second half of the period the actual system design has to be made.- At the end of the period, the groups will present their designs to each other and to an expert jury. - At the end of the period the design(s), documentation and report are handed in.","Literature and Study Materials":"- A case description will be handed out at the kick-off meeting. - Additional material will be distributed via Blackboard.","Prerequisites":"Students must have passed spm4141 MAS Design: An integrated view","Assessment":"The final mark is based on the written report, the designs and the presentations. A jury including representatives of ICT and EWI will assess and grade the project results. A condition for passing the project is that each supervisor finds the work sufficient (>= 6.0)."},{"nr":231,"parent":218,"name":"WM0332IN","id":36665,"children":[],"courseName":"Methodology of Science and Engineering","ects":"4","Module Manager":"Dr.M.P.M.Franssen    ,M.P.M.Franssen@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"M.Sc. programme Computer EngineeringM.Sc. programme Media and Knowledge Engineering","Expected prior knowledge":"Standard propositional and predicate logic;Elementary probability theory","Summary":"This module introduces the student to:1. the aims and character of science and engineering as human practices;2. the distinction between facts and values or norms, and the role they play in science and engineering;3. ways of arguing in support of factual and in support of normative claims;4. aspects of empirical research: induction, deduction, measurement, evaluation;5. the character and status of theories and models in science and engineering;6. similarities and differences between the natural sciences and the human or social sciences.","Study Goals":"(1) To learn to distinguish the specific roles that empirical, formal and normative claims play in science and engineering;(2) To recognize and analyze the epistemic status of each type of claim and the ways in which claims in each of these categories can be supported and argued for;(3) To learn to appreciate the role of norms, values, and human decision-making in science and technology;(4) To come to understand the nature of empirical research, the role of different types of claims in it, and the constraints put to the justifiability of knowledge claims in science and engineering; (6) To learn to judge the similarities and distinctions between science and engineering (or belief and action), and between the natural and the social sciences;(7) To learn to recognize and explore the limits of formal and scientific descriptions of natural and social reality, and of the role of models, idealization, and abstraction in scientific and engineering knowledge.","Education Method":"The module is taught in the form of lectures with discussions mainly of exercises presented during the course. Students will be required to work on these exercises in-between classes.","Literature and Study Materials":"The study material for this course will be made available at the start of the course.","Assessment":"The student's grades for this course will be determined by the result of an individual exam taken at the end of the course. During the course students will be required to work at exercise questions; sufficient marks for the answers to these exercises will not be weighed into the final grade but will allow students to drop an exam question or work for bonus points.","Category":"BSc niveau"}]},{"nr":232,"parent":217,"name":"Bioinformatics 2015","id":16597,"children":[{"nr":233,"parent":232,"name":"ET4283","id":35640,"children":[],"courseName":"Seminar Advanced Digital Image Processing  ","ects":"6","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl","Instructor":"Prof.dr.ir.L.J.vanVliet    ,L.J.vanVliet@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Basics of signal processing, image processing, linear algebra, stochastic processes. The course will start with a brief review of basic image processing principles as discussed in the TI bachelor course TI2716-B.","Study Goals":"General learning outcomes:The student has insight into state of the art algorithms for image processing including Multi-Resolution Image Processing, Morphological Image Processing, Image Features Representation/Description, Motion Estimation and Optic Flow, Image Restoration, Image Segmentation and 3D Computer Vision. The student is able to read, discuss, summarize and comment on scientific journal and conference papers in this area.Specific learning outcomes:1.Multi-resolution Image Processing:Gaussian scale space, windowed Fourier transform, Gabor filters, multi-resolution systems (pyramids, subband coding and Haar transform), multi-resolution expansions (scaling functions and wavelet functions), wavelet Transforms (Wave series expansion, Discrete Wavelet Transform (DWT), Continuous Wavelet Transform (CWT), Fast Wavelet Transform (FWT))The student is able to motivate the use of space-frequency representations, analyze the behavior of space-frequency techniques, explain the principles behind, classify and evaluate multi-resolution techniques..2.Morpological Image Processing:Definitions of gray-scale morphology: erosion, dilation, opening, closing; Application of gray-scale morphology: smoothing, gradient, second derivatives (top hat), morphological sieves (granulometry).The student is able to apply, recognize the priciples and analyze (a sequence of) morphological operations for noise suppression, edge detection, and sharpening.3.Image Feature Representation and Description:Measurement principles: accuracy vs. precision ; Size measurements: area and length (perimeter); Shape descriptors of the object outline: form factor, sphericity, eccentricity, curvature signature, bending energy, Fourier descriptors, convex hull, topology; Shape descriptors of the gray-scale object: moments, PCA, intensity and density; Structure tensor in 2D and 3D: Harris Stephens corner detector, isophote curvature.The student is able to comprehend and explain the properties of measurements in digitized images, combine measurement principles to solve a new problem, comprehend the structure tensor in various notations and apply it in measurement procedures.4.Motion and optic flow:Motion is strcuture in spatio-temporal images; Two frame registration: Taylor expansion method; Multi-frame registration: Optic flow. Applications of image registration.The student is able to explain the properties of image registration and optic flow and comprehend the aperture problem in optic flow.5.Image Restoration:Noise filtering, Wiener filtering, Inverse filtering, Geometric transformation, Grey value interpolationThe student is able to discuss the use of linear and non-linear noise filters, explain the use of inverse filters andproblems of inverse filtering in the case of noise, describe (the use of) a Wiener filter and apply geometric transformations and bi-linear grey value interpolation6.Image Segmentation:Thresholding, edge and contour detection, data-driven and model-driven image segmentation, edge trackingThe student is able to discuss isodata thresholding, optimal thresholding, multimodal thresholding and adaptive thresholding techniques,apply Gaussian derivative filters and difference based filters for calculation of edge point candidates, explain the trade off between localization and detection of edges, discuss split and merge techniques and edge tracking techniques. The student has insight into model-based image segmentation (object detection) approaches like template matching, Hough Transform, Deformable Template matching, Active Contours and Active Shape models and is able to formulate how shape information and image intensity information can be incorporated into these approaches.","Education Method":"lectures, group assignment with plenar presentation and discussion","Computer Use":"Matlab and dipimage toolbox and/or other imaging toolbox","Literature and Study Materials":"Book 'Digital Image Processing', van R.C. Gonzalez en R.E. Woods, third edition, 2002, ISBN 9780131687288.(Online) Book 'Computer Vision, Algorithms and Applications', R. Szeliski, (http://szeliski.org/Book/). The online version is available for free.We have used the Book �Introductory Techniques for 3-D Computer Vision�, E. Trucco and A. Verri, ISBN 0-13-261108-2 in the past.Lecture notes �Fundamentals of Image Processing�(http://homepage.tudelft.nl/e3q6n/education/et4085/sheets/ppt/FIP2.2.pdf) PDF-files of the lecture slides (see blackboard)","Assessment":"written exam and assignment. Both have weight 0.5 and both should be 5.0 or higher.Weighted average should be 5.8 or higher.","Exam Hours":"There will be a written examination in the exam period after the first semester. The assessment of the assignment will take place at the end of the first semester or in the exam period after the first semester.","Permitted Materials during Tests":"Books, print-out of pdf files of the lecture slides and lecture notes are not permitted during the written examination"},{"nr":234,"parent":232,"name":"IN4085","id":35756,"children":[],"courseName":"Pattern Recognition","ects":"6","Responsible Instructor":"Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Instructor":"M.Loog    ,M.Loog@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0Pract.","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Linear algebra, multivariate statistics.","Study Goals":"After succesfully completing this course, the student is able to: recognise pattern recognition problems and select algorithms to solve them; read and comprehend recent articles in engineering-oriented pattern recognition journals, such as IEEE Tr. on PAMI; construct a learning system to solve a given simple pattern recognition problem, using existing software.","Education Method":"Lectures, lab work","Literature and Study Materials":"S.Theodoridis and K.Koutroumbas, Pattern Recognition (2nd ed.), Elsevier, 2009, ISBN-978-1-59749-272-0; Sheets; PRTools user manual; Pattern Recognition exercises with PRTools.","Assessment":"Homework, Computer laboratory assignment and written examination.","Remarks":"see also http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":235,"parent":232,"name":"IN4086-14","id":34990,"children":[],"courseName":"Data Visualization","ects":"6","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl , Dr.A.Vilanova Bartroli    ,A.Vilanova@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0 + lab","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Required for":"Master course MKE","Expected prior knowledge":"IN2905-A Computer Graphics (recommended, not required)","Study Goals":"In this course, techniques and cases of data visualization are discussed: models, algorithms, and data representations for conversion of data sets into visual images, and associated interactive techniques.There are several applications for the techniques, medical, engineering, finances, economics, game analytics.After the course, the student has knowledge and understanding of a wide range of general visualization techniques, their mathematical foundations, their algorithmic form, and relevant data representations, so that (s)he can choose, adapt, and develop suitable techniques for a given practical visualization problem. Also, the student can describe practical examples and cases of visualization in several application fields.","Education Method":"Lectures, practical assignments, self-study of academic literature, projects.","Literature and Study Materials":"Course slides, instructions for projects.All available in electronic form via Blackboard.","Assessment":"The final grade is a weighted average based on up to three assignments, an exam that might contain multiple choice questions, and a visualization project. The project and assignments will be developed in couples and is evaluated based on the developed result, its documentation and presentation.","Judgement":"The grade consists of 3 elements: assignments, an exam, and a project.Main assignments (up to 3) will be checked and will represent 20% of the mark. All assignments, which are handed in late will be evaluated with a zero and impact the part of the mark that corresponds to the assignment. Additionally, an exam will be held, which will represent 30% of the mark. The exam might contain multiple-choice questions .Finally, the largest contribution is a visualization project (50%), which will be developed in couples.The project is evaluated based on the developed result, its documentation and presentation.Final Mark = 0.2 Assignments + 0.3 Exam + 0.5 ProjectThe course is passed if the final grade is 6 or higher in average.The only part that will get a resit is the exam. No resit will be provided for the project or assignments"},{"nr":236,"parent":232,"name":"IN4170","id":36705,"children":[],"courseName":"Databases and Datamining","ects":"6","Responsible Instructor":"Dr.E.M.Bakker    ,E.M.Bakker@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0Pract.In Leiden","Education Period":"1,2","Start Education":"1","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Data Bases, Data Mining","Study Goals":"Obtain knowledge and skills about databases and data mining such that these can be applied to bio-informatics","Education Method":"Lectures, lab work","Literature and Study Materials":"J. Han and M. Kamber. Data Mining Concepts and Techniques (Second Edition), Elsevier Inc., 2006 (ISBN 1-55860-901-6)","Assessment":"There will be a total of 5 database - and data mining assignments. The assignments will be graded and determine the final grade.","Remarks":"For all materials and up to date information about the course (final schedule, location, etc.)see www.liacs.nl/~erwin/dbdm2007and see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":237,"parent":232,"name":"IN4173","id":36706,"children":[],"courseName":"Computational Molecular Biology","ects":"6","Responsible Instructor":"Dr.H.J.Hoogeboom    ,H.J.Hoogeboom@tudelft.nl","Instructor":"Dr.A.P.Gultyaev    ,A.P.Gultyaev@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2 in Leiden","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Study Goals":"<>","Education Method":"Lectures","Literature and Study Materials":"Shamir's Lecture Notes, Tel Aviv University School of Computer Science.","Assessment":"The course consists of lectures and independent study of the relevant databases and algorithms available on the internet.","Remarks":"For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":238,"parent":232,"name":"IN4174","id":36713,"children":[],"courseName":"Multimedia Information Retrieval","ects":"3","Responsible Instructor":"Dr.M.S.Lew    ,M.S.Lew@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/3/0 in LeidenPract.","Education Period":"3","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Programming language: C, C++Intended Group(s):Master Computer Science","Study Goals":"<>","Education Method":"Lectures, Project","Literature and Study Materials":"Principles of Visual Information Retrieval, Michael S. Lew, Springer-Verlag, London, ISBN 1-852333-381-2, January 2001","Assessment":"- Design & Programming & Documentation for your project (70% of grade). - Class discussions, attendance, and problem sets (30% of grade). Note, this course can be taken for 3-7 ECTS based on the work within a programming project. It is necessary to be at every class. If you can not be there, you must contact Dr. Lew (mlew@liacs.nl) before the class!","Special Information":"Note, this course can be taken for 3-7 ECTS based on the work within a programming project.","Remarks":"Web site for the course: www.liacs.nl/~mlew/mir2007 For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":239,"parent":232,"name":"IN4174P","id":36711,"children":[],"courseName":"Multimedia Information Retrieval, lab","ects":"3"},{"nr":240,"parent":232,"name":"IN4176","id":36707,"children":[],"courseName":"Functional Genomics and Systems Biology","ects":"6","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"The student is expected to have a basic knowledge of molecular biology, statistics and linear algebra. It is advisable to have followed IN4085 (Pattern Recognition) and IN4329 (Advanced Bioinformatics).","Study Goals":"After succesfully completing this course, a student is able to: list the basic elements of a living cell and their interactions, and describe how these can be measured; explain what type of mathematical model is applicable to what measurement(s), at what level(s), in a given systems biology problem; read and comment upon recent systems biology literature; discuss the state-of-the-art in systems biology and integrative bioinformatics, and future challenges.","Education Method":"The course will consist of a mixture of lectures by the teachers and paper presentations by one or more of the students. All other students will hand in a review-type discussion on one aspect of the paper. A discussion is required for each scheduled presentation (i.e. there are meetings for which 2 such discussions are required). There will also be a practical session allowing students to get hands-on experience with network models, integration and analysis, mainly through Cytoscape.","Literature and Study Materials":"Slides, collection of papers and lab course manual (Blackboard).","Assessment":"The weekly discussion papers will be graded. A final grade for the course will be based on these grades as well as on a final written assignment.","Remarks":"As students depend on each other (to present the material to the class), a commitment to follow the course through to the end is required."},{"nr":241,"parent":232,"name":"IN4177","id":36620,"children":[],"courseName":"Mathematical Biology: the Virtual Cell","ects":"6","Responsible Instructor":"Dr.S.C.Hille    ,S.C.Hille@tudelft.nl , Prof.S.M.Verduyn    ,S.M.Verduyn@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/3/3","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Study Goals":"<>","Education Method":"Lectures","Literature and Study Materials":"To be announced","Assessment":"To be announced","Remarks":"For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":242,"parent":232,"name":"IN4178","id":36714,"children":[],"courseName":"Optimization (Swarm-based Computation with Applications in Bioinformatics)","ects":"6","Responsible Instructor":"Prof.dr.T.Back    ,T.Back@tudelft.nl , Dr.M.T.M.Emmerich    ,M.T.M.Emmerich@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0 in Leiden","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"Objective:-Learn methods for optimization - Understand the difficulties of optimization - Understand applications of optimization in bioinformatics","Education Method":"Lectures","Literature and Study Materials":"Copies of the lecturing slides will be distributed in class. Also, papers to work into the seminar topics will be distributed in class","Assessment":"Written exam.Exam will cover the first part (6 lectures)","Remarks":"For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":243,"parent":232,"name":"IN4318","id":36716,"children":[],"courseName":"Introduction to Life Science","ects":"10","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/x/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"To learn about the basic concepts in molecular biology required for bioinformaticians.","Education Method":"Tutorial: students independently read a standard work on molecular biology and discuss with the teacher if necessary.","Assessment":"Examination by appointment.","Remarks":"Taught by Erwin Bakker at Leiden University."},{"nr":244,"parent":232,"name":"IN4322","id":36712,"children":[],"courseName":"Mathematical Biology, Metabolic Network","ects":"6","Contact Hours / Week  x/x/x/x":"0/0/3/3 not in 2015 2016","Education Period":"3,4","Start Education":"3","Course Language":"English","Remarks":"Leiden"},{"nr":245,"parent":232,"name":"IN4329","id":36715,"children":[],"courseName":"Advanced Bioinformatics","ects":"4","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Instructor":"J.deRidder    ,J.deRidder@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"After successfully completing this course, the student is able to:� understand several high-throughput experiments, such as microarrays, and next generation sequencing, and discuss the benefits and limitations of these methods� comprehend the statistical and computer science issues in analyzing high-throughput data� discuss the basic systems biology approach, and the role of high-throughput measurements, gene selection and classification therein� read and comprehend a current paper on systems biology","Education Method":"In this course we will study some key examples of bioinformatics analyses by reading a set of selected papers that present some significant biological conclusions. Instead of the teachers giving lectures about the methodologies, the students are stimulated to read, study and comprehend the available course material. To do so the following format has been chosen: � Each week there are one or two lectures, each of 45 minutes.� In each lecture one paper (the course material) will be discussed in detail.� One student will present and explain the details of this paper. It is essential that you highlight the (bioinformatics) methodology of the paper.� All students are expected to have read the paper and should have an active role in the discussion about the paper.� When the students in discussion with the teachers are not able to grasp the followed methodology in the paper, the teachers will explain this on the spot.� Each week, an exercise on one of the papers discussed will be handed out.","Assessment":"Written examination"},{"nr":246,"parent":232,"name":"IN4391","id":36680,"children":[],"courseName":"Distributed Computing Systems","ects":"5","Responsible Instructor":"A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"1.Explain the objectives and functions of distributed computing systems.2.Describe how distributed computing systems have evolved, over time, from primitive batch systems to sophisticated multi-user systems.3.Describe the architecture and operation of distributed computing systems.4.Explain how distributed computing systems can process user workloads.5.Explain how distributed computing systems can detect and correct faults and errors.6.Implement complex operations of modern distributed computing systems in realistic scenarios.7.Analyze the tradeoffs inherent in the design of distributed computing systems (performance, efficiency, scalability, reliability, availability, fault-tolerance.)","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLectures:7 weeks x 2hPractical:Groups of 2 on the DAS distributed computer system.3 weeks x 4h + 16h: large exercise based on course topic 6 + report of 4�6 pages4 weeks x 4h + 40h: large exercise based on course topic 7 +report of 4�6 pages","Literature and Study Materials":"Textbook: Andrew S. Tanenbaum, Maarten Van Steen, Distributed Systems, Principles and Paradigms (2nd Edition), Prentice Hall, 2006. The textbook introduces the student to the traditional theory of distributed systems.Additional material: Several relevant research articles introduce the student to the latest advances on the topic.","Assessment":"Overview: The course consists of two main parts: the theoretical Part I and the practical Part II. Students are assessed through a written exam (open questions), an oral exam, and a demonstration of practical skills. Part I: An optional mid-term exam is also organized. The results of the mid-term exam count only if the final exam is also taken by the student, and only if it increases the final grade of the student. Additionally, the course is gamified: there is testing through open questions and various exercises during and at the end of the lectures, counting as bonus points for Part I.The result of Part I of this course must be at least 6. The result of Part II of this course (practical) must be Completed (C, Voltooid/V in Dutch). The final grade is the result of Part I.Summary of assessment:Type of assessmentPart of final gradePart I: Exam, open questions40%Part I: Exam, oral20%Part II: Practical40%"},{"nr":247,"parent":232,"name":"IN4395","id":36708,"children":[],"courseName":"Image Analysis in Microscopy","ects":"6","Responsible Instructor":"Dr.ir.F.J.Verbeek    ,F.J.Verbeek@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/3/3","Education Period":"3,4","Start Education":"3","Exam Period":"4","Course Language":"English","Study Goals":"<>","Education Method":"Lectures. For final schedule and location see http://www.delftleiden.nl/BIO/index.php?id=curriculum","Literature and Study Materials":"Course material: to be announced","Assessment":"The course consists of a series of lectures, practical assignments using programmable image analysis software environments and �hands-on� experience with microscopes (i.e. image acquisition). The course is concluded with a report on the practical work and a written exam."},{"nr":248,"parent":232,"name":"IN4396","id":36709,"children":[],"courseName":"Bio-modeling and Petri nets","ects":"6","Contact Hours / Week  x/x/x/x":"0/0/2/2 in Leiden","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English"},{"nr":249,"parent":232,"name":"IN5010","id":36710,"children":[],"courseName":"Research Project","ects":"15","Education Period":"1,2,3,4,Summer Holidays","Start Education":"1","Exam Period":"none","Course Language":"English"},{"nr":250,"parent":232,"name":"WM0332IN","id":36665,"children":[],"courseName":"Methodology of Science and Engineering","ects":"4","Module Manager":"Dr.M.P.M.Franssen    ,M.P.M.Franssen@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"M.Sc. programme Computer EngineeringM.Sc. programme Media and Knowledge Engineering","Expected prior knowledge":"Standard propositional and predicate logic;Elementary probability theory","Summary":"This module introduces the student to:1. the aims and character of science and engineering as human practices;2. the distinction between facts and values or norms, and the role they play in science and engineering;3. ways of arguing in support of factual and in support of normative claims;4. aspects of empirical research: induction, deduction, measurement, evaluation;5. the character and status of theories and models in science and engineering;6. similarities and differences between the natural sciences and the human or social sciences.","Study Goals":"(1) To learn to distinguish the specific roles that empirical, formal and normative claims play in science and engineering;(2) To recognize and analyze the epistemic status of each type of claim and the ways in which claims in each of these categories can be supported and argued for;(3) To learn to appreciate the role of norms, values, and human decision-making in science and technology;(4) To come to understand the nature of empirical research, the role of different types of claims in it, and the constraints put to the justifiability of knowledge claims in science and engineering; (6) To learn to judge the similarities and distinctions between science and engineering (or belief and action), and between the natural and the social sciences;(7) To learn to recognize and explore the limits of formal and scientific descriptions of natural and social reality, and of the role of models, idealization, and abstraction in scientific and engineering knowledge.","Education Method":"The module is taught in the form of lectures with discussions mainly of exercises presented during the course. Students will be required to work on these exercises in-between classes.","Literature and Study Materials":"The study material for this course will be made available at the start of the course.","Assessment":"The student's grades for this course will be determined by the result of an individual exam taken at the end of the course. During the course students will be required to work at exercise questions; sufficient marks for the answers to these exercises will not be weighed into the final grade but will allow students to drop an exam question or work for bonus points.","Category":"BSc niveau"}]},{"nr":251,"parent":217,"name":"Cyber Security 2015","id":16598,"children":[{"nr":252,"parent":251,"name":"AP3421","id":37768,"children":[],"courseName":"Fundamentals of Quantum Information","ects":"4","Responsible Instructor":"L.Di Carlo    ,L.DiCarlo@tudelft.nl","Instructor":"S.D.C.Wehner    ,S.D.C.Wehner@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1","Course Language":"English","Expected prior knowledge":"Knowledge of linear algebra, probability and statistics.","Study Goals":"Motivation: Quantum information is the future of computing and communication. Quantum computers offer exponential speedup over any classical computer. Similarly, quantum communication offers many advantages, including the ability to create secure encryption keys where security rests only on the laws of nature. Synopsis:This class will teach you the fundamental principles of quantum information. You will learn essential concepts that distinguish quantum from classical devices. You will learn about quantum bits and the quantum operations and measurements that can be performed on them. You will learn the basic techniques used in quantum algorithms, and examine basic examples of such algorithms. You will also take the first step in understanding how a quantum bit can be physically implemented. Aim: To learn the fundamental concepts underlying quantum computation and communication systems.","Education Method":"Taught in Quarter 1 of 2015-16; 3 hours of lecture, 1 hour tutorial per week.","Literature and Study Materials":"The main reference textbook for the course will be Nielsen and Chuang, �Quantum Computation and Information�, Cambridge University Press.","Assessment":"60% homework assignments, 10% in class quiz, 30% final exam.","Permitted Materials during Tests":"","Continuing Courses":"CS4090 � Quantum Communication and Cryptography; AP3292D � Quantum Hardware;ET4575 � Quantum Electronics."},{"nr":253,"parent":251,"name":"CS4035","id":37830,"children":[],"courseName":"Cyber Data Analytics","ects":"5","Responsible Instructor":"Dr.ir.S.E.Verwer    ,S.E.Verwer@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2+lab","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":254,"parent":251,"name":"CS4060","id":37835,"children":[],"courseName":"Integration week","ects":"1.5","Contact Hours / Week  x/x/x/x":"Q1, week 1, 24/7","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English"},{"nr":255,"parent":251,"name":"CS4080","id":37839,"children":[],"courseName":"Principles of Data Protection","ects":"5","Responsible Instructor":"Dr.N.Zannone    ,N.Zannone@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"Basic knowledge on security","Study Goals":"After completing this course- the student is able to understand the relevance of data protection in real settings;- the student is able to have a detailed understanding of most important access control models;- the student has knowledge of the well-established privacy principles;- the student is able to specify access control and privacy policies;- the student is able to evaluate access control and privacy policies;","Education Method":"lectures","Literature and Study Materials":"Seminal papers from the literature. Links will be provided on the course website","Assessment":"Assignment(s)Written (3 hours)Assignment is 20% and written exam 80% of the final grade","Permitted Materials during Tests":"No material is allowed during Tests"},{"nr":256,"parent":251,"name":"CS4090","id":37841,"children":[],"courseName":"Quantum Communication and Cryptography","ects":"5","Responsible Instructor":"S.D.C.Wehner    ,S.D.C.Wehner@tudelft.nl","Contact Hours / Week  x/x/x/x":"weekly: 3 hours lecture, 1 hour tutorial","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Linear Algebra, Probability & Statistics, Q101 (Fundamentals of quantum information)","Study Goals":"The student will acquire:�A good understanding of the fundamental concepts of quantum information theory�A good understanding of the essential tools in quantum cryptpgraphy �Insight into the differences between classical and quantum communication and cryptography�Skill set required to follow the remainder of the quantum curriculum (Q301 � Quantum hardware and Q401 � Quantum electronics)","Education Method":"Lectures and Tutorials","Literature and Study Materials":"Primary: Lecture NotesAuxilliary:Nielsen and Chuang �Quantum computation and information�, Cambridge University Press. Mark Wilde �Quantum information theory�, Cambridge University Press","Assessment":"60% Homework assignments and presentation, 40% final exam"},{"nr":257,"parent":251,"name":"CS4105","id":37844,"children":[],"courseName":"Software Security","ects":"5","Responsible Instructor":"Prof.dr.E.Visser    ,E.Visser@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/2/0/0 lecture + lab","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The student will acquire:- A good understanding of the nature of security vulnerabilities in software systems- A good understanding of principles for secure software development- A basic understanding of security testing and dynamic analysis techniques- A good understanding of static analysis techniques and language-based security","Education Method":"Lectures + lab assignments","Assessment":"The grade for the course is determined by Exam + Lab AssignmentsWritten exam in WebLab (can be done on multiple sites) and homework (programming) assignments."},{"nr":258,"parent":251,"name":"CS4110","id":37845,"children":[],"courseName":"Software Testing and Reverse Engineering","ects":"5","Responsible Instructor":"Dr.ir.S.E.Verwer    ,S.E.Verwer@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Co-instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl"},{"nr":259,"parent":251,"name":"ET4397IN","id":37657,"children":[],"courseName":"Network Security","ects":"5","Responsible Instructor":"C.Doerr    ,C.Doerr@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Required for":"IN4253ET","Study Goals":"see course contents","Education Method":"Lectures, independent project","Assessment":"Combination of essay or student project and work sheets during the term. No final written exam in week 10."},{"nr":260,"parent":251,"name":"IN4191","id":36694,"children":[],"courseName":"Security and Cryptography ","ects":"5","Responsible Instructor":"Dr.ir.J.C.A.van derLubbe    ,J.C.A.vanderLubbe@tudelft.nl","Instructor":"Z.Erkin    ,Z.Erkin@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"It is the aim that at the end of the course one has a survey of the state of the art of both cryptographic algorithms and protocols for security and privacy, as well as is familiar with present applications.","Education Method":"lectures","Literature and Study Materials":"Basic Methods of Cryptography, J.C.A. van der Lubbe, VSSD, Delft or Idem, Cambridge University Press. Handouts of lectures","Assessment":"written exam"},{"nr":261,"parent":251,"name":"IN4253ET","id":36677,"children":[],"courseName":"\"Hacking Lab\"-Applied Security Analysis","ects":"5","Responsible Instructor":"C.Doerr    ,C.Doerr@tudelft.nl , Dr.ir.J.A.Pouwelse    ,J.A.Pouwelse@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"After this course, the student will have a thorough knowledge of security in real-world systems, and will be able to explore the literature on this topic independently. The student will be aware of the poor state of security in real-world computer systems. The student can explain the common pitfalls, why these known failures still occur and reasons behind the poor state of security in general.","Education Method":"Lectures, student presentations, written final report and active participation. Attendance to lectures is mandatory.","Assessment":"The final class grade is composed of several partial grades. Partial grades are given for the written Hack Project report, final presentation of result, presentation of ongoing project progress, participation in discussions, overall quality of the practical work and class attendance. Students are required to obtain a passing grade on all partial grades.Attendance to lectures is mandatory. No final written exam. No resit will be offered of any practical work.","maximum aantal deelnemers":"If there is an unexpected high demand for this course, thenenrollment will be based on past performance in relevant courses."},{"nr":262,"parent":251,"name":"SPM5441","id":37475,"children":[],"courseName":"Cyber Risk Management","ects":"5","Module Manager":"Prof.dr.ir.J.van denBerg    ,J.vandenBerg@tudelft.nl","Instructor":"Dr.ir.W.Pieters    ,W.Pieters@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"To get knowledge, understanding and skills with respect to�Cyber risk assessment methods of (complex, multi-step) cyber incidents, possibly with cascading effects�Preventive measures that help to prevent the occurrence of cyber incidents�The fundamentals of repressive measures (detecting incidents in-time and reducing their impact)�Balancing the various human values at stake, including the balance between privacy and security, primarily from a governmental (macro-level) perspective","Education Method":"LECTURES and ASSIGNMENTS.LEARNING OUTCOMES: Students will acquire:�A sound understanding of the theoretical principles of cyber risk management�An understanding of the weaknesses and strengths of current risk management standards �Skills in applying state of the art cyber risk management methods�Insights into the cause and effects of high profile incidents�Ability to justify investments in cyber securityLANGUAGE: The course is taught in English.LECTURERS: Prof Dr Ir Jan van den Berg (TUD/EWI&TPM) and Dr Ir Wolter Pieters (TUD/TPM)","Assessment":"Grading will be based on a) the quality of delivered assignments and b) the grade for the written examination. To be made precise when the course starts."},{"nr":263,"parent":251,"name":"UT-192110940","id":37842,"children":[],"courseName":"Secure Data Management","ects":"5","Contact Hours / Week  x/x/x/x":"2/0/0/0+ assignments","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English"},{"nr":264,"parent":251,"name":"UT-192654000","id":37838,"children":[],"courseName":"Network Security","ects":"5","Contact Hours / Week  x/x/x/x":"2/0/0/0+ assignments","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English"},{"nr":265,"parent":251,"name":"UT-201100022","id":37829,"children":[],"courseName":"Cyber Crime Science","ects":"5","Contact Hours / Week  x/x/x/x":"0/0/2/0+project","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English"},{"nr":266,"parent":251,"name":"UT-201500039","id":37843,"children":[],"courseName":"Security Verification","ects":"5","Contact Hours / Week  x/x/x/x":"2/0/0/0+ assignments. Starts in 2016","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English"},{"nr":267,"parent":251,"name":"UT-201500040","id":37827,"children":[],"courseName":"Biometrics","ects":"5","Contact Hours / Week  x/x/x/x":"0/2/0/0+ project","Education Period":"2","Start Education":"2","Exam Period":"none","Course Language":"English"},{"nr":268,"parent":251,"name":"UT-201500041","id":37832,"children":[],"courseName":"Cyber Security Management","ects":"5","Contact Hours / Week  x/x/x/x":"0/2/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English"},{"nr":269,"parent":251,"name":"UT-201500042","id":37840,"children":[],"courseName":"Privacy Enhancing Technologies","ects":"5","Contact Hours / Week  x/x/x/x":"0/0/0/2+ assignments","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":270,"parent":251,"name":"UT-201500077","id":37833,"children":[],"courseName":"Embedded System and SCADA Security and Survivability","ects":"5","Contact Hours / Week  x/x/x/x":"0/2/0/0+lab+ assignments. Starts in 2016","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English"},{"nr":271,"parent":251,"name":"WM0705TU","id":37737,"children":[],"courseName":"E-law","ects":"5","Module Manager":"Mr.dr.M.M.Groothuis    ,M.M.Groothuis@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/x","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":272,"parent":251,"name":"WM0824TU","id":37738,"children":[],"courseName":"Economics of Cyber Security","ects":"5","Module Manager":"Dr.ir.C.H.G.Hernandez Ganan    ,C.H.G.HernandezGanan@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"The student will:Gain a sound understanding of the economics of cybersecurity as a systems discipline, from security policies (modelling what ought to be protected) to mechanisms (how to implement the protection goals). Obtain skills in collecting and analysing data on information security issuesGain insights into the design of effective policies to enhance and maintain cyber security must take into account a complex set of incentives facing not only the providers and users of the internet and computer software, but also those of potential attackersLearn to apply economic analysis and data analytics to the open issues and pending activities in cybersecurity.","Education Method":"Blackboard TU Delft will be used for communications and distributing study material.The course will consists of 5 weeks of intensive theory (2 hours twice per week) after which students will perform their own EconSec study.During the period in which students are working on their study there will be one half-day meeting in which students get the opportunity to discuss their experiences and possible bottle-necks with the group and instructors.One month before the report deadline, there will be a full day meeting in which students are expected to present their research and (preliminary) results to the group and instructors with the aim to generate valuable feedback for finishing their research and report. While performing their own research students will have access to a forum via which students can discuss possible bottlenecks and exchange tips. The instructors will closely monitor the discussions and join when appropriate.","Assessment":"The final grade is based on a short research proposal, a presentation and a final case study report. When a final report is graded lower than 6, students have one month to improve the report for re-submission. The maximum grade after re-submission is 6.","Enrolment / Application":"A maximum number of 20 students will participate in the course."},{"nr":273,"parent":251,"name":"WM0825TU","id":37739,"children":[],"courseName":"Ethics and Cyber Security","ects":"5","Module Manager":"M.J.van denHoven    ,M.J.vandenHoven@tudelft.nl","Instructor":"Dr.ir.W.Pieters    ,W.Pieters@tudelft.nl , Dr.M.E.Warnier    ,M.E.Warnier@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/x/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English"}]}]},{"nr":274,"parent":1,"name":"Research Groups 2015","id":16595,"children":[{"nr":275,"parent":274,"name":"Algorithmics 2015","id":16599,"children":[{"nr":276,"parent":275,"name":"CS4010","id":37825,"children":[],"courseName":"Algorithms for Planning and Scheduling","ects":"5","Responsible Instructor":"Dr.M.T.J.Spaan    ,M.T.J.Spaan@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"After completing the Algorithms for Planning and Scheduling (P&S) course, the student is able to:1. Explain general techniques used in P&S algorithms.2. Explain several specific P&S problem settings and corresponding algorithms.3. Apply P&S algorithms to problem domains, and can compare and evaluate them.4. Design and implement an extension of a P&S algorithm.5. Communicate his/her findings effectively.","Education Method":"Lectures combined with research projects in small groups.","Literature and Study Materials":"Mainly survey papers and book chapters.","Assessment":"The assessment will consist of the following items:1. Homework exercises based on the lectures2. A scientific report of the research project3. Peer review of a report4. Presentation of the research project"},{"nr":277,"parent":275,"name":"IN4026(-12)","id":36626,"children":[],"courseName":"Parallel Algorithms and Parallel Computers","ects":"6","Responsible Instructor":"Prof.dr.ir.H.J.Sips    ,H.J.Sips@tudelft.nl","Instructor":"Prof.dr.C.Witteveen    ,C.Witteveen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2Pract.","Education Period":"3,4","Start Education":"3","Exam Period":"3,4,5","Course Language":"English","Expected prior knowledge":"Some programming skills [C]","Study Goals":"The student has as outcome of the course a basic knowledge of the underlying fundamental concepts and principles of parallel algorithms for parallel computers and is able to reason about scalability and performance of parallel algorithms","Education Method":"Course lectures and lab work (30 hours)","Literature and Study Materials":"A. Grama et al, Introduction to Parallel Computing, Addison Wesley, 2003","Assessment":"Written examination in two sub exams (Part-1 and Part-2), closed book"},{"nr":278,"parent":275,"name":"IN4301","id":36664,"children":[],"courseName":"Advanced Algorithms","ects":"5","Responsible Instructor":"Prof.dr.C.Witteveen    ,C.Witteveen@tudelft.nl","Instructor":"Prof.dr.ir.K.I.Aardal    ,K.I.Aardal@tudelft.nl , Dr.M.M.deWeerdt    ,M.M.deWeerdt@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Basic courses in Algorithmics and Complexity Theory","Study Goals":"Knowledge of some advanced algorithmic techniques likekernelization techniques, general approximation techniques, and linear programming relaxation techniques.Knowledge of techniques to analyze the performance of algorithms.","Education Method":"Lectures, homework exercises, and programming assignments.","Literature and Study Materials":"Parts of the course are derived from the textbook J. Kleinberg and E. Tardos, Algorithmic Design,Pearson Education, 2006. ISBN 0-321-37291-3Supplemental study material will be provided via Blackboard.","Assessment":"Homework exercises, programming assignments and a written exam.There is a mid semester test after the first two parts of the course."},{"nr":279,"parent":275,"name":"IN4335","id":36682,"children":[],"courseName":"Seminar Algorithms: Economics and Computation","ects":"5","Responsible Instructor":"Dr.M.M.deWeerdt    ,M.M.deWeerdt@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2, seminar","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"For this course you need to be able to read scientific papers/books (e.g. you have followed the bachelor seminar course), and you need to be able to understand and analyse algorithms (e.g. followed a course on algorithm design).Also, it is preferred to have some knowledge and experience with reasoning about the computational complexity of problems (e.g. from a course on complexity theory).","Study Goals":"After completion of this course, the student has an overview of the state of the art and main challenges on the border of computer science and economics.He/she can name applications and give definitions and (dis)advantages of a number of formal models and methods for these applications.Furthermore, the student is able to prepare and give an interactive lecture on these topics based on the provided chapters, including: - defining lecture goals - making a lecture plan, and - making exam questions.","Education Method":"Student seminar; since we need to allocate topics, please register for this course on Blackboard before the course starts.","Literature and Study Materials":"A selection of chapters from the following book will be made available:David Parkes and Sven Seuken. Economics and Computation. 2015.","Assessment":"The end grade will be based on:* Quality of preparation and lecture of the chapter studied (50%). * Question answering during the seminar (10%).* Result of a final test on all chapters (40%).On Blackboard there are extensive guidelines regarding the evaluation of the lecture and its preparation."},{"nr":280,"parent":275,"name":"IN4337","id":36684,"children":[],"courseName":"Randomized Algorithms","ects":"5","Responsible Instructor":"Dr.M.T.J.Spaan    ,M.T.J.Spaan@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0 hc and 0/0/2/0 instr","Education Period":"3","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Probability, complexity theory, and calculus.","Study Goals":"After completing the Randomized Algorithms course, the student is able to1. Explain the use of and the rationale behind randomized algorithms;2. Argue and decide when a deterministic, a Las Vegas or a Monte Carlo algorithm is most appropriate to solve a problem;3. Analyze a randomized algorithm in terms of bounds on run-time performance, error probability and computational complexity;4. Implement and evaluate a randomized algorithm.","Education Method":"Lectures, home work, lab work","Literature and Study Materials":"Textbooks (details on which book will be used will be posted on Blackboard):\"Randomized Algorithms\" by R. Motwani and P. Raghavan. Cambridge University Press, 1995. ISBN 0-521-47465-5�Probability and Computing: Randomized Algorithms and Probabilistic Analysis� by M. Mitzenmacher and E. Upfal. Cambridge University Press, 2005.","Assessment":"Oral exam, assignments and lab work"}]},{"nr":281,"parent":274,"name":"Computer Graphics and Visualisation 2015","id":16600,"children":[{"nr":282,"parent":281,"name":"IN4086-14","id":34990,"children":[],"courseName":"Data Visualization","ects":"6","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl , Dr.A.Vilanova Bartroli    ,A.Vilanova@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0 + lab","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Required for":"Master course MKE","Expected prior knowledge":"IN2905-A Computer Graphics (recommended, not required)","Study Goals":"In this course, techniques and cases of data visualization are discussed: models, algorithms, and data representations for conversion of data sets into visual images, and associated interactive techniques.There are several applications for the techniques, medical, engineering, finances, economics, game analytics.After the course, the student has knowledge and understanding of a wide range of general visualization techniques, their mathematical foundations, their algorithmic form, and relevant data representations, so that (s)he can choose, adapt, and develop suitable techniques for a given practical visualization problem. Also, the student can describe practical examples and cases of visualization in several application fields.","Education Method":"Lectures, practical assignments, self-study of academic literature, projects.","Literature and Study Materials":"Course slides, instructions for projects.All available in electronic form via Blackboard.","Assessment":"The final grade is a weighted average based on up to three assignments, an exam that might contain multiple choice questions, and a visualization project. The project and assignments will be developed in couples and is evaluated based on the developed result, its documentation and presentation.","Judgement":"The grade consists of 3 elements: assignments, an exam, and a project.Main assignments (up to 3) will be checked and will represent 20% of the mark. All assignments, which are handed in late will be evaluated with a zero and impact the part of the mark that corresponds to the assignment. Additionally, an exam will be held, which will represent 30% of the mark. The exam might contain multiple-choice questions .Finally, the largest contribution is a visualization project (50%), which will be developed in couples.The project is evaluated based on the developed result, its documentation and presentation.Final Mark = 0.2 Assignments + 0.3 Exam + 0.5 ProjectThe course is passed if the final grade is 6 or higher in average.The only part that will get a resit is the exam. No resit will be provided for the project or assignments"},{"nr":283,"parent":281,"name":"IN4152","id":36692,"children":[],"courseName":"3D Computer Graphics and Animation","ects":"5","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/proj pract","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"TI2710-B, IN2905-A, IN2905-I or IN2770 Computer Graphics; students that haven't followed any of these courses might still be able to participate, but should be willing to invest some more time","Study Goals":"The course teaches computer graphics techniques on an advanced level. After the course the student is able to classify the different modeling, shading and display techniques, and can reproduce the basic mathematical and algorithmic notions associated with these concepts, can comment on the weak and strong points of these techniques, and can apply the concepts within a graphics program.","Education Method":"research, lab work","Literature and Study Materials":"Research Papers in domain of selected topics, Lecture sheets","Books":"Real-time Rendering by Tomas Akenine-M�ller, Eric Haines, Naty Hoffman - Peters, Wellesley Real-Time Shadows by Elmar Eisemann, Michael Schwarz, Ulf Assarsson, Michael Wimmer - Taylor & Francis Computer Graphics. Principles and Practice by James D. Foley, Andries VanDam, Steven K. Feiner - Addison Wesley OpenGL Programming Guide: The Official Guide to Learning OpenGL, Versions 3.0 and 3.1 by Dave Shreiner - Addison Wesley -AVAILABLE AS DOWNLOAD FOR FREE SEARCH FOR \"RED BOOK OpenGL\"","Assessment":"Some of the practical assignments might be checked and not passing might lead to a penalty on the final grade.The final project, paper presentation (including an individual oral evaluation covering the course content) will be graded. The oral exam might be replaced by a multiple choice evaluation."},{"nr":284,"parent":281,"name":"IN4255","id":36691,"children":[],"courseName":"Geometric Modeling","ects":"5","Responsible Instructor":"Dr.K.A.Hildebrandt    ,K.A.Hildebrandt@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"In this course, the participants will get an overview of concepts and techniques used in geometry processing and learn how to use them for solving specific problems in this area. In addition, the students collect experience in implementing algorithms for processing digital geometry.","Education Method":"The course will combine lectures, tutorials, practical project work, and (ungraded) homework assignments.","Assessment":"To pass the course, the practical projects need to be completed successfully and a final exam must be passed. The homework assignments help with preparing for the exam. The final grade will be based on thegrade of the final exam and the grade of the project work."},{"nr":285,"parent":281,"name":"IN4302TU","id":35166,"children":[],"courseName":"Building Serious Games","ects":"5","Responsible Instructor":"Dr.ir.A.R.Bidarra    ,R.Bidarra@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"Different, to be announced","Course Language":"English","Expected prior knowledge":"For TI students: programming experience with some object-oriented language; experience with graphics, AI and/or some game engine(s) is a plus.For all students: though not compulsory, it may be convenient to have followed the course SPM9235 (Game design project), which is taught in the first quarter.","Study Goals":"At the end of the project, the student will demonstrate proficiency in the following aspects:o identifying and valuing the soft skills necessary to work in interdisciplinary teamso interacting within a team, integrating its members' varying talents and expertiseo adapting with flexibility to the dynamic requirements of a complex external assignmento translating feedback received into proactive personal development stepsAdditionally, the CS student will demonstrate proficiency in the following specific aspects:o identify, select and deploy the most adequate game technologies for a given serious game applicationo deepening programming skills while building a complex and large software system in an agile context","Education Method":"ProjectAlso a few plenary sessions and/or lectures","Assessment":"Project assessment will be based on a combination of a product grade (unique for the whole group), a process grade (individual) and peer evaluation.The end-user will be involved both as advisor and as assessor."},{"nr":286,"parent":281,"name":"IN4307","id":36622,"children":[],"courseName":"Medical Visualization","ects":"5","Responsible Instructor":"Dr.A.Vilanova Bartroli    ,A.Vilanova@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0 + final project 2th quarter (8x2)","Education Period":"1","Start Education":"1","Exam Period":"Different, to be announced","Course Language":"English","Study Goals":"At the end of the course, the students should be able to understand, and judge the advantages and disadvantages of the medical visualization algorithms, as well as their applicability to a specific medical problem. The students should be able to propose suitable solutions to a problem, backed by sound knowledge of the underlying theory and the practical possibilities.They should be able to design, implement, test and discuss these solutions, consisting of a number of medical visualization algorithms.","Education Method":"The course will be based on a combination of lectures and practical assignments.","Assessment":"The evaluation will be based on a final project (60%) and an oral exam (40%). The final project will be done during the 2nd quarter.The deliverables for the final project will be a report (paper), the results (e.g., code) and a presentation. There will be a day in the second quarter were all projects will be presented.The oral exam will be arranged at the end of the first quarter.Both Assignment (60 %) and oral exam (40%) have to get the mark of pass to successfully pass the course."}]},{"nr":287,"parent":274,"name":"Cyber Security 2015","id":16620,"children":[{"nr":288,"parent":287,"name":"CS4090","id":37841,"children":[],"courseName":"Quantum Communication and Cryptography","ects":"5","Responsible Instructor":"S.D.C.Wehner    ,S.D.C.Wehner@tudelft.nl","Contact Hours / Week  x/x/x/x":"weekly: 3 hours lecture, 1 hour tutorial","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Linear Algebra, Probability & Statistics, Q101 (Fundamentals of quantum information)","Study Goals":"The student will acquire:�A good understanding of the fundamental concepts of quantum information theory�A good understanding of the essential tools in quantum cryptpgraphy �Insight into the differences between classical and quantum communication and cryptography�Skill set required to follow the remainder of the quantum curriculum (Q301 � Quantum hardware and Q401 � Quantum electronics)","Education Method":"Lectures and Tutorials","Literature and Study Materials":"Primary: Lecture NotesAuxilliary:Nielsen and Chuang �Quantum computation and information�, Cambridge University Press. Mark Wilde �Quantum information theory�, Cambridge University Press","Assessment":"60% Homework assignments and presentation, 40% final exam"},{"nr":289,"parent":287,"name":"ET4397IN","id":37657,"children":[],"courseName":"Network Security","ects":"5","Responsible Instructor":"C.Doerr    ,C.Doerr@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Required for":"IN4253ET","Study Goals":"see course contents","Education Method":"Lectures, independent project","Assessment":"Combination of essay or student project and work sheets during the term. No final written exam in week 10."},{"nr":290,"parent":287,"name":"IN4191","id":36694,"children":[],"courseName":"Security and Cryptography ","ects":"5","Responsible Instructor":"Dr.ir.J.C.A.van derLubbe    ,J.C.A.vanderLubbe@tudelft.nl","Instructor":"Z.Erkin    ,Z.Erkin@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"It is the aim that at the end of the course one has a survey of the state of the art of both cryptographic algorithms and protocols for security and privacy, as well as is familiar with present applications.","Education Method":"lectures","Literature and Study Materials":"Basic Methods of Cryptography, J.C.A. van der Lubbe, VSSD, Delft or Idem, Cambridge University Press. Handouts of lectures","Assessment":"written exam"},{"nr":291,"parent":287,"name":"IN4253ET","id":36677,"children":[],"courseName":"\"Hacking Lab\"-Applied Security Analysis","ects":"5","Responsible Instructor":"C.Doerr    ,C.Doerr@tudelft.nl , Dr.ir.J.A.Pouwelse    ,J.A.Pouwelse@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"After this course, the student will have a thorough knowledge of security in real-world systems, and will be able to explore the literature on this topic independently. The student will be aware of the poor state of security in real-world computer systems. The student can explain the common pitfalls, why these known failures still occur and reasons behind the poor state of security in general.","Education Method":"Lectures, student presentations, written final report and active participation. Attendance to lectures is mandatory.","Assessment":"The final class grade is composed of several partial grades. Partial grades are given for the written Hack Project report, final presentation of result, presentation of ongoing project progress, participation in discussions, overall quality of the practical work and class attendance. Students are required to obtain a passing grade on all partial grades.Attendance to lectures is mandatory. No final written exam. No resit will be offered of any practical work.","maximum aantal deelnemers":"If there is an unexpected high demand for this course, thenenrollment will be based on past performance in relevant courses."},{"nr":292,"parent":287,"name":"UT-201100022","id":37829,"children":[],"courseName":"Cyber Crime Science","ects":"5","Contact Hours / Week  x/x/x/x":"0/0/2/0+project","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English"}]},{"nr":293,"parent":274,"name":"Embedded Software 2015","id":16601,"children":[{"nr":294,"parent":293,"name":"ET4388","id":37622,"children":[],"courseName":"Ad-hoc Networks","ects":"5","Responsible Instructor":"R.R.Venkatesha Prasad    ,R.R.VenkateshaPrasad@tudelft.nl","Contact Hours / Week  x/x/x/x":"3/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Expected prior knowledge":"Wireless communications andnetworkingComputer communication principles, Layering principle of Computer Networks.Digital communication.","Study Goals":"By the end of this course students should be able to:- Model the ad-hoc networks using Graphs.- Describe the working principles of medium access control protocols for ad-hoc networks- Explain the working principles, advantages and disadvantages of different classes of routing protocols for ad-hoc networks- Choose various components to form a coherent ad hoc networking architecture- Develop a simulator to evaluate the MAC and routing protocols for ad hoc networks- Assess the suitability of ad-hoc networks for different communication needs and scenarios","Education Method":"The course will be taught in lecture form. The presence of students at all lectures is required for optimum result. Students are required to participate actively in various forms of activities and peer-learning. New forms of teaching aids are used.","Literature and Study Materials":"1. Textbook: Ad Hoc Wireless Networks, Architectures and Protocols by C. Siva Ram Murthy and B.S.Manoj, Prentice-Hall Pearson, 2004.2. Lecture notes consisting of slides presented at the lectures (Slides are only teaching aid and they are not substitute for textbooks, research papers, etc).3. Some recent journal papers 4. Optional Reference Books 4.1. Distributed Algorithms, Nancy A. Lynch, Morgan Kaufmann, 1996 (for networking algorithms)4.2. Ad Hoc Mobile Wireless Networks, Principles, Protocols and Applications by Subir Kumar Sarkar , C Puttamadappa , and T. G Basavaraju, Auerbach Publications, 2008. This book is avaliable online in the library.4.3. Wireless Ad Hoc and Sensor Networks, A Cross-Layer Design Perspective� by Jurdak, Raja, Springer, 2007. This book is avaliable online in the library.4.4. Ad-hoc Networks: Fundamental Properties and Network Topologies, by Ramin Hekmat, Springer. 5. OPNET/ns-2 web pages, tutorials and video lectures","Books":"Ad Hoc Wireless Networks, Architectures and Protocols by C. Siva Ram Murthy and B.S.Manoj, Prentice-Hall Pearson, 2004.","Assessment":"1. There will be written tests/examinations for this course. 2. The students will carry out a project in a group and submit a short report.3. Participation in off-track discussions on Facebook/Blackboard/FeedbackFruits and wikis.","Permitted Materials during Tests":"Different conditions for different test/exams.Conditions will be informed 1 week before the exams/test."},{"nr":295,"parent":293,"name":"ET4394","id":37651,"children":[],"courseName":"Wireless Networking","ects":"5","Responsible Instructor":"Dr.P.Pawelczak    ,P.Pawelczak@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"Students at the end of the course will be able to: (i) employ their own analysis methodology of wireless network systems based on mathematical tools and simulations; (ii) identify and classify modern wireless networking standards; (iii) explain the differences between wireless systems that have specific applications in mind; (iv) will be able to design a conceptual model for future wireless networking systems","Education Method":"Lecture presentations; project assignment and analysis; assigned paper reading, its critical analysis and presentation","Assessment":"Max. of two project assessment over the lecture course based on wireless network simulator (presumably NS-2/NS-3); mini-presentations at the end of a course dealing with a state-of-the-art wireless technology (research paper analysis from conferences such as IEEE INFOCOM, ACM MobiCom), final written, closed-book exam"},{"nr":296,"parent":293,"name":"IN4073TU","id":35723,"children":[],"courseName":"Embedded Real-Time Systems","ects":"6","Responsible Instructor":"Prof.dr.K.G.Langendoen    ,K.G.Langendoen@tudelft.nl","Contact Hours / Week  x/x/x/x":"Q5 4/0/0/0 & lab. not in 2014 2015","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"MUST have C programming skills as, for example, obtained by taking the TI2726-B Emb. Software course","Study Goals":"Student is acquainted with real-time programming in an embedded context, along with a basic understanding of embedded systems, real-time communication, sensor data processing, actuator control, control theory, and simulation. Moreover, the student has had exposure to integrating the various multidisciplinary aspects at the system level.","Education Method":"Lectures, lab work","Literature and Study Materials":"Web","Assessment":"Lab. project (120 hours) + written report"},{"nr":297,"parent":293,"name":"IN4254","id":36678,"children":[],"courseName":"Smart Phone Sensing","ects":"5","Responsible Instructor":"M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2 & lab","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Requirement 1: Students MUST either(1.1) have passed a JAVA programming course, or(1.2) have passed a C/C++ programming course and be familiar with JAVA, or(1.3) know Objective C (programming language for MACs)This requirement is equivalent to having passed the course TI 1206 in our first year Bachelor curriculum \"Object Oriented Programming\"Requirement 2: Students MUST(2.1) have passed a basic course on Probability Theory. This requirement is equivalent to having passed the course TI 2216M in our second year Bachelor curriculum \"Probability and Statistics\". We will be refreshing some concepts on Probability, but we will not be refreshing concepts on Object Oriented Programming.","Study Goals":"The goals of this course are twofold. First, to expose students to the increasingly important area of mobile computing. Students will learn how mobile phones can be used to solve problems in areas ranging from health care and indoor localization to song recognition and traffic management. Second, to provide students with a basic set of tools to develop their own applications. For students aiming for industry, the course should enhance their ability to use theoretical tools to solve practical problems. For students involved on research activities, the course will provide them with the necessary background to use smartphones as a distributed sensing and processing unit that could be used to solve the particular problems in their areas.","Education Method":"Lectures","Literature and Study Materials":"Web","Assessment":"Written reports + project presentation + oral exam"},{"nr":298,"parent":293,"name":"IN4343","id":35642,"children":[],"courseName":"Real-time Systems","ects":"5","Responsible Instructor":"Prof.dr.K.G.Langendoen    ,K.G.Langendoen@tudelft.nl , M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0 and 0/0/4/0 lab","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Required for":"3TU MSc Embedded Systems; the corresponding courses are 2IN26 at TU Eindhoven, and 312030 at TU Twente","Expected prior knowledge":"Basic software engineering, C system programming, basic Linux operating system knowledge","Study Goals":"The objective of this course is to bring students into the position to analyse real-time systems with respect to meeting timing constraints. It is intended to bring the student into the position to - explain and apply the fundamental concepts and terminology of real-time systems - explain and apply various scheduling policies- analyse real-time systems in a practical context","Education Method":"lectures with exercises; self study; lab assignments","Books":"Hard Real-Time Computing Systems by G.C. Buttazzo, Springer 2005","Assessment":"Written exam (grade) + lab work (pass/fail)"},{"nr":299,"parent":293,"name":"IN4387","id":35644,"children":[],"courseName":"System Validation ","ects":"5","Responsible Instructor":"J.J.A.Keiren    ,J.J.A.Keiren@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"Embedded Systems Masters","Parts":"Introduction to Behavioural SpecificationBehavioural Equivalences (Strong and Weak)Abstract Data TypesSequential and Parallel ProcessesModal mu-CalculusConfluence","Study Goals":"Upon completion of the course:1. The student knows the fundamental theory necessary for specifying the behaviour of embedded systems and for reasoning about this behaviour.2. The student can describe simple systems using this theory.3. The student can formally specify requirements and prove (or disprove) them on the behaviour.4. The student is able to model a concrete embedded system,and verify that it satisfies its requirements.","Education Method":"Lectures + Practical ProjectThe lectures are held in the first quarter after which a written exam (on the theory treated in the lectures) is taken. Parallel to the theory part,a practical project is done. The project is carried out in groups of (about) 4 students and the result is a verified model of an embedded system together with a comprehensive report on the steps towards to the model.","Literature and Study Materials":"J.F. Groote and M.R. Mousavi. Modeling and Analysis of CommunicatingSystems. MIT Press, 2014. ISBN: 9780262027717 (Chapters 1-7,11 are mandatory)","Assessment":"The result of this course will be based upon the results of the written examination (50%) and the practical project (50%). For both the written examination and the practical project a minimum of 5.0 is required in order to pass the course.","Enrolment / Application":"Blackboard"},{"nr":300,"parent":293,"name":"IN4390","id":35645,"children":[],"courseName":"Quantitative Evaluation of Embedded Systems","ects":"5","Responsible Instructor":"M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"At the end of the course, the student has a good overview over the specific formalisms that are used when quantitative aspects like time, probability and resource usage play a role in the analysis of system behavior. The student knows how to use these formalisms and what their limitations are. In particular, the student has detailed knowledge of the relevant state-automata and event-graphs, the relevant transition-system based and order based semantics, and the process equivalences and verification-techniques for logics in this area. Also, the student has gained experience with the gathering of quantitative data and the use of several analysis tools for verification and validation of formal models based on such data.","Education Method":"Lectures + Hands-on Sessions","Assessment":"Written exam + practicals"},{"nr":301,"parent":293,"name":"IN4398","id":36635,"children":[],"courseName":"Internet of Things seminar","ects":"5","Responsible Instructor":"Dr.P.Pawelczak    ,P.Pawelczak@tudelft.nl","Instructor":"R.R.Venkatesha Prasad    ,R.R.VenkateshaPrasad@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"fundamental understanding of wireless communications, familiarity with wireless communications and embedded systems; knowledge of Python/C++/Matlab is a plus.","Parts":"Each seminar: 2x 45 minutes (2 parts) + 10 minute break","Study Goals":"To be able to design components of Internet of Things. To be able to criticize and assess system-level components of the Internet of Things environment discussed in the scientific literature.","Education Method":"Seminar will be composed of (i) lecture presentation on a given research paper presented by an individual student and (ii) work on an associated research project. Students will be provided with a list of projects and articles that will be assigned to them. Mini-project will be summarized in the form of a written report (report must include critical analysis of the paper assigned). Within a project any hardware/software platform is allowed to be used. Assigned paper needs to be critically evaluated and a proposal to extend the assigned paper will need to be presented in a form of a presentation. Paper extension should focus on a system level idea, no deep evaluation will be necessary.","Assessment":"Part 1: assessment based on presentation quality, Part 2: a report describing the outcome of the assigned project. Part 1: 0.35 of the whole mark; Part 2: 0.65 of the whole mark. In the assessment, a focus on the practicality and entrepreneurial aspect of the idea will be prevailing.","maximum aantal deelnemers":"18-20 students, which translates to max of 10 groups (in case of odd number one group composed of 3 students)."}]},{"nr":302,"parent":274,"name":"Interactive Intelligence 2015","id":16602,"children":[{"nr":303,"parent":302,"name":"CS4015","id":37826,"children":[],"courseName":"Behaviour Change Support Systems","ects":"5","Responsible Instructor":"Dr.ir.W.P.Brinkman    ,W.P.Brinkman@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The course allows students to achieve understanding of principles, concepts and theories underlying BCCS systems and methods for designing them.","Education Method":"In the lectures, theories, principles and methods are presented and discussed. Students will work in small groups on their own design for a BCCS. The students will present these ideas during the lectures to complement the theoretical part presented in the lectures.","Literature and Study Materials":"Will be announced on blackboard","Books":"Wendel, S. (2013). Designing for Behavior Change: Applying Psychology and Behavioral Economics. \" O'Reilly Media, Inc.\".","Assessment":"The module is assessed by coursework and an exam as follows:(60%) Written Exam (40%) Coursework Project (resulting in a reportThis will be combined into a single mark. To pass the module, students need to pass both the exam and coursework part."},{"nr":304,"parent":302,"name":"IN4010(-12)","id":34988,"children":[],"courseName":"Artificial Intelligence Techniques","ects":"6","Responsible Instructor":"Dr.K.V.Hindriks    ,K.V.Hindriks@tudelft.nl , Prof.dr.C.M.Jonker    ,C.M.Jonker@tudelft.nl","Assistent":"C.G.Rozemuller    ,C.G.Rozemuller@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0 college1/1/0/0 instructiePract.","Education Period":"1,2","Start Education":"1","Exam Period":"1,2,3","Course Language":"English","Expected prior knowledge":"Computer science experience and knowledge at Bachelor level or similar, including in particular knowledge of algorithms (e.g. search algorithms), logic (TI1305), and probability theory (TW2215TI).","Study Goals":"After successful completion of the course:- Students have a general overview of artificial intelligence- Students are able to apply various artificial intelligence techniques- Students are able to model knowledge and preferences and using knowledge representation languages.- Students are able to design and implement intelligent agents for complex decision making problems.","Education Method":"Lectures, tutorials, lab work","Literature and Study Materials":"Stuart J. Russel and Peter Norvig (2010). Artificial Intelligence: A Modern Approach. 3rd Edition. Prentice-Hall. ISBN-13: 978-0-13-604259-4 + additional handouts.","Assessment":"Written exam and practical assignments.","Remarks":"40 hrs of lab work"},{"nr":305,"parent":302,"name":"IN4179","id":36703,"children":[],"courseName":"Intelligent User Experience Engineering","ects":"6","Responsible Instructor":"Prof.dr.M.A.Neerincx    ,M.A.Neerincx@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"The main aim is to achieve an understanding and practical experience of key principles, methods and theories in the area of intelligent user experience engineering. The module provides opportunities for students to develop and demonstrate knowledge and understanding, qualities, skills and other attributes in the following areas:1. Knowledge of a basic, coherent approach for developing software technology in such a way that the users can accomplish their goals effectively and efficiently, and with a high level of satisfaction.2. Knowledge of recent theories and methods for improving human-technology collaboration with intelligent adaptive agents (ePartners), and of research approaches to enhance the theoretical and empirical foundation of such collaboration.3. Acquaintance with a situated cognitive engineering methodology for developing mutual human-automation empowerment in specific domains (e.g., for chronically ill or first responders). 4. Practical experience in an iterative human-centred development process, i.e. the application of theories and methods for the generation and testing of intelligent user interfaces. This process comprises the generation of a design with its rationale, and user experience testing with complementary data-analyses. The application domain is personalized music for improving the social, cognitive and affective conditions of older adults with dementia.","Education Method":"In the lectures, theories, models and methods are being presented and discussed from scientific literature. During a part of these lectures, student groups have to prepare presentations and discussions, addressing science and engineering issues. In the project, these groups will get practical experience in applying user-interface design and testing methods. They have to plan, execute, present and report a complete cognitive engineering process for a specific design question (i.e., a music application for older adults with dementia). The students will use the situated Cognitive Engineering Tool (sCET) to specify the design (incl. the trade-offs and choices).","Literature and Study Materials":"Papers from scientific journals on Blackboard.Lecture notes on Blackboard.","Assessment":"The module is assessed by coursework and an exam as follows:1. Exam of the theory (oral examination on topics presented in the reading material and discussed in the lectures; 50%)2. Project (the presentations and final report; 50%)PROJECTThe project will be in the area of socio-cognitive support forpersons who have to cope withcritical, demanding situations. The current topic is the development of a music application for persons with dementia, their caregivers, friends and family. Students work in small groups to (re)design and evaluate such support. They will apply the cognitive theories in a scenario-based development process by claim analyses. Interim results will be regularly presented during the lecture (in total 5 presentations will be given in so-called �milestones�). At the end, each team will present and discuss the evaluation results.","Exam Hours":"Individual oral exam.","Enrolment / Application":"Blackboard"},{"nr":306,"parent":302,"name":"IN4188","id":36702,"children":[],"courseName":"Seminar Affective Computing","ects":"5","Responsible Instructor":"Dr.ir.D.J.Broekens    ,D.J.Broekens@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0 + project","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Intermediate-level programming skills in one of the following languages: C(++)/Java/Flash script/Python/Processing (or related language).Completion of a course on human computer interaction or related topic.Knowledge of Artificial Intelligence.In doubt: contact lecturer!","Study Goals":"Position the field of affective computing in computer science and psychology, and identify its major goals and angles of study.Define and explain emotion and affect.Relate emotion and affect to psychological theories of emotion.Explain major affect recognition, affect simulation and affect expression techniques. Explain how they are used in technological artifacts.Identify and evaluate implications and assumptions of a theoretical framework for affective system development.Develop in collaboration with others an affective system, and together evaluate the resulting system using the theoretical affective framework(s).","Education Method":"Seminar/Project form:Seminar:2 hours of lectures per week.Self-study of papers.The papers will be made available at the start of the course.Project:Perform a piece of research (survey, research question, programming, testing) and write a paper about it. Students will work in teams of about 3-4 persons!The different teams will probably have research projects that relate to the projects of other teams. As such, active participation is a must! Others depend on you work.","Literature and Study Materials":"papers and course slides. The papers will be made available at the start of the course.Depending on the cost, this year a book will be used. If that is the case, students will be notified at least 1 month in advance through blackboard.","Books":"Material consists of papers and course slides. The papers will be made available at the start of the course.Depending on the cost, this year a book will be used. If that is the case, students will be notified at least 1 month in advance through blackboard.","Assessment":"Project work (50%): paper, presentation, review of the paper of another group.Theoretical lectures (50%): mini exams, each lecture starts with a min exam on the material discussed in the previous lecture.Project and theoretical work will be averaged. This is your only official final grade. No separate project / theoretical grades will be administrated in OSIRIS.No final exam.","Enrolment / Application":"Mandatory (!) and in advance through blackboard or email.","maximum aantal deelnemers":"16"},{"nr":307,"parent":302,"name":"IN4304","id":36687,"children":[],"courseName":"Empirical Research Methods","ects":"5","Responsible Instructor":"Dr.ir.W.P.Brinkman    ,W.P.Brinkman@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"4,5","Course Language":"English","Study Goals":"MAIN AIMS OF THE MODULETo achieve understanding of empirical research methods and obtain practical experience with quantitative data analysis methods. LEARNING OUTCOMES FOR THE MODULEIn providing the opportunity for students to develop and demonstrate understanding, knowledge and competence, the learning outcomes for the module are that students will be able to:1. Recognise and begin to utilise appropriate strategies for carrying out empirical research for answering research questions2. Appreciate how empirical research is conducted and findings can be evaluated 3. Understand key principles underlying statistical data analysis 4. Develop and apply appropriate research strategy and measure instruments5. Successfully use statistical software tools to analyse data","Education Method":"In the lectures, theories, principles and methods are presented and discussed. During the lectures class-demonstrations will be given on how statistical application such as SPSS or Rcan be used to analyse empirical data. In the practicum students work in small groups (2 to 3 students) on assignments and discuss them with an instructor. The instructors will also provide practical guidance on the use of SPSS and R.","Literature and Study Materials":"Will be announced on blackboard","Books":"Robson, C., (2002) Real world research: A resource for social scientists and practitioner-researchers (2nd or 3rd ed). Malden: MA, Blackwell.","Assessment":"The module is assessed by coursework and an exam as follows:(70%) Written Exam (30%) Coursework Project (resulting in a report)"},{"nr":308,"parent":302,"name":"IN4354","id":36701,"children":[],"courseName":"Seminar Human-Agent/Robot Teamwork","ects":"5","Responsible Instructor":"Dr.M.B.vanRiemsdijk    ,M.B.vanRiemsdijk@tudelft.nl","Instructor":"M.Harbers    ,M.Harbers@tudelft.nl","Contact Hours / Week  x/x/x/x":"This course is cancelled due to circumstances","Education Period":"1","Start Education":"1","Exam Period":"1","Course Language":"English","Expected prior knowledge":"IN4010 (Artificial Intelligence Techniques) is recommended, otherwise at least knowledge of Java","Study Goals":"After succesful completion of the course, students can:- analyze a scientific paper - present a scientific paper- explain key notions of HART frameworks- analyze similarities and differences between HART frameworks- develope (parts of) an intelligent system that cooperates with humans- relate the developed intelligent system to the HART theory- evaluate to what extent the theory supports the development of systems for HART","Education Method":"Lectures, seminar, practical assignment","Computer Use":"Students are expected to use their own computers for the practical assignment.","Literature and Study Materials":"Each year, a new selection of important papers will be made. See Blackboard for the current selection.","Assessment":"- quality of presentation- quality of report (including description of the developed system)- participation"}]},{"nr":309,"parent":274,"name":"Multimedia Computing 2015","id":16603,"children":[{"nr":310,"parent":309,"name":"CS4065","id":37836,"children":[],"courseName":"Multimedia Search and Recommendation","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , C.C.S.Liem    ,C.C.S.Liem@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4+lab","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Study Goals":"Students will be able to�explain the concept of �multimedia�;�explain the principles underlying basic multimedia search engines;�explain the functioning of basic multimedia recommender systems;�describe and implement common representations of multimedia content;�describe and implement common ranking mechanisms for multimedia search;�describe and implement common recommender system techniques;�describe and implement common social media analytics techniques for multimedia search and recommendation;�interpret current academic literature in the field of multimedia search and recommendation;�identify strengths and weaknesses of state-of-the-art multimedia search and recommendation functionalities;�identify challenges belonging to the development of multimedia search and recommendation functionalities;�identify evaluation criteria for multimedia search engines and recommender systems;�explain the difference between topical relevance and utility in multimedia search and recommendation.In addition to the core goals, students choosing the MMSR Analytics specialization will be able to:�describe and implement cross-disciplinary approaches to multimedia search and recommendation;�propose and justify a vision on near-future improvement opportunities for a selected state-of-the-art multimedia search and/or recommendation analytics technique.In addition to the core goals, students choosing the MMSR Systems specialization will be able to:�describe and implement practical solutions to deal with real-world multimedia search and/or recommendation; �develop a practical implementation based on an academic description of a selected state-of-the-art multimedia search and/or recommendation technique and assess it against a baseline on a real-world dataset.","Education Method":"lectures, lab course, individual research or development assignment","Literature and Study Materials":"Will be handed out by lecturers during the course","Assessment":"Written exams (30% + 30%):�Written partial exam over MMSR core topics (week 3, 30%);�Written partial exam over chosen MMSR specialization (week 9, 30%).For the resit, each MMSR specialization will offer one resit exam, covering the material of the two partial exams described above (60%). Individual assignment for chosen MMSR specialization (week 11, 40%):�For MMSR Analytics: research proposal on an emerging topic in MMSR;�For MMSR Systems: implementation of a state-of-the art MMSR research paper.","Special Information":"Please see the Blackboard pages of this course for further information about course organization and suggested prerequisite knowledge.","Judgement":"Partial exam on MMSR core (30%)Partial exam on MMSR specialization (30%)(Or resit on MMSR core & specialization in one exam (60%))Individual assignment (40%)"},{"nr":311,"parent":309,"name":"ET4389","id":36679,"children":[],"courseName":"Complex Networks from Nature to Man-made Networks","ects":"4","Responsible Instructor":"H.Wang    ,H.Wang@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"EE variant:After this course, students could represent/abstract a complex system such as a brain or a communication system as a complex network, understand the basic methods to analyze properties of networks and dynamic processes on the networks, design robust networks against e.g. failures and epidemics and be able to apply them to real-world complex systems. CS variant: After this course, students could construct the network based on the dataset, characterize and model the network, model the data via e.g. dynamic processes (e.g. viral information spreading) on networks, in order to possibly predicate the future e.g. the popularity of a product, news, or a social network and the prevalence of a disease/computer virus.Both variants: Students could obtain an overview of the Msc/Phd projects on the frontiers of complex networks and networked data analysis.","Education Method":"In total, there will be 7 lectures where one lecture is given by a guest lecturer on the applications in one specific domain e.g. economy, social networks and the brain.","Assessment":"Assessment is based on both homework assignments and the exam (or project).The homework requires basic programming (in e.g matlab or C)"},{"nr":312,"parent":309,"name":"IN4015","id":36704,"children":[],"courseName":"Neural Networks","ects":"6","Responsible Instructor":"Dr.J.A.Redi    ,J.A.Redi@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2Pract.","Education Period":"3,4","Start Education":"3","Exam Period":"4,5","Course Language":"English","Expected prior knowledge":"A basic knowledge of pattern recogntion and AI techniques is useful but not required. Basic programming skills are also useful.","Study Goals":"Upon successful completion of the course, students will be able to:[LO1].Describe the different bio-inspired techniques reviewed in the course, such as Neural Networks, Genetic Algorithms, or Learning classifiers.[LO2].Research literature concerning one of the above techniques, summarize it and report it to their peers (e.g., by means of a power-point presentation or a demonstration)[LO3].Debate upon positive and negative aspects of the techniques mentioned above[LO4].Implement one or more of the above mentioned techniques in a computer language (e.g. Java, C, C++, Html, Matlab scripts�)[LO5].Determine which technique(s) is most appropriate for being used in a certain problem domain, for example learning algorithms for robot navigation in unknown environments[LO6].Apply the appropriate technique to a (simple) problem domain (e.g., simulation of robot navigation in a simple maze)","Education Method":"Seminar (including some lectures) and lab work.","Literature and Study Materials":"Research papers that will be available through Blackboard.","Assessment":"1. Presentation: during the lectures everyone presents one of the topics in the course.2. Group assignment: you experiment with one or more of the discussed techniques in a (simulated) robotics platform and write a research report on you findings."},{"nr":313,"parent":309,"name":"IN4144","id":36695,"children":[],"courseName":"Scalable Data Management for Data Science","ects":"4","Responsible Instructor":"Prof.dr.ir.A.P.deVries    ,A.P.deVries@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2Pract.","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Study Goals":"The course has three goals:1. Theory: Database technology has been successful for administrative data because it offers a balance between flexibility and efficiency. The course investigates how the fundamentals of database technology can be applied also to create support platforms for heterogeneous multimedia dataspaces.2. Learn to work with research papers (and recognize their limitations).3. Gain practical \"engineering\" skills when turning research ideas into a prototype implementation.","Education Method":"Lectures, lab work.","Literature and Study Materials":"Reader (made available online).","Assessment":"Paper presentation, participation in class, project assignment.","Remarks":"The course is organized as follows. Each student organizes one of the classes, in which a research paper on the topics related to class is discussed. During the course period, students develop a prototype that illustrates one or more aspects of multimedia search and its implications on data management. Assessment is based on class participation, the quality of the presentation of the research paper treated, and a short report and demonstration of the prototype work performed."},{"nr":314,"parent":309,"name":"IN4309","id":36688,"children":[],"courseName":"Random Signal Processing","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"1,2,3","Course Language":"English","Expected prior knowledge":"This course builds heavily on Probability and Statistics, Mathematics (especially integration and differentiation), Signal Processing and Transformations (especially linear systems and signals, Fourier analysis).","Study Goals":"1. Probability Theory- Conditional) probabilities, the law of total probability, and Bayes� rule.- Solve probability problems that require the use of axioms of probability.2. Definition and Description of Random Variables and ProcessesPDF, PMF, CDF, Covariance, Correlation- Determine if a given PDF, PMF, CDF, variance, (auto/cross-)correlation(-function), (auto/cross-)covariance(-function), power spectral density complies with (theoretical and analytical) requirements. - Convert the description of a probabilistic problem into a probabilistic model using PDF, PMF, or CDF.3. PDF/PMF and Expected ValueCalculate the various forms of expected value of (combinations of) random variables and random processes- For a given (amplitude continuous/discrete and time continuous/discrete) probability model calculate the following probabilistic (marginal, joint and conditional) characterizations: PDF, PMF, CDF, probability of an event, expected value, variance, covariance, correlation, correlation coefficient, auto/crosscorrelation function, auto/crosscovariance function, (cross) power spectral density.- Calculate the PDF, PMF, expected value and variance of a derived random variable.4. Properties of Random Processes- Independence, orthogonality, uncorrelated, whiteness, IID- Determine if random variables/processes have the following properties: independent, orthogonal, uncorrelated, white, Poisson, Gaussian, Bernoulli, Markov, IID, stationary, WSS, ergodic.- Calculate the expected value, variance, auto/crosscorrelation(function), auto/crosscovariance(function), power spectral density of a linear combination of random variables and of a linearly filtered (WSS, amplitude discrete/continuous, time discrete/continuous) random process.5. Large NumbersCentral limit theorem, law of large numbers- Solve problems that require the use of the central limit theorem in an engineering context- Explain the law of the large numbers in an engineering context.6. Statistical Estimators- Estimated mean, variance, and correlation function- Given a set of outcomes, sample functions or realizations, calculate estimators for expected value, variance, and (auto-)correlation function.7. Application to Engineering Problems and Simulations- Select and translate a simple electrical engineering or computer science problem into mathematical probability model. The emphasis is on problems in signal and image processing, telecommunication, and media and knowledge technology. The class of probability models encompasses the following random variables/processes: Bernoulli, exponential, binomial, Poisson, Gaussian, uniform.- Justify and reflect on the approach taken in calculating or simulating (MatLab) the following probabilistic properties: PDF, PMF, expected value, variance, autocorrelation function, autocovariance function.8. Signals and Systems- Signal representation, linear time invariant (LTI) systems, impulse response, convolution, causality, difference equations, recursive and non-recursive systems, stability.9. Z-transform- Properties of Z-transform, region of convergence, rational transfer functions, inverse Z-transform, system analysis in the Z-domain, poles, zeros, stability.10. Fourier Transforms- Fourier series, continuous-time Fourier transform, discrete-time Fourier transform, discrete Fourier transform, Fast Fourier transform (FFT), properties of Fourier transforms, frequency-domain characterization of LTI sytems.11. Sampling and Reconstruction of Signals- sampling theorem, sampling frequency, aliasing, folding, interpolation, D/A and A/D conversion.","Education Method":"Lectures, working groups (problem solving), laboratory work (Matlab exercises)","Literature and Study Materials":"J.G. Proakis/D.G. Manolakis, Digital Signal Processing: Principles, Algorithms and Applications, 4th Edition, Prentice Hall 2007, 1084 pp., ISBN 0-13-187374-1. R.D. Yates and D.J. Goodman, \"Probability and Stochastic Processes: A Friendly Introduction for Electrical and Computer Engineers\", ISBN 0-471-17837-3, John Wiley and Sons, New York, 2005, Second Edition.","Assessment":"The two parts will be examined separately, and both need to be passed.Exams for both parts areclosed book, but students are allowed to bring a self made double A4 formula sheet. Before students can take part in the exam for part I, the students have to hand in pass the final laboratory exercise."},{"nr":315,"parent":309,"name":"IN4314","id":36698,"children":[],"courseName":"Seminar Selected Topics in Multimedia Computing","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , M.A.Larson    ,M.A.Larson@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"signal (image, audio) processing, data mining, pattern recognition","Study Goals":"To become acquainted with the state-of-the-art research and development activities in the field of Multimedia Computing, and to become an expert in one particular \"hot topic\", such that they are able to identify the \"knowledge gap\" (i.e., the place in which more research is needed in order to advance the state of the art).","Education Method":"readings, seminar discussions, presentations, survey paper","Literature and Study Materials":"Readings, possibly including video lectures.","Assessment":"The students demonstrate the knowledge that they have acquired by making a presentation on a pre-existing survey (10%), then writing their own survey on a new topic (65%), and finally by making a presentation on that topic (25%). The students must complete all three components."}]},{"nr":316,"parent":274,"name":"Network Architectures and Services 2015","id":16604,"children":[{"nr":317,"parent":316,"name":"CS4055","id":37834,"children":[],"courseName":"High Performance Data Networking","ects":"5","Responsible Instructor":"Dr.ir.F.A.Kuipers    ,F.A.Kuipers@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The learning objective of this course is threefold: (1) The student should have a passive to active knowledge of the treated networking technologies. (2) The student should be able to apply and work with the technologies in a network lab/emulator/simulator. (3) The student should be able to perform research in the field of high-performance data networking.","Education Method":"Lectures and projects","Assessment":"The final assessment is based on the project report(s) and a written exam."}]},{"nr":318,"parent":274,"name":"Parallel and Distributed Systems 2015","id":16605,"children":[{"nr":319,"parent":318,"name":"IN4150","id":36645,"children":[],"courseName":"Distributed Algorithms","ects":"6","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0 college; Pract. 3e en 4e kwartaal","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"Operating system concepts (IN1805)Computer Networks (IN2605)","Study Goals":"After having completed this course, the student has a good knowledge of and insight into important fundamental (theoretical) problems in distributed systems and their algorithmic solutions. In addition, the student can design and implement distributed algorithms that solve these problems.","Education Method":"Lectures, lab work","Literature and Study Materials":"Lecture notes (on Blackboard)","Assessment":"Paper review and written exam (closed book)","Remarks":"Lab work is 40 hrs."},{"nr":320,"parent":318,"name":"IN4391","id":36680,"children":[],"courseName":"Distributed Computing Systems","ects":"5","Responsible Instructor":"A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"1.Explain the objectives and functions of distributed computing systems.2.Describe how distributed computing systems have evolved, over time, from primitive batch systems to sophisticated multi-user systems.3.Describe the architecture and operation of distributed computing systems.4.Explain how distributed computing systems can process user workloads.5.Explain how distributed computing systems can detect and correct faults and errors.6.Implement complex operations of modern distributed computing systems in realistic scenarios.7.Analyze the tradeoffs inherent in the design of distributed computing systems (performance, efficiency, scalability, reliability, availability, fault-tolerance.)","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLectures:7 weeks x 2hPractical:Groups of 2 on the DAS distributed computer system.3 weeks x 4h + 16h: large exercise based on course topic 6 + report of 4�6 pages4 weeks x 4h + 40h: large exercise based on course topic 7 +report of 4�6 pages","Literature and Study Materials":"Textbook: Andrew S. Tanenbaum, Maarten Van Steen, Distributed Systems, Principles and Paradigms (2nd Edition), Prentice Hall, 2006. The textbook introduces the student to the traditional theory of distributed systems.Additional material: Several relevant research articles introduce the student to the latest advances on the topic.","Assessment":"Overview: The course consists of two main parts: the theoretical Part I and the practical Part II. Students are assessed through a written exam (open questions), an oral exam, and a demonstration of practical skills. Part I: An optional mid-term exam is also organized. The results of the mid-term exam count only if the final exam is also taken by the student, and only if it increases the final grade of the student. Additionally, the course is gamified: there is testing through open questions and various exercises during and at the end of the lectures, counting as bonus points for Part I.The result of Part I of this course must be at least 6. The result of Part II of this course (practical) must be Completed (C, Voltooid/V in Dutch). The final grade is the result of Part I.Summary of assessment:Type of assessmentPart of final gradePart I: Exam, open questions40%Part I: Exam, oral20%Part II: Practical40%"},{"nr":321,"parent":318,"name":"IN4392","id":36681,"children":[],"courseName":"Cloud Computing","ects":"5","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl , A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"1.Explain the basic concepts, objectives, and functions of cloud computing.2.Describe the architecture and operation of cloud computing.3.Describe the elements of user workloads in cloud computing.4.Explain how cloud computing can schedule the workloads of multiple users (virtualization, multi-tenancy).5.Describe the programming models applicable for cloud computing.6.Implement complex operations of cloud computing in realistic scenarios.7.Analyze the tradeoffs inherent in the design of cloud computing data centers and applications.","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLecturesand reviews:in-class, 7 weeks x 2h + self-study, 40h: at least 6 articles of the offered 12-15Seminar:self-study, 28h + 20 minutes: Presentation on selected topic(once)Practical:Groups of 2 on the DAS distributed computer system.three exercises in-class, 6 weeks x 2h + one large exercise of 40h: large exercise based on course topics 6 and 7 + report of 4�6 pagesNote: This course is synchronized with an equivalent course at TU Eindhoven.","Assessment":"Overall: Assessment through: in-class presentation, portfolio of reviews of self-study material, and demonstration of practical ability through three minor and one major assignment.Note: There is no final exam.Summary:Type of assessmentPart of final gradePresentation25%Reviews35%Practical40%"}]},{"nr":322,"parent":274,"name":"Pattern Recognition & Bioinformatics 2015","id":16606,"children":[{"nr":323,"parent":322,"name":"CS4070","id":37837,"children":[],"courseName":"Multivariate Data Analyse","ects":"5","Responsible Instructor":"Dr.A.J.Cabo    ,A.J.Cabo@tudelft.nl , Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"1,2,3","Course Language":"English","Expected prior knowledge":"* Introduction Probability Theory and Statistics: see for instance A Modern Introduction to Probability and StatisticsUnderstanding Why and HowSeries: Springer Texts in StatisticsDekking, F.M., Kraaikamp, C., Lopuha�, H.P., Meester, L.E.2005, XVI, 488 p. 120 illus., HardcoverISBN: 1-85233-896-2* Basic calculus* Linear Algebra: matrix multiplication, the inverse of a matrix, the transpose of a matrix, least square solution.see:David C. Lay: Linear Algebra and Its ApplicationsISBN-10: 0321385179 � ISBN-13: 9780321385178�2012 � Pearson)","Study Goals":"PART I:1. Probability Theory- Conditional) probabilities, the law of total probability, and Bayes� rule.- Solve probability problems that require the use of axioms of probability.2. Definition and Description of Random Variables and ProcessesPDF, PMF, CDF, Covariance, Correlation- Determine if a given PDF, PMF, CDF, variance, (auto/cross-)correlation(-function), (auto/cross-)covariance(-function), power spectral density complies with (theoretical and analytical) requirements. - Convert the description of a probabilistic problem into a probabilistic model using PDF, PMF, or CDF.3. PDF/PMF and Expected ValueCalculate the various forms of expected value of (combinations of) random variables and random processes- For a given (amplitude continuous/discrete and time continuous/discrete) probability model calculate the following probabilistic (marginal, joint and conditional) characterizations: PDF, PMF, CDF, probability of an event, expected value, variance, covariance, correlation, correlation coefficient, auto/crosscorrelation function, auto/crosscovariance function, (cross) power spectral density.- Calculate the PDF, PMF, expected value and variance of a derived random variable.4. Properties of Random Processes- Independence, orthogonality, uncorrelated, whiteness, IID- Determine if random variables/processes have the following properties: independent, orthogonal, uncorrelated, white, Poisson, Gaussian, Bernoulli, Markov, IID, stationary, WSS, ergodic.- Calculate the expected value, variance, auto/crosscorrelation(function), auto/crosscovariance(function), power spectral density of a linear combination of random variables and of a linearly filtered (WSS, amplitude discrete/continuous, time discrete/continuous) random process.5. Large NumbersCentral limit theorem, law of large numbers- Solve problems that require the use of the central limit theorem in an engineering context- Explain the law of the large numbers in an engineering context.6. Statistical Estimators- Estimated mean, variance, and correlation function- Given a set of outcomes, sample functions or realizations, calculate estimators for expected value, variance, and (auto-)correlation function.12. Application to Engineering Problems and Simulations- Select and translate a simple electrical engineering or computer science problem into mathematical probability model. The emphasis is on problems in signal and image processing, telecommunication, and media and knowledge technology. The class of probability models encompasses the following random variables/processes: Bernoulli, exponential, binomial, Poisson, Gaussian, uniform.- Justify and reflect on the approach taken in calculating or simulating (MatLab) the following probabilistic properties: PDF, PMF, expected value, variance, autocorrelation function, autocovariance function.PART II:After finishing this course, the student is acquainted with several statistical techniques to analyse a multivariate dataset by means of a linear model. The student is capable of applying these techniques to a multivariate dataset by means of a statistical software package and is capable of interpreting the output drawing conclusions from it. The student is acquainted with the statistical notions and concepts that underly the statistical technique.","Education Method":"PART I:Lectures, working groups (problem solving), laboratory work (Matlab exercises)PART II:Classes, exercises and weekly mandatory computer assignments, that are graded.","Books":"PART I:R.D. Yates and D.J. Goodman, \"Probability and Stochastic Processes: A Friendly Introduction for Electrical and Computer Engineers\", ISBN 0-471-17837-3, John Wiley and Sons, New York, 2005, Second Edition.PART II:John Fox Applied Regression Analysis and Generalized Linear Models, 3rd Edition2015 Sage Publications, Inc","Assessment":"Lab and written exam Q1, lab (35% of the second part) and written exam (65% of the second part) Q2","Exam Hours":"PART I:Written exam of 3 hours.PART II:Written exam of 3 hours.","Permitted Materials during Tests":"PART I:Self made notes on a two-sided written A4 sheet. Calculator.PART II:Self made notes on a two-sided written A4 sheet. Calculator.","Remarks":"PART II:This course is particularly interesting for students that are interested in statistical exploratory and quantitative techniques to analyse multivariate data."},{"nr":324,"parent":322,"name":"CS4070-D2","id":38013,"children":[],"courseName":"Multivariate Data Analyse ","ects":"2.5","Responsible Instructor":"Dr.A.J.Cabo    ,A.J.Cabo@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"The student is able to examine data graphically, to transform data if necessary, to perform statistical test on the coefficients of a linear regression models, to interpret the outcome of the test and to explain the underlying statistaical principles","Education Method":"Lectures, Exercises, Computer Lab","Assessment":"Written exam (70%), computer lab assignments (30%)"},{"nr":325,"parent":322,"name":"ET4283","id":35640,"children":[],"courseName":"Seminar Advanced Digital Image Processing  ","ects":"6","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl","Instructor":"Prof.dr.ir.L.J.vanVliet    ,L.J.vanVliet@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Basics of signal processing, image processing, linear algebra, stochastic processes. The course will start with a brief review of basic image processing principles as discussed in the TI bachelor course TI2716-B.","Study Goals":"General learning outcomes:The student has insight into state of the art algorithms for image processing including Multi-Resolution Image Processing, Morphological Image Processing, Image Features Representation/Description, Motion Estimation and Optic Flow, Image Restoration, Image Segmentation and 3D Computer Vision. The student is able to read, discuss, summarize and comment on scientific journal and conference papers in this area.Specific learning outcomes:1.Multi-resolution Image Processing:Gaussian scale space, windowed Fourier transform, Gabor filters, multi-resolution systems (pyramids, subband coding and Haar transform), multi-resolution expansions (scaling functions and wavelet functions), wavelet Transforms (Wave series expansion, Discrete Wavelet Transform (DWT), Continuous Wavelet Transform (CWT), Fast Wavelet Transform (FWT))The student is able to motivate the use of space-frequency representations, analyze the behavior of space-frequency techniques, explain the principles behind, classify and evaluate multi-resolution techniques..2.Morpological Image Processing:Definitions of gray-scale morphology: erosion, dilation, opening, closing; Application of gray-scale morphology: smoothing, gradient, second derivatives (top hat), morphological sieves (granulometry).The student is able to apply, recognize the priciples and analyze (a sequence of) morphological operations for noise suppression, edge detection, and sharpening.3.Image Feature Representation and Description:Measurement principles: accuracy vs. precision ; Size measurements: area and length (perimeter); Shape descriptors of the object outline: form factor, sphericity, eccentricity, curvature signature, bending energy, Fourier descriptors, convex hull, topology; Shape descriptors of the gray-scale object: moments, PCA, intensity and density; Structure tensor in 2D and 3D: Harris Stephens corner detector, isophote curvature.The student is able to comprehend and explain the properties of measurements in digitized images, combine measurement principles to solve a new problem, comprehend the structure tensor in various notations and apply it in measurement procedures.4.Motion and optic flow:Motion is strcuture in spatio-temporal images; Two frame registration: Taylor expansion method; Multi-frame registration: Optic flow. Applications of image registration.The student is able to explain the properties of image registration and optic flow and comprehend the aperture problem in optic flow.5.Image Restoration:Noise filtering, Wiener filtering, Inverse filtering, Geometric transformation, Grey value interpolationThe student is able to discuss the use of linear and non-linear noise filters, explain the use of inverse filters andproblems of inverse filtering in the case of noise, describe (the use of) a Wiener filter and apply geometric transformations and bi-linear grey value interpolation6.Image Segmentation:Thresholding, edge and contour detection, data-driven and model-driven image segmentation, edge trackingThe student is able to discuss isodata thresholding, optimal thresholding, multimodal thresholding and adaptive thresholding techniques,apply Gaussian derivative filters and difference based filters for calculation of edge point candidates, explain the trade off between localization and detection of edges, discuss split and merge techniques and edge tracking techniques. The student has insight into model-based image segmentation (object detection) approaches like template matching, Hough Transform, Deformable Template matching, Active Contours and Active Shape models and is able to formulate how shape information and image intensity information can be incorporated into these approaches.","Education Method":"lectures, group assignment with plenar presentation and discussion","Computer Use":"Matlab and dipimage toolbox and/or other imaging toolbox","Literature and Study Materials":"Book 'Digital Image Processing', van R.C. Gonzalez en R.E. Woods, third edition, 2002, ISBN 9780131687288.(Online) Book 'Computer Vision, Algorithms and Applications', R. Szeliski, (http://szeliski.org/Book/). The online version is available for free.We have used the Book �Introductory Techniques for 3-D Computer Vision�, E. Trucco and A. Verri, ISBN 0-13-261108-2 in the past.Lecture notes �Fundamentals of Image Processing�(http://homepage.tudelft.nl/e3q6n/education/et4085/sheets/ppt/FIP2.2.pdf) PDF-files of the lecture slides (see blackboard)","Assessment":"written exam and assignment. Both have weight 0.5 and both should be 5.0 or higher.Weighted average should be 5.8 or higher.","Exam Hours":"There will be a written examination in the exam period after the first semester. The assessment of the assignment will take place at the end of the first semester or in the exam period after the first semester.","Permitted Materials during Tests":"Books, print-out of pdf files of the lecture slides and lecture notes are not permitted during the written examination"},{"nr":326,"parent":322,"name":"IN4085","id":35756,"children":[],"courseName":"Pattern Recognition","ects":"6","Responsible Instructor":"Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Instructor":"M.Loog    ,M.Loog@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0Pract.","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Linear algebra, multivariate statistics.","Study Goals":"After succesfully completing this course, the student is able to: recognise pattern recognition problems and select algorithms to solve them; read and comprehend recent articles in engineering-oriented pattern recognition journals, such as IEEE Tr. on PAMI; construct a learning system to solve a given simple pattern recognition problem, using existing software.","Education Method":"Lectures, lab work","Literature and Study Materials":"S.Theodoridis and K.Koutroumbas, Pattern Recognition (2nd ed.), Elsevier, 2009, ISBN-978-1-59749-272-0; Sheets; PRTools user manual; Pattern Recognition exercises with PRTools.","Assessment":"Homework, Computer laboratory assignment and written examination.","Remarks":"see also http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":327,"parent":322,"name":"IN4176","id":36707,"children":[],"courseName":"Functional Genomics and Systems Biology","ects":"6","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"The student is expected to have a basic knowledge of molecular biology, statistics and linear algebra. It is advisable to have followed IN4085 (Pattern Recognition) and IN4329 (Advanced Bioinformatics).","Study Goals":"After succesfully completing this course, a student is able to: list the basic elements of a living cell and their interactions, and describe how these can be measured; explain what type of mathematical model is applicable to what measurement(s), at what level(s), in a given systems biology problem; read and comment upon recent systems biology literature; discuss the state-of-the-art in systems biology and integrative bioinformatics, and future challenges.","Education Method":"The course will consist of a mixture of lectures by the teachers and paper presentations by one or more of the students. All other students will hand in a review-type discussion on one aspect of the paper. A discussion is required for each scheduled presentation (i.e. there are meetings for which 2 such discussions are required). There will also be a practical session allowing students to get hands-on experience with network models, integration and analysis, mainly through Cytoscape.","Literature and Study Materials":"Slides, collection of papers and lab course manual (Blackboard).","Assessment":"The weekly discussion papers will be graded. A final grade for the course will be based on these grades as well as on a final written assignment.","Remarks":"As students depend on each other (to present the material to the class), a commitment to follow the course through to the end is required."},{"nr":328,"parent":322,"name":"IN4309","id":36688,"children":[],"courseName":"Random Signal Processing","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"1,2,3","Course Language":"English","Expected prior knowledge":"This course builds heavily on Probability and Statistics, Mathematics (especially integration and differentiation), Signal Processing and Transformations (especially linear systems and signals, Fourier analysis).","Study Goals":"1. Probability Theory- Conditional) probabilities, the law of total probability, and Bayes� rule.- Solve probability problems that require the use of axioms of probability.2. Definition and Description of Random Variables and ProcessesPDF, PMF, CDF, Covariance, Correlation- Determine if a given PDF, PMF, CDF, variance, (auto/cross-)correlation(-function), (auto/cross-)covariance(-function), power spectral density complies with (theoretical and analytical) requirements. - Convert the description of a probabilistic problem into a probabilistic model using PDF, PMF, or CDF.3. PDF/PMF and Expected ValueCalculate the various forms of expected value of (combinations of) random variables and random processes- For a given (amplitude continuous/discrete and time continuous/discrete) probability model calculate the following probabilistic (marginal, joint and conditional) characterizations: PDF, PMF, CDF, probability of an event, expected value, variance, covariance, correlation, correlation coefficient, auto/crosscorrelation function, auto/crosscovariance function, (cross) power spectral density.- Calculate the PDF, PMF, expected value and variance of a derived random variable.4. Properties of Random Processes- Independence, orthogonality, uncorrelated, whiteness, IID- Determine if random variables/processes have the following properties: independent, orthogonal, uncorrelated, white, Poisson, Gaussian, Bernoulli, Markov, IID, stationary, WSS, ergodic.- Calculate the expected value, variance, auto/crosscorrelation(function), auto/crosscovariance(function), power spectral density of a linear combination of random variables and of a linearly filtered (WSS, amplitude discrete/continuous, time discrete/continuous) random process.5. Large NumbersCentral limit theorem, law of large numbers- Solve problems that require the use of the central limit theorem in an engineering context- Explain the law of the large numbers in an engineering context.6. Statistical Estimators- Estimated mean, variance, and correlation function- Given a set of outcomes, sample functions or realizations, calculate estimators for expected value, variance, and (auto-)correlation function.7. Application to Engineering Problems and Simulations- Select and translate a simple electrical engineering or computer science problem into mathematical probability model. The emphasis is on problems in signal and image processing, telecommunication, and media and knowledge technology. The class of probability models encompasses the following random variables/processes: Bernoulli, exponential, binomial, Poisson, Gaussian, uniform.- Justify and reflect on the approach taken in calculating or simulating (MatLab) the following probabilistic properties: PDF, PMF, expected value, variance, autocorrelation function, autocovariance function.8. Signals and Systems- Signal representation, linear time invariant (LTI) systems, impulse response, convolution, causality, difference equations, recursive and non-recursive systems, stability.9. Z-transform- Properties of Z-transform, region of convergence, rational transfer functions, inverse Z-transform, system analysis in the Z-domain, poles, zeros, stability.10. Fourier Transforms- Fourier series, continuous-time Fourier transform, discrete-time Fourier transform, discrete Fourier transform, Fast Fourier transform (FFT), properties of Fourier transforms, frequency-domain characterization of LTI sytems.11. Sampling and Reconstruction of Signals- sampling theorem, sampling frequency, aliasing, folding, interpolation, D/A and A/D conversion.","Education Method":"Lectures, working groups (problem solving), laboratory work (Matlab exercises)","Literature and Study Materials":"J.G. Proakis/D.G. Manolakis, Digital Signal Processing: Principles, Algorithms and Applications, 4th Edition, Prentice Hall 2007, 1084 pp., ISBN 0-13-187374-1. R.D. Yates and D.J. Goodman, \"Probability and Stochastic Processes: A Friendly Introduction for Electrical and Computer Engineers\", ISBN 0-471-17837-3, John Wiley and Sons, New York, 2005, Second Edition.","Assessment":"The two parts will be examined separately, and both need to be passed.Exams for both parts areclosed book, but students are allowed to bring a self made double A4 formula sheet. Before students can take part in the exam for part I, the students have to hand in pass the final laboratory exercise."},{"nr":329,"parent":322,"name":"IN4318","id":36716,"children":[],"courseName":"Introduction to Life Science","ects":"10","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/x/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"To learn about the basic concepts in molecular biology required for bioinformaticians.","Education Method":"Tutorial: students independently read a standard work on molecular biology and discuss with the teacher if necessary.","Assessment":"Examination by appointment.","Remarks":"Taught by Erwin Bakker at Leiden University."},{"nr":330,"parent":322,"name":"IN4320","id":36697,"children":[],"courseName":"Machine learning     ","ects":"5","Responsible Instructor":"M.Loog    ,M.Loog@tudelft.nl","Instructor":"Dr.ing.J.Kober    ,J.Kober@tudelft.nl , Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"4","Course Language":"English","Expected prior knowledge":"IN4085","Study Goals":"After the course, the student is able to comprehensively read scientific publications in the area of machine learning.The student is able to recognize the (limits to the) practical applicability of the presented theory.Moreover, s/he is able to see the relationships of a novel technique to those discussed in the course, and has insight in what type of problem requires application of which type of machine learning technique.","Education Method":"We follow a scheme in which every topic is treated in a two-week block.In the first week, one of lecturer will present a technique based on a tutorial paper or other reading material.In the second week, the student will work on an exercise that extends and deepens their knowledge and understanding of the technique under consideration in that particular block.A large part of the exercises involves programming.The final output to every exercise is a report covering the necessary derivations, snippets of code, figures, and general text.","Assessment":"Assessment grades are based on the reports handed in (about 60%) and the final assignment (about 40%), the latter of which is based on a somewhat larger and more advanced machine learning challenge that the students will write a report on as well."},{"nr":331,"parent":322,"name":"IN4329","id":36715,"children":[],"courseName":"Advanced Bioinformatics","ects":"4","Responsible Instructor":"Prof.dr.ir.M.J.T.Reinders    ,M.J.T.Reinders@tudelft.nl","Instructor":"J.deRidder    ,J.deRidder@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"After successfully completing this course, the student is able to:� understand several high-throughput experiments, such as microarrays, and next generation sequencing, and discuss the benefits and limitations of these methods� comprehend the statistical and computer science issues in analyzing high-throughput data� discuss the basic systems biology approach, and the role of high-throughput measurements, gene selection and classification therein� read and comprehend a current paper on systems biology","Education Method":"In this course we will study some key examples of bioinformatics analyses by reading a set of selected papers that present some significant biological conclusions. Instead of the teachers giving lectures about the methodologies, the students are stimulated to read, study and comprehend the available course material. To do so the following format has been chosen: � Each week there are one or two lectures, each of 45 minutes.� In each lecture one paper (the course material) will be discussed in detail.� One student will present and explain the details of this paper. It is essential that you highlight the (bioinformatics) methodology of the paper.� All students are expected to have read the paper and should have an active role in the discussion about the paper.� When the students in discussion with the teachers are not able to grasp the followed methodology in the paper, the teachers will explain this on the spot.� Each week, an exercise on one of the papers discussed will be handed out.","Assessment":"Written examination"},{"nr":332,"parent":322,"name":"IN4393","id":36699,"children":[],"courseName":"Computer Vision","ects":"5","Responsible Instructor":"H.Dibeklioglu    ,H.Dibeklioglu@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2 en 4 uur werkcollege in 4e Q","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Expected prior knowledge":"You are expected to have a working understanding of linear algebra, and of probability and statistics. Knowledge about pattern recognition and/or machine learning is preferred.","Study Goals":"After successfully completing this course:- You are able to explain and implement various techniques for feature point detection, and can explain the type of feature points these detectors identify.- You are able to explain and implement techniques for feature point description and feature point matching. You are able to use these techniques in applications such as object detection and image stitching.- You are able to explain and implement techniques for image stitching. The student understands the key problems in developing image-stitching algorithms (such as alignment and parallax removal).- You are able to explain and implement techniques for shape analysis.- You are able to explain and implement techniques for face detection and face recognition. - You are able to explain and implement techniques for object recognition and scene understanding.- You are able to explain and implement basic techniques for feature tracking, in particular, Kanade-Lucas-Tomasi tracking and particle filter tracking. - You are able to explain Markov Random Field models, and is able to use such models in problems such as image denoising and inpainting.- You are able to develop and explain computer vision systems for real-world applications. In particular, you are able to select computer vision techniques that are to solve a specific image analysis or image understanding problem, to motivate this selection, and to combine the selected techniques into a working computer vision system.","Education Method":"- Section 1, 2, 3, 4, 6, 9, 10.5, and 14; Appendix B of �Computer Vision, Algorithms and Applications�, R. Szeliski, Springer, 2011, ISBN 978-1-84882-934-3. (This book is freely available online.) - \"Shape Matching and Object Recognition Using Shape Contexts\", S. Belongie, J. Malik, and J. Puzicha. IEEE Transactions on Pattern Analysis and Machine Intelligence 24(24): 509�521, 2002.- �Discriminative random fields�, S. Kumar and M. Hebert, International Journal of Computer Vision 68(2):179�202.- �Fields of Experts�, S. Roth and M.J. Black, International Journal of Computer Vision 82(2):205�229, 2009.- Section 1 and 2 of \"Lucas-Kanade 20 Years On: A Unifying Framework\", S. Baker and I. Matthews, International Journal of Computer Vision 56(3):221�255, 2004.- \"CONDENSATION � Conditional Density Propagation for Visual Tracking\", M. Isard and A. Blake, International Journal of Computer Vision 29(1):5-28, 1998.","Prerequisites":"Prerequisite courses (mandatory): Image or signal processing (TI2710-A or TI2710-C or EE2521); Linear algebra (WI1200TI-A or WI1200TI-B or WI1142TN); Probability and statistics (WI2211TI or WI1120EE or WI1102CT or WI1321TB or WI2013wbmt). If you have take comparable courses at other universities, this is also fine. Please contact the instructor when in doubt!Prerequisite courses (preferred): Pattern recognition (IN4085).","Assessment":"The assessment for this course consist of two main parts:1) You will develop a computer vision system for an application of your choice, and will write a small report with a description of your system. Your grade for the project forms 50% of the final grade for the course.2) A written final exam will determine the remaining 50% of your final grade. The final exam covers: (1) all content covered in the lectures and (2) all material listed under �Course material�. The final exam is an open-book exam: all slides and course material can be used during the exam."}]},{"nr":333,"parent":274,"name":"Software Engineering 2015","id":16607,"children":[{"nr":334,"parent":333,"name":"IN4185","id":36674,"children":[],"courseName":"Globally Distributed Software Engineering","ects":"5","Responsible Instructor":"Prof.dr.ir.D.M.vanSolingen    ,D.M.vanSolingen@tudelft.nl","Contact Hours / Week  x/x/x/x":"colleges en practicum 0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"Exam by appointment","Course Language":"English","Expected prior knowledge":"Software Engineering (= IN2705)","Study Goals":"The course Globally Distributed Software Engineering (GDSE) aims at teaching participants (1) the technical and organisational setting of carrying out software engineering in practice when distributed over the world, and (2) understanding best-practices in collaboration in software engineering project teams that carry out their work in a distributed setting.","Education Method":"Lab work + lectures","Literature and Study Materials":"Presentation handouts","Assessment":"Written report on lab work and literature research","Enrolment / Application":"Please enroll in Blackboard","Special Information":"Please contact d.m.vansolingen@tudelft.nl"},{"nr":335,"parent":333,"name":"IN4189","id":36673,"children":[],"courseName":"Software Reengineering ","ects":"5","Responsible Instructor":"A.E.Zaidman    ,A.E.Zaidman@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"Bring students into the position that they can efficiently work with an already existing, complex software system. Introduce students to best-practices in software reengineering and to the state-of-the-art refactoring tools, metric tools, profiling tools, reverse engineering tools (e.g., software visualization tools), code duplication removal and management tools, etc.","Education Method":"Limited number of lectures, 1 big lab assignment accompanied by a paper and presentation.","Assessment":"No written exams. Lab assignment, paper and presentation."},{"nr":336,"parent":333,"name":"IN4303","id":36630,"children":[],"courseName":"Compiler Construction","ects":"5","Responsible Instructor":"G.H.Wachsmuth    ,G.H.Wachsmuth@tudelft.nl","Instructor":"Prof.dr.E.Visser    ,E.Visser@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0 coll + 4/4/0/0 pract","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"- programming (required) - software engineering (advised)- programming languages (advised)","Study Goals":"- to be able to specify a language in a declarative style- to be able to construct a compiler from such specifications withstate-of-the-art compiler construction tools- to understand different language aspects- to understand the working of compiler components realising theseaspects","Education Method":"Lectures, lab work","Literature and Study Materials":"Book \"Modern Compiler Implementation in Java. Second Edition\" byAndrew Appel & Jens Palsberg. Cambridge University Press,2002. ISBN-13: 978-0521820608","Books":"Andrew Appel, Jens Palsberg: Modern Compiler Implementation in Java, 2nd Edition. Cambridge University Press, 2002. ISBN-13: 978-0521820608","Assessment":"Practical work + written exam"},{"nr":337,"parent":333,"name":"IN4315","id":35212,"children":[],"courseName":"Software Architecture","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"Different, to be announced","Course Language":"English","Expected prior knowledge":"Software engineering","Study Goals":"Bring students into the position that they can (1) explain the key architectural concepts and methods for modeling software architectures; (2) apply viewpoints and perspectives to model software architectures; (3) discuss the benefits of architecting and the role of the software architect; (4) evaluate and validate software architectures; and (5) explain and discuss the concepts of component-based and plugin architectures, service-oriented architectures, and software product lines.","Education Method":"Interactive lectures, lab assignment, paperpresentation and discussion.","Literature and Study Materials":"The course uses the book \"Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives\" by Nick Rozanski and Eoin Woods, Addison-Wesley Professional 2005, ISBN: 9780321112293. Additional reading material will be announced in the lectures.","Assessment":"No written exams. Lab assignment, paper and presentation.","Special Information":"Twitter handle: https://twitter.com/delftswa"},{"nr":338,"parent":333,"name":"IN4333","id":36670,"children":[],"courseName":"Language Engineering Project","ects":"5","Responsible Instructor":"Prof.dr.E.Visser    ,E.Visser@tudelft.nl","Instructor":"G.H.Wachsmuth    ,G.H.Wachsmuth@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Students are expected to have completed the compiler construction course IN4303.","Study Goals":"Learn to apply language engineering principles and tools to a real (domain-specific) programming language. Explore the definition of all aspects of a programming language: syntax, name binding, type analysis, transformations, code generation.","Education Method":"This is a project course. Students deepen their language engineering skills and insights by building a complete language definition. Students work in small teams on the definition of a (domain-specific) programming language using the Spoofax Language Workbench. Assistance and feedback is provided during weekly lab hours. The project should span the full life cycle of language implementation including a test suite, IDE, code generator, and distribution of the result as an Eclipse plugin.","Assessment":"The work is assessed based on a code review of the language definition and a written report about the project. The work needs to be submitted in four intermediate stages with a deadline and a grade. The final grade is the weighted average of these intermediate grades."},{"nr":339,"parent":333,"name":"IN4334","id":36671,"children":[],"courseName":"Mining Software Repositories","ects":"5","Responsible Instructor":"A.Bacchelli    ,A.Bacchelli@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/5/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"This course explores techniques and leading research in mining Software Engineering data, discusses challenges associated with mining SE data, highlights SE data mining success stories, and outlines future research directions. Students will acquire the knowledge needed to perform research or conduct practice in the field. Once completed, students should be able to do data science on software repositories in their own research or practice.","Education Method":"Frontal lectures with hands-on tutorials. Students will learn techniques of data mining and see how these were practically applied in software engineering context.","Assessment":"One original project done alone or in a group of 2 or 3 students. The project will explore one or more of the themes covered in the course from a novel perspective (e.g., on new data). The project will be graded according to originality and interestingness, depth of the work, correctness of the analysis, and the presentation quality of the written (6-page IEEE format) report and accompanying source code."},{"nr":340,"parent":333,"name":"IN4355","id":36676,"children":[],"courseName":"Functional Programming","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl , Prof.dr.H.J.M.Meijer    ,H.J.M.Meijer@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The aim of this module is to teach the principles of pure functional programming, and the corresponding Category Theoretical principles, using the modern functional language Haskell, and apply these techniques in mainstream programming languages such as PHP, JavaScript, Dart, C#, Java, etc.","Education Method":"Lectures + lab workThe lectures will be given by Erik Meijer. The lectures will be given in a block of 2-3 weeks at Delft University of Technology. After that, several interactive sessions (including student presentations and code reviews) with the USA (Silicon Valley) will be held over skype. Due to the 9 hour time difference, these sessions will take place in the (early) evening.The exact timing of the blocks in Delft differs per year, and will be announced on blackboard.","Books":"Programming in HaskellGraham Hutton, University of NottinghamCambridge University Press, 2007Paperback: �23.99 / $45.00 (ISBN-13: 9780521692694 | ISBN-10: 0521692695)eBook: $36.00 (ISBN-13: 9780511292187 | ISBN-10: 051129218X) Kindle: $36.00 (ASIN: B001FSKE6Q)","Assessment":"The grade for this course will be based on (1) group participation; (2) lab work; (3) a paper describing the lab work or explaining advanced functional programming concepts to practitioners; (4) final presentation of paper and lab work."},{"nr":341,"parent":333,"name":"IN4389","id":36672,"children":[],"courseName":"Reactive Programming","ects":"5","Responsible Instructor":"Prof.dr.A.vanDeursen    ,Arie.vanDeursen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"The course Reactive Programming aims at teaching participants (1) the foundations of reactive programming:(2) how to expose the asynchronous event-driven model of computation as observable collections and (3) how to write real-world complex server- and client-side programs that orchestrate and coordinate asynchronous computations using declarative queries over event streams.(4) how to apply the principles of reactive programming to the development of cloud applications.","Education Method":"Lectures + lab workThe lectures will be given by Erik Meijer. The lectures will be given in a block of 2-3 weeks at Delft University of Technology. After that, several interactive sessions (including student presentations and code reviews) with the USA (Silicon Valley) will be held over skype. Due to the 9 hour time difference, these sessions will take place in the (early) evening.The exact timing of the blocks in Delft differs per year, and will be announced on blackboard.","Literature and Study Materials":"- research papers distributed via blackboard- Jesse Liberty and Paul Betts: Programming Reactive Extensions and LINQ, APress, 2011. ISBN 1430237473","Assessment":"Hands-on labwork + oral presentation + written report","maximum aantal deelnemers":"15"},{"nr":342,"parent":333,"name":"IN4400","id":36669,"children":[],"courseName":"Programming and data science for the 99%","ects":"5","Responsible Instructor":"Dr.ir.F.F.J.Hermans    ,F.F.J.Hermans@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"Learning the basics of programming and data analysis","Education Method":"Lectures and hands-on exercises","Assessment":"Exam and assignment","Elective":"Yes"}]},{"nr":343,"parent":274,"name":"Web Information Systems 2015","id":16608,"children":[{"nr":344,"parent":343,"name":"IN4252","id":34989,"children":[],"courseName":"Web Science & Engineering","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student learns the important principles and concepts of web-based information systems and their engineering processes, and understands the main research challenges in the area.The student has knowledge about the main methods, techniques and languages used in the area of web-based information systems, in particular concerning web data. The student has knowledge of the main principles and techniques for user modelling and adaptation, and of the role of Social Web data for user modelling.The student learns the major challenges and principles from the research in the field of Web Science, and the role of web data for Web Science.The student is able to write a paper contributing to Web Science based on a problem in the field of web-based information systems.","Education Method":"The education includes:- Lectures, before which and after which students study material by themselves, to get an understanding of the relevant material;- Small assignments and hands-on exercises, to apply the understanding of relevant material;- One large assignment, with a number of feedback moments, to learn how to write a web science paper and contribute to relevant research.Lectures will be not each week in the class period (1+2): in between lectures there is time reserved for studying before and after lectures, for small assignments and exercises, and for writing the large assignment paper. The writing of the large assignment paper happens throughout the class period (1+2) to enable frequent feedback.","Assessment":"Assessment happens on the basis of the small assignments (accompanying the lectures), for 40% of the grade, and the large assignment (writing the web science paper), for 60% of the grade. Both parts need to be completed by the indicated deadlines."},{"nr":345,"parent":343,"name":"IN4325","id":35210,"children":[],"courseName":"Information Retrieval","ects":"5","Responsible Instructor":"A.Bozzon    ,A.Bozzon@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"Learning Objectives:= Describe the different information retrieval models, and to compare their weaknesses and strengths. [Learning Objective 1]= Compare the weaknesses and strengths of different indexing techniques, describing their most suited applications trough meaningful examples. [Learning Objective 2]= Compare the weaknesses and strengths of different querying techniques, describing their most suited applications trough meaningful examples. [Learning Objective 3]= Analyse the performance of an Information Retrieval system by applying the proper evaluation measures. [Learning Objective 4]= Design and develop (Web) Information Retrieval systems, possibly using advanced social and se- mantic search functionalities. Support and defend the relevance and correctness of his/her choices with regards to the adopted information retrieval model, indexing technique, and querying tech- nique. [Learning Objective 5]= Describe and compare several crowdsourcing techniques. [Learning Objective 6]= Illustrate Information Retrieval application scenario for crowdsourcing. [Learning Objective 7]= Design and develop crowdsourcing applications, and to evaluate the obtained results. [Learning Objective 8]= Illustrate suitable application scenario for advanced Information Retrieval topics such as Semantic Search, Information Seeking Paradigms and User Interfaces for Information Retrieval, Search Results Diversification, and Expert Finding. [Learning Objective 9]","Education Method":"Lectures, individual and group exercises","Literature and Study Materials":"Scientific papers, course slides and blackboard notes.","Books":"*Introduction to Information Retrieval*Author(s): Christopher D. Manning, Prabhakar Raghavan and Hinrich Schtze.Cambridge University Press. 2008. ISBN-13: 978-0000000000http://nlp.stanford.edu/IR-book/information-retrieval-book.html*Web Information Retrieval*. Author(s): Stefano Ceri, Alessandro Bozzon, Marco Brambilla, Piero Fraternali, Emanuele Della Valle, Silvia Quarteroni.Springer, 2013. ISBN-13: 978-3642393136http://www.springer.com/computer/database+management+\\%26+information+retrieval/book/978-3-642-39313","Assessment":"Individual and group assignments"},{"nr":346,"parent":343,"name":"IN4326","id":36667,"children":[],"courseName":"Seminar Web Information Systems","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"-to expose the student to current developments in research on web information systems and its methodologies; -to familiarise the student with reading, presenting and discussing scientific literature in the area;-to help the student in reading and writing scientific papers and choosing a topic for her/his thesis in the area.","Education Method":"Student seminar.","Assessment":"-Quality of presentation of the scientific paper studied (15%).-Participation in the seminar discussions (10%).-Quality of paper written (75%)."},{"nr":347,"parent":343,"name":"IN4331","id":36668,"children":[],"courseName":"Web Data Management","ects":"5","Responsible Instructor":"Dr.ir.A.J.H.Hidders    ,A.J.H.Hidders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Bachelor level courses in database management systems and operating systems. A prior course in distributed systems or middleware would be helpful but is not required. Working knowledge of Java or C++ will be important for the final assignment.","Study Goals":"At the end of this course the student can- describe, explain and use effectively XML technologies such as XML, DTDs, XPath, XSLT and web services- describe, explain and use XQuery for data management, including its various extensions for scripting and full-text search- describe use and explain distributed file systems such as Google File System (GFS or GoogleFS) and the Hadoop Distributed File System (HDFS)- use and explain the advantages and disadvantages of distributed NoSQL databases such as CouchDB- program MapReduce frameworks to perform efficiently workflows for data analytics","Education Method":"Lectures, practical exercises, and depending upon the number of students presentations by students.","Literature and Study Materials":"Course slides, hand outs and blackboard notes.","Books":"(mandatory, but will be made available for free on Blackboard)Serge Abiteboul, Ioana Manolescu, Philippe Rigaux, Marie-Christine Rousset, Pierre Senellart: Web Data Management. Cambridge University Press, 30 nov. 2011, 406 pages.(advised, not mandatory reading)Abiteboul, S., Peter Buneman, and Dan Suciu. Data on the Web: From Relations to Semistructured Data and XML. San Francisco: Morgan Kaufmann, 1999.Katz, Howard, and D. D. Chamberlin. XQuery from the Experts: A Guide to the W3C XML Query Language. Boston: Addison-Wesley, 2003.Melton, Jim, and Stephen Buxton. Querying XML: XQuery, XPath, and SQL/XML in Context. The Morgan Kaufmann series in data management systems. Amsterdam: Elsevier/Morgan Kaufmann, 2006.","Assessment":"Presentation (if applicable) and final assignment."}]}]},{"nr":348,"parent":1,"name":"EIT Master’s Programme ICT Innovation 2015","id":15788,"children":[{"nr":349,"parent":348,"name":"Specialisation CCS 2015","id":16610,"children":[{"nr":350,"parent":349,"name":"Year 1 CCS 2015","id":16619,"children":[{"nr":351,"parent":350,"name":"Year 1 CCS The compulsory major core courses 2015","id":16613,"children":[{"nr":352,"parent":351,"name":"ET4388","id":37622,"children":[],"courseName":"Ad-hoc Networks","ects":"5","Responsible Instructor":"R.R.Venkatesha Prasad    ,R.R.VenkateshaPrasad@tudelft.nl","Contact Hours / Week  x/x/x/x":"3/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Expected prior knowledge":"Wireless communications andnetworkingComputer communication principles, Layering principle of Computer Networks.Digital communication.","Study Goals":"By the end of this course students should be able to:- Model the ad-hoc networks using Graphs.- Describe the working principles of medium access control protocols for ad-hoc networks- Explain the working principles, advantages and disadvantages of different classes of routing protocols for ad-hoc networks- Choose various components to form a coherent ad hoc networking architecture- Develop a simulator to evaluate the MAC and routing protocols for ad hoc networks- Assess the suitability of ad-hoc networks for different communication needs and scenarios","Education Method":"The course will be taught in lecture form. The presence of students at all lectures is required for optimum result. Students are required to participate actively in various forms of activities and peer-learning. New forms of teaching aids are used.","Literature and Study Materials":"1. Textbook: Ad Hoc Wireless Networks, Architectures and Protocols by C. Siva Ram Murthy and B.S.Manoj, Prentice-Hall Pearson, 2004.2. Lecture notes consisting of slides presented at the lectures (Slides are only teaching aid and they are not substitute for textbooks, research papers, etc).3. Some recent journal papers 4. Optional Reference Books 4.1. Distributed Algorithms, Nancy A. Lynch, Morgan Kaufmann, 1996 (for networking algorithms)4.2. Ad Hoc Mobile Wireless Networks, Principles, Protocols and Applications by Subir Kumar Sarkar , C Puttamadappa , and T. G Basavaraju, Auerbach Publications, 2008. This book is avaliable online in the library.4.3. Wireless Ad Hoc and Sensor Networks, A Cross-Layer Design Perspective� by Jurdak, Raja, Springer, 2007. This book is avaliable online in the library.4.4. Ad-hoc Networks: Fundamental Properties and Network Topologies, by Ramin Hekmat, Springer. 5. OPNET/ns-2 web pages, tutorials and video lectures","Books":"Ad Hoc Wireless Networks, Architectures and Protocols by C. Siva Ram Murthy and B.S.Manoj, Prentice-Hall Pearson, 2004.","Assessment":"1. There will be written tests/examinations for this course. 2. The students will carry out a project in a group and submit a short report.3. Participation in off-track discussions on Facebook/Blackboard/FeedbackFruits and wikis.","Permitted Materials during Tests":"Different conditions for different test/exams.Conditions will be informed 1 week before the exams/test."},{"nr":353,"parent":351,"name":"EWI4000","id":36583,"children":[],"courseName":"Master Kick-off","ects":"0","Responsible Instructor":"Dr.A.Coetzee    ,A.Coetzee@tudelft.nl , M.L.Korterink    ,M.L.Korterink@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"In an increasingly globalised economy it is important for MSc graduates to be able to work in multicultural teams and be aware of intercultural differences. The course is aimed at both Dutch and International students.International students become aware of the Dutch culture and the Delft way of project management and communication. Dutch students get an opportunity to work closely with students from other nationalities and other backgrounds. Both national and international students have the opportunity to form a network with fellow master students from the EEMCS faculty.","Education Method":"Lectures, workshops and projects are carried out in small groups and assisted by student assistants.","Assessment":"Attendance is obligatory.Participation will be evaluated by the project assistants. There will be a presentation of the project at the end of the 3-day programme. Lecture material covered during the Master Kick-off will be assessed during the regular assessments of the respective courses."},{"nr":354,"parent":351,"name":"IN4252","id":34989,"children":[],"courseName":"Web Science & Engineering","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student learns the important principles and concepts of web-based information systems and their engineering processes, and understands the main research challenges in the area.The student has knowledge about the main methods, techniques and languages used in the area of web-based information systems, in particular concerning web data. The student has knowledge of the main principles and techniques for user modelling and adaptation, and of the role of Social Web data for user modelling.The student learns the major challenges and principles from the research in the field of Web Science, and the role of web data for Web Science.The student is able to write a paper contributing to Web Science based on a problem in the field of web-based information systems.","Education Method":"The education includes:- Lectures, before which and after which students study material by themselves, to get an understanding of the relevant material;- Small assignments and hands-on exercises, to apply the understanding of relevant material;- One large assignment, with a number of feedback moments, to learn how to write a web science paper and contribute to relevant research.Lectures will be not each week in the class period (1+2): in between lectures there is time reserved for studying before and after lectures, for small assignments and exercises, and for writing the large assignment paper. The writing of the large assignment paper happens throughout the class period (1+2) to enable frequent feedback.","Assessment":"Assessment happens on the basis of the small assignments (accompanying the lectures), for 40% of the grade, and the large assignment (writing the web science paper), for 60% of the grade. Both parts need to be completed by the indicated deadlines."},{"nr":355,"parent":351,"name":"IN4391","id":36680,"children":[],"courseName":"Distributed Computing Systems","ects":"5","Responsible Instructor":"A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Study Goals":"1.Explain the objectives and functions of distributed computing systems.2.Describe how distributed computing systems have evolved, over time, from primitive batch systems to sophisticated multi-user systems.3.Describe the architecture and operation of distributed computing systems.4.Explain how distributed computing systems can process user workloads.5.Explain how distributed computing systems can detect and correct faults and errors.6.Implement complex operations of modern distributed computing systems in realistic scenarios.7.Analyze the tradeoffs inherent in the design of distributed computing systems (performance, efficiency, scalability, reliability, availability, fault-tolerance.)","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLectures:7 weeks x 2hPractical:Groups of 2 on the DAS distributed computer system.3 weeks x 4h + 16h: large exercise based on course topic 6 + report of 4�6 pages4 weeks x 4h + 40h: large exercise based on course topic 7 +report of 4�6 pages","Literature and Study Materials":"Textbook: Andrew S. Tanenbaum, Maarten Van Steen, Distributed Systems, Principles and Paradigms (2nd Edition), Prentice Hall, 2006. The textbook introduces the student to the traditional theory of distributed systems.Additional material: Several relevant research articles introduce the student to the latest advances on the topic.","Assessment":"Overview: The course consists of two main parts: the theoretical Part I and the practical Part II. Students are assessed through a written exam (open questions), an oral exam, and a demonstration of practical skills. Part I: An optional mid-term exam is also organized. The results of the mid-term exam count only if the final exam is also taken by the student, and only if it increases the final grade of the student. Additionally, the course is gamified: there is testing through open questions and various exercises during and at the end of the lectures, counting as bonus points for Part I.The result of Part I of this course must be at least 6. The result of Part II of this course (practical) must be Completed (C, Voltooid/V in Dutch). The final grade is the result of Part I.Summary of assessment:Type of assessmentPart of final gradePart I: Exam, open questions40%Part I: Exam, oral20%Part II: Practical40%"},{"nr":356,"parent":351,"name":"IN4392","id":36681,"children":[],"courseName":"Cloud Computing","ects":"5","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl , A.Iosup    ,A.Iosup@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"1.Explain the basic concepts, objectives, and functions of cloud computing.2.Describe the architecture and operation of cloud computing.3.Describe the elements of user workloads in cloud computing.4.Explain how cloud computing can schedule the workloads of multiple users (virtualization, multi-tenancy).5.Describe the programming models applicable for cloud computing.6.Implement complex operations of cloud computing in realistic scenarios.7.Analyze the tradeoffs inherent in the design of cloud computing data centers and applications.","Education Method":"Total:5 ECs in 1 Academic QuarterLanguage:EnglishLecturesand reviews:in-class, 7 weeks x 2h + self-study, 40h: at least 6 articles of the offered 12-15Seminar:self-study, 28h + 20 minutes: Presentation on selected topic(once)Practical:Groups of 2 on the DAS distributed computer system.three exercises in-class, 6 weeks x 2h + one large exercise of 40h: large exercise based on course topics 6 and 7 + report of 4�6 pagesNote: This course is synchronized with an equivalent course at TU Eindhoven.","Assessment":"Overall: Assessment through: in-class presentation, portfolio of reviews of self-study material, and demonstration of practical ability through three minor and one major assignment.Note: There is no final exam.Summary:Type of assessmentPart of final gradePresentation25%Reviews35%Practical40%"}]},{"nr":357,"parent":350,"name":"Year 1 CCS The elective major courses 2015","id":16616,"children":[{"nr":358,"parent":357,"name":"IN4150","id":36645,"children":[],"courseName":"Distributed Algorithms","ects":"6","Responsible Instructor":"Prof.dr.ir.D.H.J.Epema    ,D.H.J.Epema@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0 college; Pract. 3e en 4e kwartaal","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"Operating system concepts (IN1805)Computer Networks (IN2605)","Study Goals":"After having completed this course, the student has a good knowledge of and insight into important fundamental (theoretical) problems in distributed systems and their algorithmic solutions. In addition, the student can design and implement distributed algorithms that solve these problems.","Education Method":"Lectures, lab work","Literature and Study Materials":"Lecture notes (on Blackboard)","Assessment":"Paper review and written exam (closed book)","Remarks":"Lab work is 40 hrs."},{"nr":359,"parent":357,"name":"IN4254","id":36678,"children":[],"courseName":"Smart Phone Sensing","ects":"5","Responsible Instructor":"M.A.Zu�iga Zamalloa    ,M.A.ZunigaZamalloa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2 & lab","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Requirement 1: Students MUST either(1.1) have passed a JAVA programming course, or(1.2) have passed a C/C++ programming course and be familiar with JAVA, or(1.3) know Objective C (programming language for MACs)This requirement is equivalent to having passed the course TI 1206 in our first year Bachelor curriculum \"Object Oriented Programming\"Requirement 2: Students MUST(2.1) have passed a basic course on Probability Theory. This requirement is equivalent to having passed the course TI 2216M in our second year Bachelor curriculum \"Probability and Statistics\". We will be refreshing some concepts on Probability, but we will not be refreshing concepts on Object Oriented Programming.","Study Goals":"The goals of this course are twofold. First, to expose students to the increasingly important area of mobile computing. Students will learn how mobile phones can be used to solve problems in areas ranging from health care and indoor localization to song recognition and traffic management. Second, to provide students with a basic set of tools to develop their own applications. For students aiming for industry, the course should enhance their ability to use theoretical tools to solve practical problems. For students involved on research activities, the course will provide them with the necessary background to use smartphones as a distributed sensing and processing unit that could be used to solve the particular problems in their areas.","Education Method":"Lectures","Literature and Study Materials":"Web","Assessment":"Written reports + project presentation + oral exam"},{"nr":360,"parent":357,"name":"IN4331","id":36668,"children":[],"courseName":"Web Data Management","ects":"5","Responsible Instructor":"Dr.ir.A.J.H.Hidders    ,A.J.H.Hidders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Bachelor level courses in database management systems and operating systems. A prior course in distributed systems or middleware would be helpful but is not required. Working knowledge of Java or C++ will be important for the final assignment.","Study Goals":"At the end of this course the student can- describe, explain and use effectively XML technologies such as XML, DTDs, XPath, XSLT and web services- describe, explain and use XQuery for data management, including its various extensions for scripting and full-text search- describe use and explain distributed file systems such as Google File System (GFS or GoogleFS) and the Hadoop Distributed File System (HDFS)- use and explain the advantages and disadvantages of distributed NoSQL databases such as CouchDB- program MapReduce frameworks to perform efficiently workflows for data analytics","Education Method":"Lectures, practical exercises, and depending upon the number of students presentations by students.","Literature and Study Materials":"Course slides, hand outs and blackboard notes.","Books":"(mandatory, but will be made available for free on Blackboard)Serge Abiteboul, Ioana Manolescu, Philippe Rigaux, Marie-Christine Rousset, Pierre Senellart: Web Data Management. Cambridge University Press, 30 nov. 2011, 406 pages.(advised, not mandatory reading)Abiteboul, S., Peter Buneman, and Dan Suciu. Data on the Web: From Relations to Semistructured Data and XML. San Francisco: Morgan Kaufmann, 1999.Katz, Howard, and D. D. Chamberlin. XQuery from the Experts: A Guide to the W3C XML Query Language. Boston: Addison-Wesley, 2003.Melton, Jim, and Stephen Buxton. Querying XML: XQuery, XPath, and SQL/XML in Context. The Morgan Kaufmann series in data management systems. Amsterdam: Elsevier/Morgan Kaufmann, 2006.","Assessment":"Presentation (if applicable) and final assignment."}]},{"nr":361,"parent":350,"name":"Year 1 CCS Mandatory I&E courses 2015","id":16617,"children":[{"nr":362,"parent":361,"name":"ET4247","id":36640,"children":[],"courseName":"HighTech Start Ups\t","ects":"5","Responsible Instructor":"K.L.M.Bertels    ,K.L.M.Bertels@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/3/0/0","Education Period":"2","Start Education":"2","Exam Period":"2","Course Language":"English","Expected prior knowledge":"None","Study Goals":"The goal of this course is to make students familiar with the idea of setting up a company. We specifically focus on high tech products and markets because of their very specific dynamics.","Education Method":"Lectures and invited speakers","Literature and Study Materials":"HandoutsP.Tiffany, S.Peterson, Business plans for dummies, Wiley publishing, ISBN 1-56884-868-4","Assessment":"Evaluation of business plans that will be presented before a jury.","Remarks":"Students who have participated in the Bachelor course ET3605-D1 should not take this course."},{"nr":363,"parent":361,"name":"IN4394","id":36718,"children":[],"courseName":"EIT Summer School","ects":"4","Responsible Instructor":"Prof.dr.ir.F.W.Jansen    ,F.W.Jansen@tudelft.nl","Contact Hours / Week  x/x/x/x":"Selfstudy","Education Period":"None (Self Study)","Start Education":"1","Exam Period":"none","Course Language":"English","Required for":"EIT master programma","Expected prior knowledge":"First year I&E courses","Study Goals":"- Understanding the process of Business Model Generation, andknowing how to define and analyse the nine building blocks (customer segments, customer relations, channels, value proposition, key activities, key resources, key partners, cost structure and revenue streams). [BDL learning outcome]- The ability to perform a business development process in the context of a societal relevant thematic area (such as Health and Wellbeing)- Understanding how technology and innovation interact with all stakeholders (eco-system, competitors, alliances, networks, markets, etc.)- The ability to reflect upon ethical, societal, scientific and sustainability considerations when developing new products/technologies and business models.- The ability to direct a business development process and to communicate and convey business proposals to business people and other stakeholders","Education Method":"A strong emphasis is on project work, team building, (personal) networking, cultural exchange, and creat-ing global awareness of societal and business trends. During the two weeks, students are confronted (i.e. meet in person) with involved stakeholders and with the ethical, societal, scientific and sustainability relevance of their ideas. The course emphasizes multidisciplinary work with attention to cure (societal and personal needs), culture (motivation and acceptation), concept (usability and technical realisation), and commercialisation (marketing plan and business realisation). During the first week, students are introduced to the thematic area by presentations on societal problems, trends, new technologies, and possible business opportunities. Here, the emphasis is on discussion, opin-ion making, and experiencing through observational practices and field tests. Students work in groups on a business cases and develop ICT applications (products or services) for a particular thematic area. They perform market studies, define user segments, analyse competitors, and develop their concepts into testable (lo-fi) prototypes. They perform user studies (focus groups) and further detail the technical concepts. At the end of the week they pitch their plan for a business panel.In the second week, students work towards a business plan (Product Operational Plan) and analyse all is-sues of relevance; markets, feasibility, usability, business life-cycles, operations and maintenance. They make a design/choice for a business pattern and platform, and a suitable revenue model, and analyse relevant issues, such as IPR, venture financing, etc.","Assessment":"Pitching of the business plans before a business panel and evaluation of a project report."},{"nr":364,"parent":361,"name":"IN4401","id":36717,"children":[],"courseName":"Business Development Lab","ects":"10","Responsible Instructor":"Prof.dr.ir.F.W.Jansen    ,F.W.Jansen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/x/x","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English","Required for":"The Business Development Lab is part of the I&E minor of the EIT ICT Labs master school and is mandatory for the DMT and CCS students. It aims to provide the student with a basic understanding and ability to perform a business devel-opment process, focused on the development of a product and service and exploring its customer value, possible value chains, and its market potential (and not so much on the venturing process of starting a company). The applied methodology is based on the Business Model Generation method, emphasizing the nine building blocks of a business process model: customer segments, customer relations, channels, value proposition, key activities, key resources, key partners, cost structure and revenue streams.","Study Goals":"- In depth understanding of the different phases of a business development process- The ability to succesfully apply the learned knowledge for development of a new product or business concept- The ability to sytematically explore and create ideas or modify existing ideas and technology for business solutions- The ability to transforming new ideas into business solutions on the commercial market, combined with decision-making and leadership competencies- The ability to work in multi-disciplinary teams, and to reflect upon ethical and team processes","Education Method":"The BDL is done in projects groups and includes both a technical product design project and a business plan development. The project work is supported by coaches. During the course, several workshops and presentations are planned on the above topics. Towards the end of the course the students are trained to present their Business Plans. The course ends with a Business Plan pitch.The BDL will start with a winterschool, a 3-day workshop round a business case at the CLC (co-location) in Eindhoven. Applied lectures and workshops: 56 h (4h week)Group work: 168h (12h/week)Winterschool: 24hPresentation (report/pitch): 32h","Literature and Study Materials":"A. Osterwalder & Y. Piguer, Business Model Generation, John Wiley & Sons.","Assessment":"Peer evaluation of BP Presentation (25%) and expert evaluation BP Presentation (25%) - Evaluation BP by coaches (50%)"}]},{"nr":365,"parent":350,"name":"Year 1 CCS Elective I&E courses 2015","id":16618,"children":[{"nr":366,"parent":365,"name":"MOT1434","id":35297,"children":[],"courseName":"Technology, Strategy and Entrepreneurship","ects":"5","Module Manager":"Dr.G.van deKaa    ,G.vandeKaa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Required for":"Emerging and breakthrough technologies","Expected prior knowledge":"Core courses in cluster technology, innovation and economics and technology, innovation and commercialization","Summary":"The course Technology, Strategy and Entrepreneurship focuses on formulating and implementing technology strategy for large firms and entrepreneurs. However, before a manager can formulate a successful strategy, it is needed to understand the specifics of the external economic and societal environment in which the strategy will be implemented. Throughout the course, students will be acquainted with a variety of academic perspectives which are utilized by strategy and entrepreneurship researchers.","Study Goals":"�After the course students are able to understand the theoretical background of technology strategy. The course provides students with a coherent framework to understand, to relate and to position a variety of strategy topics.�After the course students are able to understand the theoretical background of entrepreneurship.�After the course, students are able to understand and apply key technology strategy models; students are able to understand the relations between those models.�After the course students are able to understand, analyze and conclude on the industry dynamics of technological innovation.�After the course, students are able to understand, analyze and conclude on companies� technology strategy, and are able to generate recommendations for formulating and implementing such a strategy for large and entrepreneurial firms.�After the course students are able to formulate and implement the technological innovation strategy for large and entrepreneurial firms","Education Method":"The course is organized into 6 regular sessions, 2 game sessions, 4 teaching case sessions, and one concluding session with exam preparation. Each regular session will consist of lectures. In the teaching case sessions students discuss questions posed in assigned teaching cases that relate to the topics studied in the regular sessions. For the regular sessions students study the literature and for the teaching case sessions students prepare the teaching cases. In the teaching game sessions students apply the theory by implementing and evaluating various strategies in a real life situation.","Literature and Study Materials":"Journal articlesTeaching game 1: 'Back Bay Battery' Strategic Innovation SimulationTeaching game 2: Platform warsSeveral teaching cases","Books":"Book: Schilling, M. A. 2013. Strategic Management of Technological Innovation. New York, USA, 4th Revised edition, ISBN10 0071326448, ISBN13 9780071326445","Assessment":"Written exam, teaching games"},{"nr":367,"parent":365,"name":"MOT1461","id":35296,"children":[],"courseName":"Financial Management","ects":"5","Module Manager":"Dr.ir.Z.Roosenboom-Kwee    ,Z.Roosenboom-Kwee@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"MOT students","Expected prior knowledge":"None","Summary":"This course is about how corporations make financial decisions. It is designed to equip technical/engineering students with fundamental financial management skills.","Study Goals":"By the end of the course, students are expected to:� Interpret financial statements� Evaluate financial performance of companies� Identify financial instruments and markets� Examine choices of proper financing instruments� Apply relevant techniques for evaluating risk and alternatives in investment projects","Education Method":"Lectures and exercises (workshops)","Literature and Study Materials":"Lecture slides and textbook","Books":"Jonathan Berk and Peter DeMarzo (2014). Corporate Finance: The Core. Third Edition, Pearson. ISBN: 978-0-273-79216-1.","Assessment":"Written Exam","Enrolment / Application":"Enrollment via Blackboard"},{"nr":368,"parent":365,"name":"MOT1532","id":35298,"children":[],"courseName":"High Tech Marketing","ects":"5","Module Manager":"Prof.dr.M.S.vanGeenhuizen    ,M.S.vanGeenhuizen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/x/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"Study goals By the end of the course the students have gained knowledge of the principles of high-tech marketing and will be able to analyze high-tech marketing strategies critically with regard to:- Uncertainty in high-tech environments- Customer segmentation and behavior- Crossing the �chasm�- Product development and innovation strategies- Pricing strategies- Distribution strategies- Advertising and promotion- Marketing research methods, including social media use - Use of Internet for marketing purposes- Use of so-called Living Labs (as a tool)In addition, students have gained the ability to apply high-tech marketing tools and analyze how firms can address the higher level of uncertainty in high-tech markets, among others in parts of a Marketing Plan. Students can combine marketing theories, strategies and tools in a Marketing Plan for a high-tech firm, and have also gained insight into the newest developments concerning social media use in marketing.","Education Method":"There are nine lectures and there is one assignment (components of a Marketing Plan for a high-tech firm). Part of the lectures are divided into two: (1) teaching about the literature, and (2) critical reading and commenting by students on key papers.The assignment 'Marketing Plan'is concerned with an existing spin-off firm of TU Delft or other university, or with a patent that is officially offered for commercialization (a list will be provided to students).","Assessment":"Final grade: There are two grades, one for the Marketing Plan assignment and one for the Written exam. The grade for the Marketing Plan assignment constitutes 40% of the end-grade and the grade for the Written exam constitutes 60% of the end-grade.Mohr, J., Sengupta, S. and Slater. S. (2010) Marketing of High-Technology Products and Innovations, 3rd edition, Prentice Hall (compulsory reading for Written exam).Two papers (to be announced) are also compulsory reading for the Written exam.In addition, various handouts will support the lectures and the assignment, e.g. concerning examples of innovations and of TU Delft spin-off firms, and concerning issues in modern marketing.Up-to-date information about the schedule of classes, rooms, etc.: in Blackboard"},{"nr":369,"parent":365,"name":"MOT2421","id":35292,"children":[],"courseName":"Emerging and Breakthrough Technologies","ects":"5","Module Manager":"Dr.J.R.Ortt    ,J.R.Ortt@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":370,"parent":365,"name":"MOT9556","id":35147,"children":[],"courseName":"Corporate Entrepreneurship","ects":"6","Module Manager":"Dr.ing.V.E.Scholten    ,V.E.Scholten@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/x/0/0","Education Period":"2","Start Education":"2","Exam Period":"none","Course Language":"English","Study Goals":"�You will develop a thorough understanding of corporate entrepreneurship; the contexts, the forms, and the relationship with strategic management.�You will develop skills to analyze strategic situations and design appropriate corporate entrepreneurship strategies and organizations.�You will be able to analyse the contribution of internal and external ventures in the renewal of large corporates.�You will understand the emergence of academic spin-offs and how they relate to the technology development of large established organisations.�You will understand the emergence of academic spin-offs and how they relate to the technology development of large established organisations.�You will be able to identify the various key actors that facilitate and support the emergence of new business ventures and academis spin-offs","Education Method":"The course is organized into 14 sessions. Each session consists of a mixture of lecturing, and discussions of cases, literature and assignments, and presentations.","Literature and Study Materials":"Book:Undecided yet, but likely to be the book of Morris, M.H., Kuratko, D.F. and Covin, J.G. (2008). �Corporate Entrepreneurship & Innovation. Entrepreneurial Developments within Organizations� 2nd edition, West Eagan, MN: Thomson South-Western. ISBN 0-324-25916-63726-7Journal articles: Will be posted on Blackboard-site.Slides presented in class: Will be posted on Blackboard-site.","Assessment":"We distinguish between three grading components:1. Group assignment: Written assignment and presentation of an analyses of a case based on the literature discussion, which will account for 20% of your final grade.2. Individual assignment: at two occasions, you reflect on a case presented by another group, which will account for 20% of your final grade.3. Written final essay that analyses a corporate venturing program in a multinational and reflect your findings upon the theory discussed in class. This will account for the remaining 60% of the final gradeEach of the grades should be at least 6.0.","Special Information":"Each student will be expected to be present during lectures (two times a week), actively participate during the lectures, complete assigned readings, read posted lectures, listen to thought leader presentations and submit written assignments when due.","Remarks":"Given the interactive nature of this course, attendance at classes is mandatory. Only very serious grounds for absence (such as illness accompanied with doctor�s note) are acceptable. Holidays and (paid or voluntary) work obligations do not count as acceptable reasons for absence. This is a full-time course with scheduled holidays. Unjustified non-attendance will result in expulsion from this course.","Category":"MSc level"}]}]}]},{"nr":371,"parent":348,"name":"Specialisation DMT 2015","id":16609,"children":[{"nr":372,"parent":371,"name":"Year 1 DMT 2015","id":15789,"children":[{"nr":373,"parent":372,"name":"Year 1 DMT The compulsory major core courses 2015","id":15790,"children":[{"nr":374,"parent":373,"name":"EE4C06","id":37869,"children":[],"courseName":"Networking","ects":"5","Responsible Instructor":"Prof.dr.ir.P.F.A.Van Mieghem    ,P.F.A.VanMieghem@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Study Goals":"The new Networking course aims to provide a general and basic introduction to the art of �networking� necessary to understand any operational network. After this course, students are expected to represent/abstract real-world infrastructural network (e.g. a communication system) as a complex network, understand the basic methods to analyze properties of networks and dynamic processes on networks. Students will also understand why processes on networks and design of networks are so complex. Finally, students may appreciate the fascinatingly rich structure and behavior of networks and may realize that much in the theory of networks still lies open to be discovered.","Education Method":"Lectures, slides & homework","Assessment":"written examination"},{"nr":375,"parent":373,"name":"EWI4000","id":36583,"children":[],"courseName":"Master Kick-off","ects":"0","Responsible Instructor":"Dr.A.Coetzee    ,A.Coetzee@tudelft.nl , M.L.Korterink    ,M.L.Korterink@tudelft.nl","Contact Hours / Week  x/x/x/x":"x/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"In an increasingly globalised economy it is important for MSc graduates to be able to work in multicultural teams and be aware of intercultural differences. The course is aimed at both Dutch and International students.International students become aware of the Dutch culture and the Delft way of project management and communication. Dutch students get an opportunity to work closely with students from other nationalities and other backgrounds. Both national and international students have the opportunity to form a network with fellow master students from the EEMCS faculty.","Education Method":"Lectures, workshops and projects are carried out in small groups and assisted by student assistants.","Assessment":"Attendance is obligatory.Participation will be evaluated by the project assistants. There will be a presentation of the project at the end of the 3-day programme. Lecture material covered during the Master Kick-off will be assessed during the regular assessments of the respective courses."},{"nr":376,"parent":373,"name":"IN4086-14","id":34990,"children":[],"courseName":"Data Visualization","ects":"6","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl , Dr.A.Vilanova Bartroli    ,A.Vilanova@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/4/0/0 + lab","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Required for":"Master course MKE","Expected prior knowledge":"IN2905-A Computer Graphics (recommended, not required)","Study Goals":"In this course, techniques and cases of data visualization are discussed: models, algorithms, and data representations for conversion of data sets into visual images, and associated interactive techniques.There are several applications for the techniques, medical, engineering, finances, economics, game analytics.After the course, the student has knowledge and understanding of a wide range of general visualization techniques, their mathematical foundations, their algorithmic form, and relevant data representations, so that (s)he can choose, adapt, and develop suitable techniques for a given practical visualization problem. Also, the student can describe practical examples and cases of visualization in several application fields.","Education Method":"Lectures, practical assignments, self-study of academic literature, projects.","Literature and Study Materials":"Course slides, instructions for projects.All available in electronic form via Blackboard.","Assessment":"The final grade is a weighted average based on up to three assignments, an exam that might contain multiple choice questions, and a visualization project. The project and assignments will be developed in couples and is evaluated based on the developed result, its documentation and presentation.","Judgement":"The grade consists of 3 elements: assignments, an exam, and a project.Main assignments (up to 3) will be checked and will represent 20% of the mark. All assignments, which are handed in late will be evaluated with a zero and impact the part of the mark that corresponds to the assignment. Additionally, an exam will be held, which will represent 30% of the mark. The exam might contain multiple-choice questions .Finally, the largest contribution is a visualization project (50%), which will be developed in couples.The project is evaluated based on the developed result, its documentation and presentation.Final Mark = 0.2 Assignments + 0.3 Exam + 0.5 ProjectThe course is passed if the final grade is 6 or higher in average.The only part that will get a resit is the exam. No resit will be provided for the project or assignments"},{"nr":377,"parent":373,"name":"IN4252","id":34989,"children":[],"courseName":"Web Science & Engineering","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"The student learns the important principles and concepts of web-based information systems and their engineering processes, and understands the main research challenges in the area.The student has knowledge about the main methods, techniques and languages used in the area of web-based information systems, in particular concerning web data. The student has knowledge of the main principles and techniques for user modelling and adaptation, and of the role of Social Web data for user modelling.The student learns the major challenges and principles from the research in the field of Web Science, and the role of web data for Web Science.The student is able to write a paper contributing to Web Science based on a problem in the field of web-based information systems.","Education Method":"The education includes:- Lectures, before which and after which students study material by themselves, to get an understanding of the relevant material;- Small assignments and hands-on exercises, to apply the understanding of relevant material;- One large assignment, with a number of feedback moments, to learn how to write a web science paper and contribute to relevant research.Lectures will be not each week in the class period (1+2): in between lectures there is time reserved for studying before and after lectures, for small assignments and exercises, and for writing the large assignment paper. The writing of the large assignment paper happens throughout the class period (1+2) to enable frequent feedback.","Assessment":"Assessment happens on the basis of the small assignments (accompanying the lectures), for 40% of the grade, and the large assignment (writing the web science paper), for 60% of the grade. Both parts need to be completed by the indicated deadlines."},{"nr":378,"parent":373,"name":"IN4309","id":36688,"children":[],"courseName":"Random Signal Processing","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/2/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"1,2,3","Course Language":"English","Expected prior knowledge":"This course builds heavily on Probability and Statistics, Mathematics (especially integration and differentiation), Signal Processing and Transformations (especially linear systems and signals, Fourier analysis).","Study Goals":"1. Probability Theory- Conditional) probabilities, the law of total probability, and Bayes� rule.- Solve probability problems that require the use of axioms of probability.2. Definition and Description of Random Variables and ProcessesPDF, PMF, CDF, Covariance, Correlation- Determine if a given PDF, PMF, CDF, variance, (auto/cross-)correlation(-function), (auto/cross-)covariance(-function), power spectral density complies with (theoretical and analytical) requirements. - Convert the description of a probabilistic problem into a probabilistic model using PDF, PMF, or CDF.3. PDF/PMF and Expected ValueCalculate the various forms of expected value of (combinations of) random variables and random processes- For a given (amplitude continuous/discrete and time continuous/discrete) probability model calculate the following probabilistic (marginal, joint and conditional) characterizations: PDF, PMF, CDF, probability of an event, expected value, variance, covariance, correlation, correlation coefficient, auto/crosscorrelation function, auto/crosscovariance function, (cross) power spectral density.- Calculate the PDF, PMF, expected value and variance of a derived random variable.4. Properties of Random Processes- Independence, orthogonality, uncorrelated, whiteness, IID- Determine if random variables/processes have the following properties: independent, orthogonal, uncorrelated, white, Poisson, Gaussian, Bernoulli, Markov, IID, stationary, WSS, ergodic.- Calculate the expected value, variance, auto/crosscorrelation(function), auto/crosscovariance(function), power spectral density of a linear combination of random variables and of a linearly filtered (WSS, amplitude discrete/continuous, time discrete/continuous) random process.5. Large NumbersCentral limit theorem, law of large numbers- Solve problems that require the use of the central limit theorem in an engineering context- Explain the law of the large numbers in an engineering context.6. Statistical Estimators- Estimated mean, variance, and correlation function- Given a set of outcomes, sample functions or realizations, calculate estimators for expected value, variance, and (auto-)correlation function.7. Application to Engineering Problems and Simulations- Select and translate a simple electrical engineering or computer science problem into mathematical probability model. The emphasis is on problems in signal and image processing, telecommunication, and media and knowledge technology. The class of probability models encompasses the following random variables/processes: Bernoulli, exponential, binomial, Poisson, Gaussian, uniform.- Justify and reflect on the approach taken in calculating or simulating (MatLab) the following probabilistic properties: PDF, PMF, expected value, variance, autocorrelation function, autocovariance function.8. Signals and Systems- Signal representation, linear time invariant (LTI) systems, impulse response, convolution, causality, difference equations, recursive and non-recursive systems, stability.9. Z-transform- Properties of Z-transform, region of convergence, rational transfer functions, inverse Z-transform, system analysis in the Z-domain, poles, zeros, stability.10. Fourier Transforms- Fourier series, continuous-time Fourier transform, discrete-time Fourier transform, discrete Fourier transform, Fast Fourier transform (FFT), properties of Fourier transforms, frequency-domain characterization of LTI sytems.11. Sampling and Reconstruction of Signals- sampling theorem, sampling frequency, aliasing, folding, interpolation, D/A and A/D conversion.","Education Method":"Lectures, working groups (problem solving), laboratory work (Matlab exercises)","Literature and Study Materials":"J.G. Proakis/D.G. Manolakis, Digital Signal Processing: Principles, Algorithms and Applications, 4th Edition, Prentice Hall 2007, 1084 pp., ISBN 0-13-187374-1. R.D. Yates and D.J. Goodman, \"Probability and Stochastic Processes: A Friendly Introduction for Electrical and Computer Engineers\", ISBN 0-471-17837-3, John Wiley and Sons, New York, 2005, Second Edition.","Assessment":"The two parts will be examined separately, and both need to be passed.Exams for both parts areclosed book, but students are allowed to bring a self made double A4 formula sheet. Before students can take part in the exam for part I, the students have to hand in pass the final laboratory exercise."}]},{"nr":379,"parent":372,"name":"Year 1 DMT The elective major 2015","id":15791,"children":[{"nr":380,"parent":379,"name":"IN4144","id":36695,"children":[],"courseName":"Scalable Data Management for Data Science","ects":"4","Responsible Instructor":"Prof.dr.ir.A.P.deVries    ,A.P.deVries@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2Pract.","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Study Goals":"The course has three goals:1. Theory: Database technology has been successful for administrative data because it offers a balance between flexibility and efficiency. The course investigates how the fundamentals of database technology can be applied also to create support platforms for heterogeneous multimedia dataspaces.2. Learn to work with research papers (and recognize their limitations).3. Gain practical \"engineering\" skills when turning research ideas into a prototype implementation.","Education Method":"Lectures, lab work.","Literature and Study Materials":"Reader (made available online).","Assessment":"Paper presentation, participation in class, project assignment.","Remarks":"The course is organized as follows. Each student organizes one of the classes, in which a research paper on the topics related to class is discussed. During the course period, students develop a prototype that illustrates one or more aspects of multimedia search and its implications on data management. Assessment is based on class participation, the quality of the presentation of the research paper treated, and a short report and demonstration of the prototype work performed."},{"nr":381,"parent":379,"name":"IN4152","id":36692,"children":[],"courseName":"3D Computer Graphics and Animation","ects":"5","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/proj pract","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"TI2710-B, IN2905-A, IN2905-I or IN2770 Computer Graphics; students that haven't followed any of these courses might still be able to participate, but should be willing to invest some more time","Study Goals":"The course teaches computer graphics techniques on an advanced level. After the course the student is able to classify the different modeling, shading and display techniques, and can reproduce the basic mathematical and algorithmic notions associated with these concepts, can comment on the weak and strong points of these techniques, and can apply the concepts within a graphics program.","Education Method":"research, lab work","Literature and Study Materials":"Research Papers in domain of selected topics, Lecture sheets","Books":"Real-time Rendering by Tomas Akenine-M�ller, Eric Haines, Naty Hoffman - Peters, Wellesley Real-Time Shadows by Elmar Eisemann, Michael Schwarz, Ulf Assarsson, Michael Wimmer - Taylor & Francis Computer Graphics. Principles and Practice by James D. Foley, Andries VanDam, Steven K. Feiner - Addison Wesley OpenGL Programming Guide: The Official Guide to Learning OpenGL, Versions 3.0 and 3.1 by Dave Shreiner - Addison Wesley -AVAILABLE AS DOWNLOAD FOR FREE SEARCH FOR \"RED BOOK OpenGL\"","Assessment":"Some of the practical assignments might be checked and not passing might lead to a penalty on the final grade.The final project, paper presentation (including an individual oral evaluation covering the course content) will be graded. The oral exam might be replaced by a multiple choice evaluation."},{"nr":382,"parent":379,"name":"IN4182","id":36696,"children":[],"courseName":"Digital Audio and Speech Processing","ects":"6","Responsible Instructor":"Dr.ir.R.Heusdens    ,R.Heusdens@tudelft.nl","Instructor":"R.C.Hendriks    ,R.C.Hendriks@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Signal processing, stochastic processes and preferably statistical signal processing. Knowledge of MATLAB is advantageous.","Study Goals":"1. Audio codingKeywords: psycho-acoustics, spectral/temporal masking, time-to-frequency transformations, audio coding standards, multi-channel codingThe student� is able to explain the general mechanisms of human auditory perception � is able to discuss the use of human auditory perception in state-of-the-art audio compression algorithms� is able to discuss the structure and principles used in standardized perceptual audio coding algorithms2. Speech enhancementkeywords: spectral subtraction, Wiener filtering, conditional mean estimators, noise power spectral density trackingThe student � is able to implement state-of-the-art algorithms for suppressing noise in noisy speech signals� is able to design components/functional blocks in noise suppression algorithms (e.g. derive Bayesian suppression rules)3. Speech codingkeywords: speech production, linear predictive analysis, fundamental frequency estimation, voicing estimation, speech coding based on linear predictionThe student� is able to identify how the human speech production process is exploited in speech processing algorithms� is able to implement a linear predictive speech synthesizer� is able to discuss the signal processing techniques used in speech coding","Education Method":"lectures, mini projects + hands-on exercises","Literature and Study Materials":"Overhead sheets + selected articles/book chapters","Assessment":"Written examination + evaluation of the mini projects","Special Information":"Participation in the mini projects is mandatory to qualify for the exam."},{"nr":383,"parent":379,"name":"IN4314","id":36698,"children":[],"courseName":"Seminar Selected Topics in Multimedia Computing","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , M.A.Larson    ,M.A.Larson@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"signal (image, audio) processing, data mining, pattern recognition","Study Goals":"To become acquainted with the state-of-the-art research and development activities in the field of Multimedia Computing, and to become an expert in one particular \"hot topic\", such that they are able to identify the \"knowledge gap\" (i.e., the place in which more research is needed in order to advance the state of the art).","Education Method":"readings, seminar discussions, presentations, survey paper","Literature and Study Materials":"Readings, possibly including video lectures.","Assessment":"The students demonstrate the knowledge that they have acquired by making a presentation on a pre-existing survey (10%), then writing their own survey on a new topic (65%), and finally by making a presentation on that topic (25%). The students must complete all three components."},{"nr":384,"parent":379,"name":"IN4325","id":35210,"children":[],"courseName":"Information Retrieval","ects":"5","Responsible Instructor":"A.Bozzon    ,A.Bozzon@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"Learning Objectives:= Describe the different information retrieval models, and to compare their weaknesses and strengths. [Learning Objective 1]= Compare the weaknesses and strengths of different indexing techniques, describing their most suited applications trough meaningful examples. [Learning Objective 2]= Compare the weaknesses and strengths of different querying techniques, describing their most suited applications trough meaningful examples. [Learning Objective 3]= Analyse the performance of an Information Retrieval system by applying the proper evaluation measures. [Learning Objective 4]= Design and develop (Web) Information Retrieval systems, possibly using advanced social and se- mantic search functionalities. Support and defend the relevance and correctness of his/her choices with regards to the adopted information retrieval model, indexing technique, and querying tech- nique. [Learning Objective 5]= Describe and compare several crowdsourcing techniques. [Learning Objective 6]= Illustrate Information Retrieval application scenario for crowdsourcing. [Learning Objective 7]= Design and develop crowdsourcing applications, and to evaluate the obtained results. [Learning Objective 8]= Illustrate suitable application scenario for advanced Information Retrieval topics such as Semantic Search, Information Seeking Paradigms and User Interfaces for Information Retrieval, Search Results Diversification, and Expert Finding. [Learning Objective 9]","Education Method":"Lectures, individual and group exercises","Literature and Study Materials":"Scientific papers, course slides and blackboard notes.","Books":"*Introduction to Information Retrieval*Author(s): Christopher D. Manning, Prabhakar Raghavan and Hinrich Schtze.Cambridge University Press. 2008. ISBN-13: 978-0000000000http://nlp.stanford.edu/IR-book/information-retrieval-book.html*Web Information Retrieval*. Author(s): Stefano Ceri, Alessandro Bozzon, Marco Brambilla, Piero Fraternali, Emanuele Della Valle, Silvia Quarteroni.Springer, 2013. ISBN-13: 978-3642393136http://www.springer.com/computer/database+management+\\%26+information+retrieval/book/978-3-642-39313","Assessment":"Individual and group assignments"},{"nr":385,"parent":379,"name":"IN4326","id":36667,"children":[],"courseName":"Seminar Web Information Systems","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"-to expose the student to current developments in research on web information systems and its methodologies; -to familiarise the student with reading, presenting and discussing scientific literature in the area;-to help the student in reading and writing scientific papers and choosing a topic for her/his thesis in the area.","Education Method":"Student seminar.","Assessment":"-Quality of presentation of the scientific paper studied (15%).-Participation in the seminar discussions (10%).-Quality of paper written (75%)."},{"nr":386,"parent":379,"name":"IN4331","id":36668,"children":[],"courseName":"Web Data Management","ects":"5","Responsible Instructor":"Dr.ir.A.J.H.Hidders    ,A.J.H.Hidders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Bachelor level courses in database management systems and operating systems. A prior course in distributed systems or middleware would be helpful but is not required. Working knowledge of Java or C++ will be important for the final assignment.","Study Goals":"At the end of this course the student can- describe, explain and use effectively XML technologies such as XML, DTDs, XPath, XSLT and web services- describe, explain and use XQuery for data management, including its various extensions for scripting and full-text search- describe use and explain distributed file systems such as Google File System (GFS or GoogleFS) and the Hadoop Distributed File System (HDFS)- use and explain the advantages and disadvantages of distributed NoSQL databases such as CouchDB- program MapReduce frameworks to perform efficiently workflows for data analytics","Education Method":"Lectures, practical exercises, and depending upon the number of students presentations by students.","Literature and Study Materials":"Course slides, hand outs and blackboard notes.","Books":"(mandatory, but will be made available for free on Blackboard)Serge Abiteboul, Ioana Manolescu, Philippe Rigaux, Marie-Christine Rousset, Pierre Senellart: Web Data Management. Cambridge University Press, 30 nov. 2011, 406 pages.(advised, not mandatory reading)Abiteboul, S., Peter Buneman, and Dan Suciu. Data on the Web: From Relations to Semistructured Data and XML. San Francisco: Morgan Kaufmann, 1999.Katz, Howard, and D. D. Chamberlin. XQuery from the Experts: A Guide to the W3C XML Query Language. Boston: Addison-Wesley, 2003.Melton, Jim, and Stephen Buxton. Querying XML: XQuery, XPath, and SQL/XML in Context. The Morgan Kaufmann series in data management systems. Amsterdam: Elsevier/Morgan Kaufmann, 2006.","Assessment":"Presentation (if applicable) and final assignment."},{"nr":387,"parent":379,"name":"IN4393","id":36699,"children":[],"courseName":"Computer Vision","ects":"5","Responsible Instructor":"H.Dibeklioglu    ,H.Dibeklioglu@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2 en 4 uur werkcollege in 4e Q","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Expected prior knowledge":"You are expected to have a working understanding of linear algebra, and of probability and statistics. Knowledge about pattern recognition and/or machine learning is preferred.","Study Goals":"After successfully completing this course:- You are able to explain and implement various techniques for feature point detection, and can explain the type of feature points these detectors identify.- You are able to explain and implement techniques for feature point description and feature point matching. You are able to use these techniques in applications such as object detection and image stitching.- You are able to explain and implement techniques for image stitching. The student understands the key problems in developing image-stitching algorithms (such as alignment and parallax removal).- You are able to explain and implement techniques for shape analysis.- You are able to explain and implement techniques for face detection and face recognition. - You are able to explain and implement techniques for object recognition and scene understanding.- You are able to explain and implement basic techniques for feature tracking, in particular, Kanade-Lucas-Tomasi tracking and particle filter tracking. - You are able to explain Markov Random Field models, and is able to use such models in problems such as image denoising and inpainting.- You are able to develop and explain computer vision systems for real-world applications. In particular, you are able to select computer vision techniques that are to solve a specific image analysis or image understanding problem, to motivate this selection, and to combine the selected techniques into a working computer vision system.","Education Method":"- Section 1, 2, 3, 4, 6, 9, 10.5, and 14; Appendix B of �Computer Vision, Algorithms and Applications�, R. Szeliski, Springer, 2011, ISBN 978-1-84882-934-3. (This book is freely available online.) - \"Shape Matching and Object Recognition Using Shape Contexts\", S. Belongie, J. Malik, and J. Puzicha. IEEE Transactions on Pattern Analysis and Machine Intelligence 24(24): 509�521, 2002.- �Discriminative random fields�, S. Kumar and M. Hebert, International Journal of Computer Vision 68(2):179�202.- �Fields of Experts�, S. Roth and M.J. Black, International Journal of Computer Vision 82(2):205�229, 2009.- Section 1 and 2 of \"Lucas-Kanade 20 Years On: A Unifying Framework\", S. Baker and I. Matthews, International Journal of Computer Vision 56(3):221�255, 2004.- \"CONDENSATION � Conditional Density Propagation for Visual Tracking\", M. Isard and A. Blake, International Journal of Computer Vision 29(1):5-28, 1998.","Prerequisites":"Prerequisite courses (mandatory): Image or signal processing (TI2710-A or TI2710-C or EE2521); Linear algebra (WI1200TI-A or WI1200TI-B or WI1142TN); Probability and statistics (WI2211TI or WI1120EE or WI1102CT or WI1321TB or WI2013wbmt). If you have take comparable courses at other universities, this is also fine. Please contact the instructor when in doubt!Prerequisite courses (preferred): Pattern recognition (IN4085).","Assessment":"The assessment for this course consist of two main parts:1) You will develop a computer vision system for an application of your choice, and will write a small report with a description of your system. Your grade for the project forms 50% of the final grade for the course.2) A written final exam will determine the remaining 50% of your final grade. The final exam covers: (1) all content covered in the lectures and (2) all material listed under �Course material�. The final exam is an open-book exam: all slides and course material can be used during the exam."}]},{"nr":388,"parent":372,"name":"Year 1 DMT mandatory I&E courses 2015","id":15792,"children":[{"nr":389,"parent":388,"name":"ET4247","id":36640,"children":[],"courseName":"HighTech Start Ups\t","ects":"5","Responsible Instructor":"K.L.M.Bertels    ,K.L.M.Bertels@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/3/0/0","Education Period":"2","Start Education":"2","Exam Period":"2","Course Language":"English","Expected prior knowledge":"None","Study Goals":"The goal of this course is to make students familiar with the idea of setting up a company. We specifically focus on high tech products and markets because of their very specific dynamics.","Education Method":"Lectures and invited speakers","Literature and Study Materials":"HandoutsP.Tiffany, S.Peterson, Business plans for dummies, Wiley publishing, ISBN 1-56884-868-4","Assessment":"Evaluation of business plans that will be presented before a jury.","Remarks":"Students who have participated in the Bachelor course ET3605-D1 should not take this course."},{"nr":390,"parent":388,"name":"IN4394","id":36718,"children":[],"courseName":"EIT Summer School","ects":"4","Responsible Instructor":"Prof.dr.ir.F.W.Jansen    ,F.W.Jansen@tudelft.nl","Contact Hours / Week  x/x/x/x":"Selfstudy","Education Period":"None (Self Study)","Start Education":"1","Exam Period":"none","Course Language":"English","Required for":"EIT master programma","Expected prior knowledge":"First year I&E courses","Study Goals":"- Understanding the process of Business Model Generation, andknowing how to define and analyse the nine building blocks (customer segments, customer relations, channels, value proposition, key activities, key resources, key partners, cost structure and revenue streams). [BDL learning outcome]- The ability to perform a business development process in the context of a societal relevant thematic area (such as Health and Wellbeing)- Understanding how technology and innovation interact with all stakeholders (eco-system, competitors, alliances, networks, markets, etc.)- The ability to reflect upon ethical, societal, scientific and sustainability considerations when developing new products/technologies and business models.- The ability to direct a business development process and to communicate and convey business proposals to business people and other stakeholders","Education Method":"A strong emphasis is on project work, team building, (personal) networking, cultural exchange, and creat-ing global awareness of societal and business trends. During the two weeks, students are confronted (i.e. meet in person) with involved stakeholders and with the ethical, societal, scientific and sustainability relevance of their ideas. The course emphasizes multidisciplinary work with attention to cure (societal and personal needs), culture (motivation and acceptation), concept (usability and technical realisation), and commercialisation (marketing plan and business realisation). During the first week, students are introduced to the thematic area by presentations on societal problems, trends, new technologies, and possible business opportunities. Here, the emphasis is on discussion, opin-ion making, and experiencing through observational practices and field tests. Students work in groups on a business cases and develop ICT applications (products or services) for a particular thematic area. They perform market studies, define user segments, analyse competitors, and develop their concepts into testable (lo-fi) prototypes. They perform user studies (focus groups) and further detail the technical concepts. At the end of the week they pitch their plan for a business panel.In the second week, students work towards a business plan (Product Operational Plan) and analyse all is-sues of relevance; markets, feasibility, usability, business life-cycles, operations and maintenance. They make a design/choice for a business pattern and platform, and a suitable revenue model, and analyse relevant issues, such as IPR, venture financing, etc.","Assessment":"Pitching of the business plans before a business panel and evaluation of a project report."},{"nr":391,"parent":388,"name":"IN4401","id":36717,"children":[],"courseName":"Business Development Lab","ects":"10","Responsible Instructor":"Prof.dr.ir.F.W.Jansen    ,F.W.Jansen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/x/x","Education Period":"3,4","Start Education":"3","Exam Period":"none","Course Language":"English","Required for":"The Business Development Lab is part of the I&E minor of the EIT ICT Labs master school and is mandatory for the DMT and CCS students. It aims to provide the student with a basic understanding and ability to perform a business devel-opment process, focused on the development of a product and service and exploring its customer value, possible value chains, and its market potential (and not so much on the venturing process of starting a company). The applied methodology is based on the Business Model Generation method, emphasizing the nine building blocks of a business process model: customer segments, customer relations, channels, value proposition, key activities, key resources, key partners, cost structure and revenue streams.","Study Goals":"- In depth understanding of the different phases of a business development process- The ability to succesfully apply the learned knowledge for development of a new product or business concept- The ability to sytematically explore and create ideas or modify existing ideas and technology for business solutions- The ability to transforming new ideas into business solutions on the commercial market, combined with decision-making and leadership competencies- The ability to work in multi-disciplinary teams, and to reflect upon ethical and team processes","Education Method":"The BDL is done in projects groups and includes both a technical product design project and a business plan development. The project work is supported by coaches. During the course, several workshops and presentations are planned on the above topics. Towards the end of the course the students are trained to present their Business Plans. The course ends with a Business Plan pitch.The BDL will start with a winterschool, a 3-day workshop round a business case at the CLC (co-location) in Eindhoven. Applied lectures and workshops: 56 h (4h week)Group work: 168h (12h/week)Winterschool: 24hPresentation (report/pitch): 32h","Literature and Study Materials":"A. Osterwalder & Y. Piguer, Business Model Generation, John Wiley & Sons.","Assessment":"Peer evaluation of BP Presentation (25%) and expert evaluation BP Presentation (25%) - Evaluation BP by coaches (50%)"}]},{"nr":392,"parent":372,"name":"Year 1 DMT Elective I&E courses 2015","id":15793,"children":[{"nr":393,"parent":392,"name":"MOT1434","id":35297,"children":[],"courseName":"Technology, Strategy and Entrepreneurship","ects":"5","Module Manager":"Dr.G.van deKaa    ,G.vandeKaa@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"3,4","Course Language":"English","Required for":"Emerging and breakthrough technologies","Expected prior knowledge":"Core courses in cluster technology, innovation and economics and technology, innovation and commercialization","Summary":"The course Technology, Strategy and Entrepreneurship focuses on formulating and implementing technology strategy for large firms and entrepreneurs. However, before a manager can formulate a successful strategy, it is needed to understand the specifics of the external economic and societal environment in which the strategy will be implemented. Throughout the course, students will be acquainted with a variety of academic perspectives which are utilized by strategy and entrepreneurship researchers.","Study Goals":"�After the course students are able to understand the theoretical background of technology strategy. The course provides students with a coherent framework to understand, to relate and to position a variety of strategy topics.�After the course students are able to understand the theoretical background of entrepreneurship.�After the course, students are able to understand and apply key technology strategy models; students are able to understand the relations between those models.�After the course students are able to understand, analyze and conclude on the industry dynamics of technological innovation.�After the course, students are able to understand, analyze and conclude on companies� technology strategy, and are able to generate recommendations for formulating and implementing such a strategy for large and entrepreneurial firms.�After the course students are able to formulate and implement the technological innovation strategy for large and entrepreneurial firms","Education Method":"The course is organized into 6 regular sessions, 2 game sessions, 4 teaching case sessions, and one concluding session with exam preparation. Each regular session will consist of lectures. In the teaching case sessions students discuss questions posed in assigned teaching cases that relate to the topics studied in the regular sessions. For the regular sessions students study the literature and for the teaching case sessions students prepare the teaching cases. In the teaching game sessions students apply the theory by implementing and evaluating various strategies in a real life situation.","Literature and Study Materials":"Journal articlesTeaching game 1: 'Back Bay Battery' Strategic Innovation SimulationTeaching game 2: Platform warsSeveral teaching cases","Books":"Book: Schilling, M. A. 2013. Strategic Management of Technological Innovation. New York, USA, 4th Revised edition, ISBN10 0071326448, ISBN13 9780071326445","Assessment":"Written exam, teaching games"},{"nr":394,"parent":392,"name":"MOT1461","id":35296,"children":[],"courseName":"Financial Management","ects":"5","Module Manager":"Dr.ir.Z.Roosenboom-Kwee    ,Z.Roosenboom-Kwee@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"1,2","Course Language":"English","Required for":"MOT students","Expected prior knowledge":"None","Summary":"This course is about how corporations make financial decisions. It is designed to equip technical/engineering students with fundamental financial management skills.","Study Goals":"By the end of the course, students are expected to:� Interpret financial statements� Evaluate financial performance of companies� Identify financial instruments and markets� Examine choices of proper financing instruments� Apply relevant techniques for evaluating risk and alternatives in investment projects","Education Method":"Lectures and exercises (workshops)","Literature and Study Materials":"Lecture slides and textbook","Books":"Jonathan Berk and Peter DeMarzo (2014). Corporate Finance: The Core. Third Edition, Pearson. ISBN: 978-0-273-79216-1.","Assessment":"Written Exam","Enrolment / Application":"Enrollment via Blackboard"},{"nr":395,"parent":392,"name":"MOT1532","id":35298,"children":[],"courseName":"High Tech Marketing","ects":"5","Module Manager":"Prof.dr.M.S.vanGeenhuizen    ,M.S.vanGeenhuizen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/x/0/0","Education Period":"2","Start Education":"2","Exam Period":"2,3","Course Language":"English","Study Goals":"Study goals By the end of the course the students have gained knowledge of the principles of high-tech marketing and will be able to analyze high-tech marketing strategies critically with regard to:- Uncertainty in high-tech environments- Customer segmentation and behavior- Crossing the �chasm�- Product development and innovation strategies- Pricing strategies- Distribution strategies- Advertising and promotion- Marketing research methods, including social media use - Use of Internet for marketing purposes- Use of so-called Living Labs (as a tool)In addition, students have gained the ability to apply high-tech marketing tools and analyze how firms can address the higher level of uncertainty in high-tech markets, among others in parts of a Marketing Plan. Students can combine marketing theories, strategies and tools in a Marketing Plan for a high-tech firm, and have also gained insight into the newest developments concerning social media use in marketing.","Education Method":"There are nine lectures and there is one assignment (components of a Marketing Plan for a high-tech firm). Part of the lectures are divided into two: (1) teaching about the literature, and (2) critical reading and commenting by students on key papers.The assignment 'Marketing Plan'is concerned with an existing spin-off firm of TU Delft or other university, or with a patent that is officially offered for commercialization (a list will be provided to students).","Assessment":"Final grade: There are two grades, one for the Marketing Plan assignment and one for the Written exam. The grade for the Marketing Plan assignment constitutes 40% of the end-grade and the grade for the Written exam constitutes 60% of the end-grade.Mohr, J., Sengupta, S. and Slater. S. (2010) Marketing of High-Technology Products and Innovations, 3rd edition, Prentice Hall (compulsory reading for Written exam).Two papers (to be announced) are also compulsory reading for the Written exam.In addition, various handouts will support the lectures and the assignment, e.g. concerning examples of innovations and of TU Delft spin-off firms, and concerning issues in modern marketing.Up-to-date information about the schedule of classes, rooms, etc.: in Blackboard"},{"nr":396,"parent":392,"name":"MOT2421","id":35292,"children":[],"courseName":"Emerging and Breakthrough Technologies","ects":"5","Module Manager":"Dr.J.R.Ortt    ,J.R.Ortt@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English"},{"nr":397,"parent":392,"name":"MOT9556","id":35147,"children":[],"courseName":"Corporate Entrepreneurship","ects":"6","Module Manager":"Dr.ing.V.E.Scholten    ,V.E.Scholten@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/x/0/0","Education Period":"2","Start Education":"2","Exam Period":"none","Course Language":"English","Study Goals":"�You will develop a thorough understanding of corporate entrepreneurship; the contexts, the forms, and the relationship with strategic management.�You will develop skills to analyze strategic situations and design appropriate corporate entrepreneurship strategies and organizations.�You will be able to analyse the contribution of internal and external ventures in the renewal of large corporates.�You will understand the emergence of academic spin-offs and how they relate to the technology development of large established organisations.�You will understand the emergence of academic spin-offs and how they relate to the technology development of large established organisations.�You will be able to identify the various key actors that facilitate and support the emergence of new business ventures and academis spin-offs","Education Method":"The course is organized into 14 sessions. Each session consists of a mixture of lecturing, and discussions of cases, literature and assignments, and presentations.","Literature and Study Materials":"Book:Undecided yet, but likely to be the book of Morris, M.H., Kuratko, D.F. and Covin, J.G. (2008). �Corporate Entrepreneurship & Innovation. Entrepreneurial Developments within Organizations� 2nd edition, West Eagan, MN: Thomson South-Western. ISBN 0-324-25916-63726-7Journal articles: Will be posted on Blackboard-site.Slides presented in class: Will be posted on Blackboard-site.","Assessment":"We distinguish between three grading components:1. Group assignment: Written assignment and presentation of an analyses of a case based on the literature discussion, which will account for 20% of your final grade.2. Individual assignment: at two occasions, you reflect on a case presented by another group, which will account for 20% of your final grade.3. Written final essay that analyses a corporate venturing program in a multinational and reflect your findings upon the theory discussed in class. This will account for the remaining 60% of the final gradeEach of the grades should be at least 6.0.","Special Information":"Each student will be expected to be present during lectures (two times a week), actively participate during the lectures, complete assigned readings, read posted lectures, listen to thought leader presentations and submit written assignments when due.","Remarks":"Given the interactive nature of this course, attendance at classes is mandatory. Only very serious grounds for absence (such as illness accompanied with doctor�s note) are acceptable. Holidays and (paid or voluntary) work obligations do not count as acceptable reasons for absence. This is a full-time course with scheduled holidays. Unjustified non-attendance will result in expulsion from this course.","Category":"MSc level"}]}]},{"nr":398,"parent":371,"name":"Year 2 DMT 2015","id":15794,"children":[{"nr":399,"parent":398,"name":"IN5030","id":36719,"children":[],"courseName":"DMT thesis project ","ects":"30"},{"nr":400,"parent":398,"name":"Year 2 DMT Specialisation mandatory courses 2015","id":15795,"children":[{"nr":401,"parent":400,"name":"ET4283","id":35640,"children":[],"courseName":"Seminar Advanced Digital Image Processing  ","ects":"6","Responsible Instructor":"Dr.E.A.Hendriks    ,E.A.Hendriks@tudelft.nl","Instructor":"Prof.dr.ir.L.J.vanVliet    ,L.J.vanVliet@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/4/0/0","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Basics of signal processing, image processing, linear algebra, stochastic processes. The course will start with a brief review of basic image processing principles as discussed in the TI bachelor course TI2716-B.","Study Goals":"General learning outcomes:The student has insight into state of the art algorithms for image processing including Multi-Resolution Image Processing, Morphological Image Processing, Image Features Representation/Description, Motion Estimation and Optic Flow, Image Restoration, Image Segmentation and 3D Computer Vision. The student is able to read, discuss, summarize and comment on scientific journal and conference papers in this area.Specific learning outcomes:1.Multi-resolution Image Processing:Gaussian scale space, windowed Fourier transform, Gabor filters, multi-resolution systems (pyramids, subband coding and Haar transform), multi-resolution expansions (scaling functions and wavelet functions), wavelet Transforms (Wave series expansion, Discrete Wavelet Transform (DWT), Continuous Wavelet Transform (CWT), Fast Wavelet Transform (FWT))The student is able to motivate the use of space-frequency representations, analyze the behavior of space-frequency techniques, explain the principles behind, classify and evaluate multi-resolution techniques..2.Morpological Image Processing:Definitions of gray-scale morphology: erosion, dilation, opening, closing; Application of gray-scale morphology: smoothing, gradient, second derivatives (top hat), morphological sieves (granulometry).The student is able to apply, recognize the priciples and analyze (a sequence of) morphological operations for noise suppression, edge detection, and sharpening.3.Image Feature Representation and Description:Measurement principles: accuracy vs. precision ; Size measurements: area and length (perimeter); Shape descriptors of the object outline: form factor, sphericity, eccentricity, curvature signature, bending energy, Fourier descriptors, convex hull, topology; Shape descriptors of the gray-scale object: moments, PCA, intensity and density; Structure tensor in 2D and 3D: Harris Stephens corner detector, isophote curvature.The student is able to comprehend and explain the properties of measurements in digitized images, combine measurement principles to solve a new problem, comprehend the structure tensor in various notations and apply it in measurement procedures.4.Motion and optic flow:Motion is strcuture in spatio-temporal images; Two frame registration: Taylor expansion method; Multi-frame registration: Optic flow. Applications of image registration.The student is able to explain the properties of image registration and optic flow and comprehend the aperture problem in optic flow.5.Image Restoration:Noise filtering, Wiener filtering, Inverse filtering, Geometric transformation, Grey value interpolationThe student is able to discuss the use of linear and non-linear noise filters, explain the use of inverse filters andproblems of inverse filtering in the case of noise, describe (the use of) a Wiener filter and apply geometric transformations and bi-linear grey value interpolation6.Image Segmentation:Thresholding, edge and contour detection, data-driven and model-driven image segmentation, edge trackingThe student is able to discuss isodata thresholding, optimal thresholding, multimodal thresholding and adaptive thresholding techniques,apply Gaussian derivative filters and difference based filters for calculation of edge point candidates, explain the trade off between localization and detection of edges, discuss split and merge techniques and edge tracking techniques. The student has insight into model-based image segmentation (object detection) approaches like template matching, Hough Transform, Deformable Template matching, Active Contours and Active Shape models and is able to formulate how shape information and image intensity information can be incorporated into these approaches.","Education Method":"lectures, group assignment with plenar presentation and discussion","Computer Use":"Matlab and dipimage toolbox and/or other imaging toolbox","Literature and Study Materials":"Book 'Digital Image Processing', van R.C. Gonzalez en R.E. Woods, third edition, 2002, ISBN 9780131687288.(Online) Book 'Computer Vision, Algorithms and Applications', R. Szeliski, (http://szeliski.org/Book/). The online version is available for free.We have used the Book �Introductory Techniques for 3-D Computer Vision�, E. Trucco and A. Verri, ISBN 0-13-261108-2 in the past.Lecture notes �Fundamentals of Image Processing�(http://homepage.tudelft.nl/e3q6n/education/et4085/sheets/ppt/FIP2.2.pdf) PDF-files of the lecture slides (see blackboard)","Assessment":"written exam and assignment. Both have weight 0.5 and both should be 5.0 or higher.Weighted average should be 5.8 or higher.","Exam Hours":"There will be a written examination in the exam period after the first semester. The assessment of the assignment will take place at the end of the first semester or in the exam period after the first semester.","Permitted Materials during Tests":"Books, print-out of pdf files of the lecture slides and lecture notes are not permitted during the written examination"},{"nr":402,"parent":400,"name":"IN4307","id":36622,"children":[],"courseName":"Medical Visualization","ects":"5","Responsible Instructor":"Dr.A.Vilanova Bartroli    ,A.Vilanova@tudelft.nl","Contact Hours / Week  x/x/x/x":"4/0/0/0 + final project 2th quarter (8x2)","Education Period":"1","Start Education":"1","Exam Period":"Different, to be announced","Course Language":"English","Study Goals":"At the end of the course, the students should be able to understand, and judge the advantages and disadvantages of the medical visualization algorithms, as well as their applicability to a specific medical problem. The students should be able to propose suitable solutions to a problem, backed by sound knowledge of the underlying theory and the practical possibilities.They should be able to design, implement, test and discuss these solutions, consisting of a number of medical visualization algorithms.","Education Method":"The course will be based on a combination of lectures and practical assignments.","Assessment":"The evaluation will be based on a final project (60%) and an oral exam (40%). The final project will be done during the 2nd quarter.The deliverables for the final project will be a report (paper), the results (e.g., code) and a presentation. There will be a day in the second quarter were all projects will be presented.The oral exam will be arranged at the end of the first quarter.Both Assignment (60 %) and oral exam (40%) have to get the mark of pass to successfully pass the course."}]},{"nr":403,"parent":398,"name":"Year 2 DMT Specialisation electives 2015","id":15796,"children":[{"nr":404,"parent":403,"name":"AP3232 D  ","id":37896,"children":[],"courseName":"Medical Imaging Signals and Systems","ects":"6","Responsible Instructor":"Dr.F.M.Vos    ,F.M.Vos@tudelft.nl","Instructor":"Dr.K.W.A.vanDongen    ,K.W.A.vanDongen@tudelft.nl , Prof.dr.W.J.Niessen    ,W.J.Niessen@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/2/2","Education Period":"3,4","Start Education":"3","Exam Period":"4,5","Course Language":"English","Expected prior knowledge":"Elementary physics.","Study Goals":"1. Acquire in-depth knowledge about the physics and image reconstruction underlying X-ray, CT, acoustical and magnetic resonance imaging;2. Being able to solve elementary problems related to the theory mentioned in 1;3. Being able to solve more advanced problems addressing the theory mentioned in 1 by combining mathematical skills and physical insight;4. Able to acquire new knowledge about clinical applications of medical imaging.","Education Method":"Lectures, homework and assignments.","Literature and Study Materials":"Book: �Medical Imaging Signals & Systems�, Jerry L. Prince, Jonathan Links. Upper Saddle River NJ: Prentice Hall, 2005, 496 pp. ISBN: 0-13-065353-5Additional handouts wherever necessary.","Assessment":"The course on Medical Imaging comes with homework on (1) MR, (2) X-ray/CT and (3) Ultrasound imaging. By making the homework you can earn bonuspoints: 0.5 points for each of the topics, thus maximally 1.5 points(A).In addition, there will be an assignment for which you will need to hand in a paper and make a presentation. This can provide you with maximally 1 bonuspoint (B).Finally, there will be an exam graded from 0-10 (C).The final grade is calculated by: A + B + (10-A-B)*C/10.","Permitted Materials during Tests":""},{"nr":405,"parent":403,"name":"IN4085","id":35756,"children":[],"courseName":"Pattern Recognition","ects":"6","Responsible Instructor":"Dr.D.M.J.Tax    ,D.M.J.Tax@tudelft.nl","Instructor":"M.Loog    ,M.Loog@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/2/0/0Pract.","Education Period":"1,2","Start Education":"1","Exam Period":"2,3","Course Language":"English","Expected prior knowledge":"Linear algebra, multivariate statistics.","Study Goals":"After succesfully completing this course, the student is able to: recognise pattern recognition problems and select algorithms to solve them; read and comprehend recent articles in engineering-oriented pattern recognition journals, such as IEEE Tr. on PAMI; construct a learning system to solve a given simple pattern recognition problem, using existing software.","Education Method":"Lectures, lab work","Literature and Study Materials":"S.Theodoridis and K.Koutroumbas, Pattern Recognition (2nd ed.), Elsevier, 2009, ISBN-978-1-59749-272-0; Sheets; PRTools user manual; Pattern Recognition exercises with PRTools.","Assessment":"Homework, Computer laboratory assignment and written examination.","Remarks":"see also http://www.delftleiden.nl/BIO/index.php?id=curriculum"},{"nr":406,"parent":403,"name":"IN4144","id":36695,"children":[],"courseName":"Scalable Data Management for Data Science","ects":"4","Responsible Instructor":"Prof.dr.ir.A.P.deVries    ,A.P.deVries@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2Pract.","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Study Goals":"The course has three goals:1. Theory: Database technology has been successful for administrative data because it offers a balance between flexibility and efficiency. The course investigates how the fundamentals of database technology can be applied also to create support platforms for heterogeneous multimedia dataspaces.2. Learn to work with research papers (and recognize their limitations).3. Gain practical \"engineering\" skills when turning research ideas into a prototype implementation.","Education Method":"Lectures, lab work.","Literature and Study Materials":"Reader (made available online).","Assessment":"Paper presentation, participation in class, project assignment.","Remarks":"The course is organized as follows. Each student organizes one of the classes, in which a research paper on the topics related to class is discussed. During the course period, students develop a prototype that illustrates one or more aspects of multimedia search and its implications on data management. Assessment is based on class participation, the quality of the presentation of the research paper treated, and a short report and demonstration of the prototype work performed."},{"nr":407,"parent":403,"name":"IN4152","id":36692,"children":[],"courseName":"3D Computer Graphics and Animation","ects":"5","Responsible Instructor":"Prof.dr.E.Eisemann    ,E.Eisemann@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/proj pract","Education Period":"3,4","Start Education":"3","Exam Period":"3,4","Course Language":"English","Expected prior knowledge":"TI2710-B, IN2905-A, IN2905-I or IN2770 Computer Graphics; students that haven't followed any of these courses might still be able to participate, but should be willing to invest some more time","Study Goals":"The course teaches computer graphics techniques on an advanced level. After the course the student is able to classify the different modeling, shading and display techniques, and can reproduce the basic mathematical and algorithmic notions associated with these concepts, can comment on the weak and strong points of these techniques, and can apply the concepts within a graphics program.","Education Method":"research, lab work","Literature and Study Materials":"Research Papers in domain of selected topics, Lecture sheets","Books":"Real-time Rendering by Tomas Akenine-M�ller, Eric Haines, Naty Hoffman - Peters, Wellesley Real-Time Shadows by Elmar Eisemann, Michael Schwarz, Ulf Assarsson, Michael Wimmer - Taylor & Francis Computer Graphics. Principles and Practice by James D. Foley, Andries VanDam, Steven K. Feiner - Addison Wesley OpenGL Programming Guide: The Official Guide to Learning OpenGL, Versions 3.0 and 3.1 by Dave Shreiner - Addison Wesley -AVAILABLE AS DOWNLOAD FOR FREE SEARCH FOR \"RED BOOK OpenGL\"","Assessment":"Some of the practical assignments might be checked and not passing might lead to a penalty on the final grade.The final project, paper presentation (including an individual oral evaluation covering the course content) will be graded. The oral exam might be replaced by a multiple choice evaluation."},{"nr":408,"parent":403,"name":"IN4182","id":36696,"children":[],"courseName":"Digital Audio and Speech Processing","ects":"6","Responsible Instructor":"Dr.ir.R.Heusdens    ,R.Heusdens@tudelft.nl","Instructor":"R.C.Hendriks    ,R.C.Hendriks@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Signal processing, stochastic processes and preferably statistical signal processing. Knowledge of MATLAB is advantageous.","Study Goals":"1. Audio codingKeywords: psycho-acoustics, spectral/temporal masking, time-to-frequency transformations, audio coding standards, multi-channel codingThe student� is able to explain the general mechanisms of human auditory perception � is able to discuss the use of human auditory perception in state-of-the-art audio compression algorithms� is able to discuss the structure and principles used in standardized perceptual audio coding algorithms2. Speech enhancementkeywords: spectral subtraction, Wiener filtering, conditional mean estimators, noise power spectral density trackingThe student � is able to implement state-of-the-art algorithms for suppressing noise in noisy speech signals� is able to design components/functional blocks in noise suppression algorithms (e.g. derive Bayesian suppression rules)3. Speech codingkeywords: speech production, linear predictive analysis, fundamental frequency estimation, voicing estimation, speech coding based on linear predictionThe student� is able to identify how the human speech production process is exploited in speech processing algorithms� is able to implement a linear predictive speech synthesizer� is able to discuss the signal processing techniques used in speech coding","Education Method":"lectures, mini projects + hands-on exercises","Literature and Study Materials":"Overhead sheets + selected articles/book chapters","Assessment":"Written examination + evaluation of the mini projects","Special Information":"Participation in the mini projects is mandatory to qualify for the exam."},{"nr":409,"parent":403,"name":"IN4314","id":36698,"children":[],"courseName":"Seminar Selected Topics in Multimedia Computing","ects":"5","Responsible Instructor":"Prof.dr.A.Hanjalic    ,A.Hanjalic@tudelft.nl , M.A.Larson    ,M.A.Larson@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Expected prior knowledge":"signal (image, audio) processing, data mining, pattern recognition","Study Goals":"To become acquainted with the state-of-the-art research and development activities in the field of Multimedia Computing, and to become an expert in one particular \"hot topic\", such that they are able to identify the \"knowledge gap\" (i.e., the place in which more research is needed in order to advance the state of the art).","Education Method":"readings, seminar discussions, presentations, survey paper","Literature and Study Materials":"Readings, possibly including video lectures.","Assessment":"The students demonstrate the knowledge that they have acquired by making a presentation on a pre-existing survey (10%), then writing their own survey on a new topic (65%), and finally by making a presentation on that topic (25%). The students must complete all three components."},{"nr":410,"parent":403,"name":"IN4325","id":35210,"children":[],"courseName":"Information Retrieval","ects":"5","Responsible Instructor":"A.Bozzon    ,A.Bozzon@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/4/0","Education Period":"3","Start Education":"3","Exam Period":"none","Course Language":"English","Study Goals":"Learning Objectives:= Describe the different information retrieval models, and to compare their weaknesses and strengths. [Learning Objective 1]= Compare the weaknesses and strengths of different indexing techniques, describing their most suited applications trough meaningful examples. [Learning Objective 2]= Compare the weaknesses and strengths of different querying techniques, describing their most suited applications trough meaningful examples. [Learning Objective 3]= Analyse the performance of an Information Retrieval system by applying the proper evaluation measures. [Learning Objective 4]= Design and develop (Web) Information Retrieval systems, possibly using advanced social and se- mantic search functionalities. Support and defend the relevance and correctness of his/her choices with regards to the adopted information retrieval model, indexing technique, and querying tech- nique. [Learning Objective 5]= Describe and compare several crowdsourcing techniques. [Learning Objective 6]= Illustrate Information Retrieval application scenario for crowdsourcing. [Learning Objective 7]= Design and develop crowdsourcing applications, and to evaluate the obtained results. [Learning Objective 8]= Illustrate suitable application scenario for advanced Information Retrieval topics such as Semantic Search, Information Seeking Paradigms and User Interfaces for Information Retrieval, Search Results Diversification, and Expert Finding. [Learning Objective 9]","Education Method":"Lectures, individual and group exercises","Literature and Study Materials":"Scientific papers, course slides and blackboard notes.","Books":"*Introduction to Information Retrieval*Author(s): Christopher D. Manning, Prabhakar Raghavan and Hinrich Schtze.Cambridge University Press. 2008. ISBN-13: 978-0000000000http://nlp.stanford.edu/IR-book/information-retrieval-book.html*Web Information Retrieval*. Author(s): Stefano Ceri, Alessandro Bozzon, Marco Brambilla, Piero Fraternali, Emanuele Della Valle, Silvia Quarteroni.Springer, 2013. ISBN-13: 978-3642393136http://www.springer.com/computer/database+management+\\%26+information+retrieval/book/978-3-642-39313","Assessment":"Individual and group assignments"},{"nr":411,"parent":403,"name":"IN4326","id":36667,"children":[],"courseName":"Seminar Web Information Systems","ects":"5","Responsible Instructor":"Prof.dr.ir.G.J.P.M.Houben    ,G.J.P.M.Houben@tudelft.nl","Contact Hours / Week  x/x/x/x":"2/0/0/0","Education Period":"1","Start Education":"1","Exam Period":"none","Course Language":"English","Study Goals":"-to expose the student to current developments in research on web information systems and its methodologies; -to familiarise the student with reading, presenting and discussing scientific literature in the area;-to help the student in reading and writing scientific papers and choosing a topic for her/his thesis in the area.","Education Method":"Student seminar.","Assessment":"-Quality of presentation of the scientific paper studied (15%).-Participation in the seminar discussions (10%).-Quality of paper written (75%)."},{"nr":412,"parent":403,"name":"IN4331","id":36668,"children":[],"courseName":"Web Data Management","ects":"5","Responsible Instructor":"Dr.ir.A.J.H.Hidders    ,A.J.H.Hidders@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/4","Education Period":"4","Start Education":"4","Exam Period":"none","Course Language":"English","Expected prior knowledge":"Bachelor level courses in database management systems and operating systems. A prior course in distributed systems or middleware would be helpful but is not required. Working knowledge of Java or C++ will be important for the final assignment.","Study Goals":"At the end of this course the student can- describe, explain and use effectively XML technologies such as XML, DTDs, XPath, XSLT and web services- describe, explain and use XQuery for data management, including its various extensions for scripting and full-text search- describe use and explain distributed file systems such as Google File System (GFS or GoogleFS) and the Hadoop Distributed File System (HDFS)- use and explain the advantages and disadvantages of distributed NoSQL databases such as CouchDB- program MapReduce frameworks to perform efficiently workflows for data analytics","Education Method":"Lectures, practical exercises, and depending upon the number of students presentations by students.","Literature and Study Materials":"Course slides, hand outs and blackboard notes.","Books":"(mandatory, but will be made available for free on Blackboard)Serge Abiteboul, Ioana Manolescu, Philippe Rigaux, Marie-Christine Rousset, Pierre Senellart: Web Data Management. Cambridge University Press, 30 nov. 2011, 406 pages.(advised, not mandatory reading)Abiteboul, S., Peter Buneman, and Dan Suciu. Data on the Web: From Relations to Semistructured Data and XML. San Francisco: Morgan Kaufmann, 1999.Katz, Howard, and D. D. Chamberlin. XQuery from the Experts: A Guide to the W3C XML Query Language. Boston: Addison-Wesley, 2003.Melton, Jim, and Stephen Buxton. Querying XML: XQuery, XPath, and SQL/XML in Context. The Morgan Kaufmann series in data management systems. Amsterdam: Elsevier/Morgan Kaufmann, 2006.","Assessment":"Presentation (if applicable) and final assignment."},{"nr":413,"parent":403,"name":"IN4393","id":36699,"children":[],"courseName":"Computer Vision","ects":"5","Responsible Instructor":"H.Dibeklioglu    ,H.Dibeklioglu@tudelft.nl","Contact Hours / Week  x/x/x/x":"0/0/0/2 en 4 uur werkcollege in 4e Q","Education Period":"4","Start Education":"4","Exam Period":"4,5","Course Language":"English","Expected prior knowledge":"You are expected to have a working understanding of linear algebra, and of probability and statistics. Knowledge about pattern recognition and/or machine learning is preferred.","Study Goals":"After successfully completing this course:- You are able to explain and implement various techniques for feature point detection, and can explain the type of feature points these detectors identify.- You are able to explain and implement techniques for feature point description and feature point matching. You are able to use these techniques in applications such as object detection and image stitching.- You are able to explain and implement techniques for image stitching. The student understands the key problems in developing image-stitching algorithms (such as alignment and parallax removal).- You are able to explain and implement techniques for shape analysis.- You are able to explain and implement techniques for face detection and face recognition. - You are able to explain and implement techniques for object recognition and scene understanding.- You are able to explain and implement basic techniques for feature tracking, in particular, Kanade-Lucas-Tomasi tracking and particle filter tracking. - You are able to explain Markov Random Field models, and is able to use such models in problems such as image denoising and inpainting.- You are able to develop and explain computer vision systems for real-world applications. In particular, you are able to select computer vision techniques that are to solve a specific image analysis or image understanding problem, to motivate this selection, and to combine the selected techniques into a working computer vision system.","Education Method":"- Section 1, 2, 3, 4, 6, 9, 10.5, and 14; Appendix B of �Computer Vision, Algorithms and Applications�, R. Szeliski, Springer, 2011, ISBN 978-1-84882-934-3. (This book is freely available online.) - \"Shape Matching and Object Recognition Using Shape Contexts\", S. Belongie, J. Malik, and J. Puzicha. IEEE Transactions on Pattern Analysis and Machine Intelligence 24(24): 509�521, 2002.- �Discriminative random fields�, S. Kumar and M. Hebert, International Journal of Computer Vision 68(2):179�202.- �Fields of Experts�, S. Roth and M.J. Black, International Journal of Computer Vision 82(2):205�229, 2009.- Section 1 and 2 of \"Lucas-Kanade 20 Years On: A Unifying Framework\", S. Baker and I. Matthews, International Journal of Computer Vision 56(3):221�255, 2004.- \"CONDENSATION � Conditional Density Propagation for Visual Tracking\", M. Isard and A. Blake, International Journal of Computer Vision 29(1):5-28, 1998.","Prerequisites":"Prerequisite courses (mandatory): Image or signal processing (TI2710-A or TI2710-C or EE2521); Linear algebra (WI1200TI-A or WI1200TI-B or WI1142TN); Probability and statistics (WI2211TI or WI1120EE or WI1102CT or WI1321TB or WI2013wbmt). If you have take comparable courses at other universities, this is also fine. Please contact the instructor when in doubt!Prerequisite courses (preferred): Pattern recognition (IN4085).","Assessment":"The assessment for this course consist of two main parts:1) You will develop a computer vision system for an application of your choice, and will write a small report with a description of your system. Your grade for the project forms 50% of the final grade for the course.2) A written final exam will determine the remaining 50% of your final grade. The final exam covers: (1) all content covered in the lectures and (2) all material listed under �Course material�. The final exam is an open-book exam: all slides and course material can be used during the exam."}]}]}]}]}]};module.exports = exports["default"];
 
-},{}],332:[function(require,module,exports){
+},{}],355:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -47418,6 +49872,10 @@ var Model = {
                 id: course.id
             });
         }
+    },
+    reset: function reset() {
+        Model.added = [];
+        _EventServerJs2['default'].emit('reset');
     }
 };
 
@@ -47432,247 +49890,7 @@ var Model = {
 exports['default'] = Model;
 module.exports = exports['default'];
 
-},{"./AllCourses.js":331,"./EventServer.js":336,"lodash":4}],333:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, '__esModule', {
-    value: true
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactBootstrap = require('react-bootstrap');
-
-var _AddRemoveJsx = require('./AddRemove.jsx');
-
-var _AddRemoveJsx2 = _interopRequireDefault(_AddRemoveJsx);
-
-exports['default'] = _react2['default'].createClass({
-    displayName: 'CourseGridItem',
-
-    render: function render() {
-        var course = this.props.course;
-        return _react2['default'].createElement(
-            'div',
-            this.props,
-            course.courseName,
-            ' ',
-            _react2['default'].createElement(
-                _reactBootstrap.Badge,
-                null,
-                'EC ',
-                course.ects
-            ),
-            _react2['default'].createElement(_AddRemoveJsx2['default'], { course: course, className: '' })
-        );
-    }
-});
-module.exports = exports['default'];
-
-},{"./AddRemove.jsx":330,"react":329,"react-bootstrap":97}],334:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, '__esModule', {
-    value: true
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactBootstrap = require('react-bootstrap');
-
-exports['default'] = _react2['default'].createClass({
-    displayName: 'CourseModal',
-
-    getInitialState: function getInitialState() {
-        return {
-            show: this.props.show
-        };
-    },
-    componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
-        this.setState({
-            show: nextProps.show
-        });
-    },
-    close: function close() {
-        this.setState({
-            show: false
-        });
-    },
-    render: function render() {
-        var course = this.props.course;
-        var filterKeys = ['depth', 'nr', 'parent', 'children', 'id'];
-        return _react2['default'].createElement(
-            _reactBootstrap.Modal,
-            { show: this.state.show, onHide: this.close },
-            _react2['default'].createElement(
-                _reactBootstrap.Modal.Header,
-                { closeButton: true },
-                _react2['default'].createElement(
-                    _reactBootstrap.Modal.Title,
-                    null,
-                    course.name,
-                    ' ',
-                    course.courseName
-                )
-            ),
-            _react2['default'].createElement(
-                _reactBootstrap.Modal.Body,
-                null,
-                _react2['default'].createElement(
-                    'dl',
-                    null,
-                    Object.keys(course).map(function (key) {
-                        if (filterKeys.indexOf(key) !== -1) {
-                            return null;
-                        }
-                        return [_react2['default'].createElement(
-                            'dt',
-                            null,
-                            key
-                        ), _react2['default'].createElement(
-                            'dd',
-                            null,
-                            course[key]
-                        )];
-                    })
-                )
-            )
-        );
-    }
-});
-module.exports = exports['default'];
-
-},{"react":329,"react-bootstrap":97}],335:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, '__esModule', {
-    value: true
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-var _CourseCtrlJs = require('./CourseCtrl.js');
-
-var _CourseCtrlJs2 = _interopRequireDefault(_CourseCtrlJs);
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactBootstrap = require('react-bootstrap');
-
-var _EventServerJs = require('./EventServer.js');
-
-var _EventServerJs2 = _interopRequireDefault(_EventServerJs);
-
-var _AddRemoveJsx = require('./AddRemove.jsx');
-
-var _AddRemoveJsx2 = _interopRequireDefault(_AddRemoveJsx);
-
-var hasNeedle = function hasNeedle(needle, course) {
-    if (!needle) {
-        return false;
-    }
-    return course.name.toLowerCase().indexOf(needle) !== -1 || !!course.courseName && course.courseName.toLowerCase().indexOf(needle) !== -1;
-};
-
-var CourseTree = _react2['default'].createClass({
-    displayName: 'CourseTree',
-
-    getInitialState: function getInitialState() {
-        return {
-            childVisible: false,
-            visible: this.props.visible
-        };
-    },
-    toggle: function toggle() {
-        var nextVisibility = !this.state.childVisible;
-        this.setState({
-            childVisible: nextVisibility
-        });
-        _EventServerJs2['default'].emit('visible::' + this.props.course.nr, nextVisibility);
-    },
-    componentDidMount: function componentDidMount() {
-        var $self = this;
-        _EventServerJs2['default'].on('visible::' + this.props.course.parent, function (toggle) {
-            var nextState = {
-                visible: toggle
-            };
-            if (!toggle) {
-                _EventServerJs2['default'].emit('visible::' + $self.props.course.nr, toggle);
-                nextState.childVisible = false;
-            }
-            $self.setState(nextState);
-        });
-    },
-    renderSingle: function renderSingle() {
-        var course = this.props.course;
-        var totalEcts = _CourseCtrlJs2['default'].totalEcts(course);
-        var subEcts = _CourseCtrlJs2['default'].addedEcts(course);
-        var isSearching = this.props.search.length > 0;
-
-        var chevronClass = 'fa fa-chevron-' + (this.state.childVisible ? 'right' : 'down');
-        var chevron = course.children.length && !isSearching ? _react2['default'].createElement('i', { key: 1, className: chevronClass }) : null;
-
-        var badge = _react2['default'].createElement(
-            _reactBootstrap.Badge,
-            { key: 2 },
-            'EC ',
-            subEcts,
-            '/',
-            totalEcts
-        );
-        if (course.children.length === 0) {
-            badge = _react2['default'].createElement(
-                _reactBootstrap.Badge,
-                { key: 2 },
-                'EC ',
-                totalEcts
-            );
-        }
-
-        var style = {
-            marginLeft: isSearching ? 0 : (course.depth - 1) * 10
-        };
-
-        return _react2['default'].createElement(
-            _reactBootstrap.ListGroupItem,
-            { className: 'row', key: course.nr, style: style },
-            _react2['default'].createElement(
-                'span',
-                { key: 4, onClick: this.toggle, className: 'col-xs-10' },
-                chevron,
-                ' ',
-                course.name,
-                ' ',
-                course.courseName,
-                ' ',
-                badge
-            ),
-            _react2['default'].createElement(_AddRemoveJsx2['default'], { key: 5, course: course, className: 'col-xs-2 pull-right' })
-        );
-    },
-    render: function render() {
-        var visible = this.state.visible;
-        if (this.props.search.length > 0) {
-            visible = hasNeedle(this.props.search, this.props.course);
-        }
-        return visible ? this.renderSingle() : null;
-    }
-});
-
-exports['default'] = CourseTree;
-module.exports = exports['default'];
-
-},{"./AddRemove.jsx":330,"./CourseCtrl.js":332,"./EventServer.js":336,"react":329,"react-bootstrap":97}],336:[function(require,module,exports){
+},{"./AllCourses.js":354,"./EventServer.js":356,"lodash":4}],356:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -47688,7 +49906,7 @@ exports['default'] = new _eventemitter2.EventEmitter2({
 });
 module.exports = exports['default'];
 
-},{"eventemitter2":2}],337:[function(require,module,exports){
+},{"eventemitter2":2}],357:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -47697,268 +49915,34 @@ Object.defineProperty(exports, '__esModule', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
 var _CourseCtrlJs = require('./CourseCtrl.js');
 
 var _CourseCtrlJs2 = _interopRequireDefault(_CourseCtrlJs);
+
+var _lodash = require('lodash');
+
+var _lodash2 = _interopRequireDefault(_lodash);
 
 var _EventServerJs = require('./EventServer.js');
 
 var _EventServerJs2 = _interopRequireDefault(_EventServerJs);
 
-var _reactGridLayout = require('react-grid-layout');
-
-var _reactGridLayout2 = _interopRequireDefault(_reactGridLayout);
-
-var _reactBootstrap = require('react-bootstrap');
-
-var _CourseGridItemJsx = require('./CourseGridItem.jsx');
-
-var _CourseGridItemJsx2 = _interopRequireDefault(_CourseGridItemJsx);
-
-var courseGrid = function courseGrid(course) {
-    var start = course['Start Education'];
-    var periods = course['Education Period'];
-    var x = start ? parseInt(start) - 1 : 0;
-    var w = periods ? periods.split(',').length : 1;
-    return {
-        x: x,
-        y: 0,
-        w: w,
-        h: 1
-    };
+var Storage = {
+    save: function save() {
+        var ids = _lodash2['default'].pluck(_CourseCtrlJs2['default'].added, 'id');
+        localStorage.setItem('courses', JSON.stringify(ids));
+        _EventServerJs2['default'].emit('saved');
+    },
+    load: function load() {
+        var ids = localStorage.getItem('courses');
+        _CourseCtrlJs2['default'].added = _CourseCtrlJs2['default'].flatten(function (course) {
+            return ids.indexOf(course.id) !== -1;
+        });
+        _EventServerJs2['default'].emit('loaded');
+    }
 };
 
-exports['default'] = _react2['default'].createClass({
-    displayName: 'Main',
-
-    componentDidMount: function componentDidMount() {
-        var _this = this;
-
-        _EventServerJs2['default'].on('added::*', function () {
-            return _this.forceUpdate();
-        });
-        _EventServerJs2['default'].on('removed::*', function () {
-            return _this.forceUpdate();
-        });
-    },
-    render: function render() {
-        var panelHeader = _react2['default'].createElement(
-            'div',
-            { className: 'row' },
-            [1, 2, 3, 4].map(function (index) {
-                var ects = _CourseCtrlJs2['default'].periodEcts(index);
-                return _react2['default'].createElement(
-                    'span',
-                    { key: index, className: 'col-md-3' },
-                    'Q' + index,
-                    _react2['default'].createElement('br', null),
-                    _react2['default'].createElement(
-                        _reactBootstrap.Badge,
-                        null,
-                        'EC ',
-                        ects
-                    )
-                );
-            })
-        );
-        return _react2['default'].createElement(
-            'div',
-            { className: 'col-md-8 col-lg-8' },
-            'Total ects: ',
-            _CourseCtrlJs2['default'].addedEcts(),
-            _react2['default'].createElement(
-                _reactBootstrap.Panel,
-                { header: panelHeader },
-                _react2['default'].createElement(
-                    'div',
-                    { className: 'row' },
-                    _react2['default'].createElement(
-                        _reactGridLayout2['default'],
-                        { cols: 4, rowHeight: 120 },
-                        _CourseCtrlJs2['default'].added.map(function (course) {
-                            return _react2['default'].createElement(_CourseGridItemJsx2['default'], { _grid: courseGrid(course),
-                                key: course.id, course: course });
-                        })
-                    )
-                )
-            )
-        );
-    }
-});
+exports['default'] = Storage;
 module.exports = exports['default'];
 
-},{"./CourseCtrl.js":332,"./CourseGridItem.jsx":333,"./EventServer.js":336,"react":329,"react-bootstrap":97,"react-grid-layout":159}],338:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, '__esModule', {
-    value: true
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDebounceInput = require('react-debounce-input');
-
-var _reactDebounceInput2 = _interopRequireDefault(_reactDebounceInput);
-
-exports['default'] = _react2['default'].createClass({
-    displayName: 'SearchInput',
-
-    getInitialState: function getInitialState() {
-        return {
-            value: ''
-        };
-    },
-    onChange: function onChange(nextValue) {
-        this.setState({
-            value: nextValue
-        });
-        this.props.setSearch(nextValue);
-    },
-    render: function render() {
-        var searchAddon = _react2['default'].createElement('i', { className: 'fa fa-search' });
-        return _react2['default'].createElement(
-            'div',
-            { className: 'form-group' },
-            _react2['default'].createElement(
-                'div',
-                { className: 'input-group' },
-                _react2['default'].createElement(
-                    'span',
-                    { className: 'input-group-addon' },
-                    searchAddon
-                ),
-                _react2['default'].createElement(_reactDebounceInput2['default'], {
-                    minLength: 3,
-                    debounceTimeout: 300,
-                    type: 'text',
-                    value: this.state.value,
-                    className: 'form-control',
-                    placeholder: 'search on code or name, atleast 3 characters',
-                    onChange: this.onChange })
-            )
-        );
-    }
-});
-module.exports = exports['default'];
-
-},{"react":329,"react-debounce-input":149}],339:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, '__esModule', {
-    value: true
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactBootstrap = require('react-bootstrap');
-
-var _CourseCtrlJs = require('./CourseCtrl.js');
-
-var _CourseCtrlJs2 = _interopRequireDefault(_CourseCtrlJs);
-
-var _EventServerJs = require('./EventServer.js');
-
-var _EventServerJs2 = _interopRequireDefault(_EventServerJs);
-
-var _CourseTreeJsx = require('./CourseTree.jsx');
-
-var _CourseTreeJsx2 = _interopRequireDefault(_CourseTreeJsx);
-
-var _SearchInputJsx = require('./SearchInput.jsx');
-
-var _SearchInputJsx2 = _interopRequireDefault(_SearchInputJsx);
-
-exports['default'] = _react2['default'].createClass({
-    displayName: 'SideBar',
-
-    getInitialState: function getInitialState() {
-        return { search: '' };
-    },
-    componentDidMount: function componentDidMount() {
-        var _this = this;
-
-        _EventServerJs2['default'].on('added::*', function () {
-            return _this.forceUpdate();
-        });
-        _EventServerJs2['default'].on('removed::*', function () {
-            return _this.forceUpdate();
-        });
-    },
-    setSearch: function setSearch(nextSearch) {
-        this.setState({
-            search: nextSearch
-        });
-    },
-    render: function render() {
-        var search = this.state.search.toLowerCase();
-        var filterId = search !== '' ? 'id' : 'nr';
-        var rows = _CourseCtrlJs2['default'].flatten(function () {
-            return true;
-        }, null, filterId).map(function (child) {
-            var visible = child.parent === 1;
-            return _react2['default'].createElement(_CourseTreeJsx2['default'], { key: child.nr,
-                search: search,
-                visible: visible,
-                course: child });
-        });
-        return _react2['default'].createElement(
-            'div',
-            this.props,
-            _react2['default'].createElement(
-                _reactBootstrap.ListGroup,
-                null,
-                _react2['default'].createElement(_SearchInputJsx2['default'], { setSearch: this.setSearch }),
-                rows
-            )
-        );
-    }
-});
-module.exports = exports['default'];
-
-},{"./CourseCtrl.js":332,"./CourseTree.jsx":335,"./EventServer.js":336,"./SearchInput.jsx":338,"react":329,"react-bootstrap":97}],340:[function(require,module,exports){
-'use strict';
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _SideBarJsx = require('./SideBar.jsx');
-
-var _SideBarJsx2 = _interopRequireDefault(_SideBarJsx);
-
-var _MainJsx = require('./Main.jsx');
-
-var _MainJsx2 = _interopRequireDefault(_MainJsx);
-
-window.React = _react2['default'];
-
-var App = _react2['default'].createClass({
-    displayName: 'App',
-
-    render: function render() {
-        return _react2['default'].createElement(
-            'div',
-            { className: 'row' },
-            _react2['default'].createElement(_SideBarJsx2['default'], { className: 'col-md-5 col-lg-4' }),
-            _react2['default'].createElement(_MainJsx2['default'], { className: 'col-md-7 col-lg-8' })
-        );
-    }
-});
-
-_react2['default'].render(_react2['default'].createElement(App, null), document.getElementById('react'));
-
-},{"./Main.jsx":337,"./SideBar.jsx":339,"react":329}]},{},[340]);
+},{"./CourseCtrl.js":355,"./EventServer.js":356,"lodash":4}]},{},[344]);
