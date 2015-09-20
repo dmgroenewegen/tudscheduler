@@ -47435,7 +47435,10 @@ exports['default'] = _react2['default'].createClass({
     },
     render: function render() {
         var course = this.props.course;
+
+        // Filter which attributes we dont want to show
         var filterKeys = ['depth', 'nr', 'parent', 'children', 'id'];
+
         return _react2['default'].createElement(
             _reactBootstrap.Modal,
             { show: this.state.show, onHide: this.close },
@@ -47504,6 +47507,12 @@ var _AddRemoveJsx = require('./AddRemove.jsx');
 
 var _AddRemoveJsx2 = _interopRequireDefault(_AddRemoveJsx);
 
+/**
+ * @param  {String}  needle The search term
+ * @param  {Object}  course
+ * @return {Boolean}        true iff the courseName or name contains the needle
+ * and needle is not null/undefined/0.
+ */
 var hasNeedle = function hasNeedle(needle, course) {
     if (!needle) {
         return false;
@@ -47520,6 +47529,9 @@ var CourseTree = _react2['default'].createClass({
             visible: this.props.visible
         };
     },
+    /**
+     * Toggle the visibility of the children
+     */
     toggle: function toggle() {
         var nextVisibility = !this.state.childVisible;
         this.setState({
@@ -47546,7 +47558,7 @@ var CourseTree = _react2['default'].createClass({
         var subEcts = _modelsCourseCtrlJs2['default'].addedEcts(course);
         var isSearching = this.props.search.length > 0;
 
-        var chevronClass = 'fa fa-chevron-' + (this.state.childVisible ? 'right' : 'down');
+        var chevronClass = 'fa fa-chevron-' + (this.state.childVisible ? 'down' : 'right');
         var chevron = course.children.length && !isSearching ? _react2['default'].createElement('i', { key: 1, className: chevronClass }) : null;
 
         var badge = _react2['default'].createElement(
@@ -47708,6 +47720,11 @@ var _CourseGridItemJsx = require('./CourseGridItem.jsx');
 
 var _CourseGridItemJsx2 = _interopRequireDefault(_CourseGridItemJsx);
 
+/**
+ * Creates the grid properties for the course
+ * @param  {Object} course
+ * @return {Object} Grid properties
+ */
 var courseGrid = function courseGrid(course) {
     var start = course['Start Education'];
     var periods = course['Education Period'];
@@ -47752,6 +47769,12 @@ exports['default'] = _react2['default'].createClass({
                 );
             })
         );
+
+        var gridItems = _modelsCourseCtrlJs2['default'].added.map(function (course) {
+            return _react2['default'].createElement(_CourseGridItemJsx2['default'], { _grid: courseGrid(course),
+                key: course.id, course: course });
+        });
+
         return _react2['default'].createElement(
             'div',
             { className: 'col-xs-12 col-md-8 col-lg-8' },
@@ -47769,10 +47792,7 @@ exports['default'] = _react2['default'].createClass({
                             isResizable: false,
                             isDraggable: false,
                             cols: 4 },
-                        _modelsCourseCtrlJs2['default'].added.map(function (course) {
-                            return _react2['default'].createElement(_CourseGridItemJsx2['default'], { _grid: courseGrid(course),
-                                key: course.id, course: course });
-                        })
+                        gridItems
                     )
                 )
             )
@@ -48008,10 +48028,21 @@ var _EventServerJs = require('./EventServer.js');
 
 var _EventServerJs2 = _interopRequireDefault(_EventServerJs);
 
+/**
+ * In the tree of all the courses, the 'id' attribute is not unique,
+ * but the 'nr' attribute is. This was necessary for hiding/showing courses
+ * under a specific program, since a course can reside in multiple programs.
+ */
+
 var Model = {
     tree: _AllCoursesJs2['default'],
     flattenTree: [],
     added: [],
+    /**
+     * @param  {Object}  course
+     * @return {Boolean} true iff all the children of the course and the course
+     * itself are added.
+     */
     isAdded: function isAdded(course) {
         if (course.children.length === 0) {
             return _lodash2['default'].find(Model.added, {
@@ -48020,6 +48051,13 @@ var Model = {
         }
         return _lodash2['default'].every(course.children, Model.isAdded);
     },
+    /**
+     * Creates a flatten representation of the course tree
+     * @param  {Function} filter Additional filter to apply
+     * @param  {Object} node   A course, default root of tree
+     * @param  {String} unique Identifier which indicates the uniquenis, default 'id'
+     * @return {Array}        Flatten representation of the course tree.
+     */
     flatten: function flatten(filter, node, unique) {
         unique = unique || 'id';
         node = node || Model.tree;
@@ -48032,6 +48070,11 @@ var Model = {
         }
         return children;
     },
+    /**
+     * Calculates the added ects for a certain quarter/period
+     * @param  {Number} period The period/quarter
+     * @return {Number}        The total ects
+     */
     periodEcts: function periodEcts(period) {
         return _lodash2['default'].sum(Model.added, function (course) {
             var courseEcts = course.ects === undefined ? 0 : parseInt(course.ects);
@@ -48046,6 +48089,11 @@ var Model = {
             }
         });
     },
+    /**
+     * @param  {Object} course (Optional) defaults to root
+     * @return {Number} The sum of all the ects of all the children and itself that
+     * are added of the given course.
+     */
     addedEcts: function addedEcts(course) {
         course = course || Model.tree;
         var flatten = Model.flatten(function (course) {
@@ -48057,6 +48105,10 @@ var Model = {
             return course.ects === undefined ? 0 : parseInt(course.ects);
         });
     },
+    /**
+     * @param  {Object} course (Optional) defaults to root
+     * @return {Number} total ects of the course and all of his children
+     */
     totalEcts: function totalEcts(course) {
         course = course || Model.tree;
         var flatten = Model.flatten(function () {
@@ -48066,6 +48118,10 @@ var Model = {
             return course.ects === undefined ? 0 : parseInt(course.ects);
         });
     },
+    /**
+     * Adds the course and all the children to the added list
+     * @param {Object} course
+     */
     add: function add(course) {
         _EventServerJs2['default'].emit('added::' + course.id, course);
         if (course.children.length !== 0) {
@@ -48078,6 +48134,10 @@ var Model = {
             }
         }
     },
+    /**
+     * Removes the course and all the chilren from added list
+     * @param  {Object} course
+     */
     remove: function remove(course) {
         _EventServerJs2['default'].emit('removed::' + course.id, course);
         if (course.children.length !== 0) {
@@ -48088,12 +48148,16 @@ var Model = {
             });
         }
     },
+    /**
+     * Resets the added courses.
+     */
     reset: function reset() {
         Model.added = [];
         _EventServerJs2['default'].emit('reset');
     }
 };
 
+// Add depth, necessary for css styling
 (function setDepth(node, depth) {
     depth = depth || 0;
     node.depth = depth;
@@ -48143,11 +48207,17 @@ var _EventServerJs = require('./EventServer.js');
 var _EventServerJs2 = _interopRequireDefault(_EventServerJs);
 
 var Storage = {
+    /**
+     * Saves to the localstorage of the browsers
+     */
     save: function save() {
         var ids = _lodash2['default'].pluck(_CourseCtrlJs2['default'].added, 'id');
         localStorage.setItem('courses', JSON.stringify(ids));
         _EventServerJs2['default'].emit('saved');
     },
+    /**
+     * Loads all the courses from the localstorage
+     */
     load: function load() {
         var ids = localStorage.getItem('courses');
         _CourseCtrlJs2['default'].added = _CourseCtrlJs2['default'].flatten(function (course) {
