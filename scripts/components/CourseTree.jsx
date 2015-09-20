@@ -58,7 +58,7 @@ var CourseTree = React.createClass({
         var subEcts = CourseCtrl.addedEcts(course);
         var isSearching = this.props.search.length > 0;
 
-        var chevronClass = 'fa fa-chevron-' + ((this.state.childVisible) ? 'right' : 'down');
+        var chevronClass = 'fa fa-chevron-' + ((this.state.childVisible) ? 'down' : 'right');
         var chevron = (course.children.length && !isSearching) ? <i key={1} className={chevronClass}/> : null;
 
         var badge = <Badge key={2}>EC {subEcts}/{totalEcts}</Badge>;
