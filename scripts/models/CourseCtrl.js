@@ -2,10 +2,21 @@ import AllCourses from './AllCourses.js';
 import _ from 'lodash';
 import EventServer from './EventServer.js';
 
+/**
+ * In the tree of all the courses, the 'id' attribute is not unique,
+ * but the 'nr' attribute is. This was necessary for hiding/showing courses
+ * under a specific program, since a course can reside in multiple programs.
+ */
+
 var Model = {
     tree: AllCourses,
     flattenTree: [],
     added: [],
+    /**
+     * @param  {Object}  course
+     * @return {Boolean} true iff all the children of the course and the course
+     * itself are added.
+     */
     isAdded: function(course) {
         if (course.children.length === 0) {
             return _.find(Model.added, {
@@ -14,6 +25,13 @@ var Model = {
         }
         return _.every(course.children, Model.isAdded);
     },
+    /**
+     * Creates a flatten representation of the course tree
+     * @param  {Function} filter Additional filter to apply
+     * @param  {Object} node   A course, default root of tree
+     * @param  {String} unique Identifier which indicates the uniquenis, default 'id'
+     * @return {Array}        Flatten representation of the course tree.
+     */
     flatten(filter, node, unique) {
         unique = unique || 'id';
         node = node || Model.tree;
@@ -31,6 +49,11 @@ var Model = {
         }
         return children;
     },
+    /**
+     * Calculates the added ects for a certain quarter/period
+     * @param  {Number} period The period/quarter
+     * @return {Number}        The total ects
+     */
     periodEcts(period) {
         return _.sum(Model.added, function(course) {
             var courseEcts = (course.ects === undefined) ? 0 : parseInt(course.ects);
@@ -45,6 +68,11 @@ var Model = {
             }
         });
     },
+    /**
+     * @param  {Object} course (Optional) defaults to root
+     * @return {Number} The sum of all the ects of all the children and itself that
+     * are added of the given course.
+     */
     addedEcts(course) {
         course = course || Model.tree;
         var flatten = Model.flatten(function(course) {
@@ -56,6 +84,10 @@ var Model = {
             return (course.ects === undefined) ? 0 : parseInt(course.ects);
         })
     },
+    /**
+     * @param  {Object} course (Optional) defaults to root
+     * @return {Number} total ects of the course and all of his children
+     */
     totalEcts(course) {
         course = course || Model.tree;
         var flatten = Model.flatten(function() {
@@ -65,6 +97,10 @@ var Model = {
             return (course.ects === undefined) ? 0 : parseInt(course.ects);
         });
     },
+    /**
+     * Adds the course and all the children to the added list
+     * @param {Object} course
+     */
     add(course) {
         EventServer.emit('added::' + course.id, course);
         if (course.children.length !== 0) {
@@ -77,6 +113,10 @@ var Model = {
             }
         }
     },
+    /**
+     * Removes the course and all the chilren from added list
+     * @param  {Object} course
+     */
     remove(course) {
         EventServer.emit('removed::' + course.id, course);
         if (course.children.length !== 0) {
@@ -87,12 +127,16 @@ var Model = {
             });
         }
     },
+    /**
+     * Resets the added courses.
+     */
     reset(){
         Model.added = [];
         EventServer.emit('reset');
     }
 };
 
+// Add depth, necessary for css styling
 (function setDepth(node, depth) {
     depth = depth || 0;
     node.depth = depth;

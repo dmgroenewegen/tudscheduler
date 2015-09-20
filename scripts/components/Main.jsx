@@ -2,10 +2,18 @@ import React from 'react';
 import CourseCtrl from '../models/CourseCtrl.js';
 import EventServer from '../models/EventServer.js';
 import ReactGridLayout from 'react-grid-layout';
-import {Badge, Panel} from 'react-bootstrap';
+import {
+    Badge, Panel
+}
+from 'react-bootstrap';
 import CourseGridItem from './CourseGridItem.jsx';
 
-var courseGrid = function(course){
+/**
+ * Creates the grid properties for the course
+ * @param  {Object} course
+ * @return {Object} Grid properties
+ */
+var courseGrid = function(course) {
     var start = course['Start Education'];
     var periods = course['Education Period'];
     var x = start ? parseInt(start) - 1 : 0;
@@ -19,15 +27,26 @@ var courseGrid = function(course){
     };
 };
 
-export default React.createClass({
-    componentDidMount(){
+export
+default React.createClass({
+    componentDidMount() {
         EventServer.onAny(() => this.forceUpdate());
     },
-    render(){
-        var panelHeader = <div className="row">{[1, 2, 3, 4].map(function(index){
-                    var ects = CourseCtrl.periodEcts(index);
-                    return <span key={index} className="col-xs-3">{'Q' + index}<br/><Badge>EC {ects}</Badge></span>;
-                })}</div>;
+    render() {
+        var panelHeader = <div className="row">
+            {[1, 2, 3, 4].map(function(index){
+                var ects = CourseCtrl.periodEcts(index);
+                return <span key={index} className="col-xs-3">
+                    {'Q' + index}<br/><Badge>EC {ects}</Badge>
+                </span>;
+            })}
+        </div>;
+
+        var gridItems = CourseCtrl.added.map(function(course) {
+            return <CourseGridItem _grid={courseGrid(course)}
+                key={course.id} course={course}/>;
+        });
+
         return <div className="col-xs-12 col-md-8 col-lg-8">
             Total ects: {CourseCtrl.addedEcts()}
             <Panel header={panelHeader}>
@@ -36,10 +55,7 @@ export default React.createClass({
                         isResizable={false}
                         isDraggable={false}
                         cols={4}>
-                        {CourseCtrl.added.map(function(course){
-                            return <CourseGridItem _grid={courseGrid(course)}
-                                key={course.id} course={course}/>;
-                        })}
+                        {gridItems}
                     </ReactGridLayout>
                 </div>
             </Panel>

@@ -7,6 +7,12 @@ from 'react-bootstrap';
 import EventServer from '../models/EventServer.js';
 import AddRemove from './AddRemove.jsx';
 
+/**
+ * @param  {String}  needle The search term
+ * @param  {Object}  course
+ * @return {Boolean}        true iff the courseName or name contains the needle
+ * and needle is not null/undefined/0.
+ */
 var hasNeedle = function(needle, course){
     if (!needle){
         return false;
@@ -23,6 +29,9 @@ var CourseTree = React.createClass({
             visible: this.props.visible
         };
     },
+    /**
+     * Toggle the visibility of the children
+     */
     toggle() {
         var nextVisibility = !this.state.childVisible;
         this.setState({
