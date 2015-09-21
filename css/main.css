@@ -6798,3 +6798,6 @@ body .row {
 .header .controls .btn-group {
   margin-right: 10px;
 }
+.header .help {
+  text-align: center;
+}

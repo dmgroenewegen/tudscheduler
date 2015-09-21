@@ -47387,11 +47387,8 @@ exports['default'] = _react2['default'].createClass({
             'div',
             this.props,
             course.name,
-            _react2['default'].createElement(
-                'span',
-                { className: 'hidden-xs hidden-sm' },
-                course.courseName
-            ),
+            ' ',
+            course.courseName,
             _react2['default'].createElement(
                 _reactBootstrap.Badge,
                 null,
@@ -47676,17 +47673,32 @@ exports['default'] = _react2['default'].createClass({
                 )
             ),
             _react2['default'].createElement(
-                _reactBootstrap.OverlayTrigger,
-                { placement: 'left', overlay: _react2['default'].createElement(
-                        _reactBootstrap.Tooltip,
-                        null,
-                        'For issues/code'
-                    ) },
+                'span',
+                { className: 'pull-right' },
+                _react2['default'].createElement(
+                    _reactBootstrap.OverlayTrigger,
+                    { placement: 'left', overlay: _react2['default'].createElement(
+                            _reactBootstrap.Tooltip,
+                            null,
+                            'For issues/code'
+                        ) },
+                    _react2['default'].createElement(
+                        'a',
+                        { href: 'https://github.com/Pouja/tudscheduler' },
+                        _react2['default'].createElement('i', { className: 'fa fa-github fa-3x' })
+                    )
+                )
+            ),
+            _react2['default'].createElement(
+                'div',
+                { className: 'col-xs-12 center-block help' },
+                'This site is still work in progress. I\'m open for suggestions/tips/contributions, see the ',
                 _react2['default'].createElement(
                     'a',
-                    { className: 'pull-right', href: 'https://github.com/Pouja/tudscheduler' },
-                    _react2['default'].createElement('i', { className: 'fa fa-github fa-3x' })
-                )
+                    { href: 'https://github.com/Pouja/tudscheduler' },
+                    'GitHub page'
+                ),
+                '.'
             )
         );
     }
@@ -47749,7 +47761,16 @@ exports['default'] = _react2['default'].createClass({
     componentDidMount: function componentDidMount() {
         var _this = this;
 
-        _modelsEventServerJs2['default'].onAny(function () {
+        _modelsEventServerJs2['default'].on('added::*', function () {
+            return _this.forceUpdate();
+        });
+        _modelsEventServerJs2['default'].on('removed::*', function () {
+            return _this.forceUpdate();
+        });
+        _modelsEventServerJs2['default'].on('reset', function () {
+            return _this.forceUpdate();
+        });
+        _modelsEventServerJs2['default'].on('loaded', function () {
             return _this.forceUpdate();
         });
     },
@@ -47974,7 +47995,16 @@ exports['default'] = _react2['default'].createClass({
     componentDidMount: function componentDidMount() {
         var _this = this;
 
-        _modelsEventServerJs2['default'].onAny(function () {
+        _modelsEventServerJs2['default'].on('added::*', function () {
+            return _this.forceUpdate();
+        });
+        _modelsEventServerJs2['default'].on('removed::*', function () {
+            return _this.forceUpdate();
+        });
+        _modelsEventServerJs2['default'].on('reset', function () {
+            return _this.forceUpdate();
+        });
+        _modelsEventServerJs2['default'].on('loaded', function () {
             return _this.forceUpdate();
         });
     },
