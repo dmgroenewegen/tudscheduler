@@ -6,8 +6,10 @@ export default React.createClass({
     render(){
         var course = this.props.course;
         return <div {...this.props}>
-            {course.courseName} <Badge>EC {course.ects}</Badge>
-                <AddRemove course={course} className=""/>
+            {course.name}
+            <span className='hidden-xs hidden-sm'>{course.courseName}</span>
+            <Badge>EC {course.ects}</Badge>
+            <AddRemove course={course} className=""/>
         </div>;
     }
 });

@@ -54,6 +54,7 @@ default React.createClass({
                     <ReactGridLayout
                         isResizable={false}
                         isDraggable={false}
+                        rowHeight={100}
                         cols={4}>
                         {gridItems}
                     </ReactGridLayout>
