@@ -13,11 +13,14 @@ export default React.createClass({
                 <ButtonGroup>{save}{load}</ButtonGroup>
                 <ButtonGroup>{reset}</ButtonGroup>
             </div>
+            <span className='pull-right'>
+                This site is still work in progress. If you have any tips/suggestions or want to contribute, go the <a href="https://github.com/Pouja/tudscheduler">GitHub page</a>.
             <OverlayTrigger placement='left' overlay={<Tooltip>For issues/code</Tooltip>}>
-                <a className='pull-right' href="https://github.com/Pouja/tudscheduler">
+                <a href="https://github.com/Pouja/tudscheduler">
                     <i className='fa fa-github fa-3x'/>
                 </a>
             </OverlayTrigger>
+            </span>
         </div>;
     }
 });
