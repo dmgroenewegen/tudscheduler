@@ -47386,8 +47386,12 @@ exports['default'] = _react2['default'].createClass({
         return _react2['default'].createElement(
             'div',
             this.props,
-            course.courseName,
-            ' ',
+            course.name,
+            _react2['default'].createElement(
+                'span',
+                { className: 'hidden-xs hidden-sm' },
+                course.courseName
+            ),
             _react2['default'].createElement(
                 _reactBootstrap.Badge,
                 null,
@@ -47791,6 +47795,7 @@ exports['default'] = _react2['default'].createClass({
                         {
                             isResizable: false,
                             isDraggable: false,
+                            rowHeight: 100,
                             cols: 4 },
                         gridItems
                     )
