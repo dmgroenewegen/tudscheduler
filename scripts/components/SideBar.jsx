@@ -10,7 +10,10 @@ export default React.createClass({
         return {search: ''};
     },
     componentDidMount(){
-        EventServer.onAny(() => this.forceUpdate());
+        EventServer.on('added::*', () => this.forceUpdate());
+        EventServer.on('removed::*', () => this.forceUpdate());
+        EventServer.on('reset', () => this.forceUpdate());
+        EventServer.on('loaded', () => this.forceUpdate());
     },
     setSearch(nextSearch){
         this.setState({

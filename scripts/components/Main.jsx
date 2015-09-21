@@ -30,7 +30,10 @@ var courseGrid = function(course) {
 export
 default React.createClass({
     componentDidMount() {
-        EventServer.onAny(() => this.forceUpdate());
+        EventServer.on('added::*', () => this.forceUpdate());
+        EventServer.on('removed::*', () => this.forceUpdate());
+        EventServer.on('reset', () => this.forceUpdate());
+        EventServer.on('loaded', () => this.forceUpdate());
     },
     render() {
         var panelHeader = <div className="row">
