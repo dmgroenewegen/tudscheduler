@@ -17,7 +17,7 @@ var notify = require('gulp-notify');
 var browserSync = require('browser-sync');
 var postcss = require('gulp-postcss');
 var image = require('gulp-image');
-
+var versionAppend = require('gulp-version-append');
 var runSequence = require('run-sequence');
 var csso = require('gulp-csso');
 var zip = require('gulp-zip');
@@ -94,6 +94,7 @@ gulp.task('styles', function() {
 
 gulp.task('html-copy', function() {
     return gulp.src('index.html')
+        .pipe(versionAppend(['js','css']))
         .pipe(gulp.dest(config.distHtml))
         .pipe(reload({
             stream: true
