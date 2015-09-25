@@ -49444,7 +49444,7 @@ var Model = {
 })(Model.tree);
 
 // Get the flatten representation before hand
-Model.flattenTree = Model.flatten(null, null, 'id');
+Model.flattenTree = Model.flatten(null, null, 'nr');
 
 exports['default'] = Model;
 module.exports = exports['default'];
