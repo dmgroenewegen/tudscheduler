@@ -10,8 +10,7 @@ export default React.createClass({
     onChange(nextValue){
         this.setState({
             value: nextValue
-        });
-        this.props.setSearch(nextValue);
+        }, () => this.props.setSearch(nextValue));
     },
     render(){
         var searchAddon = <i className="fa fa-search"></i>;
@@ -19,12 +18,12 @@ export default React.createClass({
             <div className='input-group'>
                 <span className="input-group-addon">{searchAddon}</span>
                 <DebounceInput
-                    minLength={3}
-                    debounceTimeout={300}
+                    minLength={2}
+                    debounceTimeout={200}
                     type='text'
                     value={this.state.value}
                     className='form-control'
-                    placeholder='search on code or name, atleast 3 characters'
+                    placeholder='search on code or name, atleast 2 characters'
                     onChange={this.onChange}/>
             </div>
         </div>;
