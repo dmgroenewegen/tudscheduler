@@ -7,8 +7,6 @@ from 'react-bootstrap';
 import EventServer from '../models/EventServer.js';
 import AddRemove from './AddRemove.jsx';
 
-
-
 var CourseTree = React.createClass({
     getInitialState() {
         return {
@@ -40,7 +38,7 @@ var CourseTree = React.createClass({
         }, 'coursetree');
     },
     renderChevron(){
-        if(this.props.search.length > 0 || this.props.course.children.length === 0){
+        if (this.props.search.length > 0 || this.props.course.children.length === 0) {
             return null;
         }
         var chevronClass = 'fa fa-chevron-' + ((this.state.childVisible) ? 'down' : 'right');
