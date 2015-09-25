@@ -2,13 +2,14 @@ import _ from 'lodash';
 
 var listeners = {};
 var EventListener = {
-    flush(){
+    flush() {
         listeners = {};
     },
     /**
      * Will call fn when 'name' event is emitted.
      * @param  {String}   name The name of the event to listen on.
      * @param  {Function} fn   The function to be invoked.
+     * @param {String} id An identifier for debugging purposes.
      */
     on(name, fn, id) {
         if (!listeners.hasOwnProperty(name)) {
@@ -25,13 +26,11 @@ var EventListener = {
      * @param  {Array} values The values that should be sent with the emit.
      */
     emit(name, ...values) {
-        if(listeners.hasOwnProperty(name)){
-            listeners[name].forEach(function(fn){
-                // console.log(`invoke ${fn.id}::name`);
-                setTimeout(function(){
-                    fn.fn(...values);
-                })
-                // console.log(`done ${fn.id}::name`);
+        if (listeners.hasOwnProperty(name)) {
+            listeners[name].forEach(function(listener) {
+                setTimeout(function() {
+                    listener.fn(...values);
+                });
             });
         }
     },
@@ -42,17 +41,10 @@ var EventListener = {
      * @param  {Array} values     The values that should be sent with the emit.
      * @return {Function}         A partial function of EventListener.emit
      */
-    partialEmit(name, ...values){
+    partialEmit(name, ...values) {
         return _.partial(EventListener.emit, name, ...values);
     }
 };
 
-export default EventListener;
-
-// import {EventEmitter2} from 'eventemitter2';
-
-// export default new EventEmitter2({
-//     wildcard: true,
-//     delimiter: '::',
-//     maxListeners: 400
-// });
+export
+default EventListener;

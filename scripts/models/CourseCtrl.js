@@ -33,6 +33,9 @@ var Model = {
      * @return {Array}        Flatten representation of the course tree.
      */
     flatten(filter, node, unique) {
+        filter = filter || function() {
+            return true;
+        };
         unique = unique || 'id';
         node = node || Model.tree;
         var children = _(node.children)
@@ -102,9 +105,12 @@ var Model = {
      * @param {Object} course
      */
     add(course) {
-        EventServer.emit('added::' + course.id, course);
+        EventServer.emit('added', course);
+        Model._add(course);
+    },
+    _add(course) {
         if (course.children.length !== 0) {
-            course.children.forEach(Model.add);
+            course.children.forEach(Model._add);
         } else {
             if (_.find(Model.added, {
                 id: course.id
@@ -118,9 +124,12 @@ var Model = {
      * @param  {Object} course
      */
     remove(course) {
-        EventServer.emit('removed::' + course.id, course);
+        EventServer.emit('removed', course);
+        Model._remove(course);
+    },
+    _remove(course) {
         if (course.children.length !== 0) {
-            course.children.forEach(Model.remove);
+            course.children.forEach(Model._remove);
         } else {
             _.remove(Model.added, {
                 id: course.id
@@ -130,7 +139,7 @@ var Model = {
     /**
      * Resets the added courses.
      */
-    reset(){
+    reset() {
         Model.added = [];
         EventServer.emit('reset');
     }
@@ -142,6 +151,9 @@ var Model = {
     node.depth = depth;
     node.children.forEach((child) => setDepth(child, depth + 1));
 })(Model.tree);
+
+// Get the flatten representation before hand
+Model.flattenTree = Model.flatten(null, null, 'id');
 
 export
 default Model;

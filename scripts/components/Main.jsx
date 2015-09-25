@@ -30,10 +30,10 @@ var courseGrid = function(course) {
 export
 default React.createClass({
     componentDidMount() {
-        EventServer.on('added::*', () => this.forceUpdate());
-        EventServer.on('removed::*', () => this.forceUpdate());
-        EventServer.on('reset', () => this.forceUpdate());
-        EventServer.on('loaded', () => this.forceUpdate());
+        EventServer.on('added', () => this.forceUpdate(), 'main');
+        EventServer.on('removed', () => this.forceUpdate(), 'main');
+        EventServer.on('reset', () => this.forceUpdate(), 'main');
+        EventServer.on('loaded', () => this.forceUpdate(), 'main');
     },
     render() {
         var panelHeader = <div className="row">
@@ -45,8 +45,8 @@ default React.createClass({
             })}
         </div>;
 
-        var gridItems = CourseCtrl.added.map(function(course) {
-            return <CourseGridItem _grid={courseGrid(course)}
+        var gridItems = CourseCtrl.added.map(function(course, index) {
+            return <CourseGridItem _grid={courseGrid(course, index)}
                 key={course.id} course={course}/>;
         });
 
