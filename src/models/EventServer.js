@@ -29,7 +29,9 @@ var EventListener = {
         if (listeners.hasOwnProperty(name)) {
             listeners[name].forEach(function(listener) {
                 setTimeout(function() {
+                    // console.log(`invoking ${listener.id} for event ${name}`);
                     listener.fn(...values);
+                    // console.log(`done ${li/stener.id} for event ${name}`);
                 });
             });
         }

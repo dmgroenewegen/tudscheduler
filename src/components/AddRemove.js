@@ -1,7 +1,7 @@
 import React from 'react';
 import CourseCtrl from '../models/CourseCtrl.js';
 import {Button, OverlayTrigger, Tooltip} from 'react-bootstrap';
-import CourseModal from './CourseModal.jsx';
+import CourseModal from './CourseModal.js';
 
 export default React.createClass({
     getInitialState(){

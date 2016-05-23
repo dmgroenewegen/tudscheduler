@@ -5,8 +5,8 @@ import {
 from 'react-bootstrap';
 import CourseCtrl from '../models/CourseCtrl.js';
 import EventServer from '../models/EventServer.js';
-import CourseTree from './CourseTree.jsx';
-import SearchInput from './SearchInput.jsx';
+import CourseTree from './CourseTree.js';
+import SearchInput from './SearchInput.js';
 import _ from 'lodash';
 
 /**
@@ -29,12 +29,6 @@ default React.createClass({
             return {
                 search: ''
             };
-        },
-        componentDidMount() {
-            EventServer.on('added', () => this.forceUpdate(), 'sidebar');
-            EventServer.on('removed', () => this.forceUpdate(), 'sidebar');
-            EventServer.on('reset', () => this.forceUpdate(), 'sidebar');
-            EventServer.on('loaded', () => this.forceUpdate(), 'sidebar');
         },
         setSearch(nextSearch) {
             this.setState({

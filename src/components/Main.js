@@ -6,7 +6,7 @@ import {
     Badge, Panel
 }
 from 'react-bootstrap';
-import CourseGridItem from './CourseGridItem.jsx';
+import CourseGridItem from './CourseGridItem.js';
 
 /**
  * Creates the grid properties for the course

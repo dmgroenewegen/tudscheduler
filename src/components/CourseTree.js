@@ -5,7 +5,7 @@ import {
 }
 from 'react-bootstrap';
 import EventServer from '../models/EventServer.js';
-import AddRemove from './AddRemove.jsx';
+import AddRemove from './AddRemove.js';
 
 var CourseTree = React.createClass({
     getInitialState() {
@@ -26,6 +26,11 @@ var CourseTree = React.createClass({
     },
     componentDidMount() {
         var $self = this;
+        var id = 'course::' + this.props.course.nr
+        EventServer.on('added', () => this.forceUpdate(), id);
+        EventServer.on('removed', () => this.forceUpdate(), id);
+        EventServer.on('reset', () => this.forceUpdate(), id);
+        EventServer.on('loaded', () => this.forceUpdate(), id);
         EventServer.on('visible::' + this.props.course.parent, function(toggle) {
             var nextState = {
                 visible: toggle
