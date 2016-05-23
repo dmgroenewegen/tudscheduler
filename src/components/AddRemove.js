@@ -1,7 +1,7 @@
 import React from 'react';
 import CourseCtrl from '../models/CourseCtrl.js';
 import {Button, OverlayTrigger, Tooltip} from 'react-bootstrap';
-import CourseModal from './CourseModal.jsx';
+import CourseModal from './CourseModal.js';
 
 export default React.createClass({
     getInitialState(){
@@ -15,9 +15,9 @@ export default React.createClass({
         });
     },
     render(){
-        var infoTip = <Tooltip>More info</Tooltip>;
-        var infoRemove = <Tooltip>Remove</Tooltip>;
-        var infoAdd = <Tooltip>Add</Tooltip>;
+        var infoTip = <Tooltip id="more-info">More info</Tooltip>;
+        var infoRemove = <Tooltip id="remove-info">Remove</Tooltip>;
+        var infoAdd = <Tooltip id="add-info">Add</Tooltip>;
         var course = this.props.course;
 
         var add = <OverlayTrigger placement="top" overlay={infoAdd}>
@@ -37,7 +37,7 @@ export default React.createClass({
         var button = (CourseCtrl.isAdded(course)) ? remove : add;
 
         var info = <OverlayTrigger placement="top" overlay={infoTip}>
-                <i key={3} className="fa fa-info-circle" onClick={this.openModal}/>
+                <i key={3} className="fa fa-info-circle fa-lg" onClick={this.openModal}/>
             </OverlayTrigger>;
 
         var classes = ['button-group', this.props.className].join(' ');

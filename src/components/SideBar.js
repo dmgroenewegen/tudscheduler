@@ -5,8 +5,8 @@ import {
 from 'react-bootstrap';
 import CourseCtrl from '../models/CourseCtrl.js';
 import EventServer from '../models/EventServer.js';
-import CourseTree from './CourseTree.jsx';
-import SearchInput from './SearchInput.jsx';
+import CourseTree from './CourseTree.js';
+import SearchInput from './SearchInput.js';
 import _ from 'lodash';
 
 /**
@@ -30,12 +30,6 @@ default React.createClass({
                 search: ''
             };
         },
-        componentDidMount() {
-            EventServer.on('added', () => this.forceUpdate(), 'sidebar');
-            EventServer.on('removed', () => this.forceUpdate(), 'sidebar');
-            EventServer.on('reset', () => this.forceUpdate(), 'sidebar');
-            EventServer.on('loaded', () => this.forceUpdate(), 'sidebar');
-        },
         setSearch(nextSearch) {
             this.setState({
                 search: nextSearch
@@ -49,12 +43,11 @@ default React.createClass({
                     .filter(function(course) {
                         return hasNeedle(search, course);
                     })
-                    .unique(function(course) {
+                    .uniq(function(course) {
                         return course.id;
                     })
                     .value();
             }
-
             var rows = courses
                 .map(function(child) {
                     var visible = child.parent === 1;

@@ -15,7 +15,7 @@ export default React.createClass({
             </div>
             <span className='pull-right'>
 
-            <OverlayTrigger placement='left' overlay={<Tooltip>For issues/code</Tooltip>}>
+            <OverlayTrigger placement='left' overlay={<Tooltip id="header-tooltip">For issues/code</Tooltip>}>
                 <a href="https://github.com/Pouja/tudscheduler">
                     <i className='fa fa-github fa-3x'/>
                 </a>

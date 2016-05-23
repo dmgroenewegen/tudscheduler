@@ -44,7 +44,7 @@ var Model = {
             })
             .filter(Boolean)
             .flatten()
-            .unique(unique)
+            .uniq(unique)
             .value();
 
         if (filter(node)) {
@@ -58,7 +58,7 @@ var Model = {
      * @return {Number}        The total ects
      */
     periodEcts(period) {
-        return _.sum(Model.added, function(course) {
+        return _.sumBy(Model.added, function(course) {
             var courseEcts = (course.ects === undefined) ? 0 : parseInt(course.ects);
             var periods = course['Education Period'];
             var start = course['Start Education'] ? parseInt(course['Start Education']) : 0;
@@ -66,9 +66,8 @@ var Model = {
             var end = start + nPeriods - 1;
             if (start <= period && end >= period) {
                 return courseEcts / nPeriods;
-            } else {
-                return 0;
             }
+            return 0;
         });
     },
     /**
@@ -83,7 +82,7 @@ var Model = {
                 id: course.id
             });
         }, course, 'id');
-        return _.sum(flatten, function(course) {
+        return _.sumBy(flatten, function(course) {
             return (course.ects === undefined) ? 0 : parseInt(course.ects);
         })
     },
@@ -96,7 +95,7 @@ var Model = {
         var flatten = Model.flatten(function() {
             return true
         }, course, 'id');
-        return _.sum(flatten, function(course) {
+        return _.sumBy(flatten, function(course) {
             return (course.ects === undefined) ? 0 : parseInt(course.ects);
         });
     },

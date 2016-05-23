@@ -1,6 +1,6 @@
 import React from 'react';
 import {Badge} from 'react-bootstrap';
-import AddRemove from './AddRemove.jsx';
+import AddRemove from './AddRemove.js';
 
 export default React.createClass({
     render(){

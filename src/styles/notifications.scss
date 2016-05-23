@@ -1,9 +1,3 @@
-.rounded(@radius: 2px) {
-    -webkit-border-radius: @radius;
-    -moz-border-radius: @radius;
-    border-radius: @radius;
-}
-
 .alerts {
   position: fixed;
   z-index: 1001;
@@ -14,7 +8,7 @@
   .alert {
     position: relative;
     left: -50%;
-    .box-shadow(0 10px 10px -5px rgba(0, 0, 0, 0.1));
+    @include box-shadow(0 10px 10px -5px rgba(0, 0, 0, 0.1));
     > p {
       display: inline-block;
       padding:0 24px 0 35px;
@@ -39,7 +33,7 @@
       height: 25px;
       text-align: center;
       line-height: 25px;
-      .rounded(50%);
+      border-radius: 2px;
     }
     &.alert-danger:before {
         content: '\f12a';
