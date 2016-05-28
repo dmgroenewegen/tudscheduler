@@ -12,18 +12,13 @@ export default React.createClass({
             show: nextProps.show
         });
     },
-    close(){
-        this.setState({
-            show: false
-        });
-    },
     render(){
         var course = this.props.course;
 
         // Filter which attributes we dont want to show
         var filterKeys = ['depth', 'nr', 'parent', 'children', 'id'];
 
-        return <Modal show={this.state.show} onHide={this.close}>
+        return <Modal show={this.state.show} onHide={this.props.closeModal}>
             <Modal.Header closeButton>
                 <Modal.Title>{course.name} {course.courseName}</Modal.Title>
             </Modal.Header>

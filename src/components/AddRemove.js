@@ -18,6 +18,11 @@ export default React.createClass({
             showModal: true
         });
     },
+    closeModal(){
+        this.setState({
+            showModal: false
+        })
+    },
     render(){
         var infoTip = <Tooltip id="more-info">More info</Tooltip>;
         var infoRemove = <Tooltip id="remove-info">Remove</Tooltip>;
@@ -48,7 +53,7 @@ export default React.createClass({
         return <div className={classes}>
             {info}
             {button}
-            <CourseModal show={this.state.showModal} course={course}/>
+            <CourseModal show={this.state.showModal} closeModal={()=>this.closeModal()} course={course}/>
         </div>;
     }
 });
