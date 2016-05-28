@@ -20,7 +20,6 @@ var courseGrid = function(course) {
     var x = start ? parseInt(start) - 1 : 0;
     var w = periods ? periods.split(',').length : 1;
     return {
-        static: true,
         x: x,
         y: 0,
         w: w,
@@ -56,7 +55,6 @@ default React.createClass({
             <Panel header={panelHeader}>
                 <div className="row">
                     <DecoratedReactGridLayout
-
                         isResizable={false}
                         isDraggable={false}
                         rowHeight={100}
