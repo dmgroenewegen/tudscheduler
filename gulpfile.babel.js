@@ -21,6 +21,7 @@ import runSequence from 'run-sequence';
 import ghPages from 'gulp-gh-pages';
 import less from 'gulp-less';
 import postcss from 'gulp-postcss';
+import versionAppend from 'gulp-version-append';
 
 const paths = {
     bundle: 'app.js',
@@ -112,9 +113,10 @@ gulp.task('styles', function() {
 gulp.task('htmlReplace', () => {
     gulp.src('index.html')
         .pipe(htmlReplace({
-            css: 'styles/main.css',
-            js: 'js/app.js'
+            css: 'styles/main.css?v=@version@',
+            js: 'js/app.js?v=@version@'
         }))
+        .pipe(versionAppend(['js', 'css']))
         .pipe(gulp.dest(paths.dist));
 });
 
