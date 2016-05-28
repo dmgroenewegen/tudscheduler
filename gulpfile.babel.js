@@ -141,10 +141,14 @@ gulp.task('watchTask', () => {
     gulp.watch(paths.srcLint, ['lint']);
 });
 
-gulp.task('deploy', () => {
+gulp.task('ghPages', () => {
     gulp.src(paths.distDeploy)
         .pipe(ghPages());
 });
+
+gulp.task('deploy', () => {
+    runSequence('build', 'ghPages');
+})
 
 gulp.task('watch', cb => {
     runSequence('clean', ['browserSync', 'watchTask', 'watchify', 'styles', 'lint'], cb);
