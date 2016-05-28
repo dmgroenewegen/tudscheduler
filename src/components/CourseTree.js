@@ -54,9 +54,9 @@ var CourseTree = React.createClass({
         var totalEcts = CourseCtrl.totalEcts(course);
         var subEcts = CourseCtrl.addedEcts(course);
         if (course.children.length === 0) {
-            return <Badge key={2}>EC {totalEcts}</Badge>;
+            return (<span className="label label-pill label-default" key={2}>EC {totalEcts}</span>);
         }
-        return <Badge key={2}>EC {subEcts}/{totalEcts}</Badge>;
+        return (<span className="label label-pill label-default" key={2}>EC {subEcts}/{totalEcts}</span>);
     },
     render() {
         var visible = this.state.visible;
@@ -70,7 +70,6 @@ var CourseTree = React.createClass({
         if (!visible && !isSearching){
             style.display = 'none';
         }
-
         return <ListGroupItem className='row' key={course.nr} style={style}>
             <span key={4} onClick={this.toggle} className='col-xs-10'>
                 {this.renderChevron()} {course.name} {course.courseName} {this.renderBadge()}

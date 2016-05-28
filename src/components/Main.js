@@ -1,12 +1,13 @@
 import React from 'react';
 import CourseCtrl from '../models/CourseCtrl.js';
 import EventServer from '../models/EventServer.js';
-import ReactGridLayout from 'react-grid-layout';
+import ReactGridLayout, {WidthProvider} from 'react-grid-layout';
 import {
-    Badge, Panel
+    Panel
 }
 from 'react-bootstrap';
 import CourseGridItem from './CourseGridItem.js';
+const DecoratedReactGridLayout = WidthProvider(ReactGridLayout);
 
 /**
  * Creates the grid properties for the course
@@ -40,7 +41,7 @@ default React.createClass({
             {[1, 2, 3, 4].map(function(index){
                 var ects = CourseCtrl.periodEcts(index);
                 return <span key={index} className="col-xs-3">
-                    {'Q' + index}<br/><Badge>EC {ects}</Badge>
+                    {'Q' + index}<br/><span className="label label-pill label-default">EC {ects}</span>
                 </span>;
             })}
         </div>;
@@ -54,13 +55,14 @@ default React.createClass({
             Total ects: {CourseCtrl.addedEcts()}
             <Panel header={panelHeader}>
                 <div className="row">
-                    <ReactGridLayout
+                    <DecoratedReactGridLayout
+
                         isResizable={false}
                         isDraggable={false}
                         rowHeight={100}
                         cols={4}>
                         {gridItems}
-                    </ReactGridLayout>
+                    </DecoratedReactGridLayout>
                 </div>
             </Panel>
         </div>;

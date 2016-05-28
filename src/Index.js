@@ -1,8 +1,9 @@
-import React from 'react/addons';
-import SideBar from './components/SideBar.jsx';
-import Main from './components/Main.jsx';
-import Notifications from './components/Notifications.jsx';
-import Header from './components/Header.jsx';
+import React from 'react';
+import {render} from 'react-dom'
+import SideBar from './components/SideBar.js';
+import Main from './components/Main.js';
+import Notifications from './components/Notifications.js';
+import Header from './components/Header.js';
 
 window.React = React;
 // window.Perf = React.addons.Perf;
@@ -18,4 +19,4 @@ var App = React.createClass({
     }
 });
 
-React.render(<App/>, document.getElementById('react'));
+render(<App/>, document.getElementById('react'));

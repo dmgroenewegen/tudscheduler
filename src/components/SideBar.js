@@ -43,12 +43,11 @@ default React.createClass({
                     .filter(function(course) {
                         return hasNeedle(search, course);
                     })
-                    .unique(function(course) {
+                    .uniq(function(course) {
                         return course.id;
                     })
                     .value();
             }
-
             var rows = courses
                 .map(function(child) {
                     var visible = child.parent === 1;
