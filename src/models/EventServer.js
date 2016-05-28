@@ -36,6 +36,11 @@ var EventListener = {
             });
         }
     },
+    remove(name, id) {
+        if (listeners.hasOwnProperty(name)) {
+            _.remove(listeners[name], {id: id});
+        }
+    },
     /**
      * Partial call emit, this is usefull when you want to emit this when a dom event occurs.
      * For example: onClick(EventListener.partialEmit('click', 'some', 'values')).
