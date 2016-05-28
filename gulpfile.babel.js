@@ -82,7 +82,7 @@ gulp.task('watchify', () => {
 });
 
 gulp.task('browserify', () => {
-    browserify(paths.entry, {
+    return browserify(paths.entry, {
         debug: true
     })
         .transform(babelify)
@@ -111,7 +111,7 @@ gulp.task('styles', function() {
 });
 
 gulp.task('htmlReplace', () => {
-    gulp.src('index.html')
+    return gulp.src('index.html')
         .pipe(htmlReplace({
             css: 'styles/main.css?v=@version@',
             js: 'js/app.js?v=@version@'
@@ -131,7 +131,7 @@ gulp.task('htmlReplace', () => {
 // });
 
 gulp.task('lint', () => {
-    gulp.src(paths.srcLint)
+    return gulp.src(paths.srcLint)
         .pipe(eslint())
         .pipe(eslint.format());
 });
@@ -142,12 +142,12 @@ gulp.task('watchTask', () => {
 });
 
 gulp.task('ghPages', () => {
-    gulp.src(paths.distDeploy)
+    return gulp.src(paths.distDeploy)
         .pipe(ghPages());
 });
 
-gulp.task('deploy', () => {
-    runSequence('build', 'ghPages');
+gulp.task('deploy', cb => {
+    runSequence('build', 'ghPages', cb);
 })
 
 gulp.task('watch', cb => {
