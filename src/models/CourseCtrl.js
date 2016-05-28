@@ -44,7 +44,7 @@ var Model = {
             })
             .filter(Boolean)
             .flatten()
-            .uniq(unique)
+            .uniqBy(unique)
             .value();
 
         if (filter(node)) {
@@ -66,8 +66,9 @@ var Model = {
             var end = start + nPeriods - 1;
             if (start <= period && end >= period) {
                 return courseEcts / nPeriods;
+            } else {
+                return 0;
             }
-            return 0;
         });
     },
     /**
