@@ -11,13 +11,13 @@ const DecoratedReactGridLayout = WidthProvider(ReactGridLayout);
 
 /**
  * Creates the grid properties for the course
- * @param  {Object} course
+ * @param  {Object} course The course object, as seen in AllCourses.js
  * @return {Object} Grid properties
  */
 var courseGrid = function(course) {
     var start = course['Start Education'];
     var periods = course['Education Period'];
-    var x = start ? parseInt(start) - 1 : 0;
+    var x = start ? parseInt(start, 10) - 1 : 0;
     var w = periods ? periods.split(',').length : 1;
     return {
         x: x,

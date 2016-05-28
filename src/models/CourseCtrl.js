@@ -13,7 +13,7 @@ var Model = {
     flattenTree: [],
     added: [],
     /**
-     * @param  {Object}  course
+     * @param  {Object}  course See AllCourses.js
      * @return {Boolean} true iff all the children of the course and the course
      * itself are added.
      */
@@ -33,22 +33,22 @@ var Model = {
      * @return {Array}        Flatten representation of the course tree.
      */
     flatten(filter, node, unique) {
-        filter = filter || function() {
+        const filterFn = filter || function() {
             return true;
         };
-        unique = unique || 'id';
-        node = node || Model.tree;
-        var children = _(node.children)
+        const uniqueId = unique || 'id';
+        const currentNode = node || Model.tree;
+        var children = _(currentNode.children)
             .map(function(child) {
-                return Model.flatten(filter, child, unique);
+                return Model.flatten(filterFn, child, uniqueId);
             })
             .filter(Boolean)
             .flatten()
-            .uniqBy(unique)
+            .uniqBy(uniqueId)
             .value();
 
-        if (filter(node)) {
-            children.unshift(node);
+        if (filterFn(currentNode)) {
+            children.unshift(currentNode);
         }
         return children;
     },
@@ -59,16 +59,15 @@ var Model = {
      */
     periodEcts(period) {
         return _.sumBy(Model.added, function(course) {
-            var courseEcts = (course.ects === undefined) ? 0 : parseInt(course.ects);
+            var courseEcts = (course.ects === undefined) ? 0 : parseInt(course.ects, 10);
             var periods = course['Education Period'];
-            var start = course['Start Education'] ? parseInt(course['Start Education']) : 0;
+            var start = course['Start Education'] ? parseInt(course['Start Education'], 10) : 0;
             var nPeriods = (periods ? periods.split(',').length : 1);
             var end = start + nPeriods - 1;
             if (start <= period && end >= period) {
                 return courseEcts / nPeriods;
-            } else {
-                return 0;
             }
+            return 0;
         });
     },
     /**
@@ -77,14 +76,14 @@ var Model = {
      * are added of the given course.
      */
     addedEcts(course) {
-        course = course || Model.tree;
-        var flatten = Model.flatten(function(course) {
+        const currentCourse = course || Model.tree;
+        const flatten = Model.flatten(function(course) {
             return _.find(Model.added, {
                 id: course.id
             });
-        }, course, 'id');
+        }, currentCourse, 'id');
         return _.sumBy(flatten, function(course) {
-            return (course.ects === undefined) ? 0 : parseInt(course.ects);
+            return (course.ects === undefined) ? 0 : parseInt(course.ects, 10);
         })
     },
     /**
@@ -92,17 +91,18 @@ var Model = {
      * @return {Number} total ects of the course and all of his children
      */
     totalEcts(course) {
-        course = course || Model.tree;
-        var flatten = Model.flatten(function() {
+        const currentCourse = course || Model.tree;
+        const flatten = Model.flatten(function() {
             return true
-        }, course, 'id');
+        }, currentCourse, 'id');
         return _.sumBy(flatten, function(course) {
-            return (course.ects === undefined) ? 0 : parseInt(course.ects);
+            return (course.ects === undefined) ? 0 : parseInt(course.ects, 10);
         });
     },
     /**
      * Adds the course and all the children to the added list
-     * @param {Object} course
+     * @param {Object} course, See AllCourses.js
+     * @returns {void}
      */
     add(course) {
         EventServer.emit('added', course);
@@ -121,7 +121,8 @@ var Model = {
     },
     /**
      * Removes the course and all the chilren from added list
-     * @param  {Object} course
+     * @param  {Object} course, See AllCourses.js
+     * @returns {void}
      */
     remove(course) {
         EventServer.emit('removed', course);
@@ -138,6 +139,7 @@ var Model = {
     },
     /**
      * Resets the added courses.
+     * @returns {void}
      */
     reset() {
         Model.added = [];
@@ -146,11 +148,12 @@ var Model = {
 };
 
 // Add depth, necessary for css styling
-(function setDepth(node, depth) {
-    depth = depth || 0;
-    node.depth = depth;
-    node.children.forEach((child) => setDepth(child, depth + 1));
-})(Model.tree);
+var setDepth = function setDepth(node, depth) {
+    const currentDepth = depth || 0;
+    node.depth = currentDepth;
+    node.children.forEach((child) => setDepth(child, currentDepth + 1));
+};
+setDepth(Model.tree);
 
 // Get the flatten representation before hand
 Model.flattenTree = Model.flatten(null, null, 'nr');

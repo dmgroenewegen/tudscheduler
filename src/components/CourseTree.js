@@ -38,6 +38,7 @@ var CourseTree = React.createClass({
     },
     /**
      * Toggle the visibility of the children
+     * @returns {void}
      */
     toggle() {
         var nextVisibility = !this.state.childVisible;
@@ -65,13 +66,13 @@ var CourseTree = React.createClass({
         if (this.props.search.length > 0 || this.props.course.children.length === 0) {
             return null;
         }
-        var chevronClass = 'fa fa-chevron-' + ((this.state.childVisible) ? 'down' : 'right');
+        const chevronClass = 'fa fa-chevron-' + ((this.state.childVisible) ? 'down' : 'right');
         return <i key={1} className={chevronClass}/>;
     },
     renderBadge() {
-        var course = this.props.course;
-        var totalEcts = CourseCtrl.totalEcts(course);
-        var subEcts = CourseCtrl.addedEcts(course);
+        const course = this.props.course;
+        const totalEcts = CourseCtrl.totalEcts(course);
+        const subEcts = CourseCtrl.addedEcts(course);
         if (course.children.length === 0) {
             return (<span className="label label-pill label-default" key={2}>EC {totalEcts}</span>);
         }

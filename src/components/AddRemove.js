@@ -3,6 +3,10 @@ import CourseCtrl from '../models/CourseCtrl.js';
 import {Button, OverlayTrigger, Tooltip} from 'react-bootstrap';
 import CourseModal from './CourseModal.js';
 
+/**
+ * Renders the add/remove and info button for a course.
+ */
+
 export default React.createClass({
     getInitialState(){
         return {

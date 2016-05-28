@@ -10,6 +10,7 @@ var EventListener = {
      * @param  {String}   name The name of the event to listen on.
      * @param  {Function} fn   The function to be invoked.
      * @param {String} id An identifier for debugging purposes.
+     * @returns {void}
      */
     on(name, fn, id) {
         if (!listeners.hasOwnProperty(name)) {
@@ -24,6 +25,7 @@ var EventListener = {
      * Emit the event
      * @param  {String}    name   The name of the event.
      * @param  {Array} values The values that should be sent with the emit.
+     * @returns {void}
      */
     emit(name, ...values) {
         if (listeners.hasOwnProperty(name)) {
@@ -36,6 +38,12 @@ var EventListener = {
             });
         }
     },
+    /**
+     * Removes the listener
+     * @param  {String} name The name of the event
+     * @param  {String} id   The identifier which was used to add the event listener
+     * @return {void}
+     */
     remove(name, id) {
         if (listeners.hasOwnProperty(name)) {
             _.remove(listeners[name], {id: id});

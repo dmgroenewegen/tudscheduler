@@ -8,7 +8,7 @@ import Header from './components/Header.js';
 window.React = React;
 // window.Perf = React.addons.Perf;
 
-var App = React.createClass({
+let App = React.createClass({
     render() {
         return (<div className="row">
             <Header className='col-xs-12'/>

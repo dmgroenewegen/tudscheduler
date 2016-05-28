@@ -5,6 +5,7 @@ import EventServer from './EventServer.js';
 var Storage = {
     /**
      * Saves to the localstorage of the browsers
+     * @returns {void}
      */
     save() {
         var ids = _.map(CourseCtrl.added, 'id');
@@ -13,6 +14,7 @@ var Storage = {
     },
     /**
      * Loads all the courses from the localstorage
+     * @returns {void}
      */
     load() {
         var ids = JSON.parse(localStorage.getItem('courses'));

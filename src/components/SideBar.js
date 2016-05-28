@@ -11,8 +11,8 @@ import _ from 'lodash';
 
 /**
  * @param  {String}  needle The search term
- * @param  {Object}  course
- * @return {Boolean}        true iff the courseName or name contains the needle
+ * @param  {Object}  course The course object, see AllCourses.js
+ * @return {Boolean} true iff the courseName or name contains the needle
  * and needle is not null/undefined/0.
  */
 var hasNeedle = function(needle, course) {
@@ -48,7 +48,7 @@ default React.createClass({
                     })
                     .value();
             }
-            var rows = courses
+            const rows = courses
                 .map(function(child) {
                     var visible = child.parent === 1;
                     return <CourseTree key={child.nr}
