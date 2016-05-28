@@ -15,6 +15,12 @@ export default React.createClass({
                 style: 'success'
             }
         }));
+        EventServer.on('load.error.nosave', () => this.setState({
+            notification: {
+                msg: 'No save found.',
+                style: 'danger'
+            }
+        }));
     },
     onDismiss(){
         this.setState({
@@ -28,8 +34,7 @@ export default React.createClass({
                 <Alert
                     bsSize="medium"
                     bsStyle={notification.style}
-                    onDismiss={this.onDismiss}
-                    dismissAfter={3000}>
+                    onDismiss={this.onDismiss}>
                     <p>{notification.msg}</p>
                 </Alert>
             </div>;
