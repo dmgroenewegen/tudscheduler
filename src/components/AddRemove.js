@@ -24,10 +24,12 @@ export default React.createClass({
         })
     },
     render(){
+        var course = this.props.course;
         var infoTip = <Tooltip id="more-info">More info</Tooltip>;
         var infoRemove = <Tooltip id="remove-info">Remove</Tooltip>;
-        var infoAdd = <Tooltip id="add-info">Add</Tooltip>;
-        var course = this.props.course;
+        var infoAdd = <Tooltip id="add-info">
+            {(course.children.length === 0) ? 'Add' : 'Add all'}
+        </Tooltip>;
 
         var add = <OverlayTrigger placement="top" overlay={infoAdd}>
                 <Button key={1} bsSize="xsmall" bsStyle="success"

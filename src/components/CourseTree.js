@@ -61,22 +61,28 @@ var CourseTree = React.createClass({
         EventServer.remove('reset', id);
         EventServer.remove('loaded', id);
     },
-
-    renderChevron() {
+    renderChevron(key) {
         if (this.props.search.length > 0 || this.props.course.children.length === 0) {
             return null;
         }
         const chevronClass = 'fa fa-chevron-' + ((this.state.childVisible) ? 'down' : 'right');
-        return <i key={1} className={chevronClass}/>;
+        return <i key={key} className={chevronClass}/>;
     },
-    renderBadge() {
+    renderQBadge(key){
+        var periods = this.props.course['Education Period'];
+        if(periods === undefined){
+            return null;
+        }
+        return (<Badge key={key}>Q{periods}</Badge>);
+    },
+    renderECBadge(key) {
         const course = this.props.course;
         const totalEcts = CourseCtrl.totalEcts(course);
         const subEcts = CourseCtrl.addedEcts(course);
         if (course.children.length === 0) {
-            return (<span className="label label-pill label-default" key={2}>EC {totalEcts}</span>);
+            return (<Badge key={key}>EC {totalEcts}</Badge>);
         }
-        return (<span className="label label-pill label-default" key={2}>EC {subEcts}/{totalEcts}</span>);
+        return (<Badge key={key}>EC {subEcts}/{totalEcts}</Badge>);
     },
     render() {
         var visible = this.state.visible;
@@ -92,9 +98,11 @@ var CourseTree = React.createClass({
         }
         return <ListGroupItem className='row' key={course.nr} style={style}>
             <span key={4} onClick={this.toggle} className='col-xs-10'>
-                {this.renderChevron()} {course.name} {course.courseName} {this.renderBadge()}
+                {this.renderChevron(1)} {course.name} {course.courseName}
+                {(course.children.length === 0) ? <br/> : null}
+                {this.renderECBadge(2)} {this.renderQBadge(3)}
             </span>
-            <AddRemove key={5} course={course} className='col-xs-2 pull-right'/></ListGroupItem>;
+            <AddRemove key={5} course={course} className='pull-right'/></ListGroupItem>;
     }
 });
 
