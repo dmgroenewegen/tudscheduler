@@ -8,9 +8,10 @@ export default React.createClass({
         };
     },
     onChange(event){
+        const nextSearch = event.target.value;
         this.setState({
-            value: event.target.value
-        }, () => this.props.setSearch(event.target.value));
+            value: nextSearch
+        }, () => this.props.setSearch(nextSearch));
     },
     render(){
         var searchAddon = <i className="fa fa-search"></i>;

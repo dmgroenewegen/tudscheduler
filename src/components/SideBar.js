@@ -43,7 +43,7 @@ default React.createClass({
                     .filter(function(course) {
                         return hasNeedle(search, course);
                     })
-                    .uniq(function(course) {
+                    .uniqBy(function(course) {
                         return course.id;
                     })
                     .value();

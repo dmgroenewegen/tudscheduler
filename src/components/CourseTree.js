@@ -14,11 +14,14 @@ var CourseTree = React.createClass({
             visible: this.props.visible
         };
     },
+    componentWillUnmount(){
+        this.stopListening();
+    },
     componentDidMount() {
         var $self = this;
         var id = 'course::' + this.props.course.nr;
 
-        if(this.props.visible){
+        if(this.props.visible || this.isSearching()){
             this.startListening();
         }
 
@@ -35,6 +38,9 @@ var CourseTree = React.createClass({
             }
             $self.setState(nextState);
         }, 'coursetree');
+    },
+    isSearching(){
+        return this.props.search.length > 0;
     },
     /**
      * Toggle the visibility of the children
@@ -62,7 +68,7 @@ var CourseTree = React.createClass({
         EventServer.remove('loaded', id);
     },
     renderChevron(key) {
-        if (this.props.search.length > 0 || this.props.course.children.length === 0) {
+        if (this.isSearching() || this.props.course.children.length === 0) {
             return null;
         }
         const chevronClass = 'fa fa-chevron-' + ((this.state.childVisible) ? 'down' : 'right');
@@ -86,14 +92,12 @@ var CourseTree = React.createClass({
     },
     render() {
         var visible = this.state.visible;
-
         var course = this.props.course;
-        var isSearching = this.props.search.length > 0;
 
         var style = {
-            marginLeft: (isSearching) ? 0 : (course.depth - 1) * 10
+            marginLeft: (this.isSearching()) ? 0 : (course.depth - 1) * 10
         };
-        if (!visible && !isSearching) {
+        if (!visible && !this.isSearching()) {
             style.display = 'none';
         }
         return <ListGroupItem className='row' key={course.nr} style={style}>
