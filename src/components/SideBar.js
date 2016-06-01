@@ -56,11 +56,11 @@ default React.createClass({
                     visible={visible}
                     course={child}/>;
                 });
-
-            return <div {...this.props} >
-                <ListGroup>
-                    <SearchInput setSearch={this.setSearch}/>
-                    {rows}
-                </ListGroup> </div>;
+            const classes = [this.props.className, 'sidebar'].join(' ');
+            return <div className={classes}>
+                    <ListGroup>
+                        <SearchInput setSearch={this.setSearch}/>
+                        {rows}
+                    </ListGroup></div>;
     }
 });
