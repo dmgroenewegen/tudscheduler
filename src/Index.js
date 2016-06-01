@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom'
 import SideBar from './components/SideBar.js';
-import Main from './components/Main.js';
+import YearView from './components/YearView.js';
 import Notifications from './components/Notifications.js';
 import Header from './components/Header.js';
 
@@ -14,7 +14,7 @@ let App = React.createClass({
             <Header className='col-xs-12'/>
             <Notifications/>
             <SideBar className="col-xs-12 col-md-5 col-lg-4"/>
-            <Main className="col-xs-12 col-md-7 col-lg-8"/>
+            <YearView className="col-xs-12 col-md-7 col-lg-8"/>
         </div>);
     }
 });
