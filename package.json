@@ -39,6 +39,8 @@
     "react-addons-test-utils": "^15.0.1",
     "react-bootstrap": "^0.29.4",
     "react-debounce-input": "^2.3.1",
+    "react-dnd": "^2.1.4",
+    "react-dnd-html5-backend": "^2.1.2",
     "react-dom": "^15.0.1",
     "react-grid-layout": "^0.12.4",
     "react-router": "^2.3.0",
