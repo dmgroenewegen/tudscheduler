@@ -2,7 +2,7 @@ import _ from 'lodash';
 import ISPField from './ISPField.js';
 import EventServer from '../models/EventServer.js';
 import CourseCtrl from './CourseCtrl.js';
-
+const id = 'ISPCtrl';
 var ISPCtrl = {
     unlisted: {},
     ispFields: [],
@@ -37,13 +37,32 @@ var ISPCtrl = {
         EventServer.emit('isp.field.added::unlisted');
     },
     updateRemoved() {
-
+        const allCourses = CourseCtrl.added;
+        ISPCtrl.ispFields.forEach(function(field) {
+            var removeCourses = _.filter(field.getCourses(), function(course) {
+                return !_.find(allCourses, {
+                    id: course.id
+                });
+            });
+            if (removeCourses.length > 0) {
+                removeCourses.forEach(field.remove);
+                EventServer.emit('isp.field.removed::' + field.getID());
+            }
+        });
     },
     reset() {
-        ISPCtrl.init(ISPCtrl.fieldOptions);
+        ISPCtrl.ispFields.forEach(function(field) {
+            field.reset();
+            EventServer.emit('isp.field.added::' + field.getID());
+        });
+    },
+    stopListening() {
+        EventServer.remove('added', id);
+        EventServer.remove('removed', id);
+        EventServer.remove('reset', id);
+        EventServer.remove('loaded', id);
     },
     startListening() {
-        const id = 'ISPCtrl';
         EventServer.on('added', ISPCtrl.updateAdded, id);
         EventServer.on('removed', ISPCtrl.updateRemoved, id);
         EventServer.on('reset', ISPCtrl.reset, id);
@@ -58,15 +77,15 @@ var ISPCtrl = {
                 return field.getID() === fieldIdFrom;
             });
         var ispFieldTo = (fieldIdTo === 'unlisted') ? ISPCtrl.unlisted : _.find(ISPCtrl.ispFields, function(field) {
-                return field.getID() === fieldIdTo;
-            });
+            return field.getID() === fieldIdTo;
+        });
 
         ispFieldTo.add(course);
         EventServer.emit('isp.field.added::' + fieldIdTo, course.id);
 
-        if (ispFieldTo.getOptions().duplicate === true) {
+        if (!ispFieldTo.getOptions().duplicate) {
             ispFieldFrom.remove(course);
-            EventServer.on('isp.field.removed::' + fieldIdFrom, course.id);
+            EventServer.emit('isp.field.removed::' + fieldIdFrom, course.id);
         }
     }
 };

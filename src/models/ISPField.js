@@ -27,6 +27,9 @@ function ISPField(options, id) {
     model.getID = function(){
         return modelId;
     }
+    model.reset = function(){
+        courses = []
+    }
     model.remove = function remove(course){
         _.remove(courses, {id: course.id});
     }
