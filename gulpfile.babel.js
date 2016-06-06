@@ -16,7 +16,7 @@ from 'browser-sync';
 import sourcemaps from 'gulp-sourcemaps';
 import htmlReplace from 'gulp-html-replace';
 import imagemin from 'gulp-imagemin';
-// import pngquant from 'imagemin-pngquant';
+import pngquant from 'imagemin-pngquant';
 import runSequence from 'run-sequence';
 import ghPages from 'gulp-gh-pages';
 import less from 'gulp-less';
@@ -26,14 +26,15 @@ import versionAppend from 'gulp-version-append';
 const paths = {
     bundle: 'app.js',
     entry: 'src/Index.js',
-    srcCss: 'src/styles/main.less',
-    // srcImg: 'src/images/**',
+    srcMainCss: 'src/styles/main.less',
+    srcCss: 'src/styles/*.less',
+    srcImg: 'src/images/**',
     srcLint: ['src/**/*.js', 'test/**/*.js'],
     npmDir: 'node_modules',
     dist: 'dist',
     distCss: 'dist/styles',
     distJs: 'dist/js',
-    // distImg: 'dist/images',
+    distImg: 'dist/images',
     distDeploy: './dist/**/*'
 };
 
@@ -98,7 +99,7 @@ gulp.task('browserify', () => {
 });
 
 gulp.task('styles', function() {
-    return gulp.src(paths.srcCss)
+    return gulp.src(paths.srcMainCss)
         .pipe(less({
             paths: [paths.npmDir + '/bootstrap/less/']
         }))
@@ -120,15 +121,15 @@ gulp.task('htmlReplace', () => {
         .pipe(gulp.dest(paths.dist));
 });
 
-// gulp.task('images', () => {
-//   gulp.src(paths.srcImg)
-//     .pipe(imagemin({
-//       progressive: true,
-//       svgoPlugins: [{ removeViewBox: false }],
-//       use: [pngquant()]
-//     }))
-//     .pipe(gulp.dest(paths.distImg));
-// });
+gulp.task('images', () => {
+  gulp.src(paths.srcImg)
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{ removeViewBox: false }],
+      use: [pngquant()]
+    }))
+    .pipe(gulp.dest(paths.distImg));
+});
 
 gulp.task('lint', () => {
     return gulp.src(paths.srcLint)
@@ -151,7 +152,7 @@ gulp.task('deploy', cb => {
 })
 
 gulp.task('watch', cb => {
-    runSequence('clean', ['browserSync', 'watchTask', 'watchify', 'styles', 'lint'], cb);
+    runSequence('clean', ['browserSync', 'watchTask', 'watchify', 'styles', 'images', 'lint'], cb);
 });
 
 gulp.task('build', cb => {

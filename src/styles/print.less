@@ -1,0 +1,24 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #isp-form{
+        .modal-body * {
+            visibility: visible;
+        page-break-inside: avoid;
+
+        }
+        .model-body button{
+            visibility: hidden;
+        }
+        .modal-body{
+            visibility: visible;
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin: 0;
+            padding: 0;
+            min-height:550px
+        }
+    }
+}
