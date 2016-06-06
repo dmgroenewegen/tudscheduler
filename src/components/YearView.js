@@ -53,7 +53,7 @@ default React.createClass({
                 key={course.id} course={course}/>;
         });
 
-        return <div className="col-xs-12 col-md-8 col-lg-8">
+        return <div>
             <Panel header={panelHeader}>
                 <div className="row">
                     <DecoratedReactGridLayout

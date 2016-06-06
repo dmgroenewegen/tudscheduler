@@ -10,7 +10,7 @@ var SelectView = React.createClass({
         ISPCtrl.init(CSISPFields);
     },
     render(){
-        return <div className={this.props.className}>
+        return <div>
             <ISPField className="col-xs-12 col-md-6" ispCtrl={ISPCtrl.unlisted}>
                 <span className="empty">Add a course from the bar on the left to start creating your ISP</span>
             </ISPField>

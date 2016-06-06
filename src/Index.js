@@ -1,5 +1,6 @@
 import React from 'react';
-import {render} from 'react-dom'
+import {render} from 'react-dom';
+import {Router, Route, hashHistory, IndexRedirect} from 'react-router';
 import SideBar from './components/SideBar.js';
 import YearView from './components/YearView.js';
 import Notifications from './components/Notifications.js';
@@ -9,15 +10,25 @@ import SelectView from './components/SelectView.js';
 window.React = React;
 // window.Perf = React.addons.Perf;
 
-let App = React.createClass({
+const App = React.createClass({
     render() {
         return (<div className="row">
             <Header className='col-xs-12'/>
             <Notifications/>
             <SideBar className="col-xs-12 col-md-5 col-lg-4"/>
-            <SelectView className="col-xs-12 col-md-5 col-lg-8"/>
+            <div className="col-xs-12 col-md-7 col-lg-8">
+                {this.props.children}
+            </div>
         </div>);
     }
 });
 
-render(<App/>, document.getElementById('react'));
+const routes = <Router history={hashHistory}>
+    <Route path="/" component={App}>
+        <IndexRedirect to="/year"/>
+        <Route path="year" component={YearView}/>
+        <Route path="select" component={SelectView}/>
+    </Route>
+</Router>
+
+render(routes, document.getElementById('react'));
