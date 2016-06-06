@@ -16,6 +16,9 @@ var EventListener = {
         if (!listeners.hasOwnProperty(name)) {
             listeners[name] = [];
         }
+        if(!_.isFunction(fn)){
+            throw new Error(`EventServer expected a function as second argument but got ${typeof fn} with id ${id}`);
+        }
         listeners[name].push({
             id: id,
             fn: fn
@@ -31,9 +34,13 @@ var EventListener = {
         if (listeners.hasOwnProperty(name)) {
             listeners[name].forEach(function(listener) {
                 setTimeout(function() {
-                    // console.log(`invoking ${listener.id} for event ${name}`);
-                    listener.fn(...values);
-                    // console.log(`done ${li/stener.id} for event ${name}`);
+                    if (listener === null || listener === undefined) {
+                        console.error(`EventServer supposed to invoke a listener ${name} for id ${listener.id}. But the listener got removed.`);
+                    } else {
+                        // console.log(`invoking ${listener.id} for event ${name}`);
+                        listener.fn(...values);
+                        // console.log(`done ${listener.id} for event ${name}`);
+                    }
                 });
             });
         }
@@ -46,7 +53,9 @@ var EventListener = {
      */
     remove(name, id) {
         if (listeners.hasOwnProperty(name)) {
-            _.remove(listeners[name], {id: id});
+            _.remove(listeners[name], {
+                id: id
+            });
         }
     },
     /**
