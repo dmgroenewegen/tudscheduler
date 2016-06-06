@@ -35,6 +35,12 @@ default React.createClass({
         EventServer.on('reset', () => this.forceUpdate(), 'main');
         EventServer.on('loaded', () => this.forceUpdate(), 'main');
     },
+    componentWillUnmount(){
+        EventServer.remove('added', 'main');
+        EventServer.remove('removed', 'main');
+        EventServer.remove('reset', 'main');
+        EventServer.remove('loaded', 'main');
+    },
     render() {
         var panelHeader = <div className="row">
             <span className="col-xs-12">
