@@ -36,7 +36,7 @@ const SelectView = React.createClass({
         })
     },
     render() {
-        return <div>
+        return <div id="select-view">
             <ISPField className="col-xs-12 col-md-6" ispCtrl={ISPCtrl.unlisted}>
                 <span className="empty">Add a course from the bar on the left to start creating your ISP</span>
             </ISPField>

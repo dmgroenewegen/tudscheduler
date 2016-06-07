@@ -59,7 +59,7 @@ default React.createClass({
                 key={course.id} course={course}/>;
         });
 
-        return <div>
+        return <div id="year-view">
             <Panel header={panelHeader}>
                 <div className="row">
                     <DecoratedReactGridLayout
