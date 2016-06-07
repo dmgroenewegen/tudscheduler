@@ -5,7 +5,9 @@
     #isp-form{
         .modal-body * {
             visibility: visible;
-        page-break-inside: avoid;
+            page-break-inside: auto;
+            page-break-after: auto;
+            page-break-before: auto;
 
         }
         .model-body button{
@@ -20,5 +22,7 @@
             padding: 0;
             min-height:550px
         }
+        table { page-break-inside:always }
+   tr    { page-break-inside:avoid; page-break-after:auto }
     }
 }
