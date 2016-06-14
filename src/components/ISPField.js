@@ -1,29 +1,32 @@
 import React from 'react';
 import EventServer from '../models/EventServer.js';
 import CourseDnD from './CourseDnD.js'
-import {
-    Panel
-}
-from 'react-bootstrap';
+import { Panel,OverlayTrigger, Tooltip } from 'react-bootstrap';
 import SimpleDropTarget from './SimpleDropTarget.js';
 import ISPCtrl from '../models/ISPCtrl.js';
 
 const optionMapping = [{
     attribute: 'minEC',
     text: 'Min EC: '
-},{
+}, {
     attribute: 'maxEC',
     text: 'Max EC: '
-},{
+}, {
     attribute: 'minCourses',
     text: 'Min #courses: '
-},{
+}, {
     attribute: 'minEC',
     text: 'Max #courses: '
 }];
 
 export
 default React.createClass({
+    getInitialState() {
+        return {
+            showRules: false,
+            collapsed: false
+        }
+    },
     componentDidMount() {
         this.startListening();
     },
@@ -32,29 +35,86 @@ default React.createClass({
         EventServer.on('isp.field.added::' + id, () => this.forceUpdate(), id);
         EventServer.on('isp.field.removed::' + id, () => this.forceUpdate(), id);
     },
-    renderHeader(){
+    toggleRules() {
+        this.setState({
+            showRules: !this.state.showRules
+        })
+    },
+    toggleView() {
+        this.setState({
+            collapsed: !this.state.collapsed
+        })
+    },
+    renderRules() {
+        const options = this.props.ispCtrl.getOptions();
+        const rules = optionMapping.
+        filter(function(mapping) {
+            return options[mapping.attribute] !== null && options[mapping.attribute] !== undefined;
+        }).map(function(mapping, index) {
+            return <span key={index} className="col-xs-6 option">{mapping.text + options[mapping.attribute]}</span>
+        });
+        if(!this.state.collapsed && this.state.showRules) {
+            return <div><hr/>{rules}</div>;
+        }
+        return null;
+    },
+    renderControl() {
+        const options = this.props.ispCtrl.getOptions();
+        const rules = optionMapping.filter(function(mapping) {
+            return options[mapping.attribute] !== null && options[mapping.attribute] !== undefined;
+        });
+
+        var overlayRules = null;
+        var overlayMM = null;
+        if(rules.length > 0 && this.state.showRules){
+            const tooltip = <Tooltip id="show-rules">Hide rules</Tooltip>
+            overlayRules = <OverlayTrigger placement='top' overlay={tooltip}>
+                <i className='fa fa-cog fa-lg' onClick={this.toggleRules}/>
+            </OverlayTrigger>;
+        } else if(rules.length > 0 && !this.state.showRules){
+            const tooltip = <Tooltip id="show-rules">Show rules</Tooltip>
+            overlayRules = <OverlayTrigger placement='top' overlay={tooltip}>
+                <i className='fa fa-cog fa-lg' onClick={this.toggleRules}/>
+            </OverlayTrigger>;
+        }
+
+        if(this.state.collapsed){
+            const tooltip = <Tooltip id="show-rules">Maximize</Tooltip>
+            overlayMM = <OverlayTrigger placement="top" overlay={tooltip}>
+                <i className='fa fa-plus-square-o fa-lg' onClick={this.toggleView}/>
+            </OverlayTrigger>;
+        } else {
+            const tooltip = <Tooltip id="show-rules">Minimize</Tooltip>
+            overlayMM = <OverlayTrigger placement="top" overlay={tooltip}>
+                <i className='fa fa-minus-square-o fa-lg' onClick={this.toggleView}/>
+            </OverlayTrigger>;
+        }
+
+        return <span className='pull-right'>{overlayRules}{overlayMM}</span>;
+    },
+    renderHeader() {
         const options = this.props.ispCtrl.getOptions();
         const header = options.name;
-        let rules = optionMapping.
-            filter(function(mapping){
-                return options[mapping.attribute] !== null && options[mapping.attribute] !== undefined;
-            }).map(function(mapping, index){
-                return <span key={index} className="col-xs-6 option">{mapping.text + options[mapping.attribute]}</span>
-            });
-        if(rules.length === 0){
-            return header;
-        }
-        return <div>{header}<hr/>{rules}</div>
+        return <div>{header}{this.renderControl()}{this.renderRules()}</div>
     },
-    render() {
+    renderBody() {
         const ispCtrl = this.props.ispCtrl;
         const rows = ispCtrl.getCourses()
             .map(function(child) {
                 return <CourseDnD key={child.nr} field={ispCtrl.getID()} course={child}/>;
             });
+        if (this.state.collapsed) {
+            return null;
+        } else if (rows.length > 0) {
+            return rows
+        }
+        return this.props.children;
+    },
+    render() {
+        const ispCtrl = this.props.ispCtrl;
         return <SimpleDropTarget className={this.props.className} id={ispCtrl.getID()}>
             <Panel header={this.renderHeader()}>
-                {rows.length === 0 ? this.props.children : rows}
+                {this.renderBody()}
             </Panel>
         </SimpleDropTarget>
     }
