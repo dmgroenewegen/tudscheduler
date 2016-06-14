@@ -1,9 +1,17 @@
 import React from 'react';
 import EventServer from '../models/EventServer.js';
 import CourseDnD from './CourseDnD.js'
-import { Panel,OverlayTrigger, Tooltip } from 'react-bootstrap';
+import {
+    Panel, OverlayTrigger, Tooltip
+}
+from 'react-bootstrap';
 import SimpleDropTarget from './SimpleDropTarget.js';
 import ISPCtrl from '../models/ISPCtrl.js';
+import classnames from 'classnames';
+
+let hasError = function hasError(mapping, errors) {
+    return errors.indexOf(mapping.attribute) !== -1;
+};
 
 const optionMapping = [{
     attribute: 'minEC',
@@ -15,7 +23,7 @@ const optionMapping = [{
     attribute: 'minCourses',
     text: 'Min #courses: '
 }, {
-    attribute: 'minEC',
+    attribute: 'maxCourses',
     text: 'Max #courses: '
 }];
 
@@ -47,13 +55,17 @@ default React.createClass({
     },
     renderRules() {
         const options = this.props.ispCtrl.getOptions();
+        const errors = this.props.ispCtrl.getErrors();
         const rules = optionMapping.
         filter(function(mapping) {
             return options[mapping.attribute] !== null && options[mapping.attribute] !== undefined;
         }).map(function(mapping, index) {
-            return <span key={index} className="col-xs-6 option">{mapping.text + options[mapping.attribute]}</span>
+            const classes = classnames('col-xs-6', 'option', {
+                'has-error': hasError(mapping, errors)
+            });
+            return <span key={index} className={classes}>{mapping.text + options[mapping.attribute]}</span>
         });
-        if(!this.state.collapsed && this.state.showRules) {
+        if (!this.state.collapsed && this.state.showRules) {
             return <div><hr/>{rules}</div>;
         }
         return null;
@@ -66,19 +78,19 @@ default React.createClass({
 
         var overlayRules = null;
         var overlayMM = null;
-        if(rules.length > 0 && this.state.showRules){
+        if (rules.length > 0 && this.state.showRules) {
             const tooltip = <Tooltip id="show-rules">Hide rules</Tooltip>
             overlayRules = <OverlayTrigger placement='top' overlay={tooltip}>
                 <i className='fa fa-cog fa-lg' onClick={this.toggleRules}/>
             </OverlayTrigger>;
-        } else if(rules.length > 0 && !this.state.showRules){
+        } else if (rules.length > 0 && !this.state.showRules) {
             const tooltip = <Tooltip id="show-rules">Show rules</Tooltip>
             overlayRules = <OverlayTrigger placement='top' overlay={tooltip}>
                 <i className='fa fa-cog fa-lg' onClick={this.toggleRules}/>
             </OverlayTrigger>;
         }
 
-        if(this.state.collapsed){
+        if (this.state.collapsed) {
             const tooltip = <Tooltip id="show-rules">Maximize</Tooltip>
             overlayMM = <OverlayTrigger placement="top" overlay={tooltip}>
                 <i className='fa fa-plus-square-o fa-lg' onClick={this.toggleView}/>
