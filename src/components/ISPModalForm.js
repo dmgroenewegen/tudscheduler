@@ -25,8 +25,8 @@ export default React.createClass({
     handleInputChange(event, field){
         data[field] = event.target.value;
     },
-    renderInput(field){
-        return <FormGroup controlId="formHorizontalEmail">
+    renderInput(field, index){
+        return <FormGroup key={index} controlId="formHorizontalEmail">
             <ControlLabel>{field.label}</ControlLabel>
             <FormControl type="text" onChange={(e) => this.handleInputChange(e, field.field)}
                 placeholder={field.label} />

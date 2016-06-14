@@ -43,6 +43,9 @@ function ISPField(options, id) {
         return false;
     }
     model.getErrors = function getErrors() {
+        if(courses.length === 0){
+            return [];
+        }
         var errors = [];
         if (_.isNumber(options.maxEC) &&
             _.sumBy(courses, function(course) {

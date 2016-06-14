@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import {Panel} from 'react-bootstrap';
 import CourseTypes from '../constants/CourseTypes.js';
 import {DropTarget} from 'react-dnd';
-
+import classnames from 'classnames';
 const fieldTarget = {
     drop(props) {
         return {id: props.id};
@@ -19,7 +19,7 @@ function collect(connect, monitor) {
 class SimpleDropTarget extends Component {
     render() {
         const {connectDropTarget, isOver} = this.props;
-        var classes = [(isOver) ? '.item-hovering' : '', this.props.className].join(' ');
+        const classes = classnames(this.props.className, {'item-hovering': isOver});
         return connectDropTarget(<div className={classes}>{this.props.children}</div>);
     }
 }

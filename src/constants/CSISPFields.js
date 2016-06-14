@@ -2,8 +2,7 @@
 const fields = [{
     name: 'Compsolary Courses',
     minEC: 25,
-    minCourses: 5,
-    duplicate: true
+    minCourses: 5
 },{
     name: 'Research Group',
     maxEC: 15

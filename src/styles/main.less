@@ -10,7 +10,10 @@ body{
         margin-right: -10px;
     }
 }
-
+.has-error{
+    color:red;
+    font-weight: bold;
+}
 .sidebar{
     padding-right: 0;
 }
@@ -40,11 +43,16 @@ body{
     }
 }
 .panel-body {
-    // padding: 0;
     .list-item{
         margin: 0 -1px -1px -1px;
         padding: 8px 10px;
-        border: 1px solid #ddd;
+        &:not(:first-child){
+            border-top: 1px solid #ddd;
+        }
+        &:last-child{
+            border-bottom-left-radius: 0.25em;
+            border-bottom-right-radius: 0.25em;
+        }
     }
 }
 .button-group > * {
@@ -111,4 +119,8 @@ body{
     .option{
         font-size:12px;
     }
+}
+
+.fa + .fa{
+    margin-left: 5px;
 }
