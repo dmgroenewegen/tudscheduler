@@ -15,6 +15,7 @@
     "bootstrap": "^3.3.6",
     "browser-sync": "^2.12.5",
     "browserify": "^13.0.0",
+    "classnames": "^2.2.5",
     "eslint": "^2.8.0",
     "eslint-config-airbnb": "^8.0.0",
     "eslint-plugin-import": "^1.6.0",

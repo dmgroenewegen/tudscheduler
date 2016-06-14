@@ -4,6 +4,7 @@ import CourseTypes from '../constants/CourseTypes.js';
 import {DragSource} from 'react-dnd';
 import {ListGroupItem} from 'react-bootstrap';
 import ISPCtrl from '../models/ISPCtrl.js';
+import classnames from 'classnames';
 
 const courseSource = {
     beginDrag(props) {
@@ -33,8 +34,9 @@ class CourseDnD extends Component{
     render() {
         const course = this.props.course;
         const { connectDragSource, isDragging } = this.props;
+        const classes = classnames('list-item', {'is-dragging': isDragging});
         return connectDragSource(
-            <div className="list-item">
+            <div className={classes}>
                 {course.name} {course.courseName}
             </div>
         );
