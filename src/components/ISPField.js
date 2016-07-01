@@ -71,13 +71,14 @@ default React.createClass({
         return null;
     },
     renderControl() {
+        var overlayRules = null;
+        var overlayMM = null;
+
         const options = this.props.ispCtrl.getOptions();
         const rules = optionMapping.filter(function(mapping) {
             return options[mapping.attribute] !== null && options[mapping.attribute] !== undefined;
         });
 
-        var overlayRules = null;
-        var overlayMM = null;
         if (rules.length > 0 && this.state.showRules) {
             const tooltip = <Tooltip id="show-rules">Hide rules</Tooltip>
             overlayRules = <OverlayTrigger placement='top' overlay={tooltip}>
@@ -111,10 +112,12 @@ default React.createClass({
     },
     renderBody() {
         const ispCtrl = this.props.ispCtrl;
-        const rows = ispCtrl.getCourses()
+        const rows = _(ispCtrl.getCourses())
+            .orderBy('name')
             .map(function(child) {
                 return <CourseDnD key={child.nr} field={ispCtrl.getID()} course={child}/>;
-            });
+            })
+            .value();
         if (this.state.collapsed) {
             return null;
         } else if (rows.length > 0) {

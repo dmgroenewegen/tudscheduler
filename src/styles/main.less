@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 @import "notifications";
 @import "print";
 @import "isp-form";
@@ -74,10 +75,6 @@ body{
     padding-left: 10px;
 }
 
-.fa-info-circle{
-    cursor: pointer;
-}
-
 .header{
     border-bottom: 1px solid #E5E5E5;
     margin-bottom: 10px;
@@ -87,12 +84,6 @@ body{
     .help{
         text-align: center;
     }
-}
-
-.fa-info-circle.fa-lg{
-    font-size: 1.6em;
-    line-height: 1em;
-    vertical-align: -20%;
 }
 
 .panel-default > .panel-heading .badge, .badge{
@@ -121,6 +112,17 @@ body{
     }
 }
 
+.fa-info-circle.fa-lg{
+    font-size: 1.6em;
+    line-height: 1em;
+    vertical-align: -20%;
+}
 .fa + .fa{
     margin-left: 5px;
+}
+.fa-info-circle, .fa-undo{
+    cursor: pointer;
+}
+.fa-undo{
+    margin-top: 4px;
 }

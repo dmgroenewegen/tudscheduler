@@ -31,13 +31,22 @@ function collect(connect, monitor) {
 }
 
 class CourseDnD extends Component{
+    undo() {
+        ISPCtrl.move(this.props.course, this.props.field, 'unlisted');
+    }
+    renderUndo(){
+        if(this.props.field !== 'unlisted'){
+            return <i className='fa fa-undo fa-lg pull-right' onClick={this.undo.bind(this)}/>;
+        }
+        return null;
+    }
     render() {
         const course = this.props.course;
         const { connectDragSource, isDragging } = this.props;
         const classes = classnames('list-item', {'is-dragging': isDragging});
         return connectDragSource(
             <div className={classes}>
-                {course.name} {course.courseName}
+                {course.name} {course.courseName} {this.renderUndo()}
             </div>
         );
     }

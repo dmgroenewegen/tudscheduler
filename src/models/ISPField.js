@@ -43,30 +43,32 @@ function ISPField(options, id) {
         return false;
     }
     model.getErrors = function getErrors() {
-        if(courses.length === 0){
-            return [];
-        }
         var errors = [];
+        if(courses.length === 0){
+            return errors;
+        }
         if (_.isNumber(options.maxEC) &&
             _.sumBy(courses, function(course) {
                 return parseInt(course.ects, 10);
-            }) >= modelOptions.maxEC) {
+            }) > modelOptions.maxEC) {
             errors.push('maxEC');
         }
         if (_.isNumber(modelOptions.minEC) &&
             _.sumBy(courses, function(course) {
                 return parseInt(course.ects, 10);
-            }) <= modelOptions.minEC) {
+            }) < modelOptions.minEC) {
             errors.push('minEC');
         }
         if (_.isNumber(modelOptions.maxCourses) &&
-            courses.length >= modelOptions.maxCourses) {
+            courses.length > modelOptions.maxCourses) {
             errors.push('maxCourses');
         }
         if (_.isNumber(modelOptions.minCourses) &&
-            courses.length <= modelOptions.minCourses) {
+            courses.length < modelOptions.minCourses) {
             errors.push('minCourses');
         }
+        console.log(courses.length, modelOptions, errors);
+
         return errors;
     }
     model.isValid = function isValid() {
