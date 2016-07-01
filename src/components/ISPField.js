@@ -8,10 +8,19 @@ from 'react-bootstrap';
 import SimpleDropTarget from './SimpleDropTarget.js';
 import ISPCtrl from '../models/ISPCtrl.js';
 import classnames from 'classnames';
+import DebounceInput from 'react-debounce-input';
 
 let hasError = function hasError(mapping, errors) {
     return errors.indexOf(mapping.attribute) !== -1;
 };
+
+let hasNeedle = function hasNeedle(course, needle){
+    if (!needle || needle.length === 0) {
+        return true;
+    }
+    return course.name.toLowerCase().indexOf(needle) !== -1 || (!!course.courseName &&
+        course.courseName.toLowerCase().indexOf(needle) !== -1);
+}
 
 const optionMapping = [{
     attribute: 'minEC',
@@ -32,7 +41,9 @@ default React.createClass({
     getInitialState() {
         return {
             showRules: false,
-            collapsed: false
+            collapsed: false,
+            search: false,
+            searchValue: ''
         }
     },
     componentDidMount() {
@@ -46,12 +57,17 @@ default React.createClass({
     toggleRules() {
         this.setState({
             showRules: !this.state.showRules
-        })
+        });
     },
     toggleView() {
         this.setState({
             collapsed: !this.state.collapsed
-        })
+        });
+    },
+    toggleSearch() {
+        this.setState({
+            search: !this.state.search
+        });
     },
     renderRules() {
         const options = this.props.ispCtrl.getOptions();
@@ -73,6 +89,7 @@ default React.createClass({
     renderControl() {
         var overlayRules = null;
         var overlayMM = null;
+        var search = null;
 
         const options = this.props.ispCtrl.getOptions();
         const rules = optionMapping.filter(function(mapping) {
@@ -92,28 +109,60 @@ default React.createClass({
         }
 
         if (this.state.collapsed) {
-            const tooltip = <Tooltip id="show-rules">Maximize</Tooltip>
+            const tooltip = <Tooltip id="show-all">Maximize</Tooltip>
             overlayMM = <OverlayTrigger placement="top" overlay={tooltip}>
                 <i className='fa fa-plus-square-o fa-lg' onClick={this.toggleView}/>
             </OverlayTrigger>;
         } else {
-            const tooltip = <Tooltip id="show-rules">Minimize</Tooltip>
+            const tooltip = <Tooltip id="hide-all">Minimize</Tooltip>
             overlayMM = <OverlayTrigger placement="top" overlay={tooltip}>
                 <i className='fa fa-minus-square-o fa-lg' onClick={this.toggleView}/>
             </OverlayTrigger>;
         }
 
-        return <span className='pull-right'>{overlayRules}{overlayMM}</span>;
+        if (this.props.ispCtrl.getID()=== 'unlisted'){
+            const tooltip = <Tooltip id="show-search">Search</Tooltip>
+            search = <OverlayTrigger placement="top" overlay={tooltip}>
+                <i className='fa fa-search fa-lg' onClick={this.toggleSearch}/>
+            </OverlayTrigger>;
+        }
+
+        return <span className='pull-right'>{search}{overlayRules}{overlayMM}</span>;
+    },
+    onChange(event){
+        const nextSearch = event.target.value;
+        this.setState({
+            searchValue: nextSearch
+        });
+    },
+    renderSearch(){
+        if(this.state.search){
+            return <div><hr/>
+            <DebounceInput
+                    minLength={2}
+                    debounceTimeout={200}
+                    type='text'
+                    value={this.state.searchValue}
+                    className='form-control'
+                    placeholder='search on code or name, atleast 2 characters'
+                    onChange={this.onChange}/>
+            </div>
+        }
+        return null;
     },
     renderHeader() {
         const options = this.props.ispCtrl.getOptions();
         const header = options.name;
-        return <div>{header}{this.renderControl()}{this.renderRules()}</div>
+        return <div>{header}{this.renderControl()}{this.renderRules()}{this.renderSearch()}</div>
     },
     renderBody() {
+        let self = this;
         const ispCtrl = this.props.ispCtrl;
         const rows = _(ispCtrl.getCourses())
             .orderBy('name')
+            .filter(function(child){
+                return !self.state.search || hasNeedle(child, self.state.searchValue);
+            })
             .map(function(child) {
                 return <CourseDnD key={child.nr} field={ispCtrl.getID()} course={child}/>;
             })

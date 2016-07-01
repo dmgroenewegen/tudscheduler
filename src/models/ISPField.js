@@ -67,7 +67,6 @@ function ISPField(options, id) {
             courses.length < modelOptions.minCourses) {
             errors.push('minCourses');
         }
-        console.log(courses.length, modelOptions, errors);
 
         return errors;
     }
