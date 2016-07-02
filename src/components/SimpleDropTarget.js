@@ -20,7 +20,9 @@ class SimpleDropTarget extends Component {
     render() {
         const {connectDropTarget, isOver} = this.props;
         const classes = classnames(this.props.className, {'item-hovering': isOver});
-        return connectDropTarget(<div className={classes}>{this.props.children}</div>);
+        return connectDropTarget(<div className={classes}>
+            {React.cloneElement(this.props.children, {isOver: isOver})}
+        </div>);
     }
 }
 

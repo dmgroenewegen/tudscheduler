@@ -47,12 +47,18 @@ body{
     .list-item{
         margin: 0 -1px -1px -1px;
         padding: 8px 10px;
+        &:hover{
+            cursor: grab;
+        }
         &:not(:first-child){
             border-top: 1px solid #ddd;
         }
         &:last-child{
             border-bottom-left-radius: 0.25em;
             border-bottom-right-radius: 0.25em;
+        }
+        &:active{
+            cursor:grabbing !important;
         }
     }
 }

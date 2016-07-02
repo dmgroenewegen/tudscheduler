@@ -36,9 +36,20 @@ const SelectView = React.createClass({
         })
     },
     render() {
+        const unlistedOptions = {
+            search: true,
+            hideExpand: true,
+            onEmpty: 'Add a course from the bar on the left to start creating your ISP',
+            onHover: 'Drop'
+        };
+        const fieldOptions = {
+            hideExpand: true,
+            onEmpty: 'Drag \'n drop a course here',
+            onHover: 'Drop'
+        };
         return <div id="select-view">
-            <ISPField className="col-xs-12 col-md-6" ispCtrl={ISPCtrl.unlisted}>
-                <span className="empty">Add a course from the bar on the left to start creating your ISP</span>
+            <ISPField className="col-xs-12 col-md-6" ispCtrl={ISPCtrl.unlisted}
+                options={unlistedOptions}>
             </ISPField>
             <div className="col-xs-12 col-md-6">
                 <Button bsStyle="primary" onClick={this.openModal}><i className="fa fa-file-pdf-o"/>Generate</Button>
@@ -46,9 +57,7 @@ const SelectView = React.createClass({
                     filter(function(ispCtrl){
                         return ispCtrl.getID() !== 'unlisted';
                     }).map(function(ispCtrl, index){
-                    return <ISPField key={index} ispCtrl={ispCtrl}>
-                        <span className="empty">Drag 'n drop a course here</span>
-                    </ISPField>;
+                    return <ISPField key={index} ispCtrl={ispCtrl} options={fieldOptions}></ISPField>;
                 })}
             </div>
             <ISPModal show={this.state.showModal} closeModal={this.closeModal}/>
