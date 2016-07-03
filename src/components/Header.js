@@ -3,7 +3,13 @@ import {Button, ButtonGroup, Tooltip, OverlayTrigger} from 'react-bootstrap';
 import Storage from '../models/Storage.js';
 import CourseCtrl from '../models/CourseCtrl.js';
 
+/**
+ * The header of the page.
+ */
 export default React.createClass({
+    propTypes:{
+        className: React.PropTypes.string
+    },
     render(){
         var save = <Button onClick={Storage.save} bsStyle="primary">Save</Button>;
         var reset = <Button onClick={CourseCtrl.reset} bsStyle="danger">Reset</Button>;

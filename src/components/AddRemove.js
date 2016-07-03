@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import CourseCtrl from '../models/CourseCtrl.js';
 import {Button, OverlayTrigger, Tooltip} from 'react-bootstrap';
 import CourseModal from './CourseModal.js';
@@ -8,6 +8,10 @@ import CourseModal from './CourseModal.js';
  */
 
 export default React.createClass({
+    propTypes:{
+        className: PropTypes.string,
+        course: PropTypes.object.isRequired
+    },
     getInitialState(){
         return {
             showModal: false

@@ -3,15 +3,33 @@ import ISPField from './ISPField.js';
 import EventServer from '../models/EventServer.js';
 import CourseCtrl from './CourseCtrl.js';
 const id = 'ISPCtrl';
+
+/**
+ * The ISP controller.
+ * Controlls all the ISPFields which are generated based on the CSISPFields (or possible another in the future).
+ * When changing an ispfield it should be done through this class.
+ * Since this class emits the events when a change happends in any ispfield.
+ * It also listens to the changes regarding adding/removing a course and reset/load events.
+ * @type {Object}
+ */
 var ISPCtrl = {
     unlisted: {},
     ispFields: [],
     fieldOptions: [],
+    /**
+     * Returns a ISPField
+     * @param  {String|Number} fieldId The ISPField identifier.
+     * @return {Object}         An ISPField
+     */
     get(fieldId) {
         return ISPCtrl.ispFields.find(function(field) {
             return field.id === fieldId;
         });
     },
+    /**
+     * Should be called when ISPCtrl is being used for the first time.
+     * @param  {Object} ispFieldOptions The options on which the ISPFields are generated.
+     */
     init(ispFieldOptions) {
         ISPCtrl.fieldOptions = ispFieldOptions;
         ISPCtrl.ispFields = ispFieldOptions.map(function(ispField, index) {
@@ -26,6 +44,10 @@ var ISPCtrl = {
         ISPCtrl.ispFields.push(ISPCtrl.unlisted);
         ISPCtrl.startListening();
     },
+    /**
+     * Called when a course is selected by an user.
+     * Adds all the courses which are not currently in the selection to the unlisted ISPField.
+     */
     updateAdded() {
         CourseCtrl.added.filter(function(course) {
             return !ISPCtrl.ispFields.some(function(ispCtrl) {
@@ -36,6 +58,10 @@ var ISPCtrl = {
         }).forEach(ISPCtrl.unlisted.add);
         EventServer.emit('isp.field.added::unlisted');
     },
+    /**
+     * Called when an user removes a course from the selection.
+     * Removes the course in the ISPField which currently holds it.
+     */
     updateRemoved() {
         const allCourses = CourseCtrl.added;
         ISPCtrl.ispFields.forEach(function(field) {
@@ -50,6 +76,10 @@ var ISPCtrl = {
             }
         });
     },
+    /**
+     * Called when reset event is emitted.
+     * Resets all the ispfields.
+     */
     reset() {
         ISPCtrl.ispFields.forEach(function(field) {
             field.reset();
@@ -71,6 +101,12 @@ var ISPCtrl = {
             ISPCtrl.updateAdded()
         }, id);
     },
+    /**
+     * Moves a course from one ispfield to another
+     * @param  {Object} course      The course object
+     * @param  {String} fieldIdFrom The ispfield identifier from it is being moved.
+     * @param  {String} fieldIdTo   The ispfield to which is should be moved
+     */
     move(course, fieldIdFrom, fieldIdTo) {
         var ispFieldFrom = (fieldIdFrom === 'unlisted') ? ISPCtrl.unlisted :
             _.find(ISPCtrl.ispFields, function(field) {

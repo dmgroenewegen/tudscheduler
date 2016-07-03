@@ -1,12 +1,22 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import DebounceInput from 'react-debounce-input';
 
+/**
+ * Search input being used by the sidebar
+ */
 export default React.createClass({
+    propTypes:{
+        setSearch: PropTypes.func.isRequired
+    },
     getInitialState(){
         return {
             value: ''
         };
     },
+    /**
+     * Called when an input changes
+     * @param  {Object} event The event object
+     */
     onChange(event){
         const nextSearch = event.target.value;
         this.setState({

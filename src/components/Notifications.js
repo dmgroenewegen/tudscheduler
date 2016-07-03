@@ -2,6 +2,9 @@ import React from 'react';
 import {Alert} from 'react-bootstrap';
 import EventServer from '../models/EventServer.js';
 
+/**
+ * Renders the notifications to be shown based on the events that are trigged in the app.
+ */
 export default React.createClass({
     getInitialState(){
         return {
@@ -22,6 +25,10 @@ export default React.createClass({
             }
         }));
     },
+    /**
+     * When the user clicks on the cross icon in the notifaction.
+     * Removes the notifacation.
+     */
     onDismiss(){
         this.setState({
             notification: null

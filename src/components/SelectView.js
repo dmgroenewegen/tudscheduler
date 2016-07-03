@@ -16,6 +16,10 @@ import ISPField from './ISPField.js';
 import ISPCtrl from '../models/ISPCtrl.js';
 import ISPModal from './ISPModal.js';
 
+/**
+ * The select view, renders the isp fields which are the drop targets for the CourseDnD.
+ * Lets the user set up his isp form which should be printed/send.
+ */
 const SelectView = React.createClass({
     componentWillMount() {
         ISPCtrl.init(CSISPFields);

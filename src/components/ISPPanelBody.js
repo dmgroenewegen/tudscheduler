@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import CourseDnD from './CourseDnD.js';
 import _ from 'lodash';
 import classnames from 'classnames';
 import EventServer from '../models/EventServer.js';
 
+/**
+ * Searches in the course code and name if the needle is present
+ * @param  {Object}  course The course object
+ * @param  {String}  needle The needle to be search
+ * @return {Boolean}        true iff needle is false or needle is present in the course code/name
+ */
 let hasNeedle = function hasNeedle(course, needle) {
     if (!needle || needle.length === 0) {
         return true;
@@ -12,8 +18,18 @@ let hasNeedle = function hasNeedle(course, needle) {
         course.courseName.toLowerCase().indexOf(needle) !== -1);
 }
 
+/**
+ * Renders the isp panel body.
+ */
 export
 default React.createClass({
+    propTypes:{
+        isOver: PropTypes.bool.isRequired,
+        filter: PropTypes.string.isRequired,
+        options: PropTypes.object.isRequired,
+        className: PropTypes.string,
+        ispCtrl: PropTypes.object.isRequired
+    },
     getInitialState() {
         return {
             collapsed: false,
@@ -30,6 +46,9 @@ default React.createClass({
     componentDidMount() {
         this.startListening();
     },
+    /**
+     * Starts listening to events for the given ISP Controller
+     */
     startListening() {
         const id = this.props.ispCtrl.getID();
         EventServer.on('isp.field.added::' + id, () => this.forceUpdate(), id + 'body');

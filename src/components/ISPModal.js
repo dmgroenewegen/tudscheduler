@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import ISPModalForm from './ISPModalForm.js';
 import ISPModalOverview from './ISPModalOverview.js';
 
+/**
+ * Renders the modal which is invoked when a user is done organising his isp fields.
+ */
 export default React.createClass({
+    propTypes:{
+        show: PropTypes.bool.isRequired,
+        closeModal: PropTypes.func.isRequired
+    },
     getInitialState(){
         return {
             edit: true,

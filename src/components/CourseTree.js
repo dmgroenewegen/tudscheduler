@@ -1,5 +1,5 @@
 import CourseCtrl from '../models/CourseCtrl.js';
-import React from 'react';
+import React, {PropTypes} from 'react';
 import {
     ListGroupItem, Badge
 }
@@ -7,7 +7,11 @@ from 'react-bootstrap';
 import EventServer from '../models/EventServer.js';
 import AddRemove from './AddRemove.js';
 
-var CourseTree = React.createClass({
+/**
+ * A list group item for in the sidebar.
+ * Shows the course id, name, ects and optional control functions
+ */
+export default React.createClass({
     getInitialState() {
         return {
             childVisible: false,
@@ -17,6 +21,10 @@ var CourseTree = React.createClass({
     componentWillUnmount(){
         this.stopListening();
     },
+    /**
+     * Called by React when it is mounted in the DOM
+     * Starts listening to events if it is visible.
+     */
     componentDidMount() {
         var $self = this;
         var id = 'course::' + this.props.course.nr;
@@ -44,7 +52,6 @@ var CourseTree = React.createClass({
     },
     /**
      * Toggle the visibility of the children
-     * @returns {void}
      */
     toggle() {
         var nextVisibility = !this.state.childVisible;
@@ -53,6 +60,9 @@ var CourseTree = React.createClass({
         });
         EventServer.emit('visible::' + this.props.course.nr, nextVisibility);
     },
+    /**
+     * Start listening to events.
+     */
     startListening() {
         var id = 'course::' + this.props.course.nr;
         EventServer.on('added', () => this.forceUpdate(), id);
@@ -60,6 +70,10 @@ var CourseTree = React.createClass({
         EventServer.on('reset', () => this.forceUpdate(), id);
         EventServer.on('loaded', () => this.forceUpdate(), id);
     },
+    /**
+     * Stops listening to events. Should be called when it is not visible or
+     * when it is removed from the dom.
+     */
     stopListening() {
         var id = 'course::' + this.props.course.nr;
         EventServer.remove('added', id);
@@ -67,6 +81,11 @@ var CourseTree = React.createClass({
         EventServer.remove('reset', id);
         EventServer.remove('loaded', id);
     },
+    /**
+     * Renders the chevron
+     * @param  {String|Number} key The key to identify the element.
+     * @return {React}     A react component
+     */
     renderChevron(key) {
         if (this.isSearching() || this.props.course.children.length === 0) {
             return null;
@@ -74,6 +93,11 @@ var CourseTree = React.createClass({
         const chevronClass = 'fa fa-chevron-' + ((this.state.childVisible) ? 'down' : 'right');
         return <i key={key} className={chevronClass}/>;
     },
+    /**
+     * Renders the periods in which the course is being held.
+     * @param  {String|Number} key The key to identify the element.
+     * @return {React}     A react component
+     */
     renderQBadge(key){
         var periods = this.props.course['Education Period'];
         if(periods === undefined){
@@ -81,6 +105,12 @@ var CourseTree = React.createClass({
         }
         return (<Badge key={key}>Q{periods}</Badge>);
     },
+    /**
+     * Renders the ects of the course.
+     * If it is a parent node, it will list the ects selected from all its children compared to the total.
+     * @param  {String|Number} key The key to identify the element.
+     * @return {React}     A react component
+     */
     renderECBadge(key) {
         const course = this.props.course;
         const totalEcts = CourseCtrl.totalEcts(course);
@@ -109,6 +139,3 @@ var CourseTree = React.createClass({
             <AddRemove key={5} course={course} className='pull-right'/></ListGroupItem>;
     }
 });
-
-export
-default CourseTree;

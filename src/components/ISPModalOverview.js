@@ -1,9 +1,22 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import {Modal, Button, Table, Col} from 'react-bootstrap';
 import ISPCtrl from '../models/ISPCtrl.js';
 import _ from 'lodash';
 
+/**
+ * Renders the modal form that shows all the isp fields with the selected courses and shows the user credentials.
+ */
 export default React.createClass({
+    propTypes:{
+        data: PropTypes.object.isRequired,
+        edit: PropTypes.func.isRequired,
+        closeModal: PropTypes.func.isRequired,
+        show: PropTypes.bool.isRequired
+    },
+    /**
+     * Sums all the ects of all the courses
+     * @return {Number} The total ects of all the selected courses.
+     */
     totalEcts(){
         return _(ISPCtrl.ispFields)
             .filter(function(field){
@@ -14,15 +27,31 @@ export default React.createClass({
             })
             .sumBy(this.subtotalEcts);
     },
+    /**
+     * @param  {Array} courses A list of courses
+     * @return {Number} the ects of the given courses
+     */
     subtotalEcts(courses){
         return _.sumBy(courses, function(course){
             return parseInt(course.ects, 10);
         })
     },
+    /**
+     * Renders a course, showing the course id, name and ects
+     * @param  {Object} course A course object
+     * @param  {Number} index  The key of the element
+     * @return {React}        A react component
+     */
     renderCourse(course, index){
         return <tr key={index}><td>{course.name}</td>
             <td>{course.courseName}</td><td>{course.ects}</td><td></td></tr>
     },
+    /**
+     * Renders a ISP field
+     * @param  {Object} field An ISP model
+     * @param  {Number} index The key of the element.
+     * @return {React}       A react component
+     */
     renderField(field, index){
         return (<tbody><tr key={index} className="header blue">
             <td colSpan="4">{field.getOptions().name}</td>
@@ -33,6 +62,10 @@ export default React.createClass({
             <td></td>
         </tr></tbody>);
     },
+    /**
+     * Renders all the fields
+     * @return {Array} An array of react components.
+     */
     renderFields(){
         return ISPCtrl.ispFields.filter(function(field){
             return field.getID() !== 'unlisted';

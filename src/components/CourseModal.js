@@ -1,7 +1,13 @@
 import React from 'react';
 import {Modal} from 'react-bootstrap';
 
+/**
+ * Renders the detailed information of a course.
+ */
 export default React.createClass({
+    propTypes:{
+        closeModal: React.PropTypes.func.isRequired
+    },
     getInitialState(){
         return {
             show: this.props.show

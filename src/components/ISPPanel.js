@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import CourseDnD from './CourseDnD.js'
 import {
     Panel
@@ -10,6 +10,10 @@ import ISPPanelHeader from './ISPPanelHeader.js';
 
 export
 default React.createClass({
+    propTypes:{
+        ispCtrl: PropTypes.object.isRequired,
+        options: PropTypes.object.isRequired
+    },
     getInitialState() {
         return {
             collapsed: false,
@@ -22,11 +26,19 @@ default React.createClass({
             isOver: nextProps.isOver
         })
     },
+    /**
+     * Toggles if the panel body should be shown or not
+     * @param  {Bool} nextState Value to be set
+     */
     toggleView(nextState) {
         this.setState({
             collapsed: nextState
         });
     },
+    /**
+     * Sets the search Value
+     * @param {String} searchValue The search value
+     */
     setSearch(searchValue){
         this.setState({
             searchValue: searchValue

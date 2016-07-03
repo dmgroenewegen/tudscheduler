@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import {
     ListGroup
 }
@@ -25,39 +25,42 @@ var hasNeedle = function(needle, course) {
 
 export
 default React.createClass({
-        getInitialState() {
-            return {
-                search: ''
-            };
-        },
-        setSearch(nextSearch) {
-            this.setState({
-                search: nextSearch
-            });
-        },
-        render() {
-            var courses = CourseCtrl.flattenTree;
-            var search = this.state.search.toLowerCase();
-            if (search.length > 0) {
-                courses = _(courses)
-                    .filter(function(course) {
-                        return hasNeedle(search, course);
-                    })
-                    .uniqBy(function(course) {
-                        return course.id;
-                    })
-                    .value();
-            }
-            const rows = courses
-                .map(function(child) {
-                    var visible = child.parent === 1;
-                    return <CourseTree key={child.nr}
+    propTypes:{
+        className: PropTypes.string
+    },
+    getInitialState() {
+        return {
+            search: ''
+        };
+    },
+    setSearch(nextSearch) {
+        this.setState({
+            search: nextSearch
+        });
+    },
+    render() {
+        var courses = CourseCtrl.flattenTree;
+        var search = this.state.search.toLowerCase();
+        if (search.length > 0) {
+            courses = _(courses)
+                .filter(function(course) {
+                    return hasNeedle(search, course);
+                })
+                .uniqBy(function(course) {
+                    return course.id;
+                })
+                .value();
+        }
+        const rows = courses
+            .map(function(child) {
+                var visible = child.parent === 1;
+                return <CourseTree key={child.nr}
                     search={search}
                     visible={visible}
                     course={child}/>;
-                });
-            const classes = [this.props.className, 'sidebar'].join(' ');
-            return <div className={classes}>
+            });
+        const classes = [this.props.className, 'sidebar'].join(' ');
+        return <div className={classes}>
                     <ListGroup>
                         <SearchInput setSearch={this.setSearch}/>
                         {rows}
