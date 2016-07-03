@@ -5,3 +5,4 @@
 * add autofill based on track/research group
 * change the error message: it now only shows in red what is wrong, but it should be a more readible list of things. For example:
  - You have 3 courses selected too many/few
+* add a button to switch between year and select view
