@@ -18,6 +18,7 @@
    * The rules are partially from airbnb
    */
   "rules": {
+    "no-undef": 2,
         //
     //Possible Errors
     //
