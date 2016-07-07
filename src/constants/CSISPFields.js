@@ -1,6 +1,6 @@
 // The fields for the ISP of the computer science master
 const fields = [{
-    name: 'Compsolary Courses',
+    name: 'Compulsory Courses',
     minEC: 25,
     minCourses: 5
 },{

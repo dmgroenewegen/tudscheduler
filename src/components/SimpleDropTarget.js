@@ -45,4 +45,4 @@ SimpleDropTarget.propTypes = {
 };
 
 export
-default DropTarget(CourseTypes.COMPSULARY, fieldTarget, collect)(SimpleDropTarget);
+default DropTarget(CourseTypes.COMPULSORY, fieldTarget, collect)(SimpleDropTarget);

@@ -85,4 +85,4 @@ CourseDnD.propTypes = {
     isDragging: PropTypes.bool.isRequired
 };
 
-export default DragSource(CourseTypes.COMPSULARY, courseSource, collect)(CourseDnD);
+export default DragSource(CourseTypes.COMPULSORY, courseSource, collect)(CourseDnD);
