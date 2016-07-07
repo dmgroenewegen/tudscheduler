@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react';
 import {Modal, Button, Table, Col} from 'react-bootstrap';
-import ISPCtrl from '../models/ISPCtrl.js';
+import ISPCtrl from '../../models/ISPCtrl.js';
 import _ from 'lodash';
 
 /**
@@ -67,7 +67,7 @@ export default React.createClass({
      * @return {Array} An array of react components.
      */
     renderFields(){
-        return ISPCtrl.ispFields.filter(function(field){
+        return ISPCtrl.ispFieldModels.filter(function(field){
             return field.getID() !== 'unlisted';
         }).map(this.renderField);
     },

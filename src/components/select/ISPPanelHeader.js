@@ -1,14 +1,8 @@
-import React, {
-    PropTypes
-}
-from 'react';
+import React, {PropTypes} from 'react';
 import DebounceInput from 'react-debounce-input';
 import classnames from 'classnames';
-import {
-    OverlayTrigger, Tooltip
-}
-from 'react-bootstrap';
-import EventServer from '../models/EventServer.js';
+import {OverlayTrigger, Tooltip} from 'react-bootstrap';
+import EventServer from '../../models/EventServer.js';
 import _ from 'lodash';
 
 /**
@@ -41,7 +35,7 @@ const optionMapping = [{
 export
 default React.createClass({
     propTypes: {
-        ispCtrl: PropTypes.object.isRequired,
+        ispModel: PropTypes.object.isRequired,
         toggleView: PropTypes.func.isRequired,
         className: PropTypes.string,
         setSearch: PropTypes.func.isRequired
@@ -61,7 +55,7 @@ default React.createClass({
      * Starts listening to events for the given isp field.
      */
     startListening() {
-        const id = this.props.ispCtrl.getID();
+        const id = this.props.ispModel.getID();
         EventServer.on('isp.field.added::' + id, () => this.forceUpdate(), id + 'header');
         EventServer.on('isp.field.removed::' + id, () => this.forceUpdate(), id + 'header');
     },
@@ -114,8 +108,8 @@ default React.createClass({
         if (this.state.collapsed || !this.state.showRules) {
             return null;
         }
-        const options = this.props.ispCtrl.getOptions();
-        const errors = this.props.ispCtrl.getErrors();
+        const options = this.props.ispModel.getOptions();
+        const errors = this.props.ispModel.getErrors();
         const rules = optionMapping.
         filter(function(mapping) {
             return options[mapping.attribute] !== null && options[mapping.attribute] !== undefined;
@@ -137,7 +131,7 @@ default React.createClass({
         var overlayMM = null;
         var search = null;
 
-        const options = this.props.ispCtrl.getOptions();
+        const options = this.props.ispModel.getOptions();
         const rules = optionMapping.filter(function(mapping) {
             return options[mapping.attribute] !== null && options[mapping.attribute] !== undefined;
         });
@@ -195,7 +189,7 @@ default React.createClass({
         return null;
     },
     render() {
-        const options = this.props.ispCtrl.getOptions();
+        const options = this.props.ispModel.getOptions();
         const header = options.name;
         return <div className={classnames(this.props.className, 'panel-heading')}>
             <h3 className='panel-title'>{header}{this.renderControl()}</h3>

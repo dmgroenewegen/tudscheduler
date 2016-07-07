@@ -2,7 +2,7 @@ import React, {PropTypes} from 'react';
 import CourseDnD from './CourseDnD.js';
 import _ from 'lodash';
 import classnames from 'classnames';
-import EventServer from '../models/EventServer.js';
+import EventServer from '../../models/EventServer.js';
 
 /**
  * Searches in the course code and name if the needle is present
@@ -28,7 +28,7 @@ default React.createClass({
         filter: PropTypes.string.isRequired,
         options: PropTypes.object.isRequired,
         className: PropTypes.string,
-        ispCtrl: PropTypes.object.isRequired
+        ispModel: PropTypes.object.isRequired
     },
     getInitialState() {
         return {
@@ -50,18 +50,18 @@ default React.createClass({
      * Starts listening to events for the given ISP Controller
      */
     startListening() {
-        const id = this.props.ispCtrl.getID();
+        const id = this.props.ispModel.getID();
         EventServer.on('isp.field.added::' + id, () => this.forceUpdate(), id + 'body');
         EventServer.on('isp.field.removed::' + id, () => this.forceUpdate(), id + 'body');
     },
     render() {
-        const ispCtrl = this.props.ispCtrl;
+        const ispModel = this.props.ispModel;
         const classes = classnames(this.props.className, 'panel-body');
-        const rows = _(ispCtrl.getCourses())
+        const rows = _(ispModel.getCourses())
             .orderBy('name')
             .filter((child) => hasNeedle(child, this.state.filter))
             .map(function(child) {
-                return <CourseDnD key={child.nr} field={ispCtrl.getID()} course={child}/>;
+                return <CourseDnD key={child.nr} field={ispModel.getID()} course={child}/>;
             })
             .value();
         if (rows.length > 0) {

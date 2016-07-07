@@ -11,7 +11,7 @@ import _ from 'lodash';
  * @param {String|Number} id The identifier of the field.
  * @returns {Object} [description]
  */
-function ISPField(options, id) {
+function ISPFieldModel(options, id) {
     var courses = []
     var model = {};
     const modelOptions = options;
@@ -94,4 +94,4 @@ function ISPField(options, id) {
     return model;
 }
 
-export default ISPField;
+export default ISPFieldModel;

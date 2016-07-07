@@ -122,7 +122,6 @@ var Model = {
     /**
      * Removes the course and all the chilren from added list
      * @param  {Object} course, See AllCourses.js
-     * @returns {void}
      */
     remove(course) {
         EventServer.emit('removed', course);
@@ -139,7 +138,6 @@ var Model = {
     },
     /**
      * Resets the added courses.
-     * @returns {void}
      */
     reset() {
         Model.added = [];
@@ -149,11 +147,10 @@ var Model = {
 
 // Add depth, necessary for css styling
 var setDepth = function setDepth(node, depth) {
-    const currentDepth = depth || 0;
-    node.depth = currentDepth;
-    node.children.forEach((child) => setDepth(child, currentDepth + 1));
+    node.depth = depth;
+    node.children.forEach((child) => setDepth(child, depth + 1));
 };
-setDepth(Model.tree);
+setDepth(Model.tree, 0);
 
 // Get the flatten representation before hand
 Model.flattenTree = Model.flatten(null, null, 'nr');

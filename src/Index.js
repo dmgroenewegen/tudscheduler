@@ -2,10 +2,10 @@ import React from 'react';
 import {render} from 'react-dom';
 import {Router, Route, hashHistory, IndexRedirect} from 'react-router';
 import SideBar from './components/SideBar.js';
-import YearView from './components/YearView.js';
+import YearView from './components/year/YearView.js';
 import Notifications from './components/Notifications.js';
 import Header from './components/Header.js';
-import SelectView from './components/SelectView.js';
+import SelectView from './components/select/SelectView.js';
 
 window.React = React;
 // window.Perf = React.addons.Perf;

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Badge} from 'react-bootstrap';
-import AddRemove from './AddRemove.js';
+import AddRemove from '../AddRemove.js';
 
 /**
  * Used by YearView to render a course.

@@ -1,9 +1,9 @@
-import CourseCtrl from '../models/CourseCtrl.js';
+import CourseCtrl from '../../models/CourseCtrl.js';
 import React, { Component, PropTypes } from 'react';
-import CourseTypes from '../constants/CourseTypes.js';
+import CourseTypes from '../../constants/CourseTypes.js';
 import {DragSource} from 'react-dnd';
 import {ListGroupItem} from 'react-bootstrap';
-import ISPCtrl from '../models/ISPCtrl.js';
+import ISPCtrl from '../../models/ISPCtrl.js';
 import classnames from 'classnames';
 
 const courseSource = {

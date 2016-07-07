@@ -8,12 +8,12 @@ import ISPPanel from './ISPPanel.js';
 export
 default React.createClass({
     propType:{
-        ispCtrl: PropTypes.object.isRequired,
+        ispModel: PropTypes.object.isRequired,
         className: PropTypes.string
     },
     render() {
-        const ispCtrl = this.props.ispCtrl;
-        return <SimpleDropTarget className={this.props.className} id={ispCtrl.getID()}>
+        const ispModel = this.props.ispModel;
+        return <SimpleDropTarget className={this.props.className} id={ispModel.getID()}>
             <ISPPanel {...this.props}/>
         </SimpleDropTarget>
     }

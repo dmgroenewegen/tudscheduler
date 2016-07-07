@@ -1,9 +1,5 @@
 import React, {PropTypes} from 'react';
 import CourseDnD from './CourseDnD.js'
-import {
-    Panel
-}
-from 'react-bootstrap';
 import classnames from 'classnames';
 import ISPPanelBody from './ISPPanelBody.js';
 import ISPPanelHeader from './ISPPanelHeader.js';
@@ -11,7 +7,7 @@ import ISPPanelHeader from './ISPPanelHeader.js';
 export
 default React.createClass({
     propTypes:{
-        ispCtrl: PropTypes.object.isRequired,
+        ispModel: PropTypes.object.isRequired,
         options: PropTypes.object.isRequired
     },
     getInitialState() {
@@ -45,17 +41,17 @@ default React.createClass({
         });
     },
     render() {
-        const ispCtrl = this.props.ispCtrl;
+        const ispModel = this.props.ispModel;
         const bodyClasses = classnames({'hide':this.state.collapsed});
         const header = <ISPPanelHeader
-            ispCtrl={this.props.ispCtrl}
+            ispModel={this.props.ispModel}
             options={this.props.options}
             setSearch={this.setSearch}
             toggleView={this.toggleView}/>
         return <div className='panel panel-default'>
             {header}
             <ISPPanelBody className={bodyClasses}
-                ispCtrl={this.props.ispCtrl}
+                ispModel={this.props.ispModel}
                 isOver={this.state.isOver}
                 options={this.props.options}
                 filter={this.state.searchValue}/>

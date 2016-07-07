@@ -1,6 +1,6 @@
 import React from 'react';
-import CourseCtrl from '../models/CourseCtrl.js';
-import EventServer from '../models/EventServer.js';
+import CourseCtrl from '../../models/CourseCtrl.js';
+import EventServer from '../../models/EventServer.js';
 import ReactGridLayout, {WidthProvider} from 'react-grid-layout';
 import {
     Panel, Badge

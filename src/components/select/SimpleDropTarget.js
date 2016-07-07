@@ -1,6 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import {Panel} from 'react-bootstrap';
-import CourseTypes from '../constants/CourseTypes.js';
+import CourseTypes from '../../constants/CourseTypes.js';
 import {DropTarget} from 'react-dnd';
 import classnames from 'classnames';
 
