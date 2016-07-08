@@ -15,20 +15,6 @@ let hasError = function hasError(mapping, errors) {
     return errors.indexOf(mapping.attribute) !== -1;
 };
 
-const optionMapping = [{
-    attribute: 'minEC',
-    text: 'Min EC: '
-}, {
-    attribute: 'maxEC',
-    text: 'Max EC: '
-}, {
-    attribute: 'minCourses',
-    text: 'Min #courses: '
-}, {
-    attribute: 'maxCourses',
-    text: 'Max #courses: '
-}];
-
 /**
  * Renders the header of an ISPPanel
  */
@@ -108,18 +94,10 @@ default React.createClass({
         if (this.state.collapsed || !this.state.showRules) {
             return null;
         }
-        const options = this.props.ispModel.getOptions();
-        const errors = this.props.ispModel.getErrors();
-        const rules = optionMapping.
-        filter(function(mapping) {
-            return options[mapping.attribute] !== null && options[mapping.attribute] !== undefined;
-        })
-            .map(function(mapping, index) {
-                const classes = classnames('col-xs-6', 'option', {
-                    'has-error': hasError(mapping, errors)
-                });
-                return <span key={index} className={classes}>{mapping.text + options[mapping.attribute]}</span>
-            });
+        const rules = this.props.ispModel.prettyErrors.map(function(line, index) {
+            const classes = classnames('col-xs-12', 'option', 'has-error');
+            return <span key={index} className={classes}>line</span>
+        });
         return [<hr key={1}/>, <div className='row' key={2}>{rules}</div>];
     },
     /**
@@ -132,19 +110,10 @@ default React.createClass({
         var search = null;
 
         const options = this.props.ispModel.getOptions();
-        const rules = optionMapping.filter(function(mapping) {
-            return options[mapping.attribute] !== null && options[mapping.attribute] !== undefined;
-        });
-
-        if (rules.length > 0 && this.state.showRules) {
-            const tooltip = <Tooltip id="show-rules">Hide rules</Tooltip>
-            overlayRules = <OverlayTrigger placement='top' overlay={tooltip}>
-                <i className='fa fa-cog fa-lg' onClick={this.toggleRules}/>
-            </OverlayTrigger>;
-        } else if (rules.length > 0 && !this.state.showRules) {
-            const tooltip = <Tooltip id="show-rules">Show rules</Tooltip>
-            overlayRules = <OverlayTrigger placement='top' overlay={tooltip}>
-                <i className='fa fa-cog fa-lg' onClick={this.toggleRules}/>
+        if (!this.props.ispModel.isValid()) {
+            const tooltip = <Tooltip id="show-rules">Some restrictions are not met. Click for more info</Tooltip>
+            overlayRules = <OverlayTrigger placement='left' overlay={tooltip}>
+                <i className='fa fa-exclamation-triangle fa-lg' onClick={this.toggleRules}/>
             </OverlayTrigger>;
         }
 

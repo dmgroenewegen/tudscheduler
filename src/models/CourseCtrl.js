@@ -100,6 +100,16 @@ var Model = {
         });
     },
     /**
+     * Sums the ects of the given courses, it will not descend into the children or look at the parents.
+     * @param  {Array} courses The course objects.
+     * @return {Number}         The total sum of the ects of the given courses.
+     */
+    sumEcts(courses) {
+        return _.sumBy(courses, function(course) {
+            return parseInt(course.ects, 10);
+        })
+    },
+    /**
      * Adds the course and all the children to the added list
      * @param {Object} course, See AllCourses.js
      * @returns {void}

@@ -12,6 +12,11 @@ import AddRemove from './AddRemove.js';
  * Shows the course id, name, ects and optional control functions
  */
 export default React.createClass({
+    propTypes:{
+        course: PropTypes.object.isRequired,
+        visible: PropTypes.bool.isRequired,
+        search: PropTypes.string.isRequired
+    },
     getInitialState() {
         return {
             childVisible: false,
@@ -26,25 +31,24 @@ export default React.createClass({
      * Starts listening to events if it is visible.
      */
     componentDidMount() {
-        var $self = this;
-        var id = 'course::' + this.props.course.nr;
+        const id = 'course::' + this.props.course.nr;
 
         if(this.props.visible || this.isSearching()){
             this.startListening();
         }
 
-        EventServer.on('visible::' + this.props.course.parent, function(toggle) {
+        EventServer.on('visible::' + this.props.course.parent, (toggle) => {
             var nextState = {
                 visible: toggle
             };
             if (!toggle) {
-                $self.stopListening();
-                EventServer.emit('visible::' + $self.props.course.nr, toggle);
+                this.stopListening();
+                EventServer.emit('visible::' + this.props.course.nr, toggle);
                 nextState.childVisible = false;
             } else {
-                $self.startListening()
+                this.startListening()
             }
-            $self.setState(nextState);
+            this.setState(nextState);
         }, 'coursetree');
     },
     isSearching(){

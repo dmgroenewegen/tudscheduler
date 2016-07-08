@@ -1,5 +1,5 @@
 import _ from 'lodash';
-
+import CourseCtrl from './CourseCtrl.js';
 /**
  * ISPFieldModel to describe a field in the ISP
  * Should not be used directly. When whishing to add/remove, then it should be done through ISPCtrl.
@@ -83,6 +83,13 @@ function ISPFieldModel(options, id) {
         }
 
         return errors;
+    }
+    model.prettyErrors = function(){
+        const errors = model.getErrors();
+        const selectedCourses = courses.length;
+        const totalEcts = CourseCtrl.sumEcts(courses);
+        let pretty = [];
+        return pretty;
     }
     /**
      * Checks if with the given courses all the constraints are met.
