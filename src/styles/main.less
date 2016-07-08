@@ -11,8 +11,7 @@ body{
         margin-right: -10px;
     }
 }
-.has-error{
-    .text-danger();
+.text-danger, .text-success{
     font-weight: bold;
 }
 .sidebar{
@@ -41,6 +40,10 @@ body{
     & > [class*="col-xs-"]{
         padding-left: 0;
         padding-right: 0;
+    }
+    .fa-info-circle.fa-lg{
+        font-size: 1.7em;
+        vertical-align: -5px;
     }
 }
 .panel-body {
@@ -118,11 +121,6 @@ body{
     }
 }
 
-.fa-info-circle.fa-lg{
-    font-size: 1.6em;
-    line-height: 1em;
-    vertical-align: -20%;
-}
 .fa + .fa{
     margin-left: 5px;
 }

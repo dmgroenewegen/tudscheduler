@@ -5,7 +5,7 @@ const fields = [{
     minCourses: 5
 },{
     name: 'Research Group',
-    maxEC: 15
+    minEC: 15
 },{
     name: 'Homolagation courses',
     maxEC: 15

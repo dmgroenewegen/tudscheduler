@@ -17,26 +17,28 @@ function ISPFieldModel(options, id) {
     const modelOptions = options;
     const modelId = id;
 
-    model.getCourses = function(){
+    model.getCourses = function() {
         return courses;
     }
 
-    model.getOptions = function(){
+    model.getOptions = function() {
         return modelOptions;
     }
 
-    model.getID = function(){
+    model.getID = function() {
         return modelId;
     }
-    model.reset = function(){
+    model.reset = function() {
         courses = []
     }
     /**
      * Removes a single course
      * @param  {Object} course The course to be removed
      */
-    model.remove = function remove(course){
-        _.remove(courses, {id: course.id});
+    model.remove = function remove(course) {
+        _.remove(courses, {
+            id: course.id
+        });
     }
     /**
      * Adds a course if it is not present already.
@@ -58,7 +60,7 @@ function ISPFieldModel(options, id) {
      */
     model.getErrors = function getErrors() {
         var errors = [];
-        if(courses.length === 0){
+        if (courses.length === 0) {
             return errors;
         }
         if (_.isNumber(options.maxEC) &&
@@ -84,11 +86,49 @@ function ISPFieldModel(options, id) {
 
         return errors;
     }
-    model.prettyErrors = function(){
+    model.infoMessages = function() {
         const errors = model.getErrors();
         const selectedCourses = courses.length;
         const totalEcts = CourseCtrl.sumEcts(courses);
         let pretty = [];
+        if (options.minCourses === options.maxCourses && _.isNumber(options.maxCourses)) {
+            pretty.push({
+                info: `Exact ${options.minCourses} courses needed`,
+                selected: `(${selectedCourses} selected)`,
+                error: errors.indexOf('maxCourses') !== -1 || errors.indexOf('minCourses') !== -1
+            });
+        } else if (_.isNumber(modelOptions.minCourses)) {
+            pretty.push({
+                info: `At least ${options.minCourses} courses needed`,
+                selected: `(${selectedCourses} selected)`,
+                error: errors.indexOf('minCourses') !== -1
+            });
+        } else if (_.isNumber(modelOptions.maxCourses)) {
+            pretty.push({
+                info: `At most ${options.maxCourses} courses needed`,
+                selected: `(${selectedCourses} selected)`,
+                error: errors.indexOf('maxCourses') !== -1
+            });
+        }
+        if (options.minEC === options.maxEC && _.isNumber(options.maxEC)) {
+            pretty.push({
+                info: `Exact ${options.maxEC} EC needed`,
+                selected: `(${totalEcts}EC selected)`,
+                error: errors.indexOf('minEC') !== -1 || errors.indexOf('maxEC') !== -1
+            });
+        } else if (_.isNumber(options.minEC)) {
+            pretty.push({
+                info: `At least ${options.minEC} EC needed`,
+                selected: `(${totalEcts}EC selected)`,
+                error: errors.indexOf('minEC') !== -1
+            });
+        } else if (_.isNumber(options.maxEC)) {
+            pretty.push({
+                info: `At most ${options.maxEC} EC needed`,
+                selected: `(${totalEcts}EC selected)`,
+                error: errors.indexOf('maxEC') !== -1
+            });
+        }
         return pretty;
     }
     /**
@@ -101,4 +141,5 @@ function ISPFieldModel(options, id) {
     return model;
 }
 
-export default ISPFieldModel;
+export
+default ISPFieldModel;

@@ -38,6 +38,7 @@ const SelectView = React.createClass({
             onHover: 'Drop'
         };
         const fieldOptions = {
+            info: true,
             hideExpand: true,
             onEmpty: 'Drag \'n drop a course here',
             onHover: 'Drop'
@@ -47,7 +48,7 @@ const SelectView = React.createClass({
                 options={unlistedOptions}>
             </ISPField>
             <div className="col-xs-12 col-md-6">
-                <Button bsStyle="primary" onClick={this.openModal}><i className="fa fa-file-pdf-o"/>Generate</Button>
+                <Button bsStyle="primary" className='btn-block' onClick={this.openModal}><i className="fa fa-file-pdf-o"/> Generate</Button>
                 {ISPCtrl.ispFieldModels.
                     filter(function(ispModel){
                         return ispModel.getID() !== 'unlisted';

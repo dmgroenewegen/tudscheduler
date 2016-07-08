@@ -1,9 +1,16 @@
-import React, {PropTypes} from 'react';
+import React, {
+    PropTypes
+}
+from 'react';
 import DebounceInput from 'react-debounce-input';
 import classnames from 'classnames';
-import {OverlayTrigger, Tooltip} from 'react-bootstrap';
+import {
+    OverlayTrigger, Tooltip
+}
+from 'react-bootstrap';
 import EventServer from '../../models/EventServer.js';
 import _ from 'lodash';
+import CourseCtrl from '../../models/CourseCtrl';
 
 /**
  * Checks if a given option field contains an error
@@ -94,9 +101,14 @@ default React.createClass({
         if (this.state.collapsed || !this.state.showRules) {
             return null;
         }
-        const rules = this.props.ispModel.prettyErrors.map(function(line, index) {
-            const classes = classnames('col-xs-12', 'option', 'has-error');
-            return <span key={index} className={classes}>line</span>
+        const rules = this.props.ispModel.infoMessages().map(function(line, index) {
+            const classes = classnames({
+                'text-danger': line.error,
+                'text-success': !line.error
+            });
+            return <span key={index} className="col-xs-12 option">{line.info}
+                <span className={classes}> {line.selected}</span>
+            </span>
         });
         return [<hr key={1}/>, <div className='row' key={2}>{rules}</div>];
     },
@@ -110,8 +122,15 @@ default React.createClass({
         var search = null;
 
         const options = this.props.ispModel.getOptions();
-        if (!this.props.ispModel.isValid()) {
-            const tooltip = <Tooltip id="show-rules">Some restrictions are not met. Click for more info</Tooltip>
+        if(this.props.ispModel.isValid() && this.props.options.info){
+            const tooltip = <Tooltip id="show-rules">
+                Toggle restrictions</Tooltip>
+            overlayRules = <OverlayTrigger placement='left' overlay={tooltip}>
+                <i className='fa fa-info-circle fa-lg' onClick={this.toggleRules}/>
+            </OverlayTrigger>;
+        } else if(this.props.options.info){
+            const tooltip = <Tooltip id="show-rules">
+                Some restrictions are not met. Click to show them</Tooltip>
             overlayRules = <OverlayTrigger placement='left' overlay={tooltip}>
                 <i className='fa fa-exclamation-triangle fa-lg' onClick={this.toggleRules}/>
             </OverlayTrigger>;
