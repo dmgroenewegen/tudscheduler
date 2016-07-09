@@ -29,6 +29,7 @@
     "gulp-less": "^3.1.0",
     "gulp-notify": "^2.2.0",
     "gulp-postcss": "^6.1.0",
+    "gulp-replace": "^0.5.4",
     "gulp-sourcemaps": "^2.0.0-alpha",
     "gulp-uglify": "^1.5.3",
     "gulp-version-append": "^0.2.0",
@@ -48,6 +49,7 @@
     "react-router": "^2.4.1",
     "rimraf": "^2.5.2",
     "run-sequence": "^1.1.5",
+    "superagent": "^2.0.0",
     "tap-nyan": "0.0.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
@@ -78,5 +80,6 @@
   "bugs": {
     "url": "https://github.com/Pouja/tudscheduler/issues"
   },
-  "homepage": "https://github.com/Pouja/tudscheduler"
+  "homepage": "https://github.com/Pouja/tudscheduler",
+  "devDependencies": {}
 }

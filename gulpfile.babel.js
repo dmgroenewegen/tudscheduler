@@ -22,6 +22,7 @@ import ghPages from 'gulp-gh-pages';
 import less from 'gulp-less';
 import postcss from 'gulp-postcss';
 import versionAppend from 'gulp-version-append';
+import replace from 'gulp-replace';
 
 const paths = {
     bundle: 'app.js',
@@ -82,6 +83,11 @@ gulp.task('watchify', () => {
     return rebundle();
 });
 
+gulp.task('copyData', () => {
+    return gulp.src('src/data/*.json')
+        .pipe(gulp.dest('dist/data/'));
+});
+
 gulp.task('browserify', () => {
     return browserify(paths.entry, {
         debug: true
@@ -138,6 +144,13 @@ gulp.task('lint', () => {
         .pipe(eslint.format());
 });
 
+gulp.task('replace', () => {
+    return gulp.src('dest/js/app.js')
+        .pipe(replace('src/data', 'data'))
+        .pipe(replace('src/images', 'images'))
+        .pipe(gulp.dest('dest/js/app.js'));
+});
+
 gulp.task('watchTask', () => {
     gulp.watch(paths.srcCss, ['styles']);
     gulp.watch(paths.srcLint, ['lint']);
@@ -158,5 +171,5 @@ gulp.task('watch', cb => {
 
 gulp.task('build', cb => {
     process.env.NODE_ENV = 'production';
-    runSequence('clean', ['browserify', 'styles', 'htmlReplace', 'images'], cb);
+    runSequence('clean', ['browserify', 'styles', 'htmlReplace', 'images', 'copyData'], 'replace', cb);
 });

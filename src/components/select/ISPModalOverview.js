@@ -87,7 +87,7 @@ export default React.createClass({
                             TRACK SOFTWARE TECHNOLOGY
                         </div>
                         <div id="right">
-                            <img src="dist/images/tudelft.jpg"/>
+                            <img src="src/images/tudelft.jpg"/>
                             <hr/>
                             <p>Delft University of Technology<br/>
                             Faculty of Electrical Engineering,<br/>
