@@ -31,8 +31,7 @@ export default React.createClass({
      * Starts listening to events if it is visible.
      */
     componentDidMount() {
-        const id = 'course::' + this.props.course.nr;
-
+        const compId = 'course::' + this.props.course.nr;
         if(this.props.visible || this.isSearching()){
             this.startListening();
         }
@@ -49,10 +48,13 @@ export default React.createClass({
                 this.startListening()
             }
             this.setState(nextState);
-        }, 'coursetree');
+        }, compId);
     },
     isSearching(){
         return this.props.search.length > 0;
+    },
+    isLeaf(){
+        return !this.props.course.children || this.props.course.children.length === 0
     },
     /**
      * Toggle the visibility of the children
@@ -103,7 +105,7 @@ export default React.createClass({
      * @return {React}     A react component
      */
     renderQBadge(key){
-        var periods = this.props.course['Education Period'];
+        var periods = CourseCtrl.get(this.props.course.id)['Education Period'];
         if(periods === undefined){
             return null;
         }
@@ -125,21 +127,20 @@ export default React.createClass({
         return (<Badge key={key}>EC {subEcts}/{totalEcts}</Badge>);
     },
     render() {
-        var visible = this.state.visible;
-        var course = this.props.course;
-
-        var style = {
-            marginLeft: (this.isSearching()) ? 0 : (course.depth - 1) * 10
-        };
-        if (!visible && !this.isSearching()) {
-            style.display = 'none';
+        if (!this.state.visible && !this.isSearching()) {
+            return null;
         }
+        const course = CourseCtrl.get(this.props.course.id);
+        const style = {
+            marginLeft: (this.isSearching()) ? 0 : (this.props.course.depth - 1) * 10
+        };
+
         return <ListGroupItem className='row' key={course.nr} style={style}>
             <span key={4} onClick={this.toggle} className='col-xs-10'>
                 {this.renderChevron(1)} {course.name} {course.courseName}
-                {(course.children.length === 0) ? <br/> : null}
+                {this.isLeaf() ? <br/> : null}
                 {this.renderECBadge(2)} {this.renderQBadge(3)}
             </span>
-            <AddRemove key={5} course={course} className='pull-right'/></ListGroupItem>;
+            <AddRemove key={5} course={this.props.course} className='pull-right'/></ListGroupItem>;
     }
 });

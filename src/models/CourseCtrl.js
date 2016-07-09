@@ -1,17 +1,48 @@
-import AllCourses from './AllCourses.js';
 import _ from 'lodash';
 import EventServer from './EventServer.js';
+import request from 'superagent';
 
-/**
- * In the tree of all the courses, the 'id' attribute is not unique,
- * but the 'nr' attribute is. This was necessary for hiding/showing courses
- * under a specific program, since a course can reside in multiple programs.
- */
-
-var Model = {
-    tree: AllCourses,
-    flattenTree: [],
+var CourseCtrl = {
+    tree: [],
+    courses: [],
     added: [],
+    init() {
+        Promise.all([request.get('src/data/tree.json').set('Accept', 'application/json'),
+            request.get('src/data/basic.json').set('Accept', 'application/json')
+        ])
+            .then(function(responses) {
+                CourseCtrl.tree = responses[0].body;
+                CourseCtrl.courses = responses[1].body;
+                CourseCtrl.setDepth(CourseCtrl.tree, 0);
+                CourseCtrl.numberTree();
+                EventServer.emit('loaded');
+            });
+    },
+    /**
+     * In the view tree tree the courses are not unique.
+     * Since course can fall under a research group as well under the common cores for example.
+     * But for the view we need to distinquish between the same courses for example in toggling visibilities.
+     */
+    numberTree() {
+        let nr = 0;
+        let number = (function number(node){
+            nr++;
+            node.nr = nr;
+            node.children.forEach(child => {child.parent = node.nr; number(child)});
+        }(CourseCtrl.tree));
+    },
+    /**
+     * Sets the depth of the current node in the tree, necessary for styling purposes.
+     * @param {Object} node  A course object
+     * @param {Number} depth The current depth
+     */
+    setDepth(node, depth) {
+        node.depth = depth;
+        node.children.forEach((child) => CourseCtrl.setDepth(child, depth + 1));
+    },
+    get(id) {
+        return CourseCtrl.courses.find((course) => course.id === id)
+    },
     /**
      * @param  {Object}  course See AllCourses.js
      * @return {Boolean} true iff all the children of the course and the course
@@ -19,11 +50,11 @@ var Model = {
      */
     isAdded: function(course) {
         if (course.children.length === 0) {
-            return _.find(Model.added, {
+            return _.find(CourseCtrl.added, {
                 id: course.id
             });
         }
-        return _.every(course.children, Model.isAdded);
+        return _.every(course.children, CourseCtrl.isAdded);
     },
     /**
      * Creates a flatten representation of the course tree
@@ -37,10 +68,10 @@ var Model = {
             return true;
         };
         const uniqueId = unique || 'id';
-        const currentNode = node || Model.tree;
+        const currentNode = node || CourseCtrl.tree;
         var children = _(currentNode.children)
             .map(function(child) {
-                return Model.flatten(filterFn, child, uniqueId);
+                return CourseCtrl.flatten(filterFn, child, uniqueId);
             })
             .filter(Boolean)
             .flatten()
@@ -58,7 +89,8 @@ var Model = {
      * @return {Number}        The total ects
      */
     periodEcts(period) {
-        return _.sumBy(Model.added, function(course) {
+        return _.sumBy(CourseCtrl.added, function(courseTree) {
+            const course = CourseCtrl.get(courseTree.id);
             var courseEcts = (course.ects === undefined) ? 0 : parseInt(course.ects, 10);
             var periods = course['Education Period'];
             var start = course['Start Education'] ? parseInt(course['Start Education'], 10) : 0;
@@ -76,13 +108,14 @@ var Model = {
      * are added of the given course.
      */
     addedEcts(course) {
-        const currentCourse = course || Model.tree;
-        const flatten = Model.flatten(function(course) {
-            return _.find(Model.added, {
+        const currentCourse = course || CourseCtrl.tree;
+        const flatten = CourseCtrl.flatten(function(course) {
+            return _.find(CourseCtrl.added, {
                 id: course.id
             });
         }, currentCourse, 'id');
-        return _.sumBy(flatten, function(course) {
+        return _.sumBy(flatten, function(courseTree) {
+            const course = CourseCtrl.get(courseTree.id);
             return (course.ects === undefined) ? 0 : parseInt(course.ects, 10);
         })
     },
@@ -91,11 +124,12 @@ var Model = {
      * @return {Number} total ects of the course and all of his children
      */
     totalEcts(course) {
-        const currentCourse = course || Model.tree;
-        const flatten = Model.flatten(function() {
+        const currentCourse = course || CourseCtrl.tree;
+        const flatten = CourseCtrl.flatten(function() {
             return true
         }, currentCourse, 'id');
-        return _.sumBy(flatten, function(course) {
+        return _.sumBy(flatten, function(courseTree) {
+            const course = CourseCtrl.get(courseTree.id);
             return (course.ects === undefined) ? 0 : parseInt(course.ects, 10);
         });
     },
@@ -105,7 +139,8 @@ var Model = {
      * @return {Number}         The total sum of the ects of the given courses.
      */
     sumEcts(courses) {
-        return _.sumBy(courses, function(course) {
+        return _.sumBy(courses, function(courseTree) {
+            const course = CourseCtrl.get(courseTree.id);
             return parseInt(course.ects, 10);
         })
     },
@@ -116,16 +151,16 @@ var Model = {
      */
     add(course) {
         EventServer.emit('added', course);
-        Model._add(course);
+        CourseCtrl._add(course);
     },
     _add(course) {
         if (course.children.length !== 0) {
-            course.children.forEach(Model._add);
+            course.children.forEach(CourseCtrl._add);
         } else {
-            if (_.find(Model.added, {
+            if (_.find(CourseCtrl.added, {
                 id: course.id
             }) === undefined) {
-                Model.added.push(course);
+                CourseCtrl.added.push(course);
             }
         }
     },
@@ -135,13 +170,13 @@ var Model = {
      */
     remove(course) {
         EventServer.emit('removed', course);
-        Model._remove(course);
+        CourseCtrl._remove(course);
     },
     _remove(course) {
         if (course.children.length !== 0) {
-            course.children.forEach(Model._remove);
+            course.children.forEach(CourseCtrl._remove);
         } else {
-            _.remove(Model.added, {
+            _.remove(CourseCtrl.added, {
                 id: course.id
             });
         }
@@ -150,20 +185,10 @@ var Model = {
      * Resets the added courses.
      */
     reset() {
-        Model.added = [];
+        CourseCtrl.added = [];
         EventServer.emit('reset');
     }
 };
 
-// Add depth, necessary for css styling
-var setDepth = function setDepth(node, depth) {
-    node.depth = depth;
-    node.children.forEach((child) => setDepth(child, depth + 1));
-};
-setDepth(Model.tree, 0);
-
-// Get the flatten representation before hand
-Model.flattenTree = Model.flatten(null, null, 'nr');
-
 export
-default Model;
+default CourseCtrl;

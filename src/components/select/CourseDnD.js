@@ -65,7 +65,7 @@ class CourseDnD extends Component{
         return null;
     }
     render() {
-        const course = this.props.course;
+        const course = CourseCtrl.get(this.props.course.id);
         const { connectDragSource, isDragging } = this.props;
         const classes = classnames('list-item', {'is-dragging': isDragging});
         return connectDragSource(

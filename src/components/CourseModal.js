@@ -1,5 +1,7 @@
 import React from 'react';
 import {Modal} from 'react-bootstrap';
+import request from 'superagent';
+import CourseCtrl from '../models/CourseCtrl.js';
 
 /**
  * Renders the detailed information of a course.
@@ -10,8 +12,25 @@ export default React.createClass({
     },
     getInitialState(){
         return {
-            show: this.props.show
+            show: this.props.show,
+            course: {}
         };
+    },
+    componentWillMount(){
+        if(this.props.course.children.length > 0) {
+            this.setState({
+                course: CourseCtrl.get(this.props.course.id)
+            });
+        } else {
+            request.get(`src/data/course-${this.props.course.id}.json`)
+            .set('Accept', 'application/json')
+            .end((err, res) => {
+                this.setState({
+                    course: res.body
+                })
+            });
+        }
+
     },
     componentWillReceiveProps(nextProps){
         this.setState({
@@ -19,10 +38,10 @@ export default React.createClass({
         });
     },
     render(){
-        var course = this.props.course;
+        const course = this.state.course;
 
         // Filter which attributes we dont want to show
-        var filterKeys = ['depth', 'nr', 'parent', 'children', 'id'];
+        const filterKeys = ['courseName', 'depth', 'nr', 'parent', 'children', 'id'];
 
         return <Modal show={this.state.show} onHide={this.props.closeModal}>
             <Modal.Header closeButton>
