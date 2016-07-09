@@ -1,13 +1,7 @@
-import React, {
-    PropTypes
-}
-from 'react';
+import React, {PropTypes} from 'react';
 import DebounceInput from 'react-debounce-input';
 import classnames from 'classnames';
-import {
-    OverlayTrigger, Tooltip
-}
-from 'react-bootstrap';
+import {OverlayTrigger, Tooltip} from 'react-bootstrap';
 import EventServer from '../../models/EventServer.js';
 import _ from 'lodash';
 import CourseCtrl from '../../models/CourseCtrl';

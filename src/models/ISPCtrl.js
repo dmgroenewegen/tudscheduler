@@ -123,6 +123,17 @@ var ISPCtrl = {
             ispFieldFrom.remove(course);
             EventServer.emit('isp.field.removed::' + fieldIdFrom, course.id);
         }
+    },
+    /**
+     * Checks if all ispfieldmodels are valid.
+     * @return {Boolean} true iff all ispfieldmodels except unlisted are valid.
+     */
+    allValid() {
+        return ISPCtrl.ispFieldModels.filter(function(model){
+            return model.getID() !== 'unlisted';
+        }).every(function(model){
+            return model.isValid();
+        });
     }
 };
 

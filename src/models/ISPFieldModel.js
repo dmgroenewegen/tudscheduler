@@ -86,6 +86,13 @@ function ISPFieldModel(options, id) {
 
         return errors;
     }
+    /**
+     * Gives a list of messages indicating the restrictions and if the restrictions are not met.
+     * @return {Array} A list of message objects.
+     * @return {String} info The restrictions
+     * @return {String} selected The number of courses/EC currently are selected
+     * @return {Boolean} error true iff the restriction is not met.
+     */
     model.infoMessages = function() {
         const errors = model.getErrors();
         const selectedCourses = courses.length;
