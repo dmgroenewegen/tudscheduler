@@ -22,7 +22,7 @@ var EventListener = {
         if (!listeners.hasOwnProperty(name)) {
             listeners[name] = [];
         }
-        if(!_.isFunction(fn)){
+        if (!_.isFunction(fn)) {
             throw new Error(`EventServer expected a function as second argument but got ${typeof fn} with id ${id}`);
         }
         listeners[name].push({
@@ -31,24 +31,29 @@ var EventListener = {
         });
     },
     /**
-     * Emit the event
+     * Emit the event.
+     * Invokes all the listeners which name matches the event name or partially matches the event name.
+     * See getWildCardFn on how partially matching works.
      * @param  {String}    name   The name of the event.
      * @param  {Array} values The values that should be sent with the emit.
      * @returns {void}
      */
     emit(name, ...values) {
         if (listeners.hasOwnProperty(name)) {
-            listeners[name].forEach(function(listener) {
-                setTimeout(function() {
-                    if (listener === null || listener === undefined) {
-                        console.error(`EventServer supposed to invoke a listener ${name} for id ${listener.id}. But the listener got removed.`);
-                    } else {
-                        // console.log(`invoking ${listener.id} for event ${name}`);
-                        listener.fn(...values);
-                        // console.log(`done ${listener.id} for event ${name}`);
-                    }
+            listeners[name]
+                .concat(EventListener.getWildCardFn(name))
+                .filter(Boolean)
+                .forEach(function(listener) {
+                    setTimeout(function() {
+                        if (listener === null || listener === undefined) {
+                            console.error(`EventServer supposed to invoke a listener ${name} for id ${listener.id}. But the listener got removed.`);
+                        } else {
+                            // console.log(`invoking ${listener.id} for event ${name}`);
+                            listener.fn(...values);
+                            // console.log(`done ${listener.id} for event ${name}`);
+                        }
+                    });
                 });
-            });
         }
     },
     /**
@@ -73,6 +78,28 @@ var EventListener = {
      */
     partialEmit(name, ...values) {
         return _.partial(EventListener.emit, name, ...values);
+    },
+    /**
+     * Retrieves a list of functions where the event which they listen on partially matches
+     * the event that is emitted.
+     * @example
+     * server.on('foo::*', func) // will be called
+     * server.emit('foo::bar')
+     * @example
+     * server.on('bar::*', func) // will not be called
+     * server.emit('foo::bar')
+     * @param  {[type]} name [description]
+     * @return {[type]}      [description]
+     */
+    getWildCardFn(name) {
+        return Object.keys(listeners).filter(function(key) {
+            let split = key.split('*');
+            return (split.length === 2 && name.slice(0, split[0].length) === split[0]);
+        }).map(function(key) {
+            return listeners[key];
+        }).reduce(function(current, next){
+            return current.concat(next);
+        });
     }
 };
 
