@@ -59,7 +59,7 @@ export default React.createClass({
         return <div className={classes}>
             {info}
             {button}
-            <CourseModal show={this.state.showModal} closeModal={()=>this.closeModal()} course={course}/>
+            {(this.state.showModal) ? <CourseModal show={this.state.showModal} closeModal={()=>this.closeModal()} course={course}/> : null }
         </div>;
     }
 });

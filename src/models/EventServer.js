@@ -99,7 +99,7 @@ var EventListener = {
             return listeners[key];
         }).reduce(function(current, next){
             return current.concat(next);
-        });
+        }, []);
     }
 };
 
