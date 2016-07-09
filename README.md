@@ -1,15 +1,13 @@
 # TUD Scheduler
-Helps you to orginize/select/overview your TU Delft Master courses
+Helps you to orginize/select/overview your TU Delft Master courses and soon it will allow you to generate your ISP form. No more manual form submission.
 
 # Courses
-The only courses that I scraped are from master Computer Science year 2015/2016 from TU Delft.  
-Just found out that there is an TU Delft api, who would have guess...  
-I will see if I can integrate that in the website.
+The courses are scraped from the tudelft study guide.
+There is a TU Delft api, but that sucks in overal data structure (it is a real mess).
 
 # Contributing
 `gulp watch` to start browserify, watchify, babelify etc so you can live edit.  
-Also, there are no tests, the only thing the code should pass is the eslint.
+Also, there are no tests, the only thing the code should pass is the lint.
 
 # Todo's
- - [ ] Make an export/import to/from csv so you can edit and continue on another computer, or so you can edit in excel
- - [ ] Try to integrate the TU Delft API
+See the todo file
