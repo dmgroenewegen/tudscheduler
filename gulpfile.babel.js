@@ -145,10 +145,10 @@ gulp.task('lint', () => {
 });
 
 gulp.task('replace', () => {
-    return gulp.src('dest/js/app.js')
+    return gulp.src('dist/js/app.js')
         .pipe(replace('src/data', 'data'))
         .pipe(replace('src/images', 'images'))
-        .pipe(gulp.dest('dest/js/app.js'));
+        .pipe(gulp.dest('dist/js'));
 });
 
 gulp.task('watchTask', () => {
