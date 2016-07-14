@@ -70,7 +70,7 @@ class CourseDnD extends Component{
         const classes = classnames('list-item', {'is-dragging': isDragging});
         return connectDragSource(
             <div className={classes}>
-                {course.name} {course.courseName} {this.renderUndo()}
+                <i className="fa fa-grip"/>{course.name} {course.courseName} {this.renderUndo()}
             </div>
         );
     }

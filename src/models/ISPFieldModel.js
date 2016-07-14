@@ -63,16 +63,10 @@ function ISPFieldModel(options, id) {
         if (courses.length === 0) {
             return errors;
         }
-        if (_.isNumber(options.maxEC) &&
-            _.sumBy(courses, function(course) {
-                return parseInt(course.ects, 10);
-            }) > modelOptions.maxEC) {
+        if (_.isNumber(options.maxEC) && CourseCtrl.sumEcts(courses) > modelOptions.maxEC) {
             errors.push('maxEC');
         }
-        if (_.isNumber(modelOptions.minEC) &&
-            _.sumBy(courses, function(course) {
-                return parseInt(course.ects, 10);
-            }) < modelOptions.minEC) {
+        if (_.isNumber(modelOptions.minEC) && CourseCtrl.sumEcts(courses) < modelOptions.minEC) {
             errors.push('minEC');
         }
         if (_.isNumber(modelOptions.maxCourses) &&
