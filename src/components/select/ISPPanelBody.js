@@ -3,15 +3,16 @@ import CourseDnD from './CourseDnD.js';
 import _ from 'lodash';
 import classnames from 'classnames';
 import EventServer from '../../models/EventServer.js';
-
+import CourseCtrl from '../../models/CourseCtrl.js';
 /**
  * Searches in the course code and name if the needle is present
  * TODO move this to CourseCtrl
- * @param  {Object}  course The course object
+ * @param  {Object}  courseTree The course tree object
  * @param  {String}  needle The needle to be search
  * @return {Boolean}        true iff needle is false or needle is present in the course code/name
  */
-let hasNeedle = function hasNeedle(course, needle) {
+let hasNeedle = function hasNeedle(courseTree, needle) {
+    const course = CourseCtrl.get(courseTree.id);
     if (!needle || needle.length === 0) {
         return true;
     }

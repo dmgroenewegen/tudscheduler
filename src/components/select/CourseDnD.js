@@ -1,10 +1,24 @@
 import CourseCtrl from '../../models/CourseCtrl.js';
-import React, { Component, PropTypes } from 'react';
+import React, {
+    Component, PropTypes
+}
+from 'react';
 import CourseTypes from '../../constants/CourseTypes.js';
-import {DragSource} from 'react-dnd';
-import {ListGroupItem} from 'react-bootstrap';
+import {
+    DragSource
+}
+from 'react-dnd';
+import {
+    ListGroupItem
+}
+from 'react-bootstrap';
 import ISPCtrl from '../../models/ISPCtrl.js';
 import classnames from 'classnames';
+import {
+    OverlayTrigger, Tooltip
+}
+from 'react-bootstrap';
+import _ from 'lodash';
 
 const courseSource = {
     /**
@@ -26,10 +40,10 @@ const courseSource = {
      * @param  {Object} props   The props of the react component binded to the DragSource
      * @param  {Object} monitor The monitor object retuned by react-dnd. See react-dnd for more info.
      */
-    endDrag(props, monitor){
+    endDrag(props, monitor) {
         var item = monitor.getItem();
         var dropResult = monitor.getDropResult();
-        if(!monitor.didDrop() || item.currentFieldId === dropResult.id){
+        if (!monitor.didDrop() || item.currentFieldId === dropResult.id) {
             return;
         }
         ISPCtrl.move(item.course, item.currentFieldId, dropResult.id);
@@ -46,7 +60,7 @@ function collect(connect, monitor) {
 /**
  * The drag and drop list item in the select view.
  */
-class CourseDnD extends Component{
+class CourseDnD extends Component {
     /**
      * Called when clicking on the undo element.
      * Moves the course back to 'unlisted'
@@ -58,31 +72,54 @@ class CourseDnD extends Component{
      * Renders the undo icon.
      * @return {React} A react component
      */
-    renderUndo(){
-        if(this.props.field !== 'unlisted'){
-            return <i className='fa fa-undo fa-lg pull-right' onClick={this.undo.bind(this)}/>;
+    renderUndo() {
+        if (this.props.field !== 'unlisted') {
+            return <i className='fa fa-undo fa-lg' onClick={this.undo.bind(this)}/>;
         }
         return null;
     }
-    render() {
+    renderError() {
+        const ispModel = ISPCtrl.get(this.props.field);
         const course = CourseCtrl.get(this.props.course.id);
-        const { connectDragSource, isDragging } = this.props;
-        const classes = classnames('list-item', {'is-dragging': isDragging});
-        return connectDragSource(
-            <div className={classes}>
-                <i className="fa fa-grip"/>{course.name} {course.courseName} {this.renderUndo()}
-            </div>
-        );
+        if (ispModel.getErrors().indexOf('group') > -1 && !ispModel.isInGroups(course)) {
+            const msg = ispModel.groupErrMsg(course, ispModel);
+            const compMsg = (msg.length > 1) ? <ul className="compact">
+                {msg.map(function(msg, index){return <li key={index}>{msg}</li>})}
+            </ul> : msg[0];
+            const tooltip = <Tooltip id={`dnd-${course.id}`}>{compMsg}</Tooltip>;
+            return <OverlayTrigger placement='left' overlay={tooltip}>
+                <i className='fa fa-exclamation-triangle fa-lg'/>
+            </OverlayTrigger>;
+        }
+        return null;
     }
-}
+    renderControls(){
+        return <div className='pull-right'>{this.renderError()}{this.renderUndo()}</div > ;
+        }
+        render() {
+            const course = CourseCtrl.get(this.props.course.id);
+            const {
+                connectDragSource, isDragging
+            } = this.props;
+            const classes = classnames('list-item', {
+                'is-dragging': isDragging
+            });
+            return connectDragSource(
+                <div className={classes}>
+                <i className="fa fa-grip"/> {course.name} {course.courseName} {this.renderControls()}
+            </div>
+            );
+        }
+    }
 
-/**
- * The expected prop types of CourseDnD.
- * @type {Object}
- */
-CourseDnD.propTypes = {
-    connectDragSource: PropTypes.func.isRequired,
-    isDragging: PropTypes.bool.isRequired
-};
+    /**
+     * The expected prop types of CourseDnD.
+     * @type {Object}
+     */
+    CourseDnD.propTypes = {
+        connectDragSource: PropTypes.func.isRequired,
+        isDragging: PropTypes.bool.isRequired
+    };
 
-export default DragSource(CourseTypes.COMPULSORY, courseSource, collect)(CourseDnD);
+    export
+    default DragSource(CourseTypes.COMPULSORY, courseSource, collect)(CourseDnD);

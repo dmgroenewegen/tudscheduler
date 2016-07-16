@@ -23,7 +23,7 @@ var ISPCtrl = {
      */
     get(fieldId) {
         return ISPCtrl.ispFieldModels.find(function(field) {
-            return field.id === fieldId;
+            return field.getID() === fieldId;
         });
     },
     /**

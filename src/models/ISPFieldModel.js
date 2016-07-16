@@ -16,6 +16,7 @@ function ISPFieldModel(options, id) {
     var model = {};
     const modelOptions = options;
     const modelId = id;
+    const groups = {};
 
     model.getCourses = function() {
         return courses;
@@ -28,6 +29,9 @@ function ISPFieldModel(options, id) {
     };
     model.reset = function() {
         courses = [];
+    };
+    model.getGroups = function() {
+        return groups;
     };
     /**
      * Removes a single course
@@ -52,14 +56,25 @@ function ISPFieldModel(options, id) {
         }
         return false;
     };
+    model.isInGroups = function(courseTree) {
+        const course = CourseCtrl.get(courseTree.id);
+        return Object.keys(groups).every(function(key) {
+            return course.groups !== undefined &&
+                course.groups[key] !== undefined &&
+                course.groups[key] === groups[key];
+        });
+    };
     /**
      * Returns all the errors indicating which rules are not met.
      * @return {Array} A list of constraints which are not met.
      */
     model.getErrors = function getErrors() {
-        var errors = [];
-        if (courses.length === 0) {
+        const errors = [];
+        if (courses.length === 0 || modelId === 'unlisted') {
             return errors;
+        }
+        if (Object.keys(groups).length > 0 && !courses.every(model.isInGroups)) {
+            errors.push('group');
         }
         if (_.isNumber(options.maxEC) && CourseCtrl.sumEcts(courses) > modelOptions.maxEC) {
             errors.push('maxEC');
@@ -75,7 +90,6 @@ function ISPFieldModel(options, id) {
             courses.length < modelOptions.minCourses) {
             errors.push('minCourses');
         }
-
         return errors;
     };
     /**
@@ -129,6 +143,36 @@ function ISPFieldModel(options, id) {
             });
         }
         return pretty;
+    };
+    /**
+     * Gives a list of group error messages which are not met.
+     * So if a given isp field has the selected groups: compulsory: true and the course has not.
+     * It will return 'Is not a compulsory course'
+     * @param  {Object} course   The course object
+     * @return {Array}          A list of messages indicating which group restrictions are not met.
+     */
+    model.groupErrMsg = function(course) {
+        const isA = [];
+        const belongsTo = [];
+        const groupsCourse = course.groups;
+        Object.keys(groups)
+            .filter(function(key) {
+                return groupsCourse === undefined ||
+                    groupsCourse[key] === undefined ||
+                    groupsCourse[key] !== groups[key];
+            })
+            .forEach(function(key) {
+                if (_.isString(groups[key])) {
+                    belongsTo.push(groups[key]);
+                } else {
+                    isA.push(key);
+                }
+            });
+        return isA.map(function(typeCourse) {
+            return `Is not a ${typeCourse} course`;
+        }).concat(belongsTo.map(function(parent) {
+            return `Does not fall under ${parent}`;
+        }));
     };
     /**
      * Checks if with the given courses all the constraints are met.
