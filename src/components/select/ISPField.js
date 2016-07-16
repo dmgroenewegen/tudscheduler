@@ -15,6 +15,6 @@ default React.createClass({
         const ispModel = this.props.ispModel;
         return <SimpleDropTarget className={this.props.className} id={ispModel.getID()}>
             <ISPPanel {...this.props}/>
-        </SimpleDropTarget>
+        </SimpleDropTarget>;
     }
 });

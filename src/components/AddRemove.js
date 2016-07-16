@@ -25,7 +25,7 @@ export default React.createClass({
     closeModal(){
         this.setState({
             showModal: false
-        })
+        });
     },
     render(){
         var course = this.props.course;

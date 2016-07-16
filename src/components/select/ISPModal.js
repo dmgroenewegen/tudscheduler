@@ -35,6 +35,6 @@ export default React.createClass({
     },
     render(){
         return (this.state.edit) ? <ISPModalForm closeModal={this.props.closeModal} overview={this.overview} show={this.state.show}/> :
-            <ISPModalOverview edit={this.edit} closeModal={this.props.closeModal} show={this.state.show} data={this.state.data}/>
+            <ISPModalOverview edit={this.edit} closeModal={this.props.closeModal} show={this.state.show} data={this.state.data}/>;
     }
 });

@@ -34,7 +34,7 @@ export default React.createClass({
     subtotalEcts(courses){
         return _.sumBy(courses, function(course){
             return parseInt(course.ects, 10);
-        })
+        });
     },
     /**
      * Renders a course, showing the course id, name and ects
@@ -44,7 +44,7 @@ export default React.createClass({
      */
     renderCourse(course, index){
         return <tr key={index}><td>{course.name}</td>
-            <td>{course.courseName}</td><td>{course.ects}</td><td></td></tr>
+            <td>{course.courseName}</td><td>{course.ects}</td><td></td></tr>;
     },
     /**
      * Renders a ISP field

@@ -49,7 +49,7 @@ export default React.createClass({
             <ControlLabel>{field.label}</ControlLabel>
             <FormControl type="text" onChange={(e) => this.handleInputChange(e, field.field)}
                 placeholder={field.label} />
-        </FormGroup>
+        </FormGroup>;
     },
     render(){
         return <Modal show={this.props.show}

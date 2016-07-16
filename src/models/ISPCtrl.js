@@ -98,7 +98,7 @@ var ISPCtrl = {
         EventServer.on('reset', ISPCtrl.reset, id);
         EventServer.on('loaded', () => {
             ISPCtrl.reset();
-            ISPCtrl.updateAdded()
+            ISPCtrl.updateAdded();
         }, id);
     },
     /**

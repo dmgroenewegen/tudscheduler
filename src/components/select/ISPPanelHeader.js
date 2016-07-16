@@ -67,7 +67,7 @@ default React.createClass({
      * Toggles the visibility of the rules.
      */
     toggleSearch() {
-        const search = !this.state.search
+        const search = !this.state.search;
         this.setState({
             search: !this.state.search
         }, () => {
@@ -102,7 +102,7 @@ default React.createClass({
             });
             return <span key={index} className="col-xs-12 option">{line.info}
                 <span className={classes}> {line.selected}</span>
-            </span>
+            </span>;
         });
         return [<hr key={1}/>, <div className='row' key={2}>{rules}</div>];
     },
@@ -118,32 +118,32 @@ default React.createClass({
         const options = this.props.ispModel.getOptions();
         if(this.props.ispModel.isValid() && this.props.options.info){
             const tooltip = <Tooltip id="show-rules">
-                Toggle restrictions</Tooltip>
+                Toggle restrictions</Tooltip>;
             overlayRules = <OverlayTrigger placement='left' overlay={tooltip}>
                 <i className='fa fa-info-circle fa-lg' onClick={this.toggleRules}/>
             </OverlayTrigger>;
         } else if(this.props.options.info){
             const tooltip = <Tooltip id="show-rules">
-                Some restrictions are not met. Click to show them</Tooltip>
+                Some restrictions are not met. Click to show them</Tooltip>;
             overlayRules = <OverlayTrigger placement='left' overlay={tooltip}>
                 <i className='fa fa-exclamation-triangle fa-lg' onClick={this.toggleRules}/>
             </OverlayTrigger>;
         }
 
         if (this.state.collapsed) {
-            const tooltip = <Tooltip id="show-all">Maximize</Tooltip>
+            const tooltip = <Tooltip id="show-all">Maximize</Tooltip>;
             overlayMM = <OverlayTrigger placement="top" overlay={tooltip}>
                 <i className='fa fa-plus-square-o fa-lg' onClick={this.toggleView}/>
             </OverlayTrigger>;
         } else {
-            const tooltip = <Tooltip id="hide-all">Minimize</Tooltip>
+            const tooltip = <Tooltip id="hide-all">Minimize</Tooltip>;
             overlayMM = <OverlayTrigger placement="top" overlay={tooltip}>
                 <i className='fa fa-minus-square-o fa-lg' onClick={this.toggleView}/>
             </OverlayTrigger>;
         }
 
         if (this.props.options.search) {
-            const tooltip = <Tooltip id="show-search">Search</Tooltip>
+            const tooltip = <Tooltip id="show-search">Search</Tooltip>;
             search = <OverlayTrigger placement="top" overlay={tooltip}>
                 <i className='fa fa-search fa-lg' onClick={this.toggleSearch}/>
             </OverlayTrigger>;
@@ -153,6 +153,7 @@ default React.createClass({
     },
     /**
      * Renders the search input
+     * TODO merge this into SearchInput.js
      * @return {React} A react component
      */
     renderSearch() {
@@ -166,7 +167,7 @@ default React.createClass({
                     className='form-control'
                     placeholder='search on code or name, atleast 2 characters'
                     onChange={this.onChange}/>
-            </div>
+            </div>;
         }
         return null;
     },
@@ -175,6 +176,6 @@ default React.createClass({
         const header = options.name;
         return <div className={classnames(this.props.className, 'panel-heading')}>
             <h3 className='panel-title'>{header}{this.renderControl()}</h3>
-            {this.renderRules()}{this.renderSearch()}</div>
+            {this.renderRules()}{this.renderSearch()}</div>;
     }
 });

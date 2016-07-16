@@ -45,7 +45,7 @@ export default React.createClass({
                 EventServer.emit('visible::' + this.props.course.nr, toggle);
                 nextState.childVisible = false;
             } else {
-                this.startListening()
+                this.startListening();
             }
             this.setState(nextState);
         }, compId);
@@ -54,7 +54,7 @@ export default React.createClass({
         return this.props.search.length > 0;
     },
     isLeaf(){
-        return !this.props.course.children || this.props.course.children.length === 0
+        return !this.props.course.children || this.props.course.children.length === 0;
     },
     /**
      * Toggle the visibility of the children

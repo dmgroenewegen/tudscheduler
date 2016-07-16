@@ -12,25 +12,23 @@ import CourseCtrl from './CourseCtrl.js';
  * @returns {Object} [description]
  */
 function ISPFieldModel(options, id) {
-    var courses = []
+    var courses = [];
     var model = {};
     const modelOptions = options;
     const modelId = id;
 
     model.getCourses = function() {
         return courses;
-    }
-
+    };
     model.getOptions = function() {
         return modelOptions;
-    }
-
+    };
     model.getID = function() {
         return modelId;
-    }
+    };
     model.reset = function() {
-        courses = []
-    }
+        courses = [];
+    };
     /**
      * Removes a single course
      * @param  {Object} course The course to be removed
@@ -39,7 +37,7 @@ function ISPFieldModel(options, id) {
         _.remove(courses, {
             id: course.id
         });
-    }
+    };
     /**
      * Adds a course if it is not present already.
      * @param {Object} course The course object
@@ -47,13 +45,13 @@ function ISPFieldModel(options, id) {
      */
     model.add = function add(course) {
         if (!courses.some(function(c) {
-            return c.id === course.id
+            return c.id === course.id;
         })) {
             courses.push(course);
             return true;
         }
         return false;
-    }
+    };
     /**
      * Returns all the errors indicating which rules are not met.
      * @return {Array} A list of constraints which are not met.
@@ -79,7 +77,7 @@ function ISPFieldModel(options, id) {
         }
 
         return errors;
-    }
+    };
     /**
      * Gives a list of messages indicating the restrictions and if the restrictions are not met.
      * @return {Array} A list of message objects.
@@ -131,14 +129,14 @@ function ISPFieldModel(options, id) {
             });
         }
         return pretty;
-    }
+    };
     /**
      * Checks if with the given courses all the constraints are met.
      * @return {Boolean} iff all the constraints are met.
      */
     model.isValid = function isValid() {
         return model.getErrors().length === 0;
-    }
+    };
     return model;
 }
 

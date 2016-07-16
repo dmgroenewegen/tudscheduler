@@ -17,7 +17,7 @@ const courseSource = {
         return {
             currentFieldId: props.field,
             course: props.course
-        }
+        };
     },
     /**
      * Called by react-dnd when a DragSource stops being dragged by the user.
@@ -34,13 +34,13 @@ const courseSource = {
         }
         ISPCtrl.move(item.course, item.currentFieldId, dropResult.id);
     }
-}
+};
 
 function collect(connect, monitor) {
     return {
         connectDragSource: connect.dragSource(),
         isDragging: monitor.isDragging()
-    }
+    };
 }
 
 /**

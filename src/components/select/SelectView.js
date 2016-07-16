@@ -28,7 +28,7 @@ const SelectView = React.createClass({
     closeModal() {
         this.setState({
             showModal: false
-        })
+        });
     },
     render() {
         const unlistedOptions = {

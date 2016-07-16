@@ -29,6 +29,6 @@ const routes = <Router history={hashHistory}>
         <Route path="year" component={YearView}/>
         <Route path="select" component={SelectView}/>
     </Route>
-</Router>
+</Router>;
 
 render(routes, document.getElementById('react'));

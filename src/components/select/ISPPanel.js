@@ -1,5 +1,5 @@
 import React, {PropTypes} from 'react';
-import CourseDnD from './CourseDnD.js'
+import CourseDnD from './CourseDnD.js';
 import classnames from 'classnames';
 import ISPPanelBody from './ISPPanelBody.js';
 import ISPPanelHeader from './ISPPanelHeader.js';
@@ -15,12 +15,12 @@ default React.createClass({
             collapsed: false,
             searchValue: '',
             isOver: false
-        }
+        };
     },
     componentWillReceiveProps(nextProps){
         this.setState({
             isOver: nextProps.isOver
-        })
+        });
     },
     /**
      * Toggles if the panel body should be shown or not
@@ -47,7 +47,7 @@ default React.createClass({
             ispModel={this.props.ispModel}
             options={this.props.options}
             setSearch={this.setSearch}
-            toggleView={this.toggleView}/>
+            toggleView={this.toggleView}/>;
         return <div className='panel panel-default'>
             {header}
             <ISPPanelBody className={bodyClasses}
@@ -55,6 +55,6 @@ default React.createClass({
                 isOver={this.state.isOver}
                 options={this.props.options}
                 filter={this.state.searchValue}/>
-        </div>
+        </div>;
     }
 });

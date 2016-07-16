@@ -41,7 +41,7 @@ var CourseCtrl = {
         node.children.forEach((child) => CourseCtrl.setDepth(child, depth + 1));
     },
     get(id) {
-        return CourseCtrl.courses.find((course) => course.id === id)
+        return CourseCtrl.courses.find((course) => course.id === id);
     },
     /**
      * @param  {Object}  course See AllCourses.js
@@ -117,7 +117,7 @@ var CourseCtrl = {
         return _.sumBy(flatten, function(courseTree) {
             const course = CourseCtrl.get(courseTree.id);
             return (course.ects === undefined) ? 0 : parseInt(course.ects, 10);
-        })
+        });
     },
     /**
      * @param  {Object} course (Optional) defaults to root
@@ -126,7 +126,7 @@ var CourseCtrl = {
     totalEcts(course) {
         const currentCourse = course || CourseCtrl.tree;
         const flatten = CourseCtrl.flatten(function() {
-            return true
+            return true;
         }, currentCourse, 'id');
         return _.sumBy(flatten, function(courseTree) {
             const course = CourseCtrl.get(courseTree.id);
@@ -142,7 +142,7 @@ var CourseCtrl = {
         return _.sumBy(courses, function(courseTree) {
             const course = CourseCtrl.get(courseTree.id);
             return parseInt(course.ects, 10);
-        })
+        });
     },
     /**
      * Adds the course and all the children to the added list

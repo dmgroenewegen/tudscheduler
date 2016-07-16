@@ -27,7 +27,7 @@ export default React.createClass({
             .end((err, res) => {
                 this.setState({
                     course: res.body
-                })
+                });
             });
         }
 
