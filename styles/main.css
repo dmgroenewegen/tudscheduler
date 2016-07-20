@@ -9083,3 +9083,16 @@ body .row {
 .fa-exclamation-triangle {
   color: #D7E100;
 }
+.fa.fa-grip:before {
+  content: "\f142 \202F \f142 \202F";
+  color: #777777;
+}
+ul.compact {
+  margin: 0;
+  padding-left: 15px;
+  text-align: left;
+}
+ul.compact > li {
+  margin: 0;
+  padding: 0;
+}
